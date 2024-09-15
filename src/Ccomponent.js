@@ -1,6 +1,8 @@
-import React, { Component } from 'react'
-import Menu from './menu'
+import React, { Component } from 'react';
+import Menu from './menu';
 import { isVisible } from '@testing-library/user-event/dist/utils';
+/*import Card from '../src/Constants/cards';
+import img from '../src/images/catalog/'*/
 
 export default class Ccomponent extends Component {
   constructor(props) {
@@ -47,6 +49,7 @@ export default class Ccomponent extends Component {
         <button onClick={this.decrement}>decrement</button>
         <button onClick={this.reset}>reset</button>
         <h1>Current: {this.state.count}</h1>
+        
       </div>
     )
     /*if (this.state.visibility) {
