@@ -1,30 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-import Fcomponent from './fcomponent';
-import Ccomponent from './Ccomponent';
-import Menu from './menu';
+import Header from './Header';
+import { Routes, Route } from 'react-router-dom';
+import Plitka from './Plitka';
+import Keramogranit from './Keramogranit'
+import NavBar from './NavBar';
+import Azori from './Azori';
+import Estima from './Estima';
+import Content from '../src/Components/Slider/Content/Content'
+import Ffooter from './Ffooter';
+import AboutUs from './AboutUs';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Fcomponent />
-        <Menu />
-        <Ccomponent />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App">
+      <Header />
+      <NavBar />
+        <Routes>
+          <Route path="/"  element={<Content />}/>
+          <Route path="/Plitka" element={<Plitka />} />
+            <Route path="Azori" element={<Azori />} />
+          <Route path="/Keramogranit" element={<Keramogranit />} />
+           <Route path="Estima" element={<Estima />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+        </Routes>
+      <Ffooter/>
     </div>
+    
   );
 }
 

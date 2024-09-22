@@ -1,0 +1,16 @@
+.menu__link{
+    color: blue,
+}
+
+.menu__link_active{
+    color: red
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-bottom: 20px;
+    padding-bottom: 60px;
+}
