@@ -1,13 +1,14 @@
 import React from 'react';
+import './card__wrapper.css'
+import './Card.css'
 
 export default function Keramogranit () {
   
   return (
-    <div className="card">
+    <div className="card__wrapper">
         {Cards.map((card, id) => (
-          
           <div className="card__body">
-              <img className="card__img" src={card.interiors} alt={`Slide ${id + card.interiors}`} />
+              <img className="card__img" src={card.interiors} alt={`${card.Kollection + id + card.Name}`} />
               <p className="card__kollection">{card.Kollection}</p>
               <p className="card__name">{card.Name}</p>
               <p className="card__kantry">{card.Kantry}</p>
@@ -25,7 +26,7 @@ export const Cards = [
     Name: 'absolut_gres',
     Kollection: 'agate',
     Size: '60x120',
-    interiors: '../src/images/catalog/absolut_gres/agate/interiors/absolut_gres_agate_12679_825776_0x500.jpg',
+    interiors: '../src/images/catalog/azori/acate/interiors/azori_acate_17906_167402_0x300.jpg',
     },
     {
         id: '2',
@@ -33,7 +34,7 @@ export const Cards = [
     Name: 'absolut_gres',
     Kollection: 'agate',
     Size: '60x120',
-    tovars: '../src/images/catalog/absolut_gres/agate/tovars/absolut_gres_agate_103750_668232_300x0.jpg',
+    interiors: '../src/images/catalog/azori/acate/interiors/azori_acate_17906_300786_0x300.jpg',
     },
     {
         id: '3',
@@ -41,6 +42,6 @@ export const Cards = [
     Name: 'absolut_gres',
     Kollection: 'agate',
     Size: '60x120',
-    tovars: '../src/images/catalog/absolut_gres/agate/tovars/absolut_gres_agate_106802_774882_300x0.jpg',
+    interiors: '../src/images/catalog/azori/acate/interiors/azori_acate_17906_309981_0x300.jpg',
     }
 ]
