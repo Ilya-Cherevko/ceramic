@@ -25,7 +25,7 @@ export const Cards = [
     Name: 'absolut_gres',
     Kollection: 'agate',
     Size: '60x120',
-    interiors: '../src/images/catalog/azori/acate/interiors/azori_acate_17906_167402_0x300.jpg',
+    interiors: require('../src/images/catalog/azori/acate/interiors/azori_acate_17906_167402_0x300.jpg'),
     },
     {
         id: '2',
@@ -33,7 +33,7 @@ export const Cards = [
     Name: 'absolut_gres',
     Kollection: 'agate',
     Size: '60x120',
-    interiors: '../src/images/catalog/azori/acate/interiors/azori_acate_17906_300786_0x300.jpg',
+    interiors: require('../src/images/catalog/azori/acate/interiors/azori_acate_17906_300786_0x300.jpg'),
     },
     {
         id: '3',
@@ -41,6 +41,6 @@ export const Cards = [
     Name: 'absolut_gres',
     Kollection: 'agate',
     Size: '60x120',
-    interiors: '../src/images/catalog/azori/acate/interiors/azori_acate_17906_309981_0x300.jpg',
+    interiors: require('../src/images/catalog/azori/acate/interiors/azori_acate_17906_309981_0x300.jpg'),
     }
 ]

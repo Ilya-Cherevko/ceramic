@@ -18,8 +18,8 @@ const sliderData = [
     img: photo_2
   },
   {
-    label: 'Гибкий керамогранит',
-    title: 'Гибкий керамогранит',
+    label: 'Гибкий мрамор',
+    title: 'Гибкий мрамор',
     img: photo_3
   },
 ]
