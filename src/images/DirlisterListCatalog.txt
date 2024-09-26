@@ -6,14 +6,14 @@ Kollection: agate
 Size: 60x120
 interiors: ../src/images/catalog/absolut_gres/agate/interiors/absolut_gres_agate_12679_825776_0x500.jpg
 },
-}
+{
 Kantry: india
 Name: absolut_gres
 Kollection: agate
 Size: 60x120
 tovars: ../src/images/catalog/absolut_gres/agate/tovars/absolut_gres_agate_103750_668232_300x0.jpg
 },
-}
+{
 Kantry: india
 Name: absolut_gres
 Kollection: agate
@@ -161,60 +161,82 @@ Kantry: india
 Name: absolut_gres
 Kollection: antiqu_onix_natural
 tovars: ../src/images/catalog/absolut_gres/antiqu_onix_natural/tovars/absolut_gres_antiqu_onix_natural_109179_258871_300x0.jpg
-
-Kollection: apollo_white
-interiors:{
-../src/images/catalog/absolut_gres/apollo_white/interiors/absolut_gres_apollo_white_12687_542930_0x500.jpg
-
-tovars:{
+},
+{
+Kantry: india,
+Name: absolut_gres,
+Kollection: apollo_white,
+interiors: ../src/images/catalog/absolut_gres/apollo_white/interiors/absolut_gres_apollo_white_12687_542930_0x500.jpg
+tovars: {
 ../src/images/catalog/absolut_gres/apollo_white/tovars/absolut_gres_apollo_white_103758_594605_300x0.jpg
 ../src/images/catalog/absolut_gres/apollo_white/tovars/absolut_gres_apollo_white_106805_602870_300x0.jpg
+}
+},
 
--aquafina_natural
-interiors:{
-../src/images/catalog/absolut_gres/aquafina_natural/interiors/absolut_gres_aquafina_natural_14575_115506_0x500.jpg
-
-tovars:{
+{
+Kantry: india
+Name: absolut_gres
+aquafina_natural
+interiors: ../src/images/catalog/absolut_gres/aquafina_natural/interiors/absolut_gres_aquafina_natural_14575_115506_0x500.jpg
+tovars: {
 ../src/images/catalog/absolut_gres/aquafina_natural/tovars/absolut_gres_aquafina_natural_109164_53651_300x0.jpg
 ../src/images/catalog/absolut_gres/aquafina_natural/tovars/absolut_gres_aquafina_natural_109176_163729_300x0.jpg
-
+}
+},
+{
+Kantry: india
+Name: absolut_gres
 Kollection:  aquarelle_grey
-interiors:{
-../src/images/catalog/absolut_gres/aquarelle_grey/interiors/absolut_gres_aquarelle_grey_16481_98602_0x500.jpg
-
-tovars:{
+interiors: ../src/images/catalog/absolut_gres/aquarelle_grey/interiors/absolut_gres_aquarelle_grey_16481_98602_0x500.jpg
+tovars: {
 ../src/images/catalog/absolut_gres/aquarelle_grey/tovars/absolut_gres_aquarelle_grey_120974_554002_300x0.jpg
 ../src/images/catalog/absolut_gres/aquarelle_grey/tovars/absolut_gres_aquarelle_grey_120983_514857_300x0.jpg
+}
+},
 
+{
+Kantry: india
+Name: absolut_gres
 Kollection:  armani_bianco
-interiors:{
+interiors: {
 ../src/images/catalog/absolut_gres/armani_bianco/interiors/absolut_gres_armani_bianco_16438_429290_0x300.jpg
 ../src/images/catalog/absolut_gres/armani_bianco/interiors/absolut_gres_armani_bianco_16438_983310_0x500.jpg
-
-tovars:{
+}
+tovars: {
 ../src/images/catalog/absolut_gres/armani_bianco/tovars/absolut_gres_armani_bianco_120967_79856_300x0.jpg
 ../src/images/catalog/absolut_gres/armani_bianco/tovars/absolut_gres_armani_bianco_120984_870379_300x0.jpg
-
+}
+},
+{
+Kantry: india
+Name: absolut_gres
 Kollection: armani_black
-interiors:{
+interiors: {
 ../src/images/catalog/absolut_gres/armani_black/interiors/absolut_gres_armani_black_16480_393626_0x300.jpg
 ../src/images/catalog/absolut_gres/armani_black/interiors/absolut_gres_armani_black_16480_586205_0x500.jpg 
 ../src/images/catalog/absolut_gres/armani_black/interiors/absolut_gres_armani_black_16480_74829_0x300.jpg
-
-tovars:{
+}
+tovars: {
 ../src/images/catalog/absolut_gres/armani_black/tovars/absolut_gres_armani_black_120972_411176_300x0.jpg
 ../src/images/catalog/absolut_gres/armani_black/tovars/absolut_gres_armani_black_120990_425393_300x0.jpg
-
+}
+},
+{
+Kantry: india
+Name: absolut_gres
 Kollection: armani_brown
 interiors:{
 ../src/images/catalog/absolut_gres/armani_brown/interiors/absolut_gres_armani_brown_16478_469830_0x300.jpg
 ../src/images/catalog/absolut_gres/armani_brown/interiors/absolut_gres_armani_brown_16478_469830_0x500.jpg
 ../src/images/catalog/absolut_gres/armani_brown/interiors/absolut_gres_armani_brown_16478_61254_0x300.jpg
-
+}
 tovars:{
 ../src/images/catalog/absolut_gres/armani_brown/tovars/absolut_gres_armani_brown_120971_612639_300x0.jpg
 ../src/images/catalog/absolut_gres/armani_brown/tovars/absolut_gres_armani_brown_120989_670861_300x0.jpg
-
+}
+},
+Kantry: india
+Name: absolut_gres
 Kollection: armani_gris
 interiors:{
 ../src/images/catalog/absolut_gres/armani_gris/interiors/absolut_gres_armani_gris_12677_882953_0x300.jpg
