@@ -2947,7 +2947,7 @@ tovars:  ['../src/images/catalog/alma_ceramica/slash/tovars/alma_ceramica_slash_
     Size: ['20x60'],
     Name: 'Alma Ceramica',
     Сollection: 'Slate_rock',
-
+,
 interiors: ['../src/images/catalog/alma_ceramica/slate_rock/interiors/alma_ceramica_slate_rock_11695_377996_0x300.jpg',
 '../src/images/catalog/alma_ceramica/slate_rock/interiors/alma_ceramica_slate_rock_11695_377996_0x500.jpg',
 '../src/images/catalog/alma_ceramica/slate_rock/interiors/alma_ceramica_slate_rock_11695_390107_0x300.jpg'],
@@ -5210,14 +5210,10 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Alabaster',
-interiors: [
-
-'../src/images/catalog/bluezone/alabaster/interiors/bluezone_alabaster_12240_677468_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/alabaster/interiors/bluezone_alabaster_12240_677468_0x300.jpg',
 '../src/images/catalog/bluezone/alabaster/interiors/bluezone_alabaster_12240_677468_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/alabaster/tovars/bluezone_alabaster_100746_84699_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/alabaster/tovars/bluezone_alabaster_100746_84699_300x0.jpg',
 '../src/images/catalog/bluezone/alabaster/tovars/bluezone_alabaster_100747_384049_300x0.jpg',
 '../src/images/catalog/bluezone/alabaster/tovars/bluezone_alabaster_100748_459013_300x0.jpg',
 '../src/images/catalog/bluezone/alabaster/tovars/bluezone_alabaster_100749_422781_300x0.jpg'],
@@ -5227,14 +5223,10 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Antique_satvario',
-interiors: [
-
-'../src/images/catalog/bluezone/antique_satvario/interiors/bluezone_antique_satvario_16391_651825_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/antique_satvario/interiors/bluezone_antique_satvario_16391_651825_0x300.jpg',
 '../src/images/catalog/bluezone/antique_satvario/interiors/bluezone_antique_satvario_16391_651825_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/antique_satvario/tovars/bluezone_antique_satvario_120847_323582_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/antique_satvario/tovars/bluezone_antique_satvario_120847_323582_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
@@ -5409,14 +5401,10 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Delta',
-interiors: [
-
-'../src/images/catalog/bluezone/delta/interiors/bluezone_delta_18484_483367_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/delta/interiors/bluezone_delta_18484_483367_0x300.jpg',
 '../src/images/catalog/bluezone/delta/interiors/bluezone_delta_18484_930244_0x300.jpg',
 '../src/images/catalog/bluezone/delta/interiors/bluezone_delta_18484_930244_0x500.jpg'],
-tovars:  [
-
-'../src/images/catalog/bluezone/delta/tovars/bluezone_delta_127987_419380_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/delta/tovars/bluezone_delta_127987_419380_300x0.jpg',
 '../src/images/catalog/bluezone/delta/tovars/bluezone_delta_127988_902297_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
@@ -5435,14 +5423,10 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Favorite_onyx',
-interiors: [
-
-'../src/images/catalog/bluezone/favorite_onyx/interiors/bluezone_favorite_onyx_12246_29787_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/favorite_onyx/interiors/bluezone_favorite_onyx_12246_29787_0x300.jpg',
 '../src/images/catalog/bluezone/favorite_onyx/interiors/bluezone_favorite_onyx_12246_29787_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/favorite_onyx/tovars/bluezone_favorite_onyx_100759_947456_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/favorite_onyx/tovars/bluezone_favorite_onyx_100759_947456_300x0.jpg',
 '../src/images/catalog/bluezone/favorite_onyx/tovars/bluezone_favorite_onyx_100760_33599_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
@@ -5450,23 +5434,17 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Fenton_blue',
-interiors: [
-
-'../src/images/catalog/bluezone/fenton_blue/interiors/bluezone_fenton_blue_11106_735986_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/fenton_blue/interiors/bluezone_fenton_blue_11106_735986_0x300.jpg',
 '../src/images/catalog/bluezone/fenton_blue/interiors/bluezone_fenton_blue_11106_735986_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/fenton_blue/tovars/bluezone_fenton_blue_93219_225613_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/fenton_blue/tovars/bluezone_fenton_blue_93219_225613_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Ferro_natural',
-interiors: [
-
-'../src/images/catalog/bluezone/ferro_natural/interiors/bluezone_ferro_natural_12247_147589_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/ferro_natural/interiors/bluezone_ferro_natural_12247_147589_0x300.jpg',
 '../src/images/catalog/bluezone/ferro_natural/interiors/bluezone_ferro_natural_12247_147589_0x500.jpg',
 ],
 tovars:  [
@@ -5478,69 +5456,51 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'filito_rosso',
-interiors: [
-
-'../src/images/catalog/bluezone/filito_rosso/interiors/bluezone_filito_rosso_16403_294355_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/filito_rosso/interiors/bluezone_filito_rosso_16403_294355_0x300.jpg',
 '../src/images/catalog/bluezone/filito_rosso/interiors/bluezone_filito_rosso_16403_294355_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/filito_rosso/tovars/bluezone_filito_rosso_120885_815044_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/filito_rosso/tovars/bluezone_filito_rosso_120885_815044_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Florian',
-interiors: [
-
-'../src/images/catalog/bluezone/florian/interiors/bluezone_florian_11445_417577_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/florian/interiors/bluezone_florian_11445_417577_0x300.jpg',
 '../src/images/catalog/bluezone/florian/interiors/bluezone_florian_11445_417577_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/florian/tovars/bluezone_florian_94994_109959_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/florian/tovars/bluezone_florian_94994_109959_300x0.jpg'],
 },{Сid: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'galaxy_black',
-interiors: [
-
-'../src/images/catalog/bluezone/galaxy_black/interiors/bluezone_galaxy_black_11107_43016_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/galaxy_black/interiors/bluezone_galaxy_black_11107_43016_0x300.jpg',
 '../src/images/catalog/bluezone/galaxy_black/interiors/bluezone_galaxy_black_11107_43016_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/galaxy_black/tovars/bluezone_galaxy_black_93220_772564_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/galaxy_black/tovars/bluezone_galaxy_black_93220_772564_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Ice_onyx_black',
-tovars:  [
-
-'../src/images/catalog/bluezone/ice_onyx_black/tovars/bluezone_ice_onyx_black_97480_378625_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/ice_onyx_black/tovars/bluezone_ice_onyx_black_97480_378625_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'Infinity',
-interiors: [
-
-'../src/images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_105800_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_105800_0x300.jpg',
 '../src/images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_132215_0x300.jpg',
 '../src/images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_313784_0x300.jpg',
 '../src/images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_633816_0x300.jpg',
 '../src/images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_633816_0x500.jpg',
 '../src/images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_648756_0x300.jpg',
 '../src/images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_962374_0x300.jpg'],
-tovars:  [
-
-'../src/images/catalog/bluezone/infinity/tovars/bluezone_infinity_97395_481820_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/infinity/tovars/bluezone_infinity_97395_481820_300x0.jpg',
 '../src/images/catalog/bluezone/infinity/tovars/bluezone_infinity_97396_707922_300x0.jpg',
 '../src/images/catalog/bluezone/infinity/tovars/bluezone_infinity_97397_954826_300x0.jpg'],
 },{id: '',
@@ -5566,55 +5526,39 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'liverpool',
-interiors: [
-
-'../src/images/catalog/bluezone/liverpool/interiors/bluezone_liverpool_16404_691605_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/liverpool/interiors/bluezone_liverpool_16404_691605_0x300.jpg',
 '../src/images/catalog/bluezone/liverpool/interiors/bluezone_liverpool_16404_691605_0x500.jpg',
 '../src/images/catalog/bluezone/liverpool/interiors/bluezone_liverpool_16404_990045_0x300.jpg'],
-tovars:  [
-
-'../src/images/catalog/bluezone/liverpool/tovars/bluezone_liverpool_120886_95622_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/liverpool/tovars/bluezone_liverpool_120886_95622_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'longines',
-interiors: [
-
-'../src/images/catalog/bluezone/longines/interiors/bluezone_longines_16405_775377_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/longines/interiors/bluezone_longines_16405_775377_0x300.jpg',
 '../src/images/catalog/bluezone/longines/interiors/bluezone_longines_16405_775377_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/longines/tovars/bluezone_longines_120887_626083_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/longines/tovars/bluezone_longines_120887_626083_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'luxuria',
-interiors: [
-
-'../src/images/catalog/bluezone/luxuria/interiors/bluezone_luxuria_11902_30222_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/luxuria/interiors/bluezone_luxuria_11902_30222_0x300.jpg',
 '../src/images/catalog/bluezone/luxuria/interiors/bluezone_luxuria_11902_30222_0x500.jpg'],
-tovars:  [
-
-'../src/images/catalog/bluezone/luxuria/tovars/bluezone_luxuria_97481_921743_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/luxuria/tovars/bluezone_luxuria_97481_921743_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'mistike',
-interiors: [
-
-'../src/images/catalog/bluezone/mistike/interiors/bluezone_mistike_11903_644290_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/mistike/interiors/bluezone_mistike_11903_644290_0x300.jpg',
 '../src/images/catalog/bluezone/mistike/interiors/bluezone_mistike_11903_644290_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/mistike/tovars/bluezone_mistike_97482_45768_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/mistike/tovars/bluezone_mistike_97482_45768_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
@@ -5625,9 +5569,7 @@ interiors: [
 '../src/images/catalog/bluezone/multi_milkyway/interiors/bluezone_multi_milkyway_12248_17555_0x300.jpg',
 '../src/images/catalog/bluezone/multi_milkyway/interiors/bluezone_multi_milkyway_12248_17555_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/multi_milkyway/tovars/bluezone_multi_milkyway_100763_18280_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/multi_milkyway/tovars/bluezone_multi_milkyway_100763_18280_300x0.jpg'],
 },{Сid: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
@@ -5638,9 +5580,7 @@ interiors: [
 '../src/images/catalog/bluezone/noks_black/interiors/bluezone_noks_black_11108_282594_0x300.jpg',
 '../src/images/catalog/bluezone/noks_black/interiors/bluezone_noks_black_11108_282594_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/noks_black/tovars/bluezone_noks_black_93221_518127_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/noks_black/tovars/bluezone_noks_black_93221_518127_300x0.jpg',
 '../src/images/catalog/bluezone/noks_black/tovars/bluezone_noks_black_93222_84031_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
@@ -5648,56 +5588,40 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'nordic_blue',
-interiors: [
-
-'../src/images/catalog/bluezone/nordic_blue/interiors/bluezone_nordic_blue_11109_159910_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/nordic_blue/interiors/bluezone_nordic_blue_11109_159910_0x300.jpg',
 '../src/images/catalog/bluezone/nordic_blue/interiors/bluezone_nordic_blue_11109_159910_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/nordic_blue/tovars/bluezone_nordic_blue_93223_318757_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/nordic_blue/tovars/bluezone_nordic_blue_93223_318757_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'onyx_fern',
-interiors: [
-
-'../src/images/catalog/bluezone/onyx_fern/interiors/bluezone_onyx_fern_11876_728878_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/onyx_fern/interiors/bluezone_onyx_fern_11876_728878_0x300.jpg',
 '../src/images/catalog/bluezone/onyx_fern/interiors/bluezone_onyx_fern_11876_728878_0x500.jpg',
 '../src/images/catalog/bluezone/onyx_fern/interiors/bluezone_onyx_fern_11876_957673_0x300.jpg'],
-tovars:  [
-
-'../src/images/catalog/bluezone/onyx_fern/tovars/bluezone_onyx_fern_97398_90725_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/onyx_fern/tovars/bluezone_onyx_fern_97398_90725_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'onyx_teal',
-interiors: [
-
-'../src/images/catalog/bluezone/onyx_teal/interiors/bluezone_onyx_teal_11899_209914_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/onyx_teal/interiors/bluezone_onyx_teal_11899_209914_0x300.jpg',
 '../src/images/catalog/bluezone/onyx_teal/interiors/bluezone_onyx_teal_11899_209914_0x500.jpg',
 '../src/images/catalog/bluezone/onyx_teal/interiors/bluezone_onyx_teal_11899_901273_0x300.jpg'],
-tovars:  [
-
-'../src/images/catalog/bluezone/onyx_teal/tovars/bluezone_onyx_teal_97476_899668_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/onyx_teal/tovars/bluezone_onyx_teal_97476_899668_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'opus',
-interiors: [
-
-'../src/images/catalog/bluezone/opus/interiors/bluezone_opus_12249_115229_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/opus/interiors/bluezone_opus_12249_115229_0x300.jpg',
 '../src/images/catalog/bluezone/opus/interiors/bluezone_opus_12249_855709_0x300.jpg',
 '../src/images/catalog/bluezone/opus/interiors/bluezone_opus_12249_855709_0x500.jpg'],
-tovars:  [
-
-'../src/images/catalog/bluezone/opus/tovars/bluezone_opus_100764_642524_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/opus/tovars/bluezone_opus_100764_642524_300x0.jpg',
 '../src/images/catalog/bluezone/opus/tovars/bluezone_opus_100765_449922_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
@@ -5705,14 +5629,10 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'oribica',
-interiors: [
-
-'../src/images/catalog/bluezone/oribica/interiors/bluezone_oribica_11877_720540_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/oribica/interiors/bluezone_oribica_11877_720540_0x300.jpg',
 '../src/images/catalog/bluezone/oribica/interiors/bluezone_oribica_11877_720540_0x500.jpg',
 '../src/images/catalog/bluezone/oribica/interiors/bluezone_oribica_11877_907099_0x300.jpg'],
-tovars:  [
-
-'../src/images/catalog/bluezone/oribica/tovars/bluezone_oribica_97399_58135_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/oribica/tovars/bluezone_oribica_97399_58135_300x0.jpg',
 '../src/images/catalog/bluezone/oribica/tovars/bluezone_oribica_97479_875803_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
@@ -5720,56 +5640,40 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'oriental',
-interiors: [
-
-'../src/images/catalog/bluezone/oriental/interiors/bluezone_oriental_13730_107129_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/oriental/interiors/bluezone_oriental_13730_107129_0x300.jpg',
 '../src/images/catalog/bluezone/oriental/interiors/bluezone_oriental_13730_107129_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/oriental/tovars/bluezone_oriental_108749_704192_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/oriental/tovars/bluezone_oriental_108749_704192_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'panda_white',
-interiors: [
-
-'../src/images/catalog/bluezone/panda_white/interiors/bluezone_panda_white_11110_371894_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/panda_white/interiors/bluezone_panda_white_11110_371894_0x300.jpg',
 '../src/images/catalog/bluezone/panda_white/interiors/bluezone_panda_white_11110_371894_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/panda_white/tovars/bluezone_panda_white_93224_336163_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/panda_white/tovars/bluezone_panda_white_93224_336163_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'phantom',
-interiors: [
-
-'../src/images/catalog/bluezone/phantom/interiors/bluezone_phantom_16406_208284_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/phantom/interiors/bluezone_phantom_16406_208284_0x300.jpg',
 '../src/images/catalog/bluezone/phantom/interiors/bluezone_phantom_16406_208284_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/phantom/tovars/bluezone_phantom_120888_41489_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/phantom/tovars/bluezone_phantom_120888_41489_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'rockstone_azure',
-interiors: [
-
-'../src/images/catalog/bluezone/rockstone_azure/interiors/bluezone_rockstone_azure_11878_449936_0x300.jpg',
+interiors: ['../src/images/catalog/bluezone/rockstone_azure/interiors/bluezone_rockstone_azure_11878_449936_0x300.jpg',
 '../src/images/catalog/bluezone/rockstone_azure/interiors/bluezone_rockstone_azure_11878_449936_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/rockstone_azure/tovars/bluezone_rockstone_azure_97400_291818_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/rockstone_azure/tovars/bluezone_rockstone_azure_97400_291818_300x0.jpg',
 '../src/images/catalog/bluezone/rockstone_azure/tovars/bluezone_rockstone_azure_97477_564195_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
@@ -5777,18 +5681,14 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'romano_versailles',
-
-interiors: [
-
-'../src/images/catalog/bluezone/romano_versailles/interiors/bluezone_romano_versailles_16407_101446_0x300.jpg',
+,
+interiors: ['../src/images/catalog/bluezone/romano_versailles/interiors/bluezone_romano_versailles_16407_101446_0x300.jpg',
 '../src/images/catalog/bluezone/romano_versailles/interiors/bluezone_romano_versailles_16407_106847_0x300.jpg',
 '../src/images/catalog/bluezone/romano_versailles/interiors/bluezone_romano_versailles_16407_28001_0x300.jpg',
 '../src/images/catalog/bluezone/romano_versailles/interiors/bluezone_romano_versailles_16407_41509_0x300.jpg',
 '../src/images/catalog/bluezone/romano_versailles/interiors/bluezone_romano_versailles_16407_41509_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/romano_versailles/tovars/bluezone_romano_versailles_120891_799936_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/romano_versailles/tovars/bluezone_romano_versailles_120891_799936_300x0.jpg',
 '../src/images/catalog/bluezone/romano_versailles/tovars/bluezone_romano_versailles_120892_689996_300x0.jpg',
 '../src/images/catalog/bluezone/romano_versailles/tovars/bluezone_romano_versailles_120893_308809_300x0.jpg'],
 },{id: '',
@@ -5797,25 +5697,19 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'santorini_drizzle',
-
-interiors: [
-
-'../src/images/catalog/bluezone/santorini_drizzle/interiors/bluezone_santorini_drizzle_11904_402148_0x300.jpg',
+,
+interiors: ['../src/images/catalog/bluezone/santorini_drizzle/interiors/bluezone_santorini_drizzle_11904_402148_0x300.jpg',
 '../src/images/catalog/bluezone/santorini_drizzle/interiors/bluezone_santorini_drizzle_11904_402148_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/santorini_drizzle/tovars/bluezone_santorini_drizzle_97483_511966_300x0.jpg'],
+tovars:  ['../src/images/catalog/bluezone/santorini_drizzle/tovars/bluezone_santorini_drizzle_97483_511966_300x0.jpg'],
 },{id: '',
     Сountry: 'Индия',
     Category: 'Керамогранит',
     Size: ['20x60'],
     Name: 'Bluezone', 
     Сollection: 'scotish_white',
-
-interiors: [
-
-'../src/images/catalog/bluezone/scotish_white/interiors/bluezone_scotish_white_11112_321001_0x300.jpg',
+,
+interiors: ['../src/images/catalog/bluezone/scotish_white/interiors/bluezone_scotish_white_11112_321001_0x300.jpg',
 '../src/images/catalog/bluezone/scotish_white/interiors/bluezone_scotish_white_11112_321001_0x500.jpg',
 '../src/images/catalog/bluezone/scotish_white/interiors/bluezone_scotish_white_11112_940926_0x300.jpg'],
 tovars:  [
@@ -5834,9 +5728,7 @@ interiors: [
 '../src/images/catalog/bluezone/scot_white/interiors/bluezone_scot_white_11111_400102_0x300.jpg',
 '../src/images/catalog/bluezone/scot_white/interiors/bluezone_scot_white_11111_400102_0x500.jpg',
 ],
-tovars:  [
-
-'../src/images/catalog/bluezone/scot_white/tovars/bluezone_scot_white_93225_126370_300x0.jpg',
+tovars:  ['../src/images/catalog/bluezone/scot_white/tovars/bluezone_scot_white_93225_126370_300x0.jpg',
 '../src/images/catalog/bluezone/scot_white/tovars/bluezone_scot_white_93226_55390_300x0.jpg'],
 },
 
@@ -5846,14 +5738,10 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Delacora', 
     Сollection: 'absolute',
-interiors: [
-
-'../src/images/catalog/delacora/absolute/interiors/delacora_absolute_14006_506225_0x300.jpg',
+interiors: ['../src/images/catalog/delacora/absolute/interiors/delacora_absolute_14006_506225_0x300.jpg',
 '../src/images/catalog/delacora/absolute/interiors/delacora_absolute_14006_506225_0x500.jpg',
 '../src/images/catalog/delacora/absolute/interiors/delacora_absolute_14006_724567_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/absolute/tovars/delacora_absolute_109636_126686_300x0.jpg'],
 },{id: '',
     Сountry: 'Россия',
@@ -5862,16 +5750,12 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'alicante',
 interiors: [
-
-
 '../src/images/catalog/delacora/alicante/interiors/delacora_alicante_13657_422208_0x300.jpg',
 '../src/images/catalog/delacora/alicante/interiors/delacora_alicante_13657_833679_0x300.jpg',
 '../src/images/catalog/delacora/alicante/interiors/delacora_alicante_13657_883071_0x300.jpg',
 '../src/images/catalog/delacora/alicante/interiors/delacora_alicante_13657_883071_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/alicante/tovars/delacora_alicante_108446_553795_300x0.jpg',
 '../src/images/catalog/delacora/alicante/tovars/delacora_alicante_108447_49520_300x0.jpg',
 '../src/images/catalog/delacora/alicante/tovars/delacora_alicante_108448_867810_300x0.jpg'],
@@ -5882,14 +5766,10 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'arts',
 interiors: [
-
-
 '../src/images/catalog/delacora/arts/interiors/delacora_arts_14007_559809_0x300.jpg',
 '../src/images/catalog/delacora/arts/interiors/delacora_arts_14007_559809_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/arts/tovars/delacora_arts_109649_921056_300x0.jpg'],
 },{id: '',
     Сountry: 'Россия',
@@ -5897,17 +5777,13 @@ tovars:  [
     Size: ['20x60'],
     Name: 'Delacora', 
     Сollection: 'baffin_gray',
-
+,
 interiors: [
-
-
 '../src/images/catalog/delacora/baffin_gray/interiors/delacora_baffin_gray_9736_676207_0x300.jpg',
 '../src/images/catalog/delacora/baffin_gray/interiors/delacora_baffin_gray_9736_676207_0x500.jpg',
 '../src/images/catalog/delacora/baffin_gray/interiors/delacora_baffin_gray_9736_755854_0x300.jpg',
 '../src/images/catalog/delacora/baffin_gray/interiors/delacora_baffin_gray_9736_792113_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/baffin_gray/tovars/delacora_baffin_gray_83750_225009_300x0.jpg',
 '../src/images/catalog/delacora/baffin_gray/tovars/delacora_baffin_gray_83751_28764_300x0.jpg',
 '../src/images/catalog/delacora/baffin_gray/tovars/delacora_baffin_gray_83752_417085_300x0.jpg',
@@ -5921,15 +5797,11 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'barbados',
 interiors: [
-
-
 '../src/images/catalog/delacora/barbados/interiors/delacora_barbados_18906_259796_0x300.jpg',
 '../src/images/catalog/delacora/barbados/interiors/delacora_barbados_18906_352980_0x300.jpg',
 '../src/images/catalog/delacora/barbados/interiors/delacora_barbados_18906_352980_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/barbados/tovars/delacora_barbados_130190_612604_300x0.jpg',
 '../src/images/catalog/delacora/barbados/tovars/delacora_barbados_130191_838327_300x0.jpg',
 '../src/images/catalog/delacora/barbados/tovars/delacora_barbados_130192_726539_300x0.jpg',
@@ -5941,15 +5813,11 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'bavaro',
 interiors: [
-
-
 '../src/images/catalog/delacora/bavaro/interiors/delacora_bavaro_19083_122381_0x300.jpg',
 '../src/images/catalog/delacora/bavaro/interiors/delacora_bavaro_19083_629970_0x300.jpg',
 '../src/images/catalog/delacora/bavaro/interiors/delacora_bavaro_19083_629970_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/bavaro/tovars/delacora_bavaro_130757_743500_300x0.jpg',
 '../src/images/catalog/delacora/bavaro/tovars/delacora_bavaro_130758_269070_300x0.jpg',
 '../src/images/catalog/delacora/bavaro/tovars/delacora_bavaro_130759_985873_300x0.jpg'],
@@ -5960,8 +5828,6 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'bohema',
 interiors: [
-
-
 '../src/images/catalog/delacora/bohema/interiors/delacora_bohema_15169_366728_0x300.jpg',
 '../src/images/catalog/delacora/bohema/interiors/delacora_bohema_15169_859854_0x300.jpg',
 '../src/images/catalog/delacora/bohema/interiors/delacora_bohema_15169_859854_0x500.jpg',
@@ -5978,14 +5844,10 @@ tovars:  ['../src/images/catalog/delacora/bohema/tovars/delacora_bohema_114786_7
     Name: 'Delacora', 
     Сollection: 'bryston',
 interiors: [
-
-
 '../src/images/catalog/delacora/bryston/interiors/delacora_bryston_16495_122415_0x300.jpg',
 '../src/images/catalog/delacora/bryston/interiors/delacora_bryston_16495_122415_0x500.jpg',
 '../src/images/catalog/delacora/bryston/interiors/delacora_bryston_16495_691803_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/bryston/tovars/delacora_bryston_121145_563829_300x0.jpg',
 '../src/images/catalog/delacora/bryston/tovars/delacora_bryston_121146_910437_300x0.jpg',
 '../src/images/catalog/delacora/bryston/tovars/delacora_bryston_121147_95048_300x0.jpg'],
@@ -5996,18 +5858,11 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'calacatta_andrea',
 
-
-
-
 interiors: [
-
-
 '../src/images/catalog/delacora/calacatta_andrea/interiors/delacora_calacatta_andrea_16905_271608_0x300.jpg',
 '../src/images/catalog/delacora/calacatta_andrea/interiors/delacora_calacatta_andrea_16905_271608_0x500.jpg',
 '../src/images/catalog/delacora/calacatta_andrea/interiors/delacora_calacatta_andrea_16905_563412_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/calacatta_andrea/tovars/delacora_calacatta_andrea_122018_470784_300x0.jpg',
 '../src/images/catalog/delacora/calacatta_andrea/tovars/delacora_calacatta_andrea_122019_957086_300x0.jpg'],
 },{id: '',
@@ -6017,18 +5872,11 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'calacatta_premium',
 
-
-
-
 interiors: [
-
-
 '../src/images/catalog/delacora/calacatta_premium/interiors/delacora_calacatta_premium_16907_187695_0x300.jpg',
 '../src/images/catalog/delacora/calacatta_premium/interiors/delacora_calacatta_premium_16907_187695_0x500.jpg',
 '../src/images/catalog/delacora/calacatta_premium/interiors/delacora_calacatta_premium_16907_372304_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/calacatta_premium/tovars/delacora_calacatta_premium_122022_57045_300x0.jpg',
 '../src/images/catalog/delacora/calacatta_premium/tovars/delacora_calacatta_premium_122023_476157_300x0.jpg'],
 },{id: '',
@@ -6038,16 +5886,12 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'canova',
 interiors: [
-
-
 '../src/images/catalog/delacora/canova/interiors/delacora_canova_14290_144969_0x300.jpg',
 '../src/images/catalog/delacora/canova/interiors/delacora_canova_14290_764364_0x300.jpg',
 '../src/images/catalog/delacora/canova/interiors/delacora_canova_14290_994453_0x300.jpg',
 '../src/images/catalog/delacora/canova/interiors/delacora_canova_14290_994453_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/canova/tovars/delacora_canova_111052_440961_300x0.jpg',
 '../src/images/catalog/delacora/canova/tovars/delacora_canova_111053_521656_300x0.jpg'],
 },{id: '',
@@ -6057,14 +5901,10 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'canyon',
 interiors: [
-
-
 '../src/images/catalog/delacora/canyon/interiors/delacora_canyon_12059_718443_0x300.jpg',
 '../src/images/catalog/delacora/canyon/interiors/delacora_canyon_12059_718443_0x500.jpg',
 '../src/images/catalog/delacora/canyon/interiors/delacora_canyon_12059_856547_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/canyon/tovars/delacora_canyon_98560_362978_300x0.jpg',
 '../src/images/catalog/delacora/canyon/tovars/delacora_canyon_98561_899500_300x0.jpg',
 '../src/images/catalog/delacora/canyon/tovars/delacora_canyon_98562_553206_300x0.jpg'],
@@ -6075,15 +5915,11 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'carrara_cersei',
 interiors: [
-
-
 '../src/images/catalog/delacora/carrara_cersei/interiors/delacora_carrara_cersei_16906_527909_0x300.jpg',
 '../src/images/catalog/delacora/carrara_cersei/interiors/delacora_carrara_cersei_16906_716029_0x300.jpg',
 '../src/images/catalog/delacora/carrara_cersei/interiors/delacora_carrara_cersei_16906_716029_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/carrara_cersei/tovars/delacora_carrara_cersei_122020_794281_300x0.jpg',
 '../src/images/catalog/delacora/carrara_cersei/tovars/delacora_carrara_cersei_122021_851258_300x0.jpg'],
 },{id: '',
@@ -6093,8 +5929,6 @@ tovars:  [
     Name: 'Delacora', 
     Сollection: 'centro',
 interiors: [
-
-
 '../src/images/catalog/delacora/centro/interiors/delacora_centro_16908_127519_0x300.jpg',
 '../src/images/catalog/delacora/centro/interiors/delacora_centro_16908_480790_0x300.jpg',
 '../src/images/catalog/delacora/centro/interiors/delacora_centro_16908_497951_0x300.jpg',
@@ -6103,8 +5937,6 @@ interiors: [
 '../src/images/catalog/delacora/centro/interiors/delacora_centro_16908_605990_0x300.jpg',
 '../src/images/catalog/delacora/centro/interiors/delacora_centro_16908_67237_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/centro/tovars/delacora_centro_122024_119994_300x0.jpg',
 '../src/images/catalog/delacora/centro/tovars/delacora_centro_122025_550208_300x0.jpg',
 '../src/images/catalog/delacora/centro/tovars/delacora_centro_122026_13843_300x0.jpg',
@@ -6115,479 +5947,397 @@ tovars:  [
 '../src/images/catalog/delacora/centro/tovars/delacora_centro_122031_668901_300x0.jpg',
 '../src/images/catalog/delacora/centro/tovars/delacora_centro_122032_158421_300x0.jpg',
 '../src/images/catalog/delacora/centro/tovars/delacora_centro_122033_959898_300x0.jpg'],
-},{Сollection: chrome
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'chrome',
 interiors: [
-
-
 '../src/images/catalog/delacora/chrome/interiors/delacora_chrome_14008_626514_0x300.jpg',
 '../src/images/catalog/delacora/chrome/interiors/delacora_chrome_14008_626514_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/chrome/tovars/delacora_chrome_109651_14379_300x0.jpg',
 '../src/images/catalog/delacora/chrome/tovars/delacora_chrome_109652_503591_300x0.jpg'],
-},{Сollection: colorstone,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'colorstone',
 ,
 interiors: [
-
-
 '../src/images/catalog/delacora/colorstone/interiors/delacora_colorstone_13659_638333_0x300.jpg',
 '../src/images/catalog/delacora/colorstone/interiors/delacora_colorstone_13659_766549_0x300.jpg',
 '../src/images/catalog/delacora/colorstone/interiors/delacora_colorstone_13659_766549_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/colorstone/tovars/delacora_colorstone_108451_560549_300x0.jpg',
 '../src/images/catalog/delacora/colorstone/tovars/delacora_colorstone_108452_952335_300x0.jpg'],
-},{Сollection: corsa
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'corsa',
 interiors: [
-
-
 '../src/images/catalog/delacora/corsa/interiors/delacora_corsa_16909_357462_0x300.jpg',
 '../src/images/catalog/delacora/corsa/interiors/delacora_corsa_16909_357462_0x500.jpg',
 '../src/images/catalog/delacora/corsa/interiors/delacora_corsa_16909_433350_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/corsa/tovars/delacora_corsa_122034_755417_300x0.jpg',
 '../src/images/catalog/delacora/corsa/tovars/delacora_corsa_122035_852409_300x0.jpg'],
-},{Сollection: corten
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'corten',
 interiors: [
-
-
 '../src/images/catalog/delacora/corten/interiors/delacora_corten_14009_569068_0x300.jpg',
 '../src/images/catalog/delacora/corten/interiors/delacora_corten_14009_861952_0x300.jpg',
 '../src/images/catalog/delacora/corten/interiors/delacora_corten_14009_861952_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/corten/tovars/delacora_corten_109653_581603_300x0.jpg'],
-},{Сollection: crystal
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'crystal',
 interiors: [
-
-
 '../src/images/catalog/delacora/crystal/interiors/delacora_crystal_9741_644490_0x300.jpg',
 '../src/images/catalog/delacora/crystal/interiors/delacora_crystal_9741_644490_0x500.jpg',
 '../src/images/catalog/delacora/crystal/interiors/delacora_crystal_9741_74669_0x300.jpg',
 '../src/images/catalog/delacora/crystal/interiors/delacora_crystal_9741_925626_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/crystal/tovars/delacora_crystal_83776_329359_300x0.jpg',
 '../src/images/catalog/delacora/crystal/tovars/delacora_crystal_83777_208822_300x0.jpg',
 '../src/images/catalog/delacora/crystal/tovars/delacora_crystal_83778_233661_300x0.jpg',
 '../src/images/catalog/delacora/crystal/tovars/delacora_crystal_83779_955762_300x0.jpg',
 '../src/images/catalog/delacora/crystal/tovars/delacora_crystal_83780_878156_300x0.jpg',
 '../src/images/catalog/delacora/crystal/tovars/delacora_crystal_83781_281636_300x0.jpg'],
-},{Сollection: delight
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'delight',
 interiors: [
-
-
 '../src/images/catalog/delacora/delight/interiors/delacora_delight_12713_237372_0x300.jpg',
 '../src/images/catalog/delacora/delight/interiors/delacora_delight_12713_237372_0x500.jpg',
 '../src/images/catalog/delacora/delight/interiors/delacora_delight_12713_577726_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/delight/tovars/delacora_delight_103817_502612_300x0.jpg',
 '../src/images/catalog/delacora/delight/tovars/delacora_delight_103818_779107_300x0.jpg',
 '../src/images/catalog/delacora/delight/tovars/delacora_delight_103819_520729_300x0.jpg',
 '../src/images/catalog/delacora/delight/tovars/delacora_delight_103820_884233_300x0.jpg'],
-},{Сollection: delta
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'delta',
 interiors: [
-
-
 '../src/images/catalog/delacora/delta/interiors/delacora_delta_13660_752116_0x300.jpg',
 '../src/images/catalog/delacora/delta/interiors/delacora_delta_13660_752116_0x500.jpg',
 '../src/images/catalog/delacora/delta/interiors/delacora_delta_13660_948694_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/delta/tovars/delacora_delta_108453_463783_300x0.jpg',
 '../src/images/catalog/delacora/delta/tovars/delacora_delta_108454_741193_300x0.jpg',
 '../src/images/catalog/delacora/delta/tovars/delacora_delta_108455_499157_300x0.jpg',
 '../src/images/catalog/delacora/delta/tovars/delacora_delta_108456_887249_300x0.jpg'],
-},{Сollection: dixon
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'dixon',
 interiors: [
-
-
 '../src/images/catalog/delacora/dixon/interiors/delacora_dixon_14010_516629_0x300.jpg',
 '../src/images/catalog/delacora/dixon/interiors/delacora_dixon_14010_516629_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/dixon/tovars/delacora_dixon_109655_666941_300x0.jpg'],
-},{Сollection: dream
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'dream',
 interiors: [
-
-
 '../src/images/catalog/delacora/dream/interiors/delacora_dream_16910_623254_0x300.jpg',
 '../src/images/catalog/delacora/dream/interiors/delacora_dream_16910_728841_0x300.jpg',
 '../src/images/catalog/delacora/dream/interiors/delacora_dream_16910_728841_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/dream/tovars/delacora_dream_122036_873972_300x0.jpg',
 '../src/images/catalog/delacora/dream/tovars/delacora_dream_122037_945320_300x0.jpg'],
-},{Сollection: estelle
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'estelle',
 interiors: [
-
-
 '../src/images/catalog/delacora/estelle/interiors/delacora_estelle_16911_223278_0x300.jpg',
 '../src/images/catalog/delacora/estelle/interiors/delacora_estelle_16911_223278_0x500.jpg',
 '../src/images/catalog/delacora/estelle/interiors/delacora_estelle_16911_274495_0x300.jpg',
 '../src/images/catalog/delacora/estelle/interiors/delacora_estelle_16911_63001_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/estelle/tovars/delacora_estelle_122038_280956_300x0.jpg',
 '../src/images/catalog/delacora/estelle/tovars/delacora_estelle_122039_979458_300x0.jpg',
 '../src/images/catalog/delacora/estelle/tovars/delacora_estelle_122040_851043_300x0.jpg',
 '../src/images/catalog/delacora/estelle/tovars/delacora_estelle_122041_821639_300x0.jpg'],
-},{Сollection: evan
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'evan',
 interiors: [
-
-
 '../src/images/catalog/delacora/evan/interiors/delacora_evan_15170_63545_0x300.jpg',
 '../src/images/catalog/delacora/evan/interiors/delacora_evan_15170_861463_0x300.jpg',
 '../src/images/catalog/delacora/evan/interiors/delacora_evan_15170_861463_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/evan/tovars/delacora_evan_114791_345738_300x0.jpg',
 '../src/images/catalog/delacora/evan/tovars/delacora_evan_114792_838499_300x0.jpg',
 '../src/images/catalog/delacora/evan/tovars/delacora_evan_114793_618037_300x0.jpg',
 '../src/images/catalog/delacora/evan/tovars/delacora_evan_114794_835935_300x0.jpg'],
-},{Сollection: exotic
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'exotic',
 interiors: [
-
-
 '../src/images/catalog/delacora/exotic/interiors/delacora_exotic_10412_359506_0x300.jpg',
 '../src/images/catalog/delacora/exotic/interiors/delacora_exotic_10412_552847_0x300.jpg',
 '../src/images/catalog/delacora/exotic/interiors/delacora_exotic_10412_552847_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/exotic/tovars/delacora_exotic_88885_496718_300x0.jpg',
 '../src/images/catalog/delacora/exotic/tovars/delacora_exotic_88893_983709_300x0.jpg',
 '../src/images/catalog/delacora/exotic/tovars/delacora_exotic_88894_659270_300x0.jpg'],
-},{Сollection: faenza
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'faenza',
 interiors: [
-
-
 '../src/images/catalog/delacora/faenza/interiors/delacora_faenza_13661_673798_0x300.jpg',
 '../src/images/catalog/delacora/faenza/interiors/delacora_faenza_13661_83101_0x300.jpg',
 '../src/images/catalog/delacora/faenza/interiors/delacora_faenza_13661_83101_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/faenza/tovars/delacora_faenza_108457_618764_300x0.jpg',
 '../src/images/catalog/delacora/faenza/tovars/delacora_faenza_108458_772835_300x0.jpg',
 '../src/images/catalog/delacora/faenza/tovars/delacora_faenza_108459_55771_300x0.jpg'],
-},{Сollection: freedom
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'freedom',
 interiors: [
-
-
 '../src/images/catalog/delacora/freedom/interiors/delacora_freedom_16930_523664_0x300.jpg',
 '../src/images/catalog/delacora/freedom/interiors/delacora_freedom_16930_523664_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/freedom/tovars/delacora_freedom_122105_281277_300x0.jpg'],
-},{Сollection: frost
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'frost',
 interiors: [
-
-
 '../src/images/catalog/delacora/frost/interiors/delacora_frost_10644_244266_0x300.jpg',
 '../src/images/catalog/delacora/frost/interiors/delacora_frost_10644_244266_0x500.jpg',
 '../src/images/catalog/delacora/frost/interiors/delacora_frost_10644_578731_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/frost/tovars/delacora_frost_90257_227634_300x0.jpg',
 '../src/images/catalog/delacora/frost/tovars/delacora_frost_90258_727705_300x0.jpg',
 '../src/images/catalog/delacora/frost/tovars/delacora_frost_90259_727108_300x0.jpg'],
-},{Сollection: grafito
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'grafito',
 interiors: [
-
-
 '../src/images/catalog/delacora/grafito/interiors/delacora_grafito_15171_281522_0x300.jpg',
 '../src/images/catalog/delacora/grafito/interiors/delacora_grafito_15171_281522_0x500.jpg',
 '../src/images/catalog/delacora/grafito/interiors/delacora_grafito_15171_827056_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/grafito/tovars/delacora_grafito_114796_308599_300x0.jpg',
 '../src/images/catalog/delacora/grafito/tovars/delacora_grafito_114797_282462_300x0.jpg',
 '../src/images/catalog/delacora/grafito/tovars/delacora_grafito_114798_34875_300x0.jpg'],
-},{Сollection: kioto
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'kioto',
 interiors: [
-
-
 '../src/images/catalog/delacora/kioto/interiors/delacora_kioto_19084_650510_0x300.jpg',
 '../src/images/catalog/delacora/kioto/interiors/delacora_kioto_19084_650510_0x500.jpg',
 '../src/images/catalog/delacora/kioto/interiors/delacora_kioto_19084_765998_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/kioto/tovars/delacora_kioto_130760_325907_300x0.jpg',
 '../src/images/catalog/delacora/kioto/tovars/delacora_kioto_130761_497563_300x0.jpg',
 '../src/images/catalog/delacora/kioto/tovars/delacora_kioto_130762_638644_300x0.jpg'],
-},{Сollection: kreo
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'kreo',
 interiors: [
-
-
 '../src/images/catalog/delacora/kreo/interiors/delacora_kreo_16496_284083_0x300.jpg',
 '../src/images/catalog/delacora/kreo/interiors/delacora_kreo_16496_284083_0x500.jpg',
 '../src/images/catalog/delacora/kreo/interiors/delacora_kreo_16496_558194_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/kreo/tovars/delacora_kreo_121148_127820_300x0.jpg',
 '../src/images/catalog/delacora/kreo/tovars/delacora_kreo_121149_738380_300x0.jpg'],
-},{Сollection: leon
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'leon',
 interiors: [
-
-
 '../src/images/catalog/delacora/leon/interiors/delacora_leon_15172_194926_0x300.jpg',
 '../src/images/catalog/delacora/leon/interiors/delacora_leon_15172_570607_0x300.jpg',
 '../src/images/catalog/delacora/leon/interiors/delacora_leon_15172_570607_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/leon/tovars/delacora_leon_114800_357849_300x0.jpg',
 '../src/images/catalog/delacora/leon/tovars/delacora_leon_114801_798357_300x0.jpg',
 '../src/images/catalog/delacora/leon/tovars/delacora_leon_114802_836845_300x0.jpg'],
-},{Сollection: maiolica
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'maiolica',
 interiors: [
-
-
 '../src/images/catalog/delacora/maiolica/interiors/delacora_maiolica_18907_930282_0x300.jpg',
 '../src/images/catalog/delacora/maiolica/interiors/delacora_maiolica_18907_930282_0x500.jpg',
 '../src/images/catalog/delacora/maiolica/interiors/delacora_maiolica_18907_994788_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/maiolica/tovars/delacora_maiolica_130194_471632_300x0.jpg',
 '../src/images/catalog/delacora/maiolica/tovars/delacora_maiolica_130195_791175_300x0.jpg',
 '../src/images/catalog/delacora/maiolica/tovars/delacora_maiolica_130196_583707_300x0.jpg',
 '../src/images/catalog/delacora/maiolica/tovars/delacora_maiolica_130197_772839_300x0.jpg'],
-},{Сollection: metallic
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'metallic',
 interiors: [
-
-
 '../src/images/catalog/delacora/metallic/interiors/delacora_metallic_14011_32411_0x300.jpg',
 '../src/images/catalog/delacora/metallic/interiors/delacora_metallic_14011_32411_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/metallic/tovars/delacora_metallic_109656_249109_300x0.jpg'],
-},{Сollection: millennium,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'millennium',
 ,
 interiors: [
-
-
 '../src/images/catalog/delacora/millennium/interiors/delacora_millennium_19085_792076_0x300.jpg',
 '../src/images/catalog/delacora/millennium/interiors/delacora_millennium_19085_889433_0x300.jpg',
 '../src/images/catalog/delacora/millennium/interiors/delacora_millennium_19085_889433_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/millennium/tovars/delacora_millennium_130763_91526_300x0.jpg',
 '../src/images/catalog/delacora/millennium/tovars/delacora_millennium_130764_767150_300x0.jpg',
 '../src/images/catalog/delacora/millennium/tovars/delacora_millennium_130765_982992_300x0.jpg',
 '../src/images/catalog/delacora/millennium/tovars/delacora_millennium_130766_68743_300x0.jpg'],
-},{Сollection: muse
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'muse',
 interiors: [
-
-
 '../src/images/catalog/delacora/muse/interiors/delacora_muse_16912_21474_0x300.jpg',
 '../src/images/catalog/delacora/muse/interiors/delacora_muse_16912_21474_0x500.jpg',
 '../src/images/catalog/delacora/muse/interiors/delacora_muse_16912_572769_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/muse/tovars/delacora_muse_122042_992269_300x0.jpg',
 '../src/images/catalog/delacora/muse/tovars/delacora_muse_122043_562421_300x0.jpg'],
-},{Сollection: nebraska
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'nebraska',
 interiors: [
-
-
 '../src/images/catalog/delacora/nebraska/interiors/delacora_nebraska_15173_178197_0x300.jpg',
 '../src/images/catalog/delacora/nebraska/interiors/delacora_nebraska_15173_487973_0x300.jpg',
 '../src/images/catalog/delacora/nebraska/interiors/delacora_nebraska_15173_487973_0x500.jpg',
 '../src/images/catalog/delacora/nebraska/interiors/delacora_nebraska_15173_498328_0x300.jpg',
 '../src/images/catalog/delacora/nebraska/interiors/delacora_nebraska_15173_73948_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/nebraska/tovars/delacora_nebraska_114803_249309_300x0.jpg',
 '../src/images/catalog/delacora/nebraska/tovars/delacora_nebraska_114804_266719_300x0.jpg',
 '../src/images/catalog/delacora/nebraska/tovars/delacora_nebraska_114805_306085_300x0.jpg',
 '../src/images/catalog/delacora/nebraska/tovars/delacora_nebraska_114806_349682_300x0.jpg'],
-},{Сollection: omega
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'omega',
 interiors: [
-
-
 '../src/images/catalog/delacora/omega/interiors/delacora_omega_14012_350493_0x300.jpg',
 '../src/images/catalog/delacora/omega/interiors/delacora_omega_14012_350493_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/omega/tovars/delacora_omega_109659_601321_300x0.jpg',
 '../src/images/catalog/delacora/omega/tovars/delacora_omega_109660_435132_300x0.jpg'],
-},{Сollection: oregon
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'oregon',
 interiors: [
-
-
 '../src/images/catalog/delacora/oregon/interiors/delacora_oregon_14013_788302_0x300.jpg',
 '../src/images/catalog/delacora/oregon/interiors/delacora_oregon_14013_788302_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/oregon/tovars/delacora_oregon_109661_943709_300x0.jpg',
 '../src/images/catalog/delacora/oregon/tovars/delacora_oregon_109662_250794_300x0.jpg',
 '../src/images/catalog/delacora/oregon/tovars/delacora_oregon_109663_483463_300x0.jpg'],
-},{Сollection: palissandro,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'palissandro',
 ,
 interiors: [
-
-
 '../src/images/catalog/delacora/palissandro/interiors/delacora_palissandro_12714_485176_0x300.jpg',
 '../src/images/catalog/delacora/palissandro/interiors/delacora_palissandro_12714_896506_0x300.jpg',
 '../src/images/catalog/delacora/palissandro/interiors/delacora_palissandro_12714_896506_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/palissandro/tovars/delacora_palissandro_103868_603957_300x0.jpg',
 '../src/images/catalog/delacora/palissandro/tovars/delacora_palissandro_103869_911506_300x0.jpg',
 '../src/images/catalog/delacora/palissandro/tovars/delacora_palissandro_103870_732483_300x0.jpg',
 '../src/images/catalog/delacora/palissandro/tovars/delacora_palissandro_103871_563449_300x0.jpg'],
-},{Сollection: rock
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'rock',
 interiors: [
-
-
 '../src/images/catalog/delacora/rock/interiors/delacora_rock_16913_320227_0x300.jpg',
 '../src/images/catalog/delacora/rock/interiors/delacora_rock_16913_320227_0x500.jpg',
 '../src/images/catalog/delacora/rock/interiors/delacora_rock_16913_492105_0x300.jpg',
@@ -6597,8 +6347,6 @@ interiors: [
 '../src/images/catalog/delacora/rock/interiors/delacora_rock_16913_822257_0x300.jpg',
 '../src/images/catalog/delacora/rock/interiors/delacora_rock_16913_915878_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/rock/tovars/delacora_rock_122044_999890_300x0.jpg',
 '../src/images/catalog/delacora/rock/tovars/delacora_rock_122045_134160_300x0.jpg',
 '../src/images/catalog/delacora/rock/tovars/delacora_rock_122046_554971_300x0.jpg',
@@ -6607,80 +6355,67 @@ tovars:  [
 '../src/images/catalog/delacora/rock/tovars/delacora_rock_122049_25755_300x0.jpg',
 '../src/images/catalog/delacora/rock/tovars/delacora_rock_122050_792562_300x0.jpg',
 '../src/images/catalog/delacora/rock/tovars/delacora_rock_122051_947164_300x0.jpg'],
-},{Сollection: rockstyle,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'rockstyle',
 interiors: [
-
-
 '../src/images/catalog/delacora/rockstyle/interiors/delacora_rockstyle_18908_419601_0x300.jpg',
 '../src/images/catalog/delacora/rockstyle/interiors/delacora_rockstyle_18908_419601_0x500.jpg',
 '../src/images/catalog/delacora/rockstyle/interiors/delacora_rockstyle_18908_477783_0x300.jpg',
 '../src/images/catalog/delacora/rockstyle/interiors/delacora_rockstyle_18908_551998_0x300.jpg',
 '../src/images/catalog/delacora/rockstyle/interiors/delacora_rockstyle_18908_571570_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/rockstyle/tovars/delacora_rockstyle_130198_685484_300x0.jpg',
 '../src/images/catalog/delacora/rockstyle/tovars/delacora_rockstyle_130199_132660_300x0.jpg',
 '../src/images/catalog/delacora/rockstyle/tovars/delacora_rockstyle_130200_237520_300x0.jpg'],
-},{Сollection: romana
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'romana',
 interiors: [
-
-
 '../src/images/catalog/delacora/romana/interiors/delacora_romana_16914_165725_0x300.jpg',
 '../src/images/catalog/delacora/romana/interiors/delacora_romana_16914_165725_0x500.jpg',
 '../src/images/catalog/delacora/romana/interiors/delacora_romana_16914_355934_0x300.jpg',
 '../src/images/catalog/delacora/romana/interiors/delacora_romana_16914_415563_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/romana/tovars/delacora_romana_122052_867015_300x0.jpg',
 '../src/images/catalog/delacora/romana/tovars/delacora_romana_122053_839609_300x0.jpg',
 '../src/images/catalog/delacora/romana/tovars/delacora_romana_122054_423321_300x0.jpg',
 '../src/images/catalog/delacora/romana/tovars/delacora_romana_122055_977011_300x0.jpg',
 '../src/images/catalog/delacora/romana/tovars/delacora_romana_122056_389817_300x0.jpg',
 '../src/images/catalog/delacora/romana/tovars/delacora_romana_122057_427166_300x0.jpg'],
-},{Сollection: roxy
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'roxy',
 interiors: [
-
-
 '../src/images/catalog/delacora/roxy/interiors/delacora_roxy_14109_235437_0x300.jpg',
 '../src/images/catalog/delacora/roxy/interiors/delacora_roxy_14109_374806_0x300.jpg',
 '../src/images/catalog/delacora/roxy/interiors/delacora_roxy_14109_854989_0x300.jpg',
 '../src/images/catalog/delacora/roxy/interiors/delacora_roxy_14109_854989_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/roxy/tovars/delacora_roxy_110382_104800_300x0.jpg',
 '../src/images/catalog/delacora/roxy/tovars/delacora_roxy_110383_954022_300x0.jpg'],
-},{Сollection: royal
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'royal',
 interiors: [
-
-
 '../src/images/catalog/delacora/royal/interiors/delacora_royal_9748_120311_0x300.jpg',
 '../src/images/catalog/delacora/royal/interiors/delacora_royal_9748_184469_0x300.jpg',
 '../src/images/catalog/delacora/royal/interiors/delacora_royal_9748_184469_0x500.jpg',
 '../src/images/catalog/delacora/royal/interiors/delacora_royal_9748_463020_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/delacora/royal/tovars/delacora_royal_83829_240039_300x0.jpg',
 '../src/images/catalog/delacora/royal/tovars/delacora_royal_83830_34452_300x0.jpg',
 '../src/images/catalog/delacora/royal/tovars/delacora_royal_83831_15853_300x0.jpg',
@@ -6689,256 +6424,193 @@ tovars:  [
 '../src/images/catalog/delacora/royal/tovars/delacora_royal_83834_34619_300x0.jpg',
 '../src/images/catalog/delacora/royal/tovars/delacora_royal_83835_457535_300x0.jpg',
 '../src/images/catalog/delacora/royal/tovars/delacora_royal_83836_816612_300x0.jpg'],
-},{Сollection: safari
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'safari',
 interiors: [
-
-
 '../src/images/catalog/delacora/safari/interiors/delacora_safari_16497_705038_0x300.jpg',
 '../src/images/catalog/delacora/safari/interiors/delacora_safari_16497_983477_0x300.jpg',
 '../src/images/catalog/delacora/safari/interiors/delacora_safari_16497_983477_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/safari/tovars/delacora_safari_121150_327800_300x0.jpg',
 '../src/images/catalog/delacora/safari/tovars/delacora_safari_121151_368206_300x0.jpg'],
-},{Сollection: sandy
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'sandy',
 interiors: [
-
-
 '../src/images/catalog/delacora/sandy/interiors/delacora_sandy_15028_767261_0x300.jpg',
 '../src/images/catalog/delacora/sandy/interiors/delacora_sandy_15028_870614_0x300.jpg',
 '../src/images/catalog/delacora/sandy/interiors/delacora_sandy_15028_870614_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/delacora/sandy/tovars/delacora_sandy_113834_249996_300x0.jpg',
 '../src/images/catalog/delacora/sandy/tovars/delacora_sandy_113835_382476_300x0.jpg'],
-},{Сollection: slate
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'slate',
 interiors: [
-
-
-'../src/images/catalog/delacora/slate/interiors/delacora_slate_14110_486867_0x300.jpg',
--statuary_venato,
-
-
-
+'../src/images/catalog/delacora/slate/interiors/delacora_slate_14110_486867_0x300.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'statuary_venato',
 interiors: [
-
-
 '../src/images/catalog/delacora/statuary_venato/interiors/delacora_statuary_venato_14111_262363_0x300.jpg'],
-},{Сollection: turin
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'turin',
 interiors: [
-
-
-'../src/images/catalog/delacora/turin/interiors/delacora_turin_14014_990409_0x300.jpg',
--universalnaya_plitka,
-
-'../src/images/catalog/delacora/universalnaya_plitka..,
-
-tovars:  [
-
-
-'../src/images/catalog/delacora/universalnaya_plitka/tovars/delacora_universalnaya_plitka_108449_376764_300x0.jpg',
-'../src/images/catalog/delacora/universalnaya_plitka/tovars/delacora_universalnaya_plitka_108450_348102_300x0.jpg',
-'../src/images/catalog/delacora/universalnaya_plitka/tovars/delacora_universalnaya_plitka_98563_19309_300x0.jpg',
-'../src/images/catalog/delacora/universalnaya_plitka/tovars/delacora_universalnaya_plitka_98564_56805_300x0.jpg'],
-},{Сollection: waterfall,
-
-
-
-,
+'../src/images/catalog/delacora/turin/interiors/delacora_turin_14014_990409_0x300.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'waterfall',
 interiors: [
-
-
 '../src/images/catalog/delacora/waterfall/interiors/delacora_waterfall_14114_89983_0x300.jpg'],
-},{Сollection: woodstyle,
-
-
-
-],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Delacora', 
+    Сollection: 'woodstyle',
 tovars:  [
-
-
 '../src/images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130201_118777_300x0.jpg',
-'../src/images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130202_513603_300x0.jpg',
--eletto_ceramica,
-'../src/images/catalog/eletto_ceramica.
-'../src/images/catalog/eletto_ceramica..
-'../src/images/catalog/eletto_ceramicabasalt
-'../src/images/catalog/eletto_ceramicabianco_covelano
-'../src/images/catalog/eletto_ceramicablack___gold
-'../src/images/catalog/eletto_ceramicacalacatta
-'../src/images/catalog/eletto_ceramicacalacatta_fantasy,
-'../src/images/catalog/eletto_ceramicacalacatta_grey
-'../src/images/catalog/eletto_ceramicacalacatta_oro
-'../src/images/catalog/eletto_ceramicacouture
-'../src/images/catalog/eletto_ceramicafletto
-'../src/images/catalog/eletto_ceramicaforesta
-'../src/images/catalog/eletto_ceramicagala
-'../src/images/catalog/eletto_ceramicagala_ivory
-'../src/images/catalog/eletto_ceramicagrey_portogallo
-'../src/images/catalog/eletto_ceramicainsignia
-'../src/images/catalog/eletto_ceramicalevanto_nero
-'../src/images/catalog/eletto_ceramicalimestone
-'../src/images/catalog/eletto_ceramicalunario
-'../src/images/catalog/eletto_ceramicamalwiya
-'../src/images/catalog/eletto_ceramicaodense
-'../src/images/catalog/eletto_ceramicaold_tjikko
-'../src/images/catalog/eletto_ceramicarosa_portogallo
-'../src/images/catalog/eletto_ceramicatrevi
-'../src/images/catalog/eletto_ceramicauniversalnaya_plitka],
-},{Сollection: basalt
+'../src/images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130202_513603_300x0.jpg'],
+},
 
-
-
-,
+{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'basalt',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/basalt/interiors/eletto_ceramica_basalt_14857_200164_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/basalt/interiors/eletto_ceramica_basalt_14857_599045_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/basalt/interiors/eletto_ceramica_basalt_14857_599045_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/basalt/interiors/eletto_ceramica_basalt_14857_652831_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/basalt/tovars/eletto_ceramica_basalt_113417_146875_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/basalt/tovars/eletto_ceramica_basalt_113418_638441_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/basalt/tovars/eletto_ceramica_basalt_113419_939106_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/basalt/tovars/eletto_ceramica_basalt_113420_297144_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/basalt/tovars/eletto_ceramica_basalt_113421_633546_300x0.jpg',
-'../src/images/catalog/eletto_ceramica/basalt/tovars/eletto_ceramica_basalt_113422_719906_300x0.jpg',
-,
--bianco_covelano,
-
-'../src/images/catalog/eletto_ceramica/bianco_covelano..,
-
-
+'../src/images/catalog/eletto_ceramica/basalt/tovars/eletto_ceramica_basalt_113422_719906_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'bianco_covelano',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/bianco_covelano/interiors/eletto_ceramica_bianco_covelano_10425_107409_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/bianco_covelano/interiors/eletto_ceramica_bianco_covelano_10425_126938_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/bianco_covelano/interiors/eletto_ceramica_bianco_covelano_10425_126938_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/bianco_covelano/interiors/eletto_ceramica_bianco_covelano_10425_583252_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/bianco_covelano/tovars/eletto_ceramica_bianco_covelano_88963_102919_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/bianco_covelano/tovars/eletto_ceramica_bianco_covelano_88964_439986_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/bianco_covelano/tovars/eletto_ceramica_bianco_covelano_88965_215354_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/bianco_covelano/tovars/eletto_ceramica_bianco_covelano_88966_241473_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/bianco_covelano/tovars/eletto_ceramica_bianco_covelano_88967_338807_300x0.jpg'],
-},{Сollection: black___gold,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'black___gold',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/black___gold/interiors/eletto_ceramica_black___gold_10426_224672_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/black___gold/interiors/eletto_ceramica_black___gold_10426_224672_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/black___gold/interiors/eletto_ceramica_black___gold_10426_528149_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/black___gold/interiors/eletto_ceramica_black___gold_10426_70614_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/black___gold/interiors/eletto_ceramica_black___gold_10426_793431_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/black___gold/tovars/eletto_ceramica_black___gold_88968_869291_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/black___gold/tovars/eletto_ceramica_black___gold_88969_413316_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/black___gold/tovars/eletto_ceramica_black___gold_88970_724347_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/black___gold/tovars/eletto_ceramica_black___gold_88971_921905_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/black___gold/tovars/eletto_ceramica_black___gold_88972_503459_300x0.jpg'],
-},{Сollection: calacatta,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'calacatta',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/calacatta/interiors/eletto_ceramica_calacatta_8712_472903_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta/interiors/eletto_ceramica_calacatta_8712_859652_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta/interiors/eletto_ceramica_calacatta_8712_876289_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta/interiors/eletto_ceramica_calacatta_8712_876289_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/calacatta/tovars/eletto_ceramica_calacatta_113443_733651_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta/tovars/eletto_ceramica_calacatta_74538_958836_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta/tovars/eletto_ceramica_calacatta_74539_614950_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta/tovars/eletto_ceramica_calacatta_74541_660015_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta/tovars/eletto_ceramica_calacatta_74542_567813_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta/tovars/eletto_ceramica_calacatta_74543_252955_300x0.jpg',
-'../src/images/catalog/eletto_ceramica/calacatta/tovars/eletto_ceramica_calacatta_83014_69067_300x0.jpg',
--calacatta_fantasy,
-
-'../src/images/catalog/eletto_ceramica/calacatta_fantasy..,
-
-
+'../src/images/catalog/eletto_ceramica/calacatta/tovars/eletto_ceramica_calacatta_83014_69067_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'calacatta_fantasy',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/interiors/eletto_ceramica_calacatta_fantasy_14858_22789_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/interiors/eletto_ceramica_calacatta_fantasy_14858_22789_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/interiors/eletto_ceramica_calacatta_fantasy_14858_435997_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/interiors/eletto_ceramica_calacatta_fantasy_14858_647027_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/tovars/eletto_ceramica_calacatta_fantasy_113423_603413_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/tovars/eletto_ceramica_calacatta_fantasy_113424_901543_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/tovars/eletto_ceramica_calacatta_fantasy_113425_566307_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/tovars/eletto_ceramica_calacatta_fantasy_113426_171043_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/tovars/eletto_ceramica_calacatta_fantasy_113427_339714_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_fantasy/tovars/eletto_ceramica_calacatta_fantasy_113428_331074_300x0.jpg',
-'../src/images/catalog/eletto_ceramica/calacatta_fantasy/tovars/eletto_ceramica_calacatta_fantasy_113429_678925_300x0.jpg',
--calacatta_grey,
-
-'../src/images/catalog/eletto_ceramica/calacatta_grey..,
-
-
+'../src/images/catalog/eletto_ceramica/calacatta_fantasy/tovars/eletto_ceramica_calacatta_fantasy_113429_678925_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'calacatta_grey',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/calacatta_grey/interiors/eletto_ceramica_calacatta_grey_14859_781751_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_grey/interiors/eletto_ceramica_calacatta_grey_14859_781751_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/calacatta_grey/tovars/eletto_ceramica_calacatta_grey_113430_494857_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_grey/tovars/eletto_ceramica_calacatta_grey_113431_261052_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_grey/tovars/eletto_ceramica_calacatta_grey_113432_900576_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_grey/tovars/eletto_ceramica_calacatta_grey_113433_161659_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_grey/tovars/eletto_ceramica_calacatta_grey_113434_806833_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_grey/tovars/eletto_ceramica_calacatta_grey_113435_187102_300x0.jpg',
-'../src/images/catalog/eletto_ceramica/calacatta_grey/tovars/eletto_ceramica_calacatta_grey_113436_952450_300x0.jpg',
--calacatta_oro,
-
-'../src/images/catalog/eletto_ceramica/calacatta_oro..,
-
-
+'../src/images/catalog/eletto_ceramica/calacatta_grey/tovars/eletto_ceramica_calacatta_grey_113436_952450_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'calacatta_oro',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/calacatta_oro/interiors/eletto_ceramica_calacatta_oro_10427_163066_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_oro/interiors/eletto_ceramica_calacatta_oro_10427_341748_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_oro/interiors/eletto_ceramica_calacatta_oro_10427_37306_0x300.jpg',
@@ -6948,8 +6620,6 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/calacatta_oro/interiors/eletto_ceramica_calacatta_oro_10427_651815_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_oro/interiors/eletto_ceramica_calacatta_oro_10427_900664_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/calacatta_oro/tovars/eletto_ceramica_calacatta_oro_88973_417940_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_oro/tovars/eletto_ceramica_calacatta_oro_88974_944904_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_oro/tovars/eletto_ceramica_calacatta_oro_88975_577312_300x0.jpg',
@@ -6957,14 +6627,13 @@ tovars:  [
 '../src/images/catalog/eletto_ceramica/calacatta_oro/tovars/eletto_ceramica_calacatta_oro_88977_640864_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_oro/tovars/eletto_ceramica_calacatta_oro_88978_28957_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/calacatta_oro/tovars/eletto_ceramica_calacatta_oro_88979_491375_300x0.jpg'],
-},{Сollection: couture
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'couture',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/couture/interiors/eletto_ceramica_couture_18289_169447_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/couture/interiors/eletto_ceramica_couture_18289_489882_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/couture/interiors/eletto_ceramica_couture_18289_556260_0x300.jpg',
@@ -6975,42 +6644,36 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/couture/interiors/eletto_ceramica_couture_18289_764287_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/couture/interiors/eletto_ceramica_couture_18289_785907_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/couture/tovars/eletto_ceramica_couture_126864_228832_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/couture/tovars/eletto_ceramica_couture_126865_608049_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/couture/tovars/eletto_ceramica_couture_126866_177922_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/couture/tovars/eletto_ceramica_couture_126867_558638_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/couture/tovars/eletto_ceramica_couture_126868_784881_300x0.jpg'],
-},{Сollection: fletto
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'fletto',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/fletto/interiors/eletto_ceramica_fletto_12211_281227_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/fletto/interiors/eletto_ceramica_fletto_12211_294287_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/fletto/interiors/eletto_ceramica_fletto_12211_294287_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/fletto/interiors/eletto_ceramica_fletto_12211_649457_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/fletto/interiors/eletto_ceramica_fletto_12211_980133_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/fletto/tovars/eletto_ceramica_fletto_100345_361435_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/fletto/tovars/eletto_ceramica_fletto_100346_651630_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/fletto/tovars/eletto_ceramica_fletto_100347_304124_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/fletto/tovars/eletto_ceramica_fletto_100348_946632_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/fletto/tovars/eletto_ceramica_fletto_100349_188030_300x0.jpg'],
-},{Сollection: foresta
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'foresta',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/foresta/interiors/eletto_ceramica_foresta_18290_119155_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/foresta/interiors/eletto_ceramica_foresta_18290_184209_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/foresta/interiors/eletto_ceramica_foresta_18290_259585_0x300.jpg',
@@ -7022,22 +6685,19 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/foresta/interiors/eletto_ceramica_foresta_18290_775457_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/foresta/interiors/eletto_ceramica_foresta_18290_94650_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/foresta/tovars/eletto_ceramica_foresta_126869_615371_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/foresta/tovars/eletto_ceramica_foresta_126870_634517_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/foresta/tovars/eletto_ceramica_foresta_126871_166222_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/foresta/tovars/eletto_ceramica_foresta_126872_873822_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/foresta/tovars/eletto_ceramica_foresta_126873_128421_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/foresta/tovars/eletto_ceramica_foresta_126874_994927_300x0.jpg'],
-},{Сollection: gala
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'gala',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/gala/interiors/eletto_ceramica_gala_10220_170006_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/gala/interiors/eletto_ceramica_gala_10220_263422_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/gala/interiors/eletto_ceramica_gala_10220_341334_0x300.jpg',
@@ -7047,22 +6707,19 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/gala/interiors/eletto_ceramica_gala_10220_552686_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/gala/interiors/eletto_ceramica_gala_10220_566854_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/gala/tovars/eletto_ceramica_gala_87010_417051_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/gala/tovars/eletto_ceramica_gala_87011_297599_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/gala/tovars/eletto_ceramica_gala_87012_77329_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/gala/tovars/eletto_ceramica_gala_87013_374692_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/gala/tovars/eletto_ceramica_gala_88980_135067_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/gala/tovars/eletto_ceramica_gala_88981_745988_300x0.jpg'],
-},{Сollection: gala_ivory,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'gala_ivory',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/gala_ivory/interiors/eletto_ceramica_gala_ivory_11653_11061_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/gala_ivory/interiors/eletto_ceramica_gala_ivory_11653_11061_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/gala_ivory/interiors/eletto_ceramica_gala_ivory_11653_219084_0x300.jpg',
@@ -7072,40 +6729,34 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/gala_ivory/interiors/eletto_ceramica_gala_ivory_11653_65806_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/gala_ivory/interiors/eletto_ceramica_gala_ivory_11653_694359_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/gala_ivory/tovars/eletto_ceramica_gala_ivory_95984_673322_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/gala_ivory/tovars/eletto_ceramica_gala_ivory_95985_659322_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/gala_ivory/tovars/eletto_ceramica_gala_ivory_95986_104384_300x0.jpg',
-'../src/images/catalog/eletto_ceramica/gala_ivory/tovars/eletto_ceramica_gala_ivory_95987_370671_300x0.jpg',
--grey_portogallo,
-
-'../src/images/catalog/eletto_ceramica/grey_portogallo..,
-
-
+'../src/images/catalog/eletto_ceramica/gala_ivory/tovars/eletto_ceramica_gala_ivory_95987_370671_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'grey_portogallo',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/grey_portogallo/interiors/eletto_ceramica_grey_portogallo_14860_25149_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/grey_portogallo/interiors/eletto_ceramica_grey_portogallo_14860_430159_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/grey_portogallo/interiors/eletto_ceramica_grey_portogallo_14860_430159_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/grey_portogallo/interiors/eletto_ceramica_grey_portogallo_14860_956632_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/grey_portogallo/tovars/eletto_ceramica_grey_portogallo_113437_671777_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/grey_portogallo/tovars/eletto_ceramica_grey_portogallo_113438_857865_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/grey_portogallo/tovars/eletto_ceramica_grey_portogallo_113439_263577_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/grey_portogallo/tovars/eletto_ceramica_grey_portogallo_113440_528882_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/grey_portogallo/tovars/eletto_ceramica_grey_portogallo_113444_65263_300x0.jpg'],
-},{Сollection: insignia
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'insignia',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/insignia/interiors/eletto_ceramica_insignia_11976_136582_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/insignia/interiors/eletto_ceramica_insignia_11976_236721_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/insignia/interiors/eletto_ceramica_insignia_11976_324682_0x300.jpg',
@@ -7117,8 +6768,6 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/insignia/interiors/eletto_ceramica_insignia_11976_690754_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/insignia/interiors/eletto_ceramica_insignia_11976_834247_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/insignia/tovars/eletto_ceramica_insignia_97898_241349_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/insignia/tovars/eletto_ceramica_insignia_97899_254586_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/insignia/tovars/eletto_ceramica_insignia_97900_126945_300x0.jpg',
@@ -7133,14 +6782,14 @@ tovars:  [
 '../src/images/catalog/eletto_ceramica/insignia/tovars/eletto_ceramica_insignia_97909_115320_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/insignia/tovars/eletto_ceramica_insignia_97910_842647_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/insignia/tovars/eletto_ceramica_insignia_97911_527674_300x0.jpg'],
-},{Сollection: levanto_nero,
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'levanto_nero',
 
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/levanto_nero/interiors/eletto_ceramica_levanto_nero_11654_316585_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/levanto_nero/interiors/eletto_ceramica_levanto_nero_11654_316585_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/levanto_nero/interiors/eletto_ceramica_levanto_nero_11654_431614_0x300.jpg',
@@ -7151,19 +6800,17 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/levanto_nero/interiors/eletto_ceramica_levanto_nero_11654_857003_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/levanto_nero/interiors/eletto_ceramica_levanto_nero_11654_930020_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/levanto_nero/tovars/eletto_ceramica_levanto_nero_95988_662621_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/levanto_nero/tovars/eletto_ceramica_levanto_nero_95989_545407_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/levanto_nero/tovars/eletto_ceramica_levanto_nero_95990_737656_300x0.jpg'],
-},{Сollection: limestone,
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'limestone',
 
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/limestone/interiors/eletto_ceramica_limestone_18371_141585_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/limestone/interiors/eletto_ceramica_limestone_18371_158421_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/limestone/interiors/eletto_ceramica_limestone_18371_304287_0x300.jpg',
@@ -7175,8 +6822,6 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/limestone/interiors/eletto_ceramica_limestone_18371_818378_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/limestone/interiors/eletto_ceramica_limestone_18371_818378_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/limestone/tovars/eletto_ceramica_limestone_127240_120290_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/limestone/tovars/eletto_ceramica_limestone_127241_21575_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/limestone/tovars/eletto_ceramica_limestone_127242_104182_300x0.jpg',
@@ -7187,14 +6832,13 @@ tovars:  [
 '../src/images/catalog/eletto_ceramica/limestone/tovars/eletto_ceramica_limestone_127247_683214_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/limestone/tovars/eletto_ceramica_limestone_127248_425287_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/limestone/tovars/eletto_ceramica_limestone_127249_980687_300x0.jpg'],
-},{Сollection: lunario
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'lunario',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/lunario/interiors/eletto_ceramica_lunario_18291_175806_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/lunario/interiors/eletto_ceramica_lunario_18291_449829_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/lunario/interiors/eletto_ceramica_lunario_18291_47898_0x300.jpg',
@@ -7205,20 +6849,17 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/lunario/interiors/eletto_ceramica_lunario_18291_876852_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/lunario/interiors/eletto_ceramica_lunario_18291_89275_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/lunario/tovars/eletto_ceramica_lunario_126875_432344_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/lunario/tovars/eletto_ceramica_lunario_126876_187303_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/lunario/tovars/eletto_ceramica_lunario_126877_354452_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/lunario/tovars/eletto_ceramica_lunario_126878_310887_300x0.jpg'],
-},{Сollection: malwiya
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'malwiya',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/malwiya/interiors/eletto_ceramica_malwiya_8716_213511_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/malwiya/interiors/eletto_ceramica_malwiya_8716_480453_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/malwiya/interiors/eletto_ceramica_malwiya_8716_499773_0x300.jpg',
@@ -7226,8 +6867,6 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/malwiya/interiors/eletto_ceramica_malwiya_8716_587920_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/malwiya/interiors/eletto_ceramica_malwiya_8716_709768_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/malwiya/tovars/eletto_ceramica_malwiya_74578_133514_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/malwiya/tovars/eletto_ceramica_malwiya_74579_140937_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/malwiya/tovars/eletto_ceramica_malwiya_74580_223197_300x0.jpg',
@@ -7238,22 +6877,19 @@ tovars:  [
 '../src/images/catalog/eletto_ceramica/malwiya/tovars/eletto_ceramica_malwiya_74587_796356_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/malwiya/tovars/eletto_ceramica_malwiya_80634_559720_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/malwiya/tovars/eletto_ceramica_malwiya_80635_416398_300x0.jpg'],
-},{Сollection: odense
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'odense',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/odense/interiors/eletto_ceramica_odense_8717_325019_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/odense/interiors/eletto_ceramica_odense_8717_325019_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/odense/interiors/eletto_ceramica_odense_8717_337954_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/odense/interiors/eletto_ceramica_odense_8717_427034_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/odense/interiors/eletto_ceramica_odense_8717_477130_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/odense/tovars/eletto_ceramica_odense_74588_279583_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/odense/tovars/eletto_ceramica_odense_74589_133242_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/odense/tovars/eletto_ceramica_odense_74590_911426_300x0.jpg',
@@ -7264,32 +6900,29 @@ tovars:  [
 '../src/images/catalog/eletto_ceramica/odense/tovars/eletto_ceramica_odense_74595_649893_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/odense/tovars/eletto_ceramica_odense_83017_235378_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/odense/tovars/eletto_ceramica_odense_83018_678958_300x0.jpg'],
-},{Сollection: old_tjikko,
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'old_tjikko',
 
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/old_tjikko/interiors/eletto_ceramica_old_tjikko_8718_61328_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/old_tjikko/interiors/eletto_ceramica_old_tjikko_8718_61328_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/old_tjikko/interiors/eletto_ceramica_old_tjikko_8718_894352_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/old_tjikko/tovars/eletto_ceramica_old_tjikko_74598_769333_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/old_tjikko/tovars/eletto_ceramica_old_tjikko_74599_508363_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/old_tjikko/tovars/eletto_ceramica_old_tjikko_74600_481606_300x0.jpg',
-'../src/images/catalog/eletto_ceramica/old_tjikko/tovars/eletto_ceramica_old_tjikko_82984_457057_300x0.jpg',
--rosa_portogallo,
-
-'../src/images/catalog/eletto_ceramica/rosa_portogallo..,
-
-
+'../src/images/catalog/eletto_ceramica/old_tjikko/tovars/eletto_ceramica_old_tjikko_82984_457057_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'rosa_portogallo',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/interiors/eletto_ceramica_rosa_portogallo_11655_723469_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/interiors/eletto_ceramica_rosa_portogallo_11655_723469_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/interiors/eletto_ceramica_rosa_portogallo_11655_787974_0x300.jpg',
@@ -7298,8 +6931,6 @@ interiors: [
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/interiors/eletto_ceramica_rosa_portogallo_11655_913912_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/interiors/eletto_ceramica_rosa_portogallo_11655_915878_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/tovars/eletto_ceramica_rosa_portogallo_113441_773096_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/tovars/eletto_ceramica_rosa_portogallo_113442_316820_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/tovars/eletto_ceramica_rosa_portogallo_113445_963206_300x0.jpg',
@@ -7307,22 +6938,19 @@ tovars:  [
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/tovars/eletto_ceramica_rosa_portogallo_95992_277748_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/tovars/eletto_ceramica_rosa_portogallo_95993_413502_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/rosa_portogallo/tovars/eletto_ceramica_rosa_portogallo_95994_894700_300x0.jpg'],
-},{Сollection: trevi
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'Eletto_ceramica', 
+    Сollection: 'trevi',
 interiors: [
-
-
 '../src/images/catalog/eletto_ceramica/trevi/interiors/eletto_ceramica_trevi_9627_19875_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/trevi/interiors/eletto_ceramica_trevi_9627_564098_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/trevi/interiors/eletto_ceramica_trevi_9627_564098_0x500.jpg',
 '../src/images/catalog/eletto_ceramica/trevi/interiors/eletto_ceramica_trevi_9627_605565_0x300.jpg',
 '../src/images/catalog/eletto_ceramica/trevi/interiors/eletto_ceramica_trevi_9627_960359_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/eletto_ceramica/trevi/tovars/eletto_ceramica_trevi_83006_432172_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/trevi/tovars/eletto_ceramica_trevi_83007_685822_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/trevi/tovars/eletto_ceramica_trevi_83008_254985_300x0.jpg',
@@ -7330,91 +6958,36 @@ tovars:  [
 '../src/images/catalog/eletto_ceramica/trevi/tovars/eletto_ceramica_trevi_83010_263054_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/trevi/tovars/eletto_ceramica_trevi_83011_160475_300x0.jpg',
 '../src/images/catalog/eletto_ceramica/trevi/tovars/eletto_ceramica_trevi_83012_600165_300x0.jpg',
-'../src/images/catalog/eletto_ceramica/trevi/tovars/eletto_ceramica_trevi_83013_233740_300x0.jpg',
--universalnaya_plitka,
-
-'../src/images/catalog/eletto_ceramica/universalnaya_plitka..,
-
-tovars:  [
-
-
-'../src/images/catalog/eletto_ceramica/universalnaya_plitka/tovars/eletto_ceramica_universalnaya_plitka_95981_554756_300x0.jpg',
-'../src/images/catalog/eletto_ceramica/universalnaya_plitka/tovars/eletto_ceramica_universalnaya_plitka_95982_583948_300x0.jpg'],
-},{Сollection: estima'../src/images/catalog/estima.
-'../src/images/catalog/estima..
-'../src/images/catalog/estimaaglomerat
-'../src/images/catalog/estimaalba
-'../src/images/catalog/estimaartwood
-'../src/images/catalog/estimabernini
-'../src/images/catalog/estimabrigantina
-'../src/images/catalog/estimacave
-'../src/images/catalog/estimachambord
-'../src/images/catalog/estimaclassic_wood
-'../src/images/catalog/estimacomfort
-'../src/images/catalog/estimacosmos
-'../src/images/catalog/estimafusion
-'../src/images/catalog/estimagabbro
-'../src/images/catalog/estimagobi
-'../src/images/catalog/estimagraffito
-'../src/images/catalog/estimaideal
-'../src/images/catalog/estimaimprove
-'../src/images/catalog/estimairon
-'../src/images/catalog/estimajazz
-'../src/images/catalog/estimakraft_wood
-'../src/images/catalog/estimaloft
-'../src/images/catalog/estimaluna
-'../src/images/catalog/estimamild
-'../src/images/catalog/estimamiramare
-'../src/images/catalog/estimamontis
-'../src/images/catalog/estimanolana
-'../src/images/catalog/estimarainbow
-'../src/images/catalog/estimasherwood
-'../src/images/catalog/estimasoft_wood
-'../src/images/catalog/estimastandard
-'../src/images/catalog/estimatechnica_standard
-'../src/images/catalog/estimaterra
-'../src/images/catalog/estimatottori
-'../src/images/catalog/estimatraffic
-'../src/images/catalog/estimatramontana
-'../src/images/catalog/estimavision
-'../src/images/catalog/estimayourcolor
-],
-},{Сollection: aglomerat,
-
-
-
-
-,
+'../src/images/catalog/eletto_ceramica/trevi/tovars/eletto_ceramica_trevi_83013_233740_300x0.jpg'],
+},{
+    id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'aglomerat',
 interiors: [
-
-
 '../src/images/catalog/estima/aglomerat/interiors/estima_aglomerat_3646_691883_0x300.jpg',
-'../src/images/catalog/estima/aglomerat/interiors/estima_aglomerat_3646_691883_0x500.jpg',
-],
+'../src/images/catalog/estima/aglomerat/interiors/estima_aglomerat_3646_691883_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/aglomerat/tovars/estima_aglomerat_24438_685812_300x0.jpg',
 '../src/images/catalog/estima/aglomerat/tovars/estima_aglomerat_24439_926556_300x0.jpg',
 '../src/images/catalog/estima/aglomerat/tovars/estima_aglomerat_81850_360382_300x0.jpg',
 '../src/images/catalog/estima/aglomerat/tovars/estima_aglomerat_81851_122956_300x0.jpg',
 '../src/images/catalog/estima/aglomerat/tovars/estima_aglomerat_96438_373854_300x0.jpg',
 '../src/images/catalog/estima/aglomerat/tovars/estima_aglomerat_96439_313733_300x0.jpg'],
-},{Сollection: alba
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'alba',
 interiors: [
-
-
 '../src/images/catalog/estima/alba/interiors/estima_alba_10812_114380_0x300.jpg',
 '../src/images/catalog/estima/alba/interiors/estima_alba_10812_837479_0x300.jpg',
 '../src/images/catalog/estima/alba/interiors/estima_alba_10812_837479_0x500.jpg',
 '../src/images/catalog/estima/alba/interiors/estima_alba_10812_970907_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/alba/tovars/estima_alba_91203_112136_300x0.jpg',
 '../src/images/catalog/estima/alba/tovars/estima_alba_91204_714619_300x0.jpg',
 '../src/images/catalog/estima/alba/tovars/estima_alba_91205_148821_300x0.jpg',
@@ -7433,29 +7006,25 @@ tovars:  [
 '../src/images/catalog/estima/alba/tovars/estima_alba_91221_827554_300x0.jpg',
 '../src/images/catalog/estima/alba/tovars/estima_alba_98172_213818_300x0.jpg',
 '../src/images/catalog/estima/alba/tovars/estima_alba_98173_841845_300x0.jpg'],
-},{Сollection: artwood
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'artwood',
 interiors: [
-
-
 '../src/images/catalog/estima/artwood/interiors/estima_artwood_4329_332281_0x300.jpg',
 '../src/images/catalog/estima/artwood/interiors/estima_artwood_4329_332281_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/artwood/tovars/estima_artwood_30784_112889_300x0.jpg',
 '../src/images/catalog/estima/artwood/tovars/estima_artwood_30786_614576_300x0.jpg'],
-},{Сollection: bernini
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'bernini',
 interiors: [
-
-
 '../src/images/catalog/estima/bernini/interiors/estima_bernini_14421_112396_0x300.jpg',
 '../src/images/catalog/estima/bernini/interiors/estima_bernini_14421_137972_0x300.jpg',
 '../src/images/catalog/estima/bernini/interiors/estima_bernini_14421_181821_0x300.jpg',
@@ -7481,8 +7050,6 @@ interiors: [
 '../src/images/catalog/estima/bernini/interiors/estima_bernini_14421_956321_0x300.jpg',
 '../src/images/catalog/estima/bernini/interiors/estima_bernini_14421_987592_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/bernini/tovars/estima_bernini_111634_125120_300x0.jpg',
 '../src/images/catalog/estima/bernini/tovars/estima_bernini_111635_958423_300x0.jpg',
 '../src/images/catalog/estima/bernini/tovars/estima_bernini_111636_644614_300x0.jpg',
@@ -7535,20 +7102,16 @@ tovars:  [
 '../src/images/catalog/estima/bernini/tovars/estima_bernini_111753_980881_300x0.jpg',
 '../src/images/catalog/estima/bernini/tovars/estima_bernini_111754_399913_300x0.jpg',
 '../src/images/catalog/estima/bernini/tovars/estima_bernini_111755_310563_300x0.jpg'],
-},{Сollection: brigantina,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'brigantina',
 interiors: [
-
-
 '../src/images/catalog/estima/brigantina/interiors/estima_brigantina_3265_171878_0x300.jpg',
 '../src/images/catalog/estima/brigantina/interiors/estima_brigantina_3265_171878_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/brigantina/tovars/estima_brigantina_24415_425937_300x0.jpg',
 '../src/images/catalog/estima/brigantina/tovars/estima_brigantina_24416_551523_300x0.jpg',
 '../src/images/catalog/estima/brigantina/tovars/estima_brigantina_24418_629201_300x0.jpg',
@@ -7571,19 +7134,16 @@ tovars:  [
 '../src/images/catalog/estima/brigantina/tovars/estima_brigantina_91244_805525_300x0.jpg',
 '../src/images/catalog/estima/brigantina/tovars/estima_brigantina_91245_14751_300x0.jpg',
 '../src/images/catalog/estima/brigantina/tovars/estima_brigantina_91246_787947_300x0.jpg'],
-},{Сollection: cave
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'cave',
 interiors: [
-
-
 '../src/images/catalog/estima/cave/interiors/estima_cave_16202_926716_0x300.jpg',
 '../src/images/catalog/estima/cave/interiors/estima_cave_16202_926716_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/cave/tovars/estima_cave_119671_68184_300x0.jpg',
 '../src/images/catalog/estima/cave/tovars/estima_cave_119672_276180_300x0.jpg',
 '../src/images/catalog/estima/cave/tovars/estima_cave_119673_300852_300x0.jpg',
@@ -7614,36 +7174,29 @@ tovars:  [
 '../src/images/catalog/estima/cave/tovars/estima_cave_129338_520923_300x0.jpg',
 '../src/images/catalog/estima/cave/tovars/estima_cave_129339_462098_300x0.jpg',
 '../src/images/catalog/estima/cave/tovars/estima_cave_129340_45639_300x0.jpg'],
-},{Сollection: chambord
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'chambord',
 interiors: [
-
-
 '../src/images/catalog/estima/chambord/interiors/estima_chambord_5585_750321_0x300.jpg',
 '../src/images/catalog/estima/chambord/interiors/estima_chambord_5585_750321_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/chambord/tovars/estima_chambord_44101_731053_300x0.jpg'],
-},{Сollection: classic_wood,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'classic_wood',
 interiors: [
-
-
 '../src/images/catalog/estima/classic_wood/interiors/estima_classic_wood_12016_425005_0x300.jpg',
 '../src/images/catalog/estima/classic_wood/interiors/estima_classic_wood_12016_85982_0x300.jpg',
 '../src/images/catalog/estima/classic_wood/interiors/estima_classic_wood_12016_85982_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima/classic_wood/tovars/estima_classic_wood_120148_156906_300x0.jpg',
 '../src/images/catalog/estima/classic_wood/tovars/estima_classic_wood_120149_210462_300x0.jpg',
 '../src/images/catalog/estima/classic_wood/tovars/estima_classic_wood_120150_403255_300x0.jpg',
@@ -7664,29 +7217,25 @@ tovars:  [
 '../src/images/catalog/estima/classic_wood/tovars/estima_classic_wood_98303_101716_300x0.jpg',
 '../src/images/catalog/estima/classic_wood/tovars/estima_classic_wood_98304_236273_300x0.jpg',
 '../src/images/catalog/estima/classic_wood/tovars/estima_classic_wood_98305_293386_300x0.jpg'],
-},{Сollection: comfort
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'comfort',
 interiors: [
-
-
 '../src/images/catalog/estima/comfort/interiors/estima_comfort_489_214155_0x300.jpg',
 '../src/images/catalog/estima/comfort/interiors/estima_comfort_489_214155_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/comfort/tovars/estima_comfort_28971_897390_300x0.jpg',
 '../src/images/catalog/estima/comfort/tovars/estima_comfort_82503_428517_300x0.jpg'],
-},{Сollection: cosmos
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'cosmos',
 interiors: [
-
-
 '../src/images/catalog/estima/cosmos/interiors/estima_cosmos_11749_13586_0x300.jpg',
 '../src/images/catalog/estima/cosmos/interiors/estima_cosmos_11749_176774_0x300.jpg',
 '../src/images/catalog/estima/cosmos/interiors/estima_cosmos_11749_456878_0x300.jpg',
@@ -7697,8 +7246,6 @@ interiors: [
 '../src/images/catalog/estima/cosmos/interiors/estima_cosmos_11749_766205_0x300.jpg',
 '../src/images/catalog/estima/cosmos/interiors/estima_cosmos_11749_786653_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/cosmos/tovars/estima_cosmos_100893_825943_300x0.jpg',
 '../src/images/catalog/estima/cosmos/tovars/estima_cosmos_100894_567814_300x0.jpg',
 '../src/images/catalog/estima/cosmos/tovars/estima_cosmos_100895_946221_300x0.jpg',
@@ -7720,37 +7267,31 @@ tovars:  [
 '../src/images/catalog/estima/cosmos/tovars/estima_cosmos_98180_203036_300x0.jpg',
 '../src/images/catalog/estima/cosmos/tovars/estima_cosmos_98181_498305_300x0.jpg',
 '../src/images/catalog/estima/cosmos/tovars/estima_cosmos_98182_908792_300x0.jpg'],
-},{Сollection: fusion
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'fusion',
 interiors: [
-
-
 '../src/images/catalog/estima/fusion/interiors/estima_fusion_5588_97365_0x300.jpg',
 '../src/images/catalog/estima/fusion/interiors/estima_fusion_5588_97365_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/fusion/tovars/estima_fusion_44111_494725_300x0.jpg',
 '../src/images/catalog/estima/fusion/tovars/estima_fusion_81889_849065_300x0.jpg',
 '../src/images/catalog/estima/fusion/tovars/estima_fusion_98186_897761_300x0.jpg',
 '../src/images/catalog/estima/fusion/tovars/estima_fusion_98187_615899_300x0.jpg'],
-},{Сollection: gabbro
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'gabbro',
 interiors: [
-
-
 '../src/images/catalog/estima/gabbro/interiors/estima_gabbro_12017_338870_0x300.jpg',
 '../src/images/catalog/estima/gabbro/interiors/estima_gabbro_12017_338870_0x500.jpg',
 '../src/images/catalog/estima/gabbro/interiors/estima_gabbro_12017_395177_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/gabbro/tovars/estima_gabbro_100896_281375_300x0.jpg',
 '../src/images/catalog/estima/gabbro/tovars/estima_gabbro_100897_328894_300x0.jpg',
 '../src/images/catalog/estima/gabbro/tovars/estima_gabbro_100898_644975_300x0.jpg',
@@ -7787,19 +7328,16 @@ tovars:  [
 '../src/images/catalog/estima/gabbro/tovars/estima_gabbro_98331_876647_300x0.jpg',
 '../src/images/catalog/estima/gabbro/tovars/estima_gabbro_98332_55691_300x0.jpg',
 '../src/images/catalog/estima/gabbro/tovars/estima_gabbro_98333_427229_300x0.jpg'],
-},{Сollection: gobi
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'gobi',
 interiors: [
-
-
 '../src/images/catalog/estima/gobi/interiors/estima_gobi_16203_885445_0x300.jpg',
 '../src/images/catalog/estima/gobi/interiors/estima_gobi_16203_885445_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/gobi/tovars/estima_gobi_119677_592436_300x0.jpg',
 '../src/images/catalog/estima/gobi/tovars/estima_gobi_119678_605864_300x0.jpg',
 '../src/images/catalog/estima/gobi/tovars/estima_gobi_119679_154030_300x0.jpg',
@@ -7815,20 +7353,17 @@ tovars:  [
 '../src/images/catalog/estima/gobi/tovars/estima_gobi_120159_391937_300x0.jpg',
 '../src/images/catalog/estima/gobi/tovars/estima_gobi_120160_51687_300x0.jpg',
 '../src/images/catalog/estima/gobi/tovars/estima_gobi_120161_582712_300x0.jpg'],
-},{Сollection: graffito
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'graffito',
 interiors: [
-
-
 '../src/images/catalog/estima/graffito/interiors/estima_graffito_18701_252228_0x300.jpg',
 '../src/images/catalog/estima/graffito/interiors/estima_graffito_18701_252228_0x500.jpg',
 '../src/images/catalog/estima/graffito/interiors/estima_graffito_18701_894804_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/graffito/tovars/estima_graffito_129341_514986_300x0.jpg',
 '../src/images/catalog/estima/graffito/tovars/estima_graffito_129342_503247_300x0.jpg',
 '../src/images/catalog/estima/graffito/tovars/estima_graffito_129343_850106_300x0.jpg',
@@ -7843,21 +7378,18 @@ tovars:  [
 '../src/images/catalog/estima/graffito/tovars/estima_graffito_129352_65143_300x0.jpg',
 '../src/images/catalog/estima/graffito/tovars/estima_graffito_129353_649206_300x0.jpg',
 '../src/images/catalog/estima/graffito/tovars/estima_graffito_129354_895294_300x0.jpg'],
-},{Сollection: ideal
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'ideal',
 interiors: [
-
-
 '../src/images/catalog/estima/ideal/interiors/estima_ideal_8897_220429_0x300.jpg',
 '../src/images/catalog/estima/ideal/interiors/estima_ideal_8897_220429_0x500.jpg',
 '../src/images/catalog/estima/ideal/interiors/estima_ideal_8897_405842_0x300.jpg',
 '../src/images/catalog/estima/ideal/interiors/estima_ideal_8897_544460_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/ideal/tovars/estima_ideal_76016_50796_300x0.jpg',
 '../src/images/catalog/estima/ideal/tovars/estima_ideal_76017_680027_300x0.jpg',
 '../src/images/catalog/estima/ideal/tovars/estima_ideal_76018_930986_300x0.jpg',
@@ -7873,21 +7405,18 @@ tovars:  [
 '../src/images/catalog/estima/ideal/tovars/estima_ideal_98189_865991_300x0.jpg',
 '../src/images/catalog/estima/ideal/tovars/estima_ideal_98190_838952_300x0.jpg',
 '../src/images/catalog/estima/ideal/tovars/estima_ideal_98191_726568_300x0.jpg'],
-},{Сollection: improve
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'improve',
 interiors: [
-
-
 '../src/images/catalog/estima/improve/interiors/estima_improve_18702_450431_0x300.jpg',
 '../src/images/catalog/estima/improve/interiors/estima_improve_18702_479163_0x300.jpg',
 '../src/images/catalog/estima/improve/interiors/estima_improve_18702_479163_0x500.jpg',
 '../src/images/catalog/estima/improve/interiors/estima_improve_18702_484969_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/improve/tovars/estima_improve_129355_41491_300x0.jpg',
 '../src/images/catalog/estima/improve/tovars/estima_improve_129356_645955_300x0.jpg',
 '../src/images/catalog/estima/improve/tovars/estima_improve_129357_537531_300x0.jpg',
@@ -7896,37 +7425,31 @@ tovars:  [
 '../src/images/catalog/estima/improve/tovars/estima_improve_129360_516914_300x0.jpg',
 '../src/images/catalog/estima/improve/tovars/estima_improve_129361_903503_300x0.jpg',
 '../src/images/catalog/estima/improve/tovars/estima_improve_129362_877934_300x0.jpg'],
-},{Сollection: iron
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'iron',
 interiors: [
-
-
 '../src/images/catalog/estima/iron/interiors/estima_iron_5590_191796_0x300.jpg',
 '../src/images/catalog/estima/iron/interiors/estima_iron_5590_225227_0x300.jpg',
 '../src/images/catalog/estima/iron/interiors/estima_iron_5590_225227_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/iron/tovars/estima_iron_44118_244623_300x0.jpg',
 '../src/images/catalog/estima/iron/tovars/estima_iron_75987_343251_300x0.jpg',
 '../src/images/catalog/estima/iron/tovars/estima_iron_98192_575938_300x0.jpg',
 '../src/images/catalog/estima/iron/tovars/estima_iron_98193_578580_300x0.jpg'],
-},{Сollection: jazz
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'jazz',
 interiors: [
-
-
 '../src/images/catalog/estima/jazz/interiors/estima_jazz_171_178396_0x300.jpg',
 '../src/images/catalog/estima/jazz/interiors/estima_jazz_171_178396_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/jazz/tovars/estima_jazz_35770_96711_300x0.jpg',
 '../src/images/catalog/estima/jazz/tovars/estima_jazz_35771_946560_300x0.jpg',
 '../src/images/catalog/estima/jazz/tovars/estima_jazz_35772_846022_300x0.jpg',
@@ -7951,22 +7474,19 @@ tovars:  [
 '../src/images/catalog/estima/jazz/tovars/estima_jazz_91267_682964_300x0.jpg',
 '../src/images/catalog/estima/jazz/tovars/estima_jazz_91268_280200_300x0.jpg',
 '../src/images/catalog/estima/jazz/tovars/estima_jazz_91269_984468_300x0.jpg'],
-},{Сollection: kraft_wood,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'kraft_wood',
 ,
 interiors: [
-
-
 '../src/images/catalog/estima/kraft_wood/interiors/estima_kraft_wood_18703_186782_0x300.jpg',
 '../src/images/catalog/estima/kraft_wood/interiors/estima_kraft_wood_18703_186782_0x500.jpg',
 '../src/images/catalog/estima/kraft_wood/interiors/estima_kraft_wood_18703_238195_0x300.jpg',
 '../src/images/catalog/estima/kraft_wood/interiors/estima_kraft_wood_18703_265277_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/kraft_wood/tovars/estima_kraft_wood_129363_361618_300x0.jpg',
 '../src/images/catalog/estima/kraft_wood/tovars/estima_kraft_wood_129364_833101_300x0.jpg',
 '../src/images/catalog/estima/kraft_wood/tovars/estima_kraft_wood_129365_597773_300x0.jpg',
@@ -7991,19 +7511,16 @@ tovars:  [
 '../src/images/catalog/estima/kraft_wood/tovars/estima_kraft_wood_129384_582994_300x0.jpg',
 '../src/images/catalog/estima/kraft_wood/tovars/estima_kraft_wood_129385_678313_300x0.jpg',
 '../src/images/catalog/estima/kraft_wood/tovars/estima_kraft_wood_129386_924439_300x0.jpg'],
-},{Сollection: loft
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'loft',
 interiors: [
-
-
 '../src/images/catalog/estima/loft/interiors/estima_loft_3388_565535_0x300.jpg',
 '../src/images/catalog/estima/loft/interiors/estima_loft_3388_565535_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/loft/tovars/estima_loft_30814_134421_300x0.jpg',
 '../src/images/catalog/estima/loft/tovars/estima_loft_30815_784561_300x0.jpg',
 '../src/images/catalog/estima/loft/tovars/estima_loft_30816_507311_300x0.jpg',
@@ -8043,21 +7560,18 @@ tovars:  [
 '../src/images/catalog/estima/loft/tovars/estima_loft_98201_151240_300x0.jpg',
 '../src/images/catalog/estima/loft/tovars/estima_loft_98202_105014_300x0.jpg',
 '../src/images/catalog/estima/loft/tovars/estima_loft_98203_852854_300x0.jpg'],
-},{Сollection: luna
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'luna',
 interiors: [
-
-
 '../src/images/catalog/estima/luna/interiors/estima_luna_10811_327283_0x300.jpg',
 '../src/images/catalog/estima/luna/interiors/estima_luna_10811_327283_0x500.jpg',
 '../src/images/catalog/estima/luna/interiors/estima_luna_10811_789966_0x300.jpg',
 '../src/images/catalog/estima/luna/interiors/estima_luna_10811_888760_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/luna/tovars/estima_luna_91155_777599_300x0.jpg',
 '../src/images/catalog/estima/luna/tovars/estima_luna_91156_725091_300x0.jpg',
 '../src/images/catalog/estima/luna/tovars/estima_luna_91157_362787_300x0.jpg',
@@ -8120,19 +7634,16 @@ tovars:  [
 '../src/images/catalog/estima/luna/tovars/estima_luna_98228_861312_300x0.jpg',
 '../src/images/catalog/estima/luna/tovars/estima_luna_98229_322998_300x0.jpg',
 '../src/images/catalog/estima/luna/tovars/estima_luna_98230_552448_300x0.jpg'],
-},{Сollection: mild
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'mild',
 interiors: [
-
-
 '../src/images/catalog/estima/mild/interiors/estima_mild_3645_260108_0x300.jpg',
 '../src/images/catalog/estima/mild/interiors/estima_mild_3645_260108_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/mild/tovars/estima_mild_24432_472370_300x0.jpg',
 '../src/images/catalog/estima/mild/tovars/estima_mild_24436_994288_300x0.jpg',
 '../src/images/catalog/estima/mild/tovars/estima_mild_27668_330351_300x0.jpg',
@@ -8142,20 +7653,17 @@ tovars:  [
 '../src/images/catalog/estima/mild/tovars/estima_mild_35797_906456_300x0.jpg',
 '../src/images/catalog/estima/mild/tovars/estima_mild_35799_482808_300x0.jpg',
 '../src/images/catalog/estima/mild/tovars/estima_mild_35800_825015_300x0.jpg'],
-},{Сollection: miramare
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'miramare',
 interiors: [
-
-
 '../src/images/catalog/estima/miramare/interiors/estima_miramare_18705_519407_0x300.jpg',
 '../src/images/catalog/estima/miramare/interiors/estima_miramare_18705_519407_0x500.jpg',
 '../src/images/catalog/estima/miramare/interiors/estima_miramare_18705_635190_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/miramare/tovars/estima_miramare_129431_650882_300x0.jpg',
 '../src/images/catalog/estima/miramare/tovars/estima_miramare_129432_858624_300x0.jpg',
 '../src/images/catalog/estima/miramare/tovars/estima_miramare_129433_275013_300x0.jpg',
@@ -8165,20 +7673,17 @@ tovars:  [
 '../src/images/catalog/estima/miramare/tovars/estima_miramare_129437_910152_300x0.jpg',
 '../src/images/catalog/estima/miramare/tovars/estima_miramare_129438_386832_300x0.jpg',
 '../src/images/catalog/estima/miramare/tovars/estima_miramare_129439_196658_300x0.jpg'],
-},{Сollection: montis
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'montis',
 interiors: [
-
-
 '../src/images/catalog/estima/montis/interiors/estima_montis_10809_43176_0x300.jpg',
 '../src/images/catalog/estima/montis/interiors/estima_montis_10809_43176_0x500.jpg',
 '../src/images/catalog/estima/montis/interiors/estima_montis_10809_685063_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/montis/tovars/estima_montis_91124_687766_300x0.jpg',
 '../src/images/catalog/estima/montis/tovars/estima_montis_91125_654307_300x0.jpg',
 '../src/images/catalog/estima/montis/tovars/estima_montis_91126_797330_300x0.jpg',
@@ -8197,20 +7702,17 @@ tovars:  [
 '../src/images/catalog/estima/montis/tovars/estima_montis_91142_380923_300x0.jpg',
 '../src/images/catalog/estima/montis/tovars/estima_montis_98231_949083_300x0.jpg',
 '../src/images/catalog/estima/montis/tovars/estima_montis_98232_464240_300x0.jpg'],
-},{Сollection: nolana
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'nolana',
 interiors: [
-
-
 '../src/images/catalog/estima/nolana/interiors/estima_nolana_18704_601749_0x300.jpg',
 '../src/images/catalog/estima/nolana/interiors/estima_nolana_18704_601749_0x500.jpg',
 '../src/images/catalog/estima/nolana/interiors/estima_nolana_18704_913786_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/nolana/tovars/estima_nolana_129388_888451_300x0.jpg',
 '../src/images/catalog/estima/nolana/tovars/estima_nolana_129389_478540_300x0.jpg',
 '../src/images/catalog/estima/nolana/tovars/estima_nolana_129390_130232_300x0.jpg',
@@ -8254,19 +7756,16 @@ tovars:  [
 '../src/images/catalog/estima/nolana/tovars/estima_nolana_129428_392922_300x0.jpg',
 '../src/images/catalog/estima/nolana/tovars/estima_nolana_129429_879852_300x0.jpg',
 '../src/images/catalog/estima/nolana/tovars/estima_nolana_129430_366864_300x0.jpg'],
-},{Сollection: rainbow
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'rainbow',
 interiors: [
-
-
 '../src/images/catalog/estima/rainbow/interiors/estima_rainbow_164_798742_0x300.jpg',
 '../src/images/catalog/estima/rainbow/interiors/estima_rainbow_164_798742_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/rainbow/tovars/estima_rainbow_13518_674395_300x0.jpg',
 '../src/images/catalog/estima/rainbow/tovars/estima_rainbow_13520_782182_300x0.jpg',
 '../src/images/catalog/estima/rainbow/tovars/estima_rainbow_13522_716974_300x0.jpg',
@@ -8310,34 +7809,23 @@ tovars:  [
 '../src/images/catalog/estima/rainbow/tovars/estima_rainbow_98244_160189_300x0.jpg',
 '../src/images/catalog/estima/rainbow/tovars/estima_rainbow_98245_879058_300x0.jpg',
 '../src/images/catalog/estima/rainbow/tovars/estima_rainbow_98246_580110_300x0.jpg'],
-},{Сollection: sherwood
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'sherwood',
 interiors: [
-
-
 '../src/images/catalog/estima/sherwood/interiors/estima_sherwood_5593_182363_0x300.jpg',
 '../src/images/catalog/estima/sherwood/interiors/estima_sherwood_5593_182363_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/sherwood/tovars/estima_sherwood_44133_692768_300x0.jpg'],
 },{Сollection: soft_wood,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/estima/soft_wood/interiors/estima_soft_wood_16204_496758_0x300.jpg',
 '../src/images/catalog/estima/soft_wood/interiors/estima_soft_wood_16204_496758_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/soft_wood/tovars/estima_soft_wood_119683_729635_300x0.jpg',
 '../src/images/catalog/estima/soft_wood/tovars/estima_soft_wood_119684_674102_300x0.jpg',
 '../src/images/catalog/estima/soft_wood/tovars/estima_soft_wood_119685_850681_300x0.jpg',
@@ -8356,14 +7844,13 @@ tovars:  [
 '../src/images/catalog/estima/soft_wood/tovars/estima_soft_wood_120174_629166_300x0.jpg',
 '../src/images/catalog/estima/soft_wood/tovars/estima_soft_wood_120175_614383_300x0.jpg',
 '../src/images/catalog/estima/soft_wood/tovars/estima_soft_wood_120176_134148_300x0.jpg'],
-},{Сollection: standard
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'standard',
 interiors: [
-
-
 '../src/images/catalog/estima/standard/interiors/estima_standard_5870_123641_0x300.jpg',
 '../src/images/catalog/estima/standard/interiors/estima_standard_5870_144380_0x300.jpg',
 '../src/images/catalog/estima/standard/interiors/estima_standard_5870_382859_0x300.jpg',
@@ -8371,8 +7858,6 @@ interiors: [
 '../src/images/catalog/estima/standard/interiors/estima_standard_5870_684849_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima/standard/tovars/estima_standard_46897_390443_300x0.jpg',
 '../src/images/catalog/estima/standard/tovars/estima_standard_46898_921861_300x0.jpg',
 '../src/images/catalog/estima/standard/tovars/estima_standard_46899_816446_300x0.jpg',
@@ -8386,39 +7871,32 @@ tovars:  [
 '../src/images/catalog/estima/standard/tovars/estima_standard_47093_661231_300x0.jpg',
 '../src/images/catalog/estima/standard/tovars/estima_standard_82158_491910_300x0.jpg',
 '../src/images/catalog/estima/standard/tovars/estima_standard_98247_883280_300x0.jpg',
-'../src/images/catalog/estima/standard/tovars/estima_standard_98249_317682_300x0.jpg',
--technica_standard,
-
-
-
-
-,
+'../src/images/catalog/estima/standard/tovars/estima_standard_98249_317682_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'technica_standard',
 interiors: [
-
-
 '../src/images/catalog/estima/technica_standard/interiors/estima_technica_standard_5869_604342_0x300.jpg',
 '../src/images/catalog/estima/technica_standard/interiors/estima_technica_standard_5869_604342_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/technica_standard/tovars/estima_technica_standard_46889_692896_300x0.jpg',
 '../src/images/catalog/estima/technica_standard/tovars/estima_technica_standard_46890_98160_300x0.jpg',
 '../src/images/catalog/estima/technica_standard/tovars/estima_technica_standard_46895_660831_300x0.jpg',
 '../src/images/catalog/estima/technica_standard/tovars/estima_technica_standard_46896_735473_300x0.jpg',
 '../src/images/catalog/estima/technica_standard/tovars/estima_technica_standard_70920_185511_300x0.jpg'],
-},{Сollection: terra
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'terra',
 interiors: [
-
-
 '../src/images/catalog/estima/terra/interiors/estima_terra_10810_736634_0x300.jpg',
 '../src/images/catalog/estima/terra/interiors/estima_terra_10810_736634_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/terra/tovars/estima_terra_91143_576406_300x0.jpg',
 '../src/images/catalog/estima/terra/tovars/estima_terra_91144_960967_300x0.jpg',
 '../src/images/catalog/estima/terra/tovars/estima_terra_91145_171443_300x0.jpg',
@@ -8454,20 +7932,17 @@ tovars:  [
 '../src/images/catalog/estima/terra/tovars/estima_terra_98267_107432_300x0.jpg',
 '../src/images/catalog/estima/terra/tovars/estima_terra_98268_537160_300x0.jpg',
 '../src/images/catalog/estima/terra/tovars/estima_terra_98269_335850_300x0.jpg'],
-},{Сollection: tottori
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'tottori',
 interiors: [
-
-
 '../src/images/catalog/estima/tottori/interiors/estima_tottori_16205_271949_0x300.jpg',
 '../src/images/catalog/estima/tottori/interiors/estima_tottori_16205_271949_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima/tottori/tovars/estima_tottori_119686_608503_300x0.jpg',
 '../src/images/catalog/estima/tottori/tovars/estima_tottori_119687_737977_300x0.jpg',
 '../src/images/catalog/estima/tottori/tovars/estima_tottori_119688_397565_300x0.jpg',
@@ -8478,14 +7953,13 @@ tovars:  [
 '../src/images/catalog/estima/tottori/tovars/estima_tottori_120180_71952_300x0.jpg',
 '../src/images/catalog/estima/tottori/tovars/estima_tottori_120181_399258_300x0.jpg',
 '../src/images/catalog/estima/tottori/tovars/estima_tottori_120182_314855_300x0.jpg'],
-},{Сollection: traffic
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'traffic',
 interiors: [
-
-
 '../src/images/catalog/estima/traffic/interiors/estima_traffic_4141_607102_0x300.jpg',
 '../src/images/catalog/estima/traffic/interiors/estima_traffic_4141_60869_0x300.jpg',
 '../src/images/catalog/estima/traffic/interiors/estima_traffic_4141_664439_0x300.jpg',
@@ -8493,8 +7967,6 @@ interiors: [
 '../src/images/catalog/estima/traffic/interiors/estima_traffic_4141_83581_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima/traffic/tovars/estima_traffic_28983_962125_300x0.jpg',
 '../src/images/catalog/estima/traffic/tovars/estima_traffic_28985_605638_300x0.jpg',
 '../src/images/catalog/estima/traffic/tovars/estima_traffic_35871_646248_300x0.jpg',
@@ -8511,15 +7983,14 @@ tovars:  [
 '../src/images/catalog/estima/traffic/tovars/estima_traffic_98251_768242_300x0.jpg',
 '../src/images/catalog/estima/traffic/tovars/estima_traffic_98252_884208_300x0.jpg',
 '../src/images/catalog/estima/traffic/tovars/estima_traffic_98253_520568_300x0.jpg'],
-},{Сollection: tramontana,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'tramontana',
 ,
 interiors: [
-
-
 '../src/images/catalog/estima/tramontana/interiors/estima_tramontana_14180_136049_0x300.jpg',
 '../src/images/catalog/estima/tramontana/interiors/estima_tramontana_14180_267859_0x300.jpg',
 '../src/images/catalog/estima/tramontana/interiors/estima_tramontana_14180_317562_0x300.jpg',
@@ -8530,8 +8001,6 @@ interiors: [
 '../src/images/catalog/estima/tramontana/interiors/estima_tramontana_14180_724966_0x300.jpg',
 '../src/images/catalog/estima/tramontana/interiors/estima_tramontana_14180_78102_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/tramontana/tovars/estima_tramontana_110764_618883_300x0.jpg',
 '../src/images/catalog/estima/tramontana/tovars/estima_tramontana_110765_725304_300x0.jpg',
 '../src/images/catalog/estima/tramontana/tovars/estima_tramontana_110766_591072_300x0.jpg',
@@ -8568,21 +8037,18 @@ tovars:  [
 '../src/images/catalog/estima/tramontana/tovars/estima_tramontana_111611_37709_300x0.jpg',
 '../src/images/catalog/estima/tramontana/tovars/estima_tramontana_111612_93783_300x0.jpg',
 '../src/images/catalog/estima/tramontana/tovars/estima_tramontana_111613_872000_300x0.jpg'],
-},{Сollection: vision
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'vision',
 interiors: [
-
-
 '../src/images/catalog/estima/vision/interiors/estima_vision_8900_612362_0x300.jpg',
 '../src/images/catalog/estima/vision/interiors/estima_vision_8900_706493_0x300.jpg',
 '../src/images/catalog/estima/vision/interiors/estima_vision_8900_706493_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima/vision/tovars/estima_vision_76048_456464_300x0.jpg',
 '../src/images/catalog/estima/vision/tovars/estima_vision_76049_380765_300x0.jpg',
 '../src/images/catalog/estima/vision/tovars/estima_vision_76050_298888_300x0.jpg',
@@ -8613,22 +8079,19 @@ tovars:  [
 '../src/images/catalog/estima/vision/tovars/estima_vision_98276_91141_300x0.jpg',
 '../src/images/catalog/estima/vision/tovars/estima_vision_98277_390782_300x0.jpg',
 '../src/images/catalog/estima/vision/tovars/estima_vision_98278_695213_300x0.jpg'],
-},{Сollection: yourcolor,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'estima', 
+    Сollection: 'yourcolor',
 ,
 interiors: [
-
-
 '../src/images/catalog/estima/yourcolor/interiors/estima_yourcolor_10112_361957_0x300.jpg',
 '../src/images/catalog/estima/yourcolor/interiors/estima_yourcolor_10112_361957_0x500.jpg',
 '../src/images/catalog/estima/yourcolor/interiors/estima_yourcolor_10112_612460_0x300.jpg',
 '../src/images/catalog/estima/yourcolor/interiors/estima_yourcolor_10112_763310_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima/yourcolor/tovars/estima_yourcolor_107925_677443_300x0.jpg',
 '../src/images/catalog/estima/yourcolor/tovars/estima_yourcolor_107926_860081_300x0.jpg',
 '../src/images/catalog/estima/yourcolor/tovars/estima_yourcolor_86266_175722_300x0.jpg',
@@ -8669,48 +8132,26 @@ tovars:  [
 '../src/images/catalog/estima/yourcolor/tovars/estima_yourcolor_98288_473945_300x0.jpg',
 '../src/images/catalog/estima/yourcolor/tovars/estima_yourcolor_98289_492170_300x0.jpg',
 '../src/images/catalog/estima/yourcolor/tovars/estima_yourcolor_98290_48161_300x0.jpg'],
-},{Сollection: estima_city,
-'../src/images/catalog/estima_city.
-'../src/images/catalog/estima_city..
-'../src/images/catalog/estima_cityart
-'../src/images/catalog/estima_citybrigantina
-'../src/images/catalog/estima_citydream_wood
-'../src/images/catalog/estima_cityjam
-'../src/images/catalog/estima_cityjasper
-'../src/images/catalog/estima_citymelody
-'../src/images/catalog/estima_citymodern_wood
-'../src/images/catalog/estima_citynewport
-'../src/images/catalog/estima_cityragtime
-'../src/images/catalog/estima_cityrock
-'../src/images/catalog/estima_cityseed
-'../src/images/catalog/estima_citysolo
-'../src/images/catalog/estima_citystride
-'../src/images/catalog/estima_cityunderground
-],
-},{Сollection: art
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'art',
 interiors: [
-
-
 '../src/images/catalog/estima_city/art/interiors/estima_city_art_10584_358330_0x300.jpg',
 '../src/images/catalog/estima_city/art/interiors/estima_city_art_10584_358330_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/art/tovars/estima_city_art_89974_352011_300x0.jpg'],
-},{Сollection: brigantina,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'brigantina',
 ,
 interiors: [
-
-
 '../src/images/catalog/estima_city/brigantina/interiors/estima_city_brigantina_12780_355347_0x300.jpg',
 '../src/images/catalog/estima_city/brigantina/interiors/estima_city_brigantina_12780_392565_0x300.jpg',
 '../src/images/catalog/estima_city/brigantina/interiors/estima_city_brigantina_12780_631535_0x300.jpg',
@@ -8718,8 +8159,6 @@ interiors: [
 '../src/images/catalog/estima_city/brigantina/interiors/estima_city_brigantina_12780_840896_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/brigantina/tovars/estima_city_brigantina_94436_23207_300x0.jpg',
 '../src/images/catalog/estima_city/brigantina/tovars/estima_city_brigantina_94437_848299_300x0.jpg',
 '../src/images/catalog/estima_city/brigantina/tovars/estima_city_brigantina_94438_266508_300x0.jpg',
@@ -8732,21 +8171,17 @@ tovars:  [
 '../src/images/catalog/estima_city/brigantina/tovars/estima_city_brigantina_98163_441951_300x0.jpg',
 '../src/images/catalog/estima_city/brigantina/tovars/estima_city_brigantina_98164_660795_300x0.jpg',
 '../src/images/catalog/estima_city/brigantina/tovars/estima_city_brigantina_98165_995817_300x0.jpg'],
-},{Сollection: dream_wood,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'dream_wood',
 interiors: [
-
-
 '../src/images/catalog/estima_city/dream_wood/interiors/estima_city_dream_wood_10813_145559_0x300.jpg',
 '../src/images/catalog/estima_city/dream_wood/interiors/estima_city_dream_wood_10813_145559_0x500.jpg',
 '../src/images/catalog/estima_city/dream_wood/interiors/estima_city_dream_wood_10813_638565_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/dream_wood/tovars/estima_city_dream_wood_91222_611895_300x0.jpg',
 '../src/images/catalog/estima_city/dream_wood/tovars/estima_city_dream_wood_91223_307656_300x0.jpg',
 '../src/images/catalog/estima_city/dream_wood/tovars/estima_city_dream_wood_94442_939182_300x0.jpg',
@@ -8755,57 +8190,43 @@ tovars:  [
 '../src/images/catalog/estima_city/dream_wood/tovars/estima_city_dream_wood_98139_987199_300x0.jpg',
 '../src/images/catalog/estima_city/dream_wood/tovars/estima_city_dream_wood_98142_231037_300x0.jpg',
 '../src/images/catalog/estima_city/dream_wood/tovars/estima_city_dream_wood_98143_152353_300x0.jpg'],
-},{Сollection: jam
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'jam',
 interiors: [
-
-
 '../src/images/catalog/estima_city/jam/interiors/estima_city_jam_18709_110909_0x300.jpg',
 '../src/images/catalog/estima_city/jam/interiors/estima_city_jam_18709_110909_0x500.jpg',
 '../src/images/catalog/estima_city/jam/interiors/estima_city_jam_18709_287326_0x300.jpg',
 '../src/images/catalog/estima_city/jam/interiors/estima_city_jam_18709_702196_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/jam/tovars/estima_city_jam_129494_451116_300x0.jpg',
 '../src/images/catalog/estima_city/jam/tovars/estima_city_jam_129495_251010_300x0.jpg'],
-},{Сollection: jasper
-
-
-
-,
+},{Сollection: jasper,
 interiors: [
-
-
 '../src/images/catalog/estima_city/jasper/interiors/estima_city_jasper_15830_304147_0x300.jpg',
 '../src/images/catalog/estima_city/jasper/interiors/estima_city_jasper_15830_304147_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/jasper/tovars/estima_city_jasper_116906_680838_300x0.jpg',
 '../src/images/catalog/estima_city/jasper/tovars/estima_city_jasper_116907_326638_300x0.jpg',
 '../src/images/catalog/estima_city/jasper/tovars/estima_city_jasper_116908_47102_300x0.jpg',
 '../src/images/catalog/estima_city/jasper/tovars/estima_city_jasper_116909_533987_300x0.jpg',
 '../src/images/catalog/estima_city/jasper/tovars/estima_city_jasper_116910_243490_300x0.jpg',
 '../src/images/catalog/estima_city/jasper/tovars/estima_city_jasper_116911_445176_300x0.jpg'],
-},{Сollection: melody
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'melody',
 interiors: [
-
-
 '../src/images/catalog/estima_city/melody/interiors/estima_city_melody_10585_406858_0x300.jpg',
 '../src/images/catalog/estima_city/melody/interiors/estima_city_melody_10585_406858_0x500.jpg',
 '../src/images/catalog/estima_city/melody/interiors/estima_city_melody_10585_59712_0x300.jpg',
 '../src/images/catalog/estima_city/melody/interiors/estima_city_melody_10585_794701_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/melody/tovars/estima_city_melody_104877_450781_300x0.jpg',
 '../src/images/catalog/estima_city/melody/tovars/estima_city_melody_104878_480242_300x0.jpg',
 '../src/images/catalog/estima_city/melody/tovars/estima_city_melody_104879_305372_300x0.jpg',
@@ -8831,21 +8252,17 @@ tovars:  [
 '../src/images/catalog/estima_city/melody/tovars/estima_city_melody_98169_765084_300x0.jpg',
 '../src/images/catalog/estima_city/melody/tovars/estima_city_melody_98170_620806_300x0.jpg',
 '../src/images/catalog/estima_city/melody/tovars/estima_city_melody_98171_294858_300x0.jpg'],
-},{Сollection: modern_wood,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'modern_wood',
 interiors: [
-
-
 '../src/images/catalog/estima_city/modern_wood/interiors/estima_city_modern_wood_10814_775991_0x300.jpg',
 '../src/images/catalog/estima_city/modern_wood/interiors/estima_city_modern_wood_10814_775991_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/modern_wood/tovars/estima_city_modern_wood_91226_461562_300x0.jpg',
 '../src/images/catalog/estima_city/modern_wood/tovars/estima_city_modern_wood_91227_205832_300x0.jpg',
 '../src/images/catalog/estima_city/modern_wood/tovars/estima_city_modern_wood_91228_582486_300x0.jpg',
@@ -8855,19 +8272,16 @@ tovars:  [
 '../src/images/catalog/estima_city/modern_wood/tovars/estima_city_modern_wood_98149_594327_300x0.jpg',
 '../src/images/catalog/estima_city/modern_wood/tovars/estima_city_modern_wood_98150_831400_300x0.jpg',
 '../src/images/catalog/estima_city/modern_wood/tovars/estima_city_modern_wood_98151_600200_300x0.jpg'],
-},{Сollection: newport
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'newport',
 interiors: [
-
-
 '../src/images/catalog/estima_city/newport/interiors/estima_city_newport_15831_556517_0x300.jpg',
 '../src/images/catalog/estima_city/newport/interiors/estima_city_newport_15831_556517_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/newport/tovars/estima_city_newport_116912_363613_300x0.jpg',
 '../src/images/catalog/estima_city/newport/tovars/estima_city_newport_116913_976507_300x0.jpg',
 '../src/images/catalog/estima_city/newport/tovars/estima_city_newport_116914_498016_300x0.jpg',
@@ -8877,20 +8291,17 @@ tovars:  [
 '../src/images/catalog/estima_city/newport/tovars/estima_city_newport_119998_367383_300x0.jpg',
 '../src/images/catalog/estima_city/newport/tovars/estima_city_newport_119999_906316_300x0.jpg',
 '../src/images/catalog/estima_city/newport/tovars/estima_city_newport_120000_499926_300x0.jpg'],
-},{Сollection: ragtime
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'ragtime',
 interiors: [
-
-
 '../src/images/catalog/estima_city/ragtime/interiors/estima_city_ragtime_10586_516307_0x300.jpg',
 '../src/images/catalog/estima_city/ragtime/interiors/estima_city_ragtime_10586_516307_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/ragtime/tovars/estima_city_ragtime_104883_736212_300x0.jpg',
 '../src/images/catalog/estima_city/ragtime/tovars/estima_city_ragtime_104884_581350_300x0.jpg',
 '../src/images/catalog/estima_city/ragtime/tovars/estima_city_ragtime_104885_542518_300x0.jpg',
@@ -8899,38 +8310,32 @@ tovars:  [
 '../src/images/catalog/estima_city/ragtime/tovars/estima_city_ragtime_89980_394508_300x0.jpg',
 '../src/images/catalog/estima_city/ragtime/tovars/estima_city_ragtime_89981_269258_300x0.jpg',
 '../src/images/catalog/estima_city/ragtime/tovars/estima_city_ragtime_89982_833230_300x0.jpg'],
-},{Сollection: rock
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'rock',
 interiors: [
-
-
 '../src/images/catalog/estima_city/rock/interiors/estima_city_rock_10587_904091_0x300.jpg',
 '../src/images/catalog/estima_city/rock/interiors/estima_city_rock_10587_904091_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/rock/tovars/estima_city_rock_89983_566431_300x0.jpg',
 '../src/images/catalog/estima_city/rock/tovars/estima_city_rock_93133_523308_300x0.jpg',
 '../src/images/catalog/estima_city/rock/tovars/estima_city_rock_93134_193920_300x0.jpg',
 '../src/images/catalog/estima_city/rock/tovars/estima_city_rock_94465_219896_300x0.jpg'],
-},{Сollection: seed
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'seed',
 interiors: [
-
-
 '../src/images/catalog/estima_city/seed/interiors/estima_city_seed_18708_268669_0x300.jpg',
 '../src/images/catalog/estima_city/seed/interiors/estima_city_seed_18708_330772_0x300.jpg',
 '../src/images/catalog/estima_city/seed/interiors/estima_city_seed_18708_330772_0x500.jpg',
 '../src/images/catalog/estima_city/seed/interiors/estima_city_seed_18708_368130_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/seed/tovars/estima_city_seed_129485_379849_300x0.jpg',
 '../src/images/catalog/estima_city/seed/tovars/estima_city_seed_129486_759948_300x0.jpg',
 '../src/images/catalog/estima_city/seed/tovars/estima_city_seed_129487_811275_300x0.jpg',
@@ -8940,35 +8345,28 @@ tovars:  [
 '../src/images/catalog/estima_city/seed/tovars/estima_city_seed_129491_734411_300x0.jpg',
 '../src/images/catalog/estima_city/seed/tovars/estima_city_seed_129492_63700_300x0.jpg',
 '../src/images/catalog/estima_city/seed/tovars/estima_city_seed_129493_446150_300x0.jpg'],
-},{Сollection: solo
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'solo',
 interiors: [
-
-
 '../src/images/catalog/estima_city/solo/interiors/estima_city_solo_10588_547716_0x300.jpg',
-'../src/images/catalog/estima_city/solo/interiors/estima_city_solo_10588_547716_0x500.jpg',
-],
+'../src/images/catalog/estima_city/solo/interiors/estima_city_solo_10588_547716_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/solo/tovars/estima_city_solo_89984_143160_300x0.jpg'],
-},{Сollection: stride
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'stride',
 interiors: [
-
-
 '../src/images/catalog/estima_city/stride/interiors/estima_city_stride_18710_238093_0x300.jpg',
 '../src/images/catalog/estima_city/stride/interiors/estima_city_stride_18710_238093_0x500.jpg',
 '../src/images/catalog/estima_city/stride/interiors/estima_city_stride_18710_90125_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/stride/tovars/estima_city_stride_129496_762207_300x0.jpg',
 '../src/images/catalog/estima_city/stride/tovars/estima_city_stride_129497_500334_300x0.jpg',
 '../src/images/catalog/estima_city/stride/tovars/estima_city_stride_129498_286674_300x0.jpg',
@@ -8981,21 +8379,16 @@ tovars:  [
 '../src/images/catalog/estima_city/stride/tovars/estima_city_stride_129505_678965_300x0.jpg',
 '../src/images/catalog/estima_city/stride/tovars/estima_city_stride_129506_581870_300x0.jpg',
 '../src/images/catalog/estima_city/stride/tovars/estima_city_stride_129507_356344_300x0.jpg'],
-},{Сollection: underground,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Estima_city', 
+    Сollection: 'underground',
 interiors: [
-
-
 '../src/images/catalog/estima_city/underground/interiors/estima_city_underground_10589_98545_0x300.jpg',
-'../src/images/catalog/estima_city/underground/interiors/estima_city_underground_10589_98545_0x500.jpg',
-],
+'../src/images/catalog/estima_city/underground/interiors/estima_city_underground_10589_98545_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/estima_city/underground/tovars/estima_city_underground_107912_514111_300x0.jpg',
 '../src/images/catalog/estima_city/underground/tovars/estima_city_underground_107913_782157_300x0.jpg',
 '../src/images/catalog/estima_city/underground/tovars/estima_city_underground_107914_92654_300x0.jpg',
@@ -9005,45 +8398,17 @@ tovars:  [
 '../src/images/catalog/estima_city/underground/tovars/estima_city_underground_98155_968229_300x0.jpg',
 '../src/images/catalog/estima_city/underground/tovars/estima_city_underground_98156_233051_300x0.jpg',
 '../src/images/catalog/estima_city/underground/tovars/estima_city_underground_98157_504299_300x0.jpg'],
-},{Сollection: graniteya,
-'../src/images/catalog/graniteya.
-'../src/images/catalog/graniteya..
-'../src/images/catalog/graniteyaallaki
-'../src/images/catalog/graniteyaarkaim
-'../src/images/catalog/graniteyaartbeton
-'../src/images/catalog/graniteyairemel
-'../src/images/catalog/graniteyaiset
-'../src/images/catalog/graniteyakaratash
-'../src/images/catalog/graniteyakirety
-'../src/images/catalog/graniteyakojjva
-'../src/images/catalog/graniteyakonzhak
-'../src/images/catalog/graniteyakukazar
-'../src/images/catalog/graniteyanejjva
-'../src/images/catalog/graniteyapajjer
-'../src/images/catalog/graniteyashikhan
-'../src/images/catalog/graniteyashunut
-'../src/images/catalog/graniteyasinara
-'../src/images/catalog/graniteyasugomak
-'../src/images/catalog/graniteyasungul
-'../src/images/catalog/graniteyataganajj
-'../src/images/catalog/graniteyaturgoyak
-'../src/images/catalog/graniteyauvildy
-'../src/images/catalog/graniteyayurma
-],
-},{Сollection: allaki
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'allaki',
 interiors: [
-
-
 '../src/images/catalog/graniteya/allaki/interiors/graniteya_allaki_9201_177837_0x300.jpg',
 '../src/images/catalog/graniteya/allaki/interiors/graniteya_allaki_9201_177837_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/allaki/tovars/graniteya_allaki_78554_509005_300x0.jpg',
 '../src/images/catalog/graniteya/allaki/tovars/graniteya_allaki_78555_502238_300x0.jpg',
 '../src/images/catalog/graniteya/allaki/tovars/graniteya_allaki_78556_649896_300x0.jpg',
@@ -9052,14 +8417,13 @@ tovars:  [
 '../src/images/catalog/graniteya/allaki/tovars/graniteya_allaki_87314_311706_300x0.jpg',
 '../src/images/catalog/graniteya/allaki/tovars/graniteya_allaki_87315_703418_300x0.jpg',
 '../src/images/catalog/graniteya/allaki/tovars/graniteya_allaki_87316_665640_300x0.jpg'],
-},{Сollection: arkaim
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'arkaim',
 interiors: [
-
-
 '../src/images/catalog/graniteya/arkaim/interiors/graniteya_arkaim_9202_165775_0x300.jpg',
 '../src/images/catalog/graniteya/arkaim/interiors/graniteya_arkaim_9202_246488_0x300.jpg',
 '../src/images/catalog/graniteya/arkaim/interiors/graniteya_arkaim_9202_299172_0x300.jpg',
@@ -9074,8 +8438,6 @@ interiors: [
 '../src/images/catalog/graniteya/arkaim/interiors/graniteya_arkaim_9202_755164_0x500.jpg',
 '../src/images/catalog/graniteya/arkaim/interiors/graniteya_arkaim_9202_999540_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/arkaim/tovars/graniteya_arkaim_78558_549681_300x0.jpg',
 '../src/images/catalog/graniteya/arkaim/tovars/graniteya_arkaim_78559_464187_300x0.jpg',
 '../src/images/catalog/graniteya/arkaim/tovars/graniteya_arkaim_78560_384099_300x0.jpg',
@@ -9084,21 +8446,18 @@ tovars:  [
 '../src/images/catalog/graniteya/arkaim/tovars/graniteya_arkaim_87318_910441_300x0.jpg',
 '../src/images/catalog/graniteya/arkaim/tovars/graniteya_arkaim_87319_172176_300x0.jpg',
 '../src/images/catalog/graniteya/arkaim/tovars/graniteya_arkaim_87320_170119_300x0.jpg'],
-},{Сollection: artbeton
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'artbeton',
 interiors: [
-
-
 '../src/images/catalog/graniteya/artbeton/interiors/graniteya_artbeton_17969_645144_0x300.jpg',
 '../src/images/catalog/graniteya/artbeton/interiors/graniteya_artbeton_17969_645144_0x500.jpg',
 '../src/images/catalog/graniteya/artbeton/interiors/graniteya_artbeton_17969_69459_0x300.jpg',
 '../src/images/catalog/graniteya/artbeton/interiors/graniteya_artbeton_17969_983878_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/artbeton/tovars/graniteya_artbeton_125681_954572_300x0.jpg',
 '../src/images/catalog/graniteya/artbeton/tovars/graniteya_artbeton_125682_991143_300x0.jpg',
 '../src/images/catalog/graniteya/artbeton/tovars/graniteya_artbeton_125683_643959_300x0.jpg',
@@ -9111,14 +8470,13 @@ tovars:  [
 '../src/images/catalog/graniteya/artbeton/tovars/graniteya_artbeton_125690_858326_300x0.jpg',
 '../src/images/catalog/graniteya/artbeton/tovars/graniteya_artbeton_125691_224471_300x0.jpg',
 '../src/images/catalog/graniteya/artbeton/tovars/graniteya_artbeton_125692_124460_300x0.jpg'],
-},{Сollection: iremel
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'iremel',
 interiors: [
-
-
 '../src/images/catalog/graniteya/iremel/interiors/graniteya_iremel_9203_108685_0x300.jpg',
 '../src/images/catalog/graniteya/iremel/interiors/graniteya_iremel_9203_111024_0x300.jpg',
 '../src/images/catalog/graniteya/iremel/interiors/graniteya_iremel_9203_129585_0x300.jpg',
@@ -9133,8 +8491,6 @@ interiors: [
 '../src/images/catalog/graniteya/iremel/interiors/graniteya_iremel_9203_638730_0x300.jpg',
 '../src/images/catalog/graniteya/iremel/interiors/graniteya_iremel_9203_872864_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/iremel/tovars/graniteya_iremel_78562_510414_300x0.jpg',
 '../src/images/catalog/graniteya/iremel/tovars/graniteya_iremel_78563_614173_300x0.jpg',
 '../src/images/catalog/graniteya/iremel/tovars/graniteya_iremel_78564_882134_300x0.jpg',
@@ -9147,40 +8503,34 @@ tovars:  [
 '../src/images/catalog/graniteya/iremel/tovars/graniteya_iremel_87326_981160_300x0.jpg',
 '../src/images/catalog/graniteya/iremel/tovars/graniteya_iremel_87327_891784_300x0.jpg',
 '../src/images/catalog/graniteya/iremel/tovars/graniteya_iremel_87328_700730_300x0.jpg'],
-},{Сollection: iset
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'iset',
 interiors: [
-
-
 '../src/images/catalog/graniteya/iset/interiors/graniteya_iset_9204_50021_0x300.jpg',
 '../src/images/catalog/graniteya/iset/interiors/graniteya_iset_9204_830129_0x300.jpg',
 '../src/images/catalog/graniteya/iset/interiors/graniteya_iset_9204_863364_0x300.jpg',
 '../src/images/catalog/graniteya/iset/interiors/graniteya_iset_9204_863364_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/iset/tovars/graniteya_iset_78566_526292_300x0.jpg',
 '../src/images/catalog/graniteya/iset/tovars/graniteya_iset_78567_662673_300x0.jpg',
 '../src/images/catalog/graniteya/iset/tovars/graniteya_iset_87329_416907_300x0.jpg',
 '../src/images/catalog/graniteya/iset/tovars/graniteya_iset_87330_904633_300x0.jpg'],
-},{Сollection: karatash
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'karatash',
 interiors: [
-
-
 '../src/images/catalog/graniteya/karatash/interiors/graniteya_karatash_9492_815271_0x300.jpg',
 '../src/images/catalog/graniteya/karatash/interiors/graniteya_karatash_9492_815271_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/karatash/tovars/graniteya_karatash_81679_672122_300x0.jpg',
 '../src/images/catalog/graniteya/karatash/tovars/graniteya_karatash_81680_525602_300x0.jpg',
 '../src/images/catalog/graniteya/karatash/tovars/graniteya_karatash_81681_196567_300x0.jpg',
@@ -9193,14 +8543,13 @@ tovars:  [
 '../src/images/catalog/graniteya/karatash/tovars/graniteya_karatash_87334_91907_300x0.jpg',
 '../src/images/catalog/graniteya/karatash/tovars/graniteya_karatash_87335_912785_300x0.jpg',
 '../src/images/catalog/graniteya/karatash/tovars/graniteya_karatash_87336_632807_300x0.jpg'],
-},{Сollection: kirety
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'kirety',
 interiors: [
-
-
 '../src/images/catalog/graniteya/kirety/interiors/graniteya_kirety_9205_154595_0x300.jpg',
 '../src/images/catalog/graniteya/kirety/interiors/graniteya_kirety_9205_722949_0x300.jpg',
 '../src/images/catalog/graniteya/kirety/interiors/graniteya_kirety_9205_756718_0x300.jpg',
@@ -9209,8 +8558,6 @@ interiors: [
 '../src/images/catalog/graniteya/kirety/interiors/graniteya_kirety_9205_924556_0x300.jpg',
 '../src/images/catalog/graniteya/kirety/interiors/graniteya_kirety_9205_967785_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/kirety/tovars/graniteya_kirety_78568_565499_300x0.jpg',
 '../src/images/catalog/graniteya/kirety/tovars/graniteya_kirety_78569_209536_300x0.jpg',
 '../src/images/catalog/graniteya/kirety/tovars/graniteya_kirety_78570_808026_300x0.jpg',
@@ -9223,32 +8570,28 @@ tovars:  [
 '../src/images/catalog/graniteya/kirety/tovars/graniteya_kirety_87338_279739_300x0.jpg',
 '../src/images/catalog/graniteya/kirety/tovars/graniteya_kirety_87339_300980_300x0.jpg',
 '../src/images/catalog/graniteya/kirety/tovars/graniteya_kirety_87340_341644_300x0.jpg'],
-},{Сollection: kojjva
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'kojjva',
 interiors: [
-
-
 '../src/images/catalog/graniteya/kojjva/interiors/graniteya_kojjva_9206_539554_0x300.jpg',
 '../src/images/catalog/graniteya/kojjva/interiors/graniteya_kojjva_9206_539554_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/kojjva/tovars/graniteya_kojjva_78576_106307_300x0.jpg',
 '../src/images/catalog/graniteya/kojjva/tovars/graniteya_kojjva_78577_67600_300x0.jpg',
 '../src/images/catalog/graniteya/kojjva/tovars/graniteya_kojjva_87341_105337_300x0.jpg',
 '../src/images/catalog/graniteya/kojjva/tovars/graniteya_kojjva_87342_336789_300x0.jpg'],
-},{Сollection: konzhak
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'konzhak',
 interiors: [
-
-
 '../src/images/catalog/graniteya/konzhak/interiors/graniteya_konzhak_9207_156536_0x300.jpg',
 '../src/images/catalog/graniteya/konzhak/interiors/graniteya_konzhak_9207_170127_0x300.jpg',
 '../src/images/catalog/graniteya/konzhak/interiors/graniteya_konzhak_9207_170127_0x500.jpg',
@@ -9259,8 +8602,6 @@ interiors: [
 '../src/images/catalog/graniteya/konzhak/interiors/graniteya_konzhak_9207_600149_0x300.jpg',
 '../src/images/catalog/graniteya/konzhak/interiors/graniteya_konzhak_9207_600608_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/konzhak/tovars/graniteya_konzhak_78578_333708_300x0.jpg',
 '../src/images/catalog/graniteya/konzhak/tovars/graniteya_konzhak_78579_250587_300x0.jpg',
 '../src/images/catalog/graniteya/konzhak/tovars/graniteya_konzhak_78580_514217_300x0.jpg',
@@ -9271,14 +8612,13 @@ tovars:  [
 '../src/images/catalog/graniteya/konzhak/tovars/graniteya_konzhak_87347_771806_300x0.jpg',
 '../src/images/catalog/graniteya/konzhak/tovars/graniteya_konzhak_87348_102692_300x0.jpg',
 '../src/images/catalog/graniteya/konzhak/tovars/graniteya_konzhak_87349_957371_300x0.jpg'],
-},{Сollection: kukazar
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'kukazar',
 interiors: [
-
-
 '../src/images/catalog/graniteya/kukazar/interiors/graniteya_kukazar_9208_305872_0x300.jpg',
 '../src/images/catalog/graniteya/kukazar/interiors/graniteya_kukazar_9208_413432_0x300.jpg',
 '../src/images/catalog/graniteya/kukazar/interiors/graniteya_kukazar_9208_735124_0x300.jpg',
@@ -9286,22 +8626,19 @@ interiors: [
 '../src/images/catalog/graniteya/kukazar/interiors/graniteya_kukazar_9208_944291_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/kukazar/tovars/graniteya_kukazar_78581_901216_300x0.jpg',
 '../src/images/catalog/graniteya/kukazar/tovars/graniteya_kukazar_78582_722378_300x0.jpg',
 '../src/images/catalog/graniteya/kukazar/tovars/graniteya_kukazar_78583_383538_300x0.jpg',
 '../src/images/catalog/graniteya/kukazar/tovars/graniteya_kukazar_78584_94987_300x0.jpg',
 '../src/images/catalog/graniteya/kukazar/tovars/graniteya_kukazar_87350_933984_300x0.jpg',
 '../src/images/catalog/graniteya/kukazar/tovars/graniteya_kukazar_87351_262813_300x0.jpg'],
-},{Сollection: nejjva
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'nejjva',
 interiors: [
-
-
 '../src/images/catalog/graniteya/nejjva/interiors/graniteya_nejjva_17963_118730_0x300.jpg',
 '../src/images/catalog/graniteya/nejjva/interiors/graniteya_nejjva_17963_246713_0x300.jpg',
 '../src/images/catalog/graniteya/nejjva/interiors/graniteya_nejjva_17963_342728_0x300.jpg',
@@ -9313,8 +8650,6 @@ interiors: [
 '../src/images/catalog/graniteya/nejjva/interiors/graniteya_nejjva_17963_886541_0x300.jpg',
 '../src/images/catalog/graniteya/nejjva/interiors/graniteya_nejjva_17963_939306_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/nejjva/tovars/graniteya_nejjva_125650_151373_300x0.jpg',
 '../src/images/catalog/graniteya/nejjva/tovars/graniteya_nejjva_125651_769496_300x0.jpg',
 '../src/images/catalog/graniteya/nejjva/tovars/graniteya_nejjva_125652_494039_300x0.jpg',
@@ -9336,14 +8671,13 @@ tovars:  [
 '../src/images/catalog/graniteya/nejjva/tovars/graniteya_nejjva_127039_305340_300x0.jpg',
 '../src/images/catalog/graniteya/nejjva/tovars/graniteya_nejjva_127040_868823_300x0.jpg',
 '../src/images/catalog/graniteya/nejjva/tovars/graniteya_nejjva_127041_316326_300x0.jpg'],
-},{Сollection: pajjer
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'pajjer',
 interiors: [
-
-
 '../src/images/catalog/graniteya/pajjer/interiors/graniteya_pajjer_9209_178736_0x300.jpg',
 '../src/images/catalog/graniteya/pajjer/interiors/graniteya_pajjer_9209_292075_0x300.jpg',
 '../src/images/catalog/graniteya/pajjer/interiors/graniteya_pajjer_9209_807468_0x300.jpg',
@@ -9353,8 +8687,6 @@ interiors: [
 '../src/images/catalog/graniteya/pajjer/interiors/graniteya_pajjer_9209_987069_0x300.jpg',
 '../src/images/catalog/graniteya/pajjer/interiors/graniteya_pajjer_9209_987069_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/pajjer/tovars/graniteya_pajjer_78585_231383_300x0.jpg',
 '../src/images/catalog/graniteya/pajjer/tovars/graniteya_pajjer_78586_875777_300x0.jpg',
 '../src/images/catalog/graniteya/pajjer/tovars/graniteya_pajjer_78587_734885_300x0.jpg',
@@ -9368,32 +8700,28 @@ tovars:  [
 '../src/images/catalog/graniteya/pajjer/tovars/graniteya_pajjer_87354_491890_300x0.jpg',
 '../src/images/catalog/graniteya/pajjer/tovars/graniteya_pajjer_87355_233703_300x0.jpg',
 '../src/images/catalog/graniteya/pajjer/tovars/graniteya_pajjer_87356_601133_300x0.jpg'],
-},{Сollection: shikhan
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'shikhan',
 interiors: [
-
-
 '../src/images/catalog/graniteya/shikhan/interiors/graniteya_shikhan_9216_18864_0x300.jpg',
 '../src/images/catalog/graniteya/shikhan/interiors/graniteya_shikhan_9216_822246_0x300.jpg',
 '../src/images/catalog/graniteya/shikhan/interiors/graniteya_shikhan_9216_822246_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/shikhan/tovars/graniteya_shikhan_78622_611593_300x0.jpg',
 '../src/images/catalog/graniteya/shikhan/tovars/graniteya_shikhan_87397_872259_300x0.jpg',
 '../src/images/catalog/graniteya/shikhan/tovars/graniteya_shikhan_87398_42931_300x0.jpg'],
-},{Сollection: shunut
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'shunut',
 interiors: [
-
-
 '../src/images/catalog/graniteya/shunut/interiors/graniteya_shunut_9217_202416_0x300.jpg',
 '../src/images/catalog/graniteya/shunut/interiors/graniteya_shunut_9217_299171_0x300.jpg',
 '../src/images/catalog/graniteya/shunut/interiors/graniteya_shunut_9217_316804_0x300.jpg',
@@ -9401,22 +8729,19 @@ interiors: [
 '../src/images/catalog/graniteya/shunut/interiors/graniteya_shunut_9217_816333_0x300.jpg',
 '../src/images/catalog/graniteya/shunut/interiors/graniteya_shunut_9217_910341_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/shunut/tovars/graniteya_shunut_78623_184022_300x0.jpg',
 '../src/images/catalog/graniteya/shunut/tovars/graniteya_shunut_78624_654796_300x0.jpg',
 '../src/images/catalog/graniteya/shunut/tovars/graniteya_shunut_78625_551964_300x0.jpg',
 '../src/images/catalog/graniteya/shunut/tovars/graniteya_shunut_78626_755719_300x0.jpg',
 '../src/images/catalog/graniteya/shunut/tovars/graniteya_shunut_87399_465321_300x0.jpg',
 '../src/images/catalog/graniteya/shunut/tovars/graniteya_shunut_87400_858985_300x0.jpg'],
-},{Сollection: sinara
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'sinara',
 interiors: [
-
-
 '../src/images/catalog/graniteya/sinara/interiors/graniteya_sinara_9210_136219_0x300.jpg',
 '../src/images/catalog/graniteya/sinara/interiors/graniteya_sinara_9210_155439_0x300.jpg',
 '../src/images/catalog/graniteya/sinara/interiors/graniteya_sinara_9210_28407_0x300.jpg',
@@ -9425,8 +8750,6 @@ interiors: [
 '../src/images/catalog/graniteya/sinara/interiors/graniteya_sinara_9210_902158_0x300.jpg',
 '../src/images/catalog/graniteya/sinara/interiors/graniteya_sinara_9210_956350_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/sinara/tovars/graniteya_sinara_78593_699488_300x0.jpg',
 '../src/images/catalog/graniteya/sinara/tovars/graniteya_sinara_78594_940371_300x0.jpg',
 '../src/images/catalog/graniteya/sinara/tovars/graniteya_sinara_78595_581696_300x0.jpg',
@@ -9451,14 +8774,13 @@ tovars:  [
 '../src/images/catalog/graniteya/sinara/tovars/graniteya_sinara_87366_716986_300x0.jpg',
 '../src/images/catalog/graniteya/sinara/tovars/graniteya_sinara_87367_914394_300x0.jpg',
 '../src/images/catalog/graniteya/sinara/tovars/graniteya_sinara_87368_133694_300x0.jpg'],
-},{Сollection: sugomak
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'sugomak',
 interiors: [
-
-
 '../src/images/catalog/graniteya/sugomak/interiors/graniteya_sugomak_9211_36215_0x300.jpg',
 '../src/images/catalog/graniteya/sugomak/interiors/graniteya_sugomak_9211_36215_0x500.jpg',
 '../src/images/catalog/graniteya/sugomak/interiors/graniteya_sugomak_9211_366269_0x300.jpg',
@@ -9467,8 +8789,6 @@ interiors: [
 '../src/images/catalog/graniteya/sugomak/interiors/graniteya_sugomak_9211_826715_0x300.jpg',
 '../src/images/catalog/graniteya/sugomak/interiors/graniteya_sugomak_9211_956370_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/sugomak/tovars/graniteya_sugomak_78603_351211_300x0.jpg',
 '../src/images/catalog/graniteya/sugomak/tovars/graniteya_sugomak_78604_52639_300x0.jpg',
 '../src/images/catalog/graniteya/sugomak/tovars/graniteya_sugomak_78605_247863_300x0.jpg',
@@ -9481,33 +8801,29 @@ tovars:  [
 '../src/images/catalog/graniteya/sugomak/tovars/graniteya_sugomak_87372_92063_300x0.jpg',
 '../src/images/catalog/graniteya/sugomak/tovars/graniteya_sugomak_87373_542165_300x0.jpg',
 '../src/images/catalog/graniteya/sugomak/tovars/graniteya_sugomak_87374_808851_300x0.jpg'],
-},{Сollection: sungul
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'sungul',
 interiors: [
-
-
 '../src/images/catalog/graniteya/sungul/interiors/graniteya_sungul_9212_909294_0x300.jpg',
 '../src/images/catalog/graniteya/sungul/interiors/graniteya_sungul_9212_909294_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/sungul/tovars/graniteya_sungul_78609_55142_300x0.jpg',
 '../src/images/catalog/graniteya/sungul/tovars/graniteya_sungul_78610_389535_300x0.jpg',
 '../src/images/catalog/graniteya/sungul/tovars/graniteya_sungul_87375_198229_300x0.jpg',
 '../src/images/catalog/graniteya/sungul/tovars/graniteya_sungul_87376_180662_300x0.jpg',
 '../src/images/catalog/graniteya/sungul/tovars/graniteya_sungul_87377_855781_300x0.jpg',
 '../src/images/catalog/graniteya/sungul/tovars/graniteya_sungul_87378_960036_300x0.jpg'],
-},{Сollection: taganajj
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'taganajj',
 interiors: [
-
-
 '../src/images/catalog/graniteya/taganajj/interiors/graniteya_taganajj_9213_347455_0x300.jpg',
 '../src/images/catalog/graniteya/taganajj/interiors/graniteya_taganajj_9213_347455_0x500.jpg',
 '../src/images/catalog/graniteya/taganajj/interiors/graniteya_taganajj_9213_367966_0x300.jpg',
@@ -9515,8 +8831,6 @@ interiors: [
 '../src/images/catalog/graniteya/taganajj/interiors/graniteya_taganajj_9213_512806_0x300.jpg',
 '../src/images/catalog/graniteya/taganajj/interiors/graniteya_taganajj_9213_85399_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/taganajj/tovars/graniteya_taganajj_124947_75534_300x0.jpg',
 '../src/images/catalog/graniteya/taganajj/tovars/graniteya_taganajj_124948_280549_300x0.jpg',
 '../src/images/catalog/graniteya/taganajj/tovars/graniteya_taganajj_78611_809682_300x0.jpg',
@@ -9531,14 +8845,13 @@ tovars:  [
 '../src/images/catalog/graniteya/taganajj/tovars/graniteya_taganajj_87384_792461_300x0.jpg',
 '../src/images/catalog/graniteya/taganajj/tovars/graniteya_taganajj_87385_18060_300x0.jpg',
 '../src/images/catalog/graniteya/taganajj/tovars/graniteya_taganajj_87386_701340_300x0.jpg'],
-},{Сollection: turgoyak
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'turgoyak',
 interiors: [
-
-
 '../src/images/catalog/graniteya/turgoyak/interiors/graniteya_turgoyak_9214_110051_0x300.jpg',
 '../src/images/catalog/graniteya/turgoyak/interiors/graniteya_turgoyak_9214_110051_0x500.jpg',
 '../src/images/catalog/graniteya/turgoyak/interiors/graniteya_turgoyak_9214_29690_0x300.jpg',
@@ -9546,8 +8859,6 @@ interiors: [
 '../src/images/catalog/graniteya/turgoyak/interiors/graniteya_turgoyak_9214_835177_0x300.jpg',
 '../src/images/catalog/graniteya/turgoyak/interiors/graniteya_turgoyak_9214_840127_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/turgoyak/tovars/graniteya_turgoyak_78616_333298_300x0.jpg',
 '../src/images/catalog/graniteya/turgoyak/tovars/graniteya_turgoyak_78617_68999_300x0.jpg',
 '../src/images/catalog/graniteya/turgoyak/tovars/graniteya_turgoyak_87387_393595_300x0.jpg',
@@ -9556,19 +8867,16 @@ tovars:  [
 '../src/images/catalog/graniteya/turgoyak/tovars/graniteya_turgoyak_87390_685460_300x0.jpg',
 '../src/images/catalog/graniteya/turgoyak/tovars/graniteya_turgoyak_87391_361071_300x0.jpg',
 '../src/images/catalog/graniteya/turgoyak/tovars/graniteya_turgoyak_87392_836951_300x0.jpg'],
-},{Сollection: uvildy
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'uvildy',
 interiors: [
-
-
 '../src/images/catalog/graniteya/uvildy/interiors/graniteya_uvildy_9215_433123_0x300.jpg',
 '../src/images/catalog/graniteya/uvildy/interiors/graniteya_uvildy_9215_433123_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/uvildy/tovars/graniteya_uvildy_78618_766234_300x0.jpg',
 '../src/images/catalog/graniteya/uvildy/tovars/graniteya_uvildy_78619_285395_300x0.jpg',
 '../src/images/catalog/graniteya/uvildy/tovars/graniteya_uvildy_78620_484460_300x0.jpg',
@@ -9577,54 +8885,34 @@ tovars:  [
 '../src/images/catalog/graniteya/uvildy/tovars/graniteya_uvildy_87394_165272_300x0.jpg',
 '../src/images/catalog/graniteya/uvildy/tovars/graniteya_uvildy_87395_128537_300x0.jpg',
 '../src/images/catalog/graniteya/uvildy/tovars/graniteya_uvildy_87396_341625_300x0.jpg'],
-},{Сollection: yurma
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Гранитея', 
+    Сollection: 'yurma',
 interiors: [
-
-
 '../src/images/catalog/graniteya/yurma/interiors/graniteya_yurma_9218_834741_0x300.jpg',
 '../src/images/catalog/graniteya/yurma/interiors/graniteya_yurma_9218_834741_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/graniteya/yurma/tovars/graniteya_yurma_100083_413207_300x0.jpg',
 '../src/images/catalog/graniteya/yurma/tovars/graniteya_yurma_78627_892362_300x0.jpg',
 '../src/images/catalog/graniteya/yurma/tovars/graniteya_yurma_78628_18628_300x0.jpg',
 '../src/images/catalog/graniteya/yurma/tovars/graniteya_yurma_87401_248307_300x0.jpg',
 '../src/images/catalog/graniteya/yurma/tovars/graniteya_yurma_87402_920663_300x0.jpg'],
-},{Сollection: gresse'../src/images/catalog/gresse.
-'../src/images/catalog/gresse..
-'../src/images/catalog/gresseajanta
-'../src/images/catalog/gressearbel
-'../src/images/catalog/gresseellora
-'../src/images/catalog/gressegila
-'../src/images/catalog/gresselalibela
-'../src/images/catalog/gressemadain
-'../src/images/catalog/gressematera
-'../src/images/catalog/gressepetra
-'../src/images/catalog/gressesigiriya
-'../src/images/catalog/gressesimbel
-'../src/images/catalog/gressetroo
-],
-},{Сollection: ajanta
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'ajanta',
 interiors: [
-
-
 '../src/images/catalog/gresse/ajanta/interiors/gresse_ajanta_11971_595657_0x300.jpg',
 '../src/images/catalog/gresse/ajanta/interiors/gresse_ajanta_11971_715261_0x300.jpg',
 '../src/images/catalog/gresse/ajanta/interiors/gresse_ajanta_11971_715261_0x500.jpg',
 '../src/images/catalog/gresse/ajanta/interiors/gresse_ajanta_11971_958726_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/gresse/ajanta/tovars/gresse_ajanta_97879_863329_300x0.jpg',
 '../src/images/catalog/gresse/ajanta/tovars/gresse_ajanta_97880_824884_300x0.jpg',
 '../src/images/catalog/gresse/ajanta/tovars/gresse_ajanta_97881_986250_300x0.jpg',
@@ -9634,31 +8922,27 @@ tovars:  [
 '../src/images/catalog/gresse/ajanta/tovars/gresse_ajanta_97885_521098_300x0.jpg',
 '../src/images/catalog/gresse/ajanta/tovars/gresse_ajanta_97886_969947_300x0.jpg',
 '../src/images/catalog/gresse/ajanta/tovars/gresse_ajanta_97887_807155_300x0.jpg'],
-},{Сollection: arbel
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'arbel',
 interiors: [
-
-
 '../src/images/catalog/gresse/arbel/interiors/gresse_arbel_11972_710463_0x300.jpg',
 '../src/images/catalog/gresse/arbel/interiors/gresse_arbel_11972_710463_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/gresse/arbel/tovars/gresse_arbel_97888_608963_300x0.jpg',
 '../src/images/catalog/gresse/arbel/tovars/gresse_arbel_97889_512312_300x0.jpg',
 '../src/images/catalog/gresse/arbel/tovars/gresse_arbel_97890_122206_300x0.jpg'],
-},{Сollection: ellora
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'ellora',
 interiors: [
-
-
 '../src/images/catalog/gresse/ellora/interiors/gresse_ellora_11963_103519_0x300.jpg',
 '../src/images/catalog/gresse/ellora/interiors/gresse_ellora_11963_141634_0x300.jpg',
 '../src/images/catalog/gresse/ellora/interiors/gresse_ellora_11963_164540_0x300.jpg',
@@ -9673,8 +8957,6 @@ interiors: [
 '../src/images/catalog/gresse/ellora/interiors/gresse_ellora_11963_890578_0x300.jpg',
 '../src/images/catalog/gresse/ellora/interiors/gresse_ellora_11963_995202_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/gresse/ellora/tovars/gresse_ellora_116820_398747_300x0.jpg',
 '../src/images/catalog/gresse/ellora/tovars/gresse_ellora_116821_450003_300x0.jpg',
 '../src/images/catalog/gresse/ellora/tovars/gresse_ellora_116822_202079_300x0.jpg',
@@ -9685,52 +8967,45 @@ tovars:  [
 '../src/images/catalog/gresse/ellora/tovars/gresse_ellora_97826_884810_300x0.jpg',
 '../src/images/catalog/gresse/ellora/tovars/gresse_ellora_97827_471977_300x0.jpg',
 '../src/images/catalog/gresse/ellora/tovars/gresse_ellora_97828_892574_300x0.jpg'],
-},{Сollection: gila
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'gila',
 interiors: [
-
-
 '../src/images/catalog/gresse/gila/interiors/gresse_gila_11965_119036_0x300.jpg',
 '../src/images/catalog/gresse/gila/interiors/gresse_gila_11965_119036_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/gresse/gila/tovars/gresse_gila_97837_224337_300x0.jpg',
 '../src/images/catalog/gresse/gila/tovars/gresse_gila_97838_154521_300x0.jpg',
 '../src/images/catalog/gresse/gila/tovars/gresse_gila_97839_69497_300x0.jpg',
 '../src/images/catalog/gresse/gila/tovars/gresse_gila_97840_358607_300x0.jpg'],
-},{Сollection: lalibela
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'lalibela',
 interiors: [
-
-
 '../src/images/catalog/gresse/lalibela/interiors/gresse_lalibela_11966_131622_0x300.jpg',
 '../src/images/catalog/gresse/lalibela/interiors/gresse_lalibela_11966_202407_0x300.jpg',
 '../src/images/catalog/gresse/lalibela/interiors/gresse_lalibela_11966_33984_0x300.jpg',
 '../src/images/catalog/gresse/lalibela/interiors/gresse_lalibela_11966_33984_0x500.jpg',
 '../src/images/catalog/gresse/lalibela/interiors/gresse_lalibela_11966_353009_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/gresse/lalibela/tovars/gresse_lalibela_97841_829857_300x0.jpg',
 '../src/images/catalog/gresse/lalibela/tovars/gresse_lalibela_97842_962916_300x0.jpg',
 '../src/images/catalog/gresse/lalibela/tovars/gresse_lalibela_97843_644060_300x0.jpg',
 '../src/images/catalog/gresse/lalibela/tovars/gresse_lalibela_97844_790518_300x0.jpg'],
-},{Сollection: madain
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'madain',
 interiors: [
-
-
 '../src/images/catalog/gresse/madain/interiors/gresse_madain_11969_239208_0x300.jpg',
 '../src/images/catalog/gresse/madain/interiors/gresse_madain_11969_293327_0x300.jpg',
 '../src/images/catalog/gresse/madain/interiors/gresse_madain_11969_696965_0x300.jpg',
@@ -9738,8 +9013,6 @@ interiors: [
 '../src/images/catalog/gresse/madain/interiors/gresse_madain_11969_770184_0x300.jpg',
 '../src/images/catalog/gresse/madain/interiors/gresse_madain_11969_884784_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/gresse/madain/tovars/gresse_madain_97865_670939_300x0.jpg',
 '../src/images/catalog/gresse/madain/tovars/gresse_madain_97866_246248_300x0.jpg',
 '../src/images/catalog/gresse/madain/tovars/gresse_madain_97867_501542_300x0.jpg',
@@ -9748,14 +9021,13 @@ tovars:  [
 '../src/images/catalog/gresse/madain/tovars/gresse_madain_97870_561041_300x0.jpg',
 '../src/images/catalog/gresse/madain/tovars/gresse_madain_97871_243885_300x0.jpg',
 '../src/images/catalog/gresse/madain/tovars/gresse_madain_97872_220628_300x0.jpg'],
-},{Сollection: matera
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'matera',
 interiors: [
-
-
 '../src/images/catalog/gresse/matera/interiors/gresse_matera_11968_152952_0x300.jpg',
 '../src/images/catalog/gresse/matera/interiors/gresse_matera_11968_359590_0x300.jpg',
 '../src/images/catalog/gresse/matera/interiors/gresse_matera_11968_43121_0x300.jpg',
@@ -9765,8 +9037,6 @@ interiors: [
 '../src/images/catalog/gresse/matera/interiors/gresse_matera_11968_547189_0x300.jpg',
 '../src/images/catalog/gresse/matera/interiors/gresse_matera_11968_645934_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/gresse/matera/tovars/gresse_matera_116824_633268_300x0.jpg',
 '../src/images/catalog/gresse/matera/tovars/gresse_matera_116825_245018_300x0.jpg',
 '../src/images/catalog/gresse/matera/tovars/gresse_matera_97849_488515_300x0.jpg',
@@ -9785,14 +9055,13 @@ tovars:  [
 '../src/images/catalog/gresse/matera/tovars/gresse_matera_97862_586162_300x0.jpg',
 '../src/images/catalog/gresse/matera/tovars/gresse_matera_97863_547794_300x0.jpg',
 '../src/images/catalog/gresse/matera/tovars/gresse_matera_97864_610526_300x0.jpg'],
-},{Сollection: petra
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'petra',
 interiors: [
-
-
 '../src/images/catalog/gresse/petra/interiors/gresse_petra_11964_11786_0x300.jpg',
 '../src/images/catalog/gresse/petra/interiors/gresse_petra_11964_172548_0x300.jpg',
 '../src/images/catalog/gresse/petra/interiors/gresse_petra_11964_431073_0x300.jpg',
@@ -9807,8 +9076,6 @@ interiors: [
 '../src/images/catalog/gresse/petra/interiors/gresse_petra_11964_90036_0x300.jpg',
 '../src/images/catalog/gresse/petra/interiors/gresse_petra_11964_954395_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/gresse/petra/tovars/gresse_petra_116826_750753_300x0.jpg',
 '../src/images/catalog/gresse/petra/tovars/gresse_petra_116827_825879_300x0.jpg',
 '../src/images/catalog/gresse/petra/tovars/gresse_petra_116828_339043_300x0.jpg',
@@ -9823,34 +9090,30 @@ tovars:  [
 '../src/images/catalog/gresse/petra/tovars/gresse_petra_97834_94776_300x0.jpg',
 '../src/images/catalog/gresse/petra/tovars/gresse_petra_97835_698454_300x0.jpg',
 '../src/images/catalog/gresse/petra/tovars/gresse_petra_97836_891015_300x0.jpg'],
-},{Сollection: sigiriya
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'sigiriya',
 interiors: [
-
-
 '../src/images/catalog/gresse/sigiriya/interiors/gresse_sigiriya_11970_537968_0x300.jpg',
 '../src/images/catalog/gresse/sigiriya/interiors/gresse_sigiriya_11970_537968_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/gresse/sigiriya/tovars/gresse_sigiriya_97873_523958_300x0.jpg',
 '../src/images/catalog/gresse/sigiriya/tovars/gresse_sigiriya_97874_877946_300x0.jpg',
 '../src/images/catalog/gresse/sigiriya/tovars/gresse_sigiriya_97875_11146_300x0.jpg',
 '../src/images/catalog/gresse/sigiriya/tovars/gresse_sigiriya_97876_672966_300x0.jpg',
 '../src/images/catalog/gresse/sigiriya/tovars/gresse_sigiriya_97877_346367_300x0.jpg',
 '../src/images/catalog/gresse/sigiriya/tovars/gresse_sigiriya_97878_776597_300x0.jpg'],
-},{Сollection: simbel
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'simbel',
 interiors: [
-
-
 '../src/images/catalog/gresse/simbel/interiors/gresse_simbel_11967_160392_0x300.jpg',
 '../src/images/catalog/gresse/simbel/interiors/gresse_simbel_11967_24768_0x300.jpg',
 '../src/images/catalog/gresse/simbel/interiors/gresse_simbel_11967_553132_0x300.jpg',
@@ -9860,8 +9123,6 @@ interiors: [
 '../src/images/catalog/gresse/simbel/interiors/gresse_simbel_11967_963025_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/gresse/simbel/tovars/gresse_simbel_116784_357628_300x0.jpg',
 '../src/images/catalog/gresse/simbel/tovars/gresse_simbel_116785_219421_300x0.jpg',
 '../src/images/catalog/gresse/simbel/tovars/gresse_simbel_116786_773762_300x0.jpg',
@@ -9874,64 +9135,50 @@ tovars:  [
 '../src/images/catalog/gresse/simbel/tovars/gresse_simbel_97846_468420_300x0.jpg',
 '../src/images/catalog/gresse/simbel/tovars/gresse_simbel_97847_775449_300x0.jpg',
 '../src/images/catalog/gresse/simbel/tovars/gresse_simbel_97848_200361_300x0.jpg'],
-},{Сollection: troo
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Gresse', 
+    Сollection: 'troo',
 interiors: [
-
-
 '../src/images/catalog/gresse/troo/interiors/gresse_troo_11973_830774_0x300.jpg',
 '../src/images/catalog/gresse/troo/interiors/gresse_troo_11973_830774_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/gresse/troo/tovars/gresse_troo_97891_952131_300x0.jpg',
 '../src/images/catalog/gresse/troo/tovars/gresse_troo_97892_139280_300x0.jpg'],
-},{Сollection: kerlife'../src/images/catalog/kerlife.
-'../src/images/catalog/kerlife..
-'../src/images/catalog/kerlifemarblestone
-'../src/images/catalog/kerlifenrk
-'../src/images/catalog/kerliferabat
-'../src/images/catalog/kerlifesmall_tile
-'../src/images/catalog/kerlifetanger
-],
-},{Сollection: marblestone,
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Керлайф', 
+    Сollection: 'marblestone',
 interiors: [
-
-
 '../src/images/catalog/kerlife/marblestone/interiors/kerlife_marblestone_16897_218575_0x300.jpg'],
-},{Сollection: nrk
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Керлайф', 
+    Сollection: 'nrk',
 interiors: [
-
-
 '../src/images/catalog/kerlife/nrk/interiors/kerlife_nrk_18475_553626_0x300.jpg'],
-},{Сollection: rabat
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Керлайф', 
+    Сollection: 'rabat',
 interiors: [
-
-
 '../src/images/catalog/kerlife/rabat/interiors/kerlife_rabat_15966_569010_0x300.jpg'],
-},{Сollection: small_tile,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Керлайф', 
+    Сollection: 'small_tile',
 interiors: [
-
-
 '../src/images/catalog/kerlife/small_tile/interiors/kerlife_small_tile_11284_28866_0x300.jpg',
 '../src/images/catalog/kerlife/small_tile/interiors/kerlife_small_tile_11284_316867_0x300.jpg',
 '../src/images/catalog/kerlife/small_tile/interiors/kerlife_small_tile_11284_316867_0x500.jpg',
@@ -9940,107 +9187,41 @@ interiors: [
 '../src/images/catalog/kerlife/small_tile/interiors/kerlife_small_tile_11284_96723_0x300.jpg',
 '../src/images/catalog/kerlife/small_tile/interiors/kerlife_small_tile_11284_990176_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/kerlife/small_tile/tovars/kerlife_small_tile_94248_341472_300x0.jpg',
 '../src/images/catalog/kerlife/small_tile/tovars/kerlife_small_tile_94250_361150_300x0.jpg'],
-},{Сollection: tanger
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'Керлайф', 
+    Сollection: 'tanger',
 interiors: [
-
-
 '../src/images/catalog/kerlife/tanger/interiors/kerlife_tanger_15967_701023_0x300.jpg'],
-},{Сollection: lb_ceramics,
-'../src/images/catalog/lb_ceramics.
-'../src/images/catalog/lb_ceramics..
-'../src/images/catalog/lb_ceramicsajjrish
-'../src/images/catalog/lb_ceramicsalbervud
-'../src/images/catalog/lb_ceramicsandersson
-'../src/images/catalog/lb_ceramicsasgard
-'../src/images/catalog/lb_ceramicsaspen
-'../src/images/catalog/lb_ceramicsbliss
-'../src/images/catalog/lb_ceramicsblyum
-'../src/images/catalog/lb_ceramicsdiamante
-'../src/images/catalog/lb_ceramicsdikkens
-'../src/images/catalog/lb_ceramicsdomino
-'../src/images/catalog/lb_ceramicsdyuna
-'../src/images/catalog/lb_ceramicsdzhapandi
-'../src/images/catalog/lb_ceramicsdzhordano
-'../src/images/catalog/lb_ceramicsehllen
-'../src/images/catalog/lb_ceramicsehlzas
-'../src/images/catalog/lb_ceramicsfiori_gridzho
-'../src/images/catalog/lb_ceramicsgauss
-'../src/images/catalog/lb_ceramicsgunnar
-'../src/images/catalog/lb_ceramicsipanema
-'../src/images/catalog/lb_ceramicskampanilya
-'../src/images/catalog/lb_ceramicskarrara_nova
-'../src/images/catalog/lb_ceramicskarrarskijj_mramor_i_loft,
-'../src/images/catalog/lb_ceramicskehrroll
-'../src/images/catalog/lb_ceramicskincugi
-'../src/images/catalog/lb_ceramicskipling
-'../src/images/catalog/lb_ceramicslissabon
-'../src/images/catalog/lb_ceramicsloft_stajjl
-'../src/images/catalog/lb_ceramicslokivud
-'../src/images/catalog/lb_ceramicsmakedoniya
-'../src/images/catalog/lb_ceramicsmerc
-'../src/images/catalog/lb_ceramicsmezon
-'../src/images/catalog/lb_ceramicsmilaneze_dizajjn
-'../src/images/catalog/lb_ceramicsmirabello
-'../src/images/catalog/lb_ceramicsmoreska
-'../src/images/catalog/lb_ceramicsnaomi
-'../src/images/catalog/lb_ceramicsniagara
-'../src/images/catalog/lb_ceramicsnordanvind
-'../src/images/catalog/lb_ceramicsoklend
-'../src/images/catalog/lb_ceramicsparizhanka
-'../src/images/catalog/lb_ceramicspatio
-'../src/images/catalog/lb_ceramicsrerikh
-'../src/images/catalog/lb_ceramicsriver_vud
-'../src/images/catalog/lb_ceramicsrosa_rok
-'../src/images/catalog/lb_ceramicsshebbi_shik
-'../src/images/catalog/lb_ceramicsshvarc
-'../src/images/catalog/lb_ceramicssmart
-'../src/images/catalog/lb_ceramicssten
-'../src/images/catalog/lb_ceramicstaverna
-'../src/images/catalog/lb_ceramicstitan
-'../src/images/catalog/lb_ceramicsvenskijj_les
-'../src/images/catalog/lb_ceramicsvestanvind
-'../src/images/catalog/lb_ceramicsvestern_vud
-'../src/images/catalog/lb_ceramicsvintazh_vud
-'../src/images/catalog/lb_ceramicsyansson
-],
-},{Сollection: ajjrish
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'ajjrish',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/ajjrish/interiors/lb_ceramics_ajjrish_7737_493166_0x300.jpg',
 '../src/images/catalog/lb_ceramics/ajjrish/interiors/lb_ceramics_ajjrish_7737_493166_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/ajjrish/tovars/lb_ceramics_ajjrish_66608_881794_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ajjrish/tovars/lb_ceramics_ajjrish_66609_175192_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ajjrish/tovars/lb_ceramics_ajjrish_66610_845325_300x0.jpg'],
-},{Сollection: albervud
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'albervud',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/albervud/interiors/lb_ceramics_albervud_8120_675732_0x300.jpg',
 '../src/images/catalog/lb_ceramics/albervud/interiors/lb_ceramics_albervud_8120_675732_0x500.jpg',
 '../src/images/catalog/lb_ceramics/albervud/interiors/lb_ceramics_albervud_8120_836199_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/albervud/tovars/lb_ceramics_albervud_70264_643156_300x0.jpg',
 '../src/images/catalog/lb_ceramics/albervud/tovars/lb_ceramics_albervud_70265_160911_300x0.jpg',
 '../src/images/catalog/lb_ceramics/albervud/tovars/lb_ceramics_albervud_70266_692558_300x0.jpg',
@@ -10050,157 +9231,127 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/albervud/tovars/lb_ceramics_albervud_70270_149533_300x0.jpg',
 '../src/images/catalog/lb_ceramics/albervud/tovars/lb_ceramics_albervud_70271_777665_300x0.jpg',
 '../src/images/catalog/lb_ceramics/albervud/tovars/lb_ceramics_albervud_70272_925473_300x0.jpg'],
-},{Сollection: andersson,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'andersson',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/andersson/interiors/lb_ceramics_andersson_10636_193141_0x300.jpg',
 '../src/images/catalog/lb_ceramics/andersson/interiors/lb_ceramics_andersson_10636_23438_0x300.jpg',
-'../src/images/catalog/lb_ceramics/andersson/interiors/lb_ceramics_andersson_10636_23438_0x500.jpg',
-],
+'../src/images/catalog/lb_ceramics/andersson/interiors/lb_ceramics_andersson_10636_23438_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/andersson/tovars/lb_ceramics_andersson_90221_355042_300x0.jpg',
 '../src/images/catalog/lb_ceramics/andersson/tovars/lb_ceramics_andersson_90222_661453_300x0.jpg',
 '../src/images/catalog/lb_ceramics/andersson/tovars/lb_ceramics_andersson_90223_546111_300x0.jpg'],
-},{Сollection: asgard
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'asgard',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/asgard/interiors/lb_ceramics_asgard_18682_79539_0x300.jpg',
 '../src/images/catalog/lb_ceramics/asgard/interiors/lb_ceramics_asgard_18682_79539_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/asgard/tovars/lb_ceramics_asgard_129279_71229_300x0.jpg',
 '../src/images/catalog/lb_ceramics/asgard/tovars/lb_ceramics_asgard_129280_609440_300x0.jpg'],
-},{Сollection: aspen
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'aspen',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/aspen/interiors/lb_ceramics_aspen_11769_137144_0x300.jpg',
-'../src/images/catalog/lb_ceramics/aspen/interiors/lb_ceramics_aspen_11769_137144_0x500.jpg',
-],
+'../src/images/catalog/lb_ceramics/aspen/interiors/lb_ceramics_aspen_11769_137144_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/aspen/tovars/lb_ceramics_aspen_96491_182982_300x0.jpg',
 '../src/images/catalog/lb_ceramics/aspen/tovars/lb_ceramics_aspen_96492_80381_300x0.jpg',
 '../src/images/catalog/lb_ceramics/aspen/tovars/lb_ceramics_aspen_96493_207059_300x0.jpg'],
-},{Сollection: bliss
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'bliss',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/bliss/interiors/lb_ceramics_bliss_13482_799505_0x300.jpg',
 '../src/images/catalog/lb_ceramics/bliss/interiors/lb_ceramics_bliss_13482_799505_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/bliss/tovars/lb_ceramics_bliss_107220_654672_300x0.jpg',
 '../src/images/catalog/lb_ceramics/bliss/tovars/lb_ceramics_bliss_107221_128773_300x0.jpg',
 '../src/images/catalog/lb_ceramics/bliss/tovars/lb_ceramics_bliss_107222_940152_300x0.jpg',
 '../src/images/catalog/lb_ceramics/bliss/tovars/lb_ceramics_bliss_107223_511241_300x0.jpg',
 '../src/images/catalog/lb_ceramics/bliss/tovars/lb_ceramics_bliss_107224_472114_300x0.jpg'],
-},{Сollection: blyum
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'blyum',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/blyum/interiors/lb_ceramics_blyum_11770_454253_0x300.jpg',
 '../src/images/catalog/lb_ceramics/blyum/interiors/lb_ceramics_blyum_11770_454253_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/blyum/tovars/lb_ceramics_blyum_96494_319787_300x0.jpg',
 '../src/images/catalog/lb_ceramics/blyum/tovars/lb_ceramics_blyum_96495_290491_300x0.jpg',
 '../src/images/catalog/lb_ceramics/blyum/tovars/lb_ceramics_blyum_96496_777327_300x0.jpg',
 '../src/images/catalog/lb_ceramics/blyum/tovars/lb_ceramics_blyum_96497_387262_300x0.jpg'],
-},{Сollection: diamante
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'diamante',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/diamante/interiors/lb_ceramics_diamante_10638_134333_0x300.jpg',
 '../src/images/catalog/lb_ceramics/diamante/interiors/lb_ceramics_diamante_10638_134333_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/diamante/tovars/lb_ceramics_diamante_90228_690177_300x0.jpg',
 '../src/images/catalog/lb_ceramics/diamante/tovars/lb_ceramics_diamante_90229_837318_300x0.jpg'],
-},{Сollection: dikkens
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'dikkens',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/dikkens/interiors/lb_ceramics_dikkens_17016_140134_0x300.jpg',
 '../src/images/catalog/lb_ceramics/dikkens/interiors/lb_ceramics_dikkens_17016_140134_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/dikkens/tovars/lb_ceramics_dikkens_122833_222404_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dikkens/tovars/lb_ceramics_dikkens_122834_400276_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dikkens/tovars/lb_ceramics_dikkens_122835_418458_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dikkens/tovars/lb_ceramics_dikkens_129281_521849_300x0.jpg'],
-},{Сollection: domino
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'domino',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/domino/interiors/lb_ceramics_domino_13484_401319_0x300.jpg',
 '../src/images/catalog/lb_ceramics/domino/interiors/lb_ceramics_domino_13484_401319_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/domino/tovars/lb_ceramics_domino_107230_238721_300x0.jpg',
 '../src/images/catalog/lb_ceramics/domino/tovars/lb_ceramics_domino_107231_448332_300x0.jpg'],
-},{Сollection: dyuna
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'dyuna',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/dyuna/interiors/lb_ceramics_dyuna_7738_703095_0x300.jpg',
 '../src/images/catalog/lb_ceramics/dyuna/interiors/lb_ceramics_dyuna_7738_961754_0x300.jpg',
 '../src/images/catalog/lb_ceramics/dyuna/interiors/lb_ceramics_dyuna_7738_961754_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/dyuna/tovars/lb_ceramics_dyuna_66611_433765_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dyuna/tovars/lb_ceramics_dyuna_66612_614247_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dyuna/tovars/lb_ceramics_dyuna_66613_290880_300x0.jpg',
@@ -10211,35 +9362,29 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/dyuna/tovars/lb_ceramics_dyuna_66618_436154_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dyuna/tovars/lb_ceramics_dyuna_66619_481182_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dyuna/tovars/lb_ceramics_dyuna_66620_851869_300x0.jpg'],
-},{Сollection: dzhapandi,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'dzhapandi',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/dzhapandi/interiors/lb_ceramics_dzhapandi_11772_474084_0x300.jpg',
 '../src/images/catalog/lb_ceramics/dzhapandi/interiors/lb_ceramics_dzhapandi_11772_474084_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/dzhapandi/tovars/lb_ceramics_dzhapandi_96504_674092_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhapandi/tovars/lb_ceramics_dzhapandi_96505_454465_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhapandi/tovars/lb_ceramics_dzhapandi_96506_595478_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhapandi/tovars/lb_ceramics_dzhapandi_96508_186407_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhapandi/tovars/lb_ceramics_dzhapandi_96509_672537_300x0.jpg'],
-},{Сollection: dzhordano,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'dzhordano',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/dzhordano/interiors/lb_ceramics_dzhordano_16729_394603_0x300.jpg',
 '../src/images/catalog/lb_ceramics/dzhordano/interiors/lb_ceramics_dzhordano_16729_434398_0x300.jpg',
 '../src/images/catalog/lb_ceramics/dzhordano/interiors/lb_ceramics_dzhordano_16729_546917_0x300.jpg',
@@ -10248,52 +9393,43 @@ interiors: [
 '../src/images/catalog/lb_ceramics/dzhordano/interiors/lb_ceramics_dzhordano_16729_844256_0x300.jpg',
 '../src/images/catalog/lb_ceramics/dzhordano/interiors/lb_ceramics_dzhordano_16729_88095_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/dzhordano/tovars/lb_ceramics_dzhordano_121538_586316_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhordano/tovars/lb_ceramics_dzhordano_121539_888144_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhordano/tovars/lb_ceramics_dzhordano_121540_487492_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhordano/tovars/lb_ceramics_dzhordano_121541_46461_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhordano/tovars/lb_ceramics_dzhordano_121542_641435_300x0.jpg',
 '../src/images/catalog/lb_ceramics/dzhordano/tovars/lb_ceramics_dzhordano_121543_570483_300x0.jpg'],
-},{Сollection: ehllen
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'ehllen',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/ehllen/interiors/lb_ceramics_ehllen_11778_789396_0x300.jpg',
-'../src/images/catalog/lb_ceramics/ehllen/interiors/lb_ceramics_ehllen_11778_789396_0x500.jpg',
-],
+'../src/images/catalog/lb_ceramics/ehllen/interiors/lb_ceramics_ehllen_11778_789396_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/ehllen/tovars/lb_ceramics_ehllen_96535_679488_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ehllen/tovars/lb_ceramics_ehllen_96536_604879_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ehllen/tovars/lb_ceramics_ehllen_96538_806196_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ehllen/tovars/lb_ceramics_ehllen_96539_781288_300x0.jpg'],
-},{Сollection: ehlzas
-
-
-],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'ehlzas',
 tovars:  [
-
-
-'../src/images/catalog/lb_ceramics/ehlzas/tovars/lb_ceramics_ehlzas_96540_221414_300x0.jpg',
--fiori_gridzho,
-
-
-
-
+'../src/images/catalog/lb_ceramics/ehlzas/tovars/lb_ceramics_ehlzas_96540_221414_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'fiori_gridzho',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/fiori_gridzho/interiors/lb_ceramics_fiori_gridzho_6744_84710_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/fiori_gridzho/tovars/lb_ceramics_fiori_gridzho_57383_938638_300x0.jpg',
 '../src/images/catalog/lb_ceramics/fiori_gridzho/tovars/lb_ceramics_fiori_gridzho_57384_302715_300x0.jpg',
 '../src/images/catalog/lb_ceramics/fiori_gridzho/tovars/lb_ceramics_fiori_gridzho_57385_604300_300x0.jpg',
@@ -10303,38 +9439,32 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/fiori_gridzho/tovars/lb_ceramics_fiori_gridzho_57389_703104_300x0.jpg',
 '../src/images/catalog/lb_ceramics/fiori_gridzho/tovars/lb_ceramics_fiori_gridzho_57391_341784_300x0.jpg',
 '../src/images/catalog/lb_ceramics/fiori_gridzho/tovars/lb_ceramics_fiori_gridzho_57392_620607_300x0.jpg'],
-},{Сollection: gauss
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'gauss',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/gauss/interiors/lb_ceramics_gauss_11771_60591_0x300.jpg',
 '../src/images/catalog/lb_ceramics/gauss/interiors/lb_ceramics_gauss_11771_60591_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/gauss/tovars/lb_ceramics_gauss_96498_877628_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gauss/tovars/lb_ceramics_gauss_96499_616347_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gauss/tovars/lb_ceramics_gauss_96500_278899_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gauss/tovars/lb_ceramics_gauss_96501_593932_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gauss/tovars/lb_ceramics_gauss_96502_383539_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gauss/tovars/lb_ceramics_gauss_96503_177491_300x0.jpg'],
-},{Сollection: gunnar
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'gunnar',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/gunnar/interiors/lb_ceramics_gunnar_13483_672405_0x300.jpg',
 '../src/images/catalog/lb_ceramics/gunnar/interiors/lb_ceramics_gunnar_13483_672405_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/gunnar/tovars/lb_ceramics_gunnar_107225_443691_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gunnar/tovars/lb_ceramics_gunnar_107226_927326_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gunnar/tovars/lb_ceramics_gunnar_107227_922827_300x0.jpg',
@@ -10342,40 +9472,34 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/gunnar/tovars/lb_ceramics_gunnar_107229_993078_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gunnar/tovars/lb_ceramics_gunnar_111351_878761_300x0.jpg',
 '../src/images/catalog/lb_ceramics/gunnar/tovars/lb_ceramics_gunnar_111352_999803_300x0.jpg'],
-},{Сollection: ipanema
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'ipanema',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/ipanema/interiors/lb_ceramics_ipanema_10639_843940_0x300.jpg',
 '../src/images/catalog/lb_ceramics/ipanema/interiors/lb_ceramics_ipanema_10639_843940_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/ipanema/tovars/lb_ceramics_ipanema_90230_20546_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ipanema/tovars/lb_ceramics_ipanema_90231_693840_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ipanema/tovars/lb_ceramics_ipanema_90232_15684_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ipanema/tovars/lb_ceramics_ipanema_90233_550002_300x0.jpg',
 '../src/images/catalog/lb_ceramics/ipanema/tovars/lb_ceramics_ipanema_90234_701027_300x0.jpg'],
-},{Сollection: kampanilya,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'kampanilya',
 ,
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/kampanilya/interiors/lb_ceramics_kampanilya_7739_607484_0x300.jpg',
 '../src/images/catalog/lb_ceramics/kampanilya/interiors/lb_ceramics_kampanilya_7739_607484_0x500.jpg',
 '../src/images/catalog/lb_ceramics/kampanilya/interiors/lb_ceramics_kampanilya_7739_81547_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/kampanilya/tovars/lb_ceramics_kampanilya_66622_651498_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kampanilya/tovars/lb_ceramics_kampanilya_66623_757049_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kampanilya/tovars/lb_ceramics_kampanilya_66625_744067_300x0.jpg',
@@ -10383,219 +9507,180 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/kampanilya/tovars/lb_ceramics_kampanilya_66627_170971_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kampanilya/tovars/lb_ceramics_kampanilya_66628_777245_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kampanilya/tovars/lb_ceramics_kampanilya_66629_661910_300x0.jpg'],
-},{Сollection: karrara_nova,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'karrara_nova',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/karrara_nova/interiors/lb_ceramics_karrara_nova_13485_39267_0x300.jpg',
 '../src/images/catalog/lb_ceramics/karrara_nova/interiors/lb_ceramics_karrara_nova_13485_39267_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/karrara_nova/tovars/lb_ceramics_karrara_nova_107232_529496_300x0.jpg',
 '../src/images/catalog/lb_ceramics/karrara_nova/tovars/lb_ceramics_karrara_nova_107233_406246_300x0.jpg',
 '../src/images/catalog/lb_ceramics/karrara_nova/tovars/lb_ceramics_karrara_nova_107234_560168_300x0.jpg',
 '../src/images/catalog/lb_ceramics/karrara_nova/tovars/lb_ceramics_karrara_nova_107235_260128_300x0.jpg',
-'../src/images/catalog/lb_ceramics/karrara_nova/tovars/lb_ceramics_karrara_nova_107236_85271_300x0.jpg',
--karrarskijj_mramor_i_loft,
-
-'../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft..,
-
-
+'../src/images/catalog/lb_ceramics/karrara_nova/tovars/lb_ceramics_karrara_nova_107236_85271_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'karrarskijj_mramor_i_loft',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/interiors/lb_ceramics_karrarskijj_mramor_i_loft_9635_162497_0x300.jpg',
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/interiors/lb_ceramics_karrarskijj_mramor_i_loft_9635_505132_0x300.jpg',
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/interiors/lb_ceramics_karrarskijj_mramor_i_loft_9635_505132_0x500.jpg',
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/interiors/lb_ceramics_karrarskijj_mramor_i_loft_9635_571138_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/tovars/lb_ceramics_karrarskijj_mramor_i_loft_35305_125402_300x0.jpg',
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/tovars/lb_ceramics_karrarskijj_mramor_i_loft_83043_636615_300x0.jpg',
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/tovars/lb_ceramics_karrarskijj_mramor_i_loft_83044_429220_300x0.jpg',
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/tovars/lb_ceramics_karrarskijj_mramor_i_loft_83045_185352_300x0.jpg',
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/tovars/lb_ceramics_karrarskijj_mramor_i_loft_83046_480652_300x0.jpg',
 '../src/images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/tovars/lb_ceramics_karrarskijj_mramor_i_loft_83047_842520_300x0.jpg'],
-},{Сollection: kehrroll
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'kehrroll',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/kehrroll/interiors/lb_ceramics_kehrroll_18683_961284_0x300.jpg',
-'../src/images/catalog/lb_ceramics/kehrroll/interiors/lb_ceramics_kehrroll_18683_961284_0x500.jpg',
-],
+'../src/images/catalog/lb_ceramics/kehrroll/interiors/lb_ceramics_kehrroll_18683_961284_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/kehrroll/tovars/lb_ceramics_kehrroll_129282_453666_300x0.jpg'],
-},{Сollection: kincugi
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'kincugi',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/kincugi/interiors/lb_ceramics_kincugi_13486_853791_0x300.jpg',
 '../src/images/catalog/lb_ceramics/kincugi/interiors/lb_ceramics_kincugi_13486_853791_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/kincugi/tovars/lb_ceramics_kincugi_107237_634101_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kincugi/tovars/lb_ceramics_kincugi_107238_548478_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kincugi/tovars/lb_ceramics_kincugi_107239_149137_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kincugi/tovars/lb_ceramics_kincugi_107240_829330_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kincugi/tovars/lb_ceramics_kincugi_107241_117190_300x0.jpg'],
-},{Сollection: kipling
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'kipling',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/kipling/interiors/lb_ceramics_kipling_17017_284337_0x300.jpg',
 '../src/images/catalog/lb_ceramics/kipling/interiors/lb_ceramics_kipling_17017_284337_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/kipling/tovars/lb_ceramics_kipling_122836_114960_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kipling/tovars/lb_ceramics_kipling_122837_868918_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kipling/tovars/lb_ceramics_kipling_122838_284610_300x0.jpg',
 '../src/images/catalog/lb_ceramics/kipling/tovars/lb_ceramics_kipling_122839_462806_300x0.jpg'],
-},{Сollection: lissabon
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'lissabon',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/lissabon/interiors/lb_ceramics_lissabon_11774_294585_0x300.jpg',
 '../src/images/catalog/lb_ceramics/lissabon/interiors/lb_ceramics_lissabon_11774_294585_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/lissabon/tovars/lb_ceramics_lissabon_96516_623887_300x0.jpg',
 '../src/images/catalog/lb_ceramics/lissabon/tovars/lb_ceramics_lissabon_96517_470584_300x0.jpg',
 '../src/images/catalog/lb_ceramics/lissabon/tovars/lb_ceramics_lissabon_96518_281629_300x0.jpg',
 '../src/images/catalog/lb_ceramics/lissabon/tovars/lb_ceramics_lissabon_96519_646971_300x0.jpg',
 '../src/images/catalog/lb_ceramics/lissabon/tovars/lb_ceramics_lissabon_96520_192960_300x0.jpg',
 '../src/images/catalog/lb_ceramics/lissabon/tovars/lb_ceramics_lissabon_96521_196135_300x0.jpg'],
-},{Сollection: loft_stajjl,
-
-
-
-
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'loft_stajjl',
 ,
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/loft_stajjl/interiors/lb_ceramics_loft_stajjl_5644_306600_0x300.jpg',
 '../src/images/catalog/lb_ceramics/loft_stajjl/interiors/lb_ceramics_loft_stajjl_5644_306600_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/loft_stajjl/tovars/lb_ceramics_loft_stajjl_44491_884439_300x0.jpg',
 '../src/images/catalog/lb_ceramics/loft_stajjl/tovars/lb_ceramics_loft_stajjl_44494_577208_300x0.jpg',
 ],
-},{Сollection: lokivud
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'lokivud',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/lokivud/interiors/lb_ceramics_lokivud_11775_366233_0x300.jpg',
 '../src/images/catalog/lb_ceramics/lokivud/interiors/lb_ceramics_lokivud_11775_366233_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/lokivud/tovars/lb_ceramics_lokivud_96522_819955_300x0.jpg',
 '../src/images/catalog/lb_ceramics/lokivud/tovars/lb_ceramics_lokivud_96523_263342_300x0.jpg',
 '../src/images/catalog/lb_ceramics/lokivud/tovars/lb_ceramics_lokivud_96524_393196_300x0.jpg'],
-},{Сollection: makedoniya,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'makedoniya',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/makedoniya/interiors/lb_ceramics_makedoniya_11297_243812_0x300.jpg',
 '../src/images/catalog/lb_ceramics/makedoniya/interiors/lb_ceramics_makedoniya_11297_535956_0x300.jpg',
 '../src/images/catalog/lb_ceramics/makedoniya/interiors/lb_ceramics_makedoniya_11297_535956_0x500.jpg',
 '../src/images/catalog/lb_ceramics/makedoniya/interiors/lb_ceramics_makedoniya_11297_935624_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/makedoniya/tovars/lb_ceramics_makedoniya_94355_994495_300x0.jpg',
 '../src/images/catalog/lb_ceramics/makedoniya/tovars/lb_ceramics_makedoniya_94356_270866_300x0.jpg',
 '../src/images/catalog/lb_ceramics/makedoniya/tovars/lb_ceramics_makedoniya_94357_674860_300x0.jpg'],
-},{Сollection: merc
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'merc',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/merc/interiors/lb_ceramics_merc_16201_908417_0x300.jpg',
 '../src/images/catalog/lb_ceramics/merc/interiors/lb_ceramics_merc_16201_908417_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/merc/tovars/lb_ceramics_merc_119653_519246_300x0.jpg',
 '../src/images/catalog/lb_ceramics/merc/tovars/lb_ceramics_merc_119654_388687_300x0.jpg',
 '../src/images/catalog/lb_ceramics/merc/tovars/lb_ceramics_merc_119656_73874_300x0.jpg'],
-},{Сollection: mezon
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'mezon',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/mezon/interiors/lb_ceramics_mezon_4731_854814_0x300.jpg',
 '../src/images/catalog/lb_ceramics/mezon/interiors/lb_ceramics_mezon_4731_854814_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/mezon/tovars/lb_ceramics_mezon_35006_234170_300x0.jpg',
 '../src/images/catalog/lb_ceramics/mezon/tovars/lb_ceramics_mezon_35007_538398_300x0.jpg',
 '../src/images/catalog/lb_ceramics/mezon/tovars/lb_ceramics_mezon_35008_105670_300x0.jpg',
 '../src/images/catalog/lb_ceramics/mezon/tovars/lb_ceramics_mezon_35009_830611_300x0.jpg',
-'../src/images/catalog/lb_ceramics/mezon/tovars/lb_ceramics_mezon_35010_502144_300x0.jpg',
--milaneze_dizajjn,
-
-
-
-
+'../src/images/catalog/lb_ceramics/mezon/tovars/lb_ceramics_mezon_35010_502144_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'milaneze_dizajjn',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/milaneze_dizajjn/interiors/lb_ceramics_milaneze_dizajjn_6719_516008_0x300.jpg',
 '../src/images/catalog/lb_ceramics/milaneze_dizajjn/interiors/lb_ceramics_milaneze_dizajjn_6719_516008_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/milaneze_dizajjn/tovars/lb_ceramics_milaneze_dizajjn_57221_25136_300x0.jpg',
 '../src/images/catalog/lb_ceramics/milaneze_dizajjn/tovars/lb_ceramics_milaneze_dizajjn_57225_413818_300x0.jpg',
 '../src/images/catalog/lb_ceramics/milaneze_dizajjn/tovars/lb_ceramics_milaneze_dizajjn_57229_358733_300x0.jpg',
@@ -10604,37 +9689,30 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/milaneze_dizajjn/tovars/lb_ceramics_milaneze_dizajjn_57238_281717_300x0.jpg',
 '../src/images/catalog/lb_ceramics/milaneze_dizajjn/tovars/lb_ceramics_milaneze_dizajjn_57242_369801_300x0.jpg',
 '../src/images/catalog/lb_ceramics/milaneze_dizajjn/tovars/lb_ceramics_milaneze_dizajjn_57246_501119_300x0.jpg'],
-},{Сollection: mirabello,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'mirabello',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/mirabello/interiors/lb_ceramics_mirabello_17018_444462_0x300.jpg',
 '../src/images/catalog/lb_ceramics/mirabello/interiors/lb_ceramics_mirabello_17018_444462_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/mirabello/tovars/lb_ceramics_mirabello_122840_304714_300x0.jpg'],
-},{Сollection: moreska
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'moreska',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/moreska/interiors/lb_ceramics_moreska_9636_549210_0x300.jpg',
 '../src/images/catalog/lb_ceramics/moreska/interiors/lb_ceramics_moreska_9636_595942_0x300.jpg',
 '../src/images/catalog/lb_ceramics/moreska/interiors/lb_ceramics_moreska_9636_595942_0x500.jpg',
 '../src/images/catalog/lb_ceramics/moreska/interiors/lb_ceramics_moreska_9636_923392_0x300.jpg',
 '../src/images/catalog/lb_ceramics/moreska/interiors/lb_ceramics_moreska_9636_92816_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/moreska/tovars/lb_ceramics_moreska_83048_607526_300x0.jpg',
 '../src/images/catalog/lb_ceramics/moreska/tovars/lb_ceramics_moreska_83049_166474_300x0.jpg',
 '../src/images/catalog/lb_ceramics/moreska/tovars/lb_ceramics_moreska_83050_97505_300x0.jpg',
@@ -10648,56 +9726,46 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/moreska/tovars/lb_ceramics_moreska_83058_293257_300x0.jpg',
 '../src/images/catalog/lb_ceramics/moreska/tovars/lb_ceramics_moreska_83059_532429_300x0.jpg',
 '../src/images/catalog/lb_ceramics/moreska/tovars/lb_ceramics_moreska_83060_966744_300x0.jpg'],
-},{Сollection: naomi
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'naomi',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/naomi/interiors/lb_ceramics_naomi_6128_340220_0x300.jpg',
 '../src/images/catalog/lb_ceramics/naomi/interiors/lb_ceramics_naomi_6128_340220_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/naomi/tovars/lb_ceramics_naomi_35336_717869_300x0.jpg',
 '../src/images/catalog/lb_ceramics/naomi/tovars/lb_ceramics_naomi_35338_187204_300x0.jpg',
 '../src/images/catalog/lb_ceramics/naomi/tovars/lb_ceramics_naomi_50416_386890_300x0.jpg',
 '../src/images/catalog/lb_ceramics/naomi/tovars/lb_ceramics_naomi_50417_333444_300x0.jpg',
 '../src/images/catalog/lb_ceramics/naomi/tovars/lb_ceramics_naomi_50418_525674_300x0.jpg',
 '../src/images/catalog/lb_ceramics/naomi/tovars/lb_ceramics_naomi_50419_575291_300x0.jpg'],
-},{Сollection: niagara
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'niagara',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/niagara/interiors/lb_ceramics_niagara_11776_616614_0x300.jpg',
 '../src/images/catalog/lb_ceramics/niagara/interiors/lb_ceramics_niagara_11776_616614_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/niagara/tovars/lb_ceramics_niagara_96525_139742_300x0.jpg',
 '../src/images/catalog/lb_ceramics/niagara/tovars/lb_ceramics_niagara_96526_543834_300x0.jpg',
 '../src/images/catalog/lb_ceramics/niagara/tovars/lb_ceramics_niagara_96527_170524_300x0.jpg',
 '../src/images/catalog/lb_ceramics/niagara/tovars/lb_ceramics_niagara_96529_421463_300x0.jpg'],
-},{Сollection: nordanvind,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'nordanvind',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/nordanvind/interiors/lb_ceramics_nordanvind_6732_528157_0x300.jpg',
 '../src/images/catalog/lb_ceramics/nordanvind/interiors/lb_ceramics_nordanvind_6732_528157_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/nordanvind/tovars/lb_ceramics_nordanvind_57325_368014_300x0.jpg',
 '../src/images/catalog/lb_ceramics/nordanvind/tovars/lb_ceramics_nordanvind_57326_366363_300x0.jpg',
 '../src/images/catalog/lb_ceramics/nordanvind/tovars/lb_ceramics_nordanvind_57327_293785_300x0.jpg',
@@ -10705,40 +9773,32 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/nordanvind/tovars/lb_ceramics_nordanvind_57329_761073_300x0.jpg',
 '../src/images/catalog/lb_ceramics/nordanvind/tovars/lb_ceramics_nordanvind_57330_195332_300x0.jpg',
 '../src/images/catalog/lb_ceramics/nordanvind/tovars/lb_ceramics_nordanvind_57331_178131_300x0.jpg'],
-},{Сollection: oklend
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'oklend',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/oklend/interiors/lb_ceramics_oklend_13487_322054_0x300.jpg',
-'../src/images/catalog/lb_ceramics/oklend/interiors/lb_ceramics_oklend_13487_322054_0x500.jpg',
-],
+'../src/images/catalog/lb_ceramics/oklend/interiors/lb_ceramics_oklend_13487_322054_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/oklend/tovars/lb_ceramics_oklend_107242_614336_300x0.jpg',
 '../src/images/catalog/lb_ceramics/oklend/tovars/lb_ceramics_oklend_107243_242719_300x0.jpg',
 '../src/images/catalog/lb_ceramics/oklend/tovars/lb_ceramics_oklend_107244_315594_300x0.jpg'],
-},{Сollection: parizhanka,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'parizhanka',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/parizhanka/interiors/lb_ceramics_parizhanka_8309_38750_0x300.jpg',
 '../src/images/catalog/lb_ceramics/parizhanka/interiors/lb_ceramics_parizhanka_8309_678691_0x300.jpg',
 '../src/images/catalog/lb_ceramics/parizhanka/interiors/lb_ceramics_parizhanka_8309_705281_0x300.jpg',
 '../src/images/catalog/lb_ceramics/parizhanka/interiors/lb_ceramics_parizhanka_8309_705281_0x500.jpg',
 '../src/images/catalog/lb_ceramics/parizhanka/interiors/lb_ceramics_parizhanka_8309_931317_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/parizhanka/tovars/lb_ceramics_parizhanka_71650_953666_300x0.jpg',
 '../src/images/catalog/lb_ceramics/parizhanka/tovars/lb_ceramics_parizhanka_71651_26999_300x0.jpg',
 '../src/images/catalog/lb_ceramics/parizhanka/tovars/lb_ceramics_parizhanka_71652_786132_300x0.jpg',
@@ -10755,66 +9815,53 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/parizhanka/tovars/lb_ceramics_parizhanka_71664_258910_300x0.jpg',
 '../src/images/catalog/lb_ceramics/parizhanka/tovars/lb_ceramics_parizhanka_71665_612597_300x0.jpg',
 '../src/images/catalog/lb_ceramics/parizhanka/tovars/lb_ceramics_parizhanka_71666_638943_300x0.jpg'],
-},{Сollection: patio
-
-
-
-,
+},{Сolleid: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollectionction: 'patio',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/patio/interiors/lb_ceramics_patio_13488_324987_0x300.jpg',
 '../src/images/catalog/lb_ceramics/patio/interiors/lb_ceramics_patio_13488_324987_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/patio/tovars/lb_ceramics_patio_107245_523607_300x0.jpg',
 '../src/images/catalog/lb_ceramics/patio/tovars/lb_ceramics_patio_107246_103213_300x0.jpg',
 '../src/images/catalog/lb_ceramics/patio/tovars/lb_ceramics_patio_107247_925606_300x0.jpg'],
-},{Сollection: rerikh
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'rerikh',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/rerikh/interiors/lb_ceramics_rerikh_18684_974789_0x300.jpg',
 '../src/images/catalog/lb_ceramics/rerikh/interiors/lb_ceramics_rerikh_18684_974789_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/rerikh/tovars/lb_ceramics_rerikh_129284_641646_300x0.jpg'],
-},{Сollection: river_vud,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'river_vud',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/river_vud/interiors/lb_ceramics_river_vud_4312_272295_0x300.jpg',
 '../src/images/catalog/lb_ceramics/river_vud/interiors/lb_ceramics_river_vud_4312_272295_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/river_vud/tovars/lb_ceramics_river_vud_30673_548964_300x0.jpg',
 '../src/images/catalog/lb_ceramics/river_vud/tovars/lb_ceramics_river_vud_30674_206359_300x0.jpg'],
-},{Сollection: rosa_rok
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'rosa_rok',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/rosa_rok/interiors/lb_ceramics_rosa_rok_13489_109368_0x300.jpg',
 '../src/images/catalog/lb_ceramics/rosa_rok/interiors/lb_ceramics_rosa_rok_13489_109368_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/rosa_rok/tovars/lb_ceramics_rosa_rok_107248_376160_300x0.jpg',
 '../src/images/catalog/lb_ceramics/rosa_rok/tovars/lb_ceramics_rosa_rok_107249_32274_300x0.jpg',
 '../src/images/catalog/lb_ceramics/rosa_rok/tovars/lb_ceramics_rosa_rok_107250_538446_300x0.jpg',
@@ -10825,142 +9872,114 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/rosa_rok/tovars/lb_ceramics_rosa_rok_107255_613164_300x0.jpg',
 '../src/images/catalog/lb_ceramics/rosa_rok/tovars/lb_ceramics_rosa_rok_107256_912291_300x0.jpg',
 '../src/images/catalog/lb_ceramics/rosa_rok/tovars/lb_ceramics_rosa_rok_107257_459401_300x0.jpg'],
-},{Сollection: shebbi_shik,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'shebbi_shik',
 interiors: [
-
-
-'../src/images/catalog/lb_ceramics/shebbi_shik/interiors/lb_ceramics_shebbi_shik_5651_898880_0x500.jpg',
-],
+'../src/images/catalog/lb_ceramics/shebbi_shik/interiors/lb_ceramics_shebbi_shik_5651_898880_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/shebbi_shik/tovars/lb_ceramics_shebbi_shik_44597_854443_300x0.jpg',
 '../src/images/catalog/lb_ceramics/shebbi_shik/tovars/lb_ceramics_shebbi_shik_44598_998715_300x0.jpg',
 '../src/images/catalog/lb_ceramics/shebbi_shik/tovars/lb_ceramics_shebbi_shik_44599_905609_300x0.jpg',
 '../src/images/catalog/lb_ceramics/shebbi_shik/tovars/lb_ceramics_shebbi_shik_44600_829096_300x0.jpg',
 '../src/images/catalog/lb_ceramics/shebbi_shik/tovars/lb_ceramics_shebbi_shik_44601_526587_300x0.jpg',
 '../src/images/catalog/lb_ceramics/shebbi_shik/tovars/lb_ceramics_shebbi_shik_44602_427601_300x0.jpg',
-'../src/images/catalog/lb_ceramics/shebbi_shik/tovars/lb_ceramics_shebbi_shik_44603_772499_300x0.jpg',
-],
-},{Сollection: shvarc
-
-
-],
+'../src/images/catalog/lb_ceramics/shebbi_shik/tovars/lb_ceramics_shebbi_shik_44603_772499_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'shvarc',
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/shvarc/tovars/lb_ceramics_shvarc_129283_757398_300x0.jpg'],
-},{Сollection: smart
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'smart',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/smart/interiors/lb_ceramics_smart_11777_549403_0x300.jpg',
 '../src/images/catalog/lb_ceramics/smart/interiors/lb_ceramics_smart_11777_549403_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/smart/tovars/lb_ceramics_smart_96530_776873_300x0.jpg',
 '../src/images/catalog/lb_ceramics/smart/tovars/lb_ceramics_smart_96531_785906_300x0.jpg',
 '../src/images/catalog/lb_ceramics/smart/tovars/lb_ceramics_smart_96532_15395_300x0.jpg',
 '../src/images/catalog/lb_ceramics/smart/tovars/lb_ceramics_smart_96533_160412_300x0.jpg',
 '../src/images/catalog/lb_ceramics/smart/tovars/lb_ceramics_smart_96534_953398_300x0.jpg'],
-},{Сollection: sten
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'sten',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/sten/interiors/lb_ceramics_sten_10640_939089_0x300.jpg',
 '../src/images/catalog/lb_ceramics/sten/interiors/lb_ceramics_sten_10640_939089_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/sten/tovars/lb_ceramics_sten_90235_559676_300x0.jpg',
 '../src/images/catalog/lb_ceramics/sten/tovars/lb_ceramics_sten_90236_766846_300x0.jpg',
 '../src/images/catalog/lb_ceramics/sten/tovars/lb_ceramics_sten_90237_313483_300x0.jpg',
 '../src/images/catalog/lb_ceramics/sten/tovars/lb_ceramics_sten_90238_95580_300x0.jpg'],
-},{Сollection: taverna
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'taverna',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/taverna/interiors/lb_ceramics_taverna_10641_541151_0x300.jpg',
 '../src/images/catalog/lb_ceramics/taverna/interiors/lb_ceramics_taverna_10641_541151_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/taverna/tovars/lb_ceramics_taverna_90239_401307_300x0.jpg',
 '../src/images/catalog/lb_ceramics/taverna/tovars/lb_ceramics_taverna_90240_442503_300x0.jpg'],
-},{Сollection: titan
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'titan',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/titan/interiors/lb_ceramics_titan_8971_798526_0x300.jpg',
-'../src/images/catalog/lb_ceramics/titan/interiors/lb_ceramics_titan_8971_798526_0x500.jpg',
-],
+'../src/images/catalog/lb_ceramics/titan/interiors/lb_ceramics_titan_8971_798526_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/titan/tovars/lb_ceramics_titan_76806_900379_300x0.jpg',
 '../src/images/catalog/lb_ceramics/titan/tovars/lb_ceramics_titan_76807_758149_300x0.jpg',
 '../src/images/catalog/lb_ceramics/titan/tovars/lb_ceramics_titan_76808_892575_300x0.jpg',
 '../src/images/catalog/lb_ceramics/titan/tovars/lb_ceramics_titan_76809_107634_300x0.jpg'],
-},{Сollection: venskijj_les,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'venskijj_les',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/venskijj_les/interiors/lb_ceramics_venskijj_les_4311_174073_0x300.jpg',
 '../src/images/catalog/lb_ceramics/venskijj_les/interiors/lb_ceramics_venskijj_les_4311_394010_0x300.jpg',
 '../src/images/catalog/lb_ceramics/venskijj_les/interiors/lb_ceramics_venskijj_les_4311_394010_0x500.jpg',
 '../src/images/catalog/lb_ceramics/venskijj_les/interiors/lb_ceramics_venskijj_les_4311_869839_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/venskijj_les/tovars/lb_ceramics_venskijj_les_30665_442143_300x0.jpg',
 '../src/images/catalog/lb_ceramics/venskijj_les/tovars/lb_ceramics_venskijj_les_30666_960947_300x0.jpg',
 '../src/images/catalog/lb_ceramics/venskijj_les/tovars/lb_ceramics_venskijj_les_30668_76189_300x0.jpg',
 '../src/images/catalog/lb_ceramics/venskijj_les/tovars/lb_ceramics_venskijj_les_30669_918282_300x0.jpg',
 '../src/images/catalog/lb_ceramics/venskijj_les/tovars/lb_ceramics_venskijj_les_30670_755739_300x0.jpg',
-'../src/images/catalog/lb_ceramics/venskijj_les/tovars/lb_ceramics_venskijj_les_30672_18582_300x0.jpg',
-],
-},{Сollection: vestanvind,
-
-
-
-
-,
+'../src/images/catalog/lb_ceramics/venskijj_les/tovars/lb_ceramics_venskijj_les_30672_18582_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'vestanvind',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/vestanvind/interiors/lb_ceramics_vestanvind_6709_27579_0x300.jpg',
 '../src/images/catalog/lb_ceramics/vestanvind/interiors/lb_ceramics_vestanvind_6709_344947_0x300.jpg',
 '../src/images/catalog/lb_ceramics/vestanvind/interiors/lb_ceramics_vestanvind_6709_344947_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/vestanvind/tovars/lb_ceramics_vestanvind_57153_971785_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vestanvind/tovars/lb_ceramics_vestanvind_57154_154177_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vestanvind/tovars/lb_ceramics_vestanvind_57155_222749_300x0.jpg',
@@ -10969,45 +9988,36 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/vestanvind/tovars/lb_ceramics_vestanvind_57158_562642_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vestanvind/tovars/lb_ceramics_vestanvind_57159_81053_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vestanvind/tovars/lb_ceramics_vestanvind_57160_538621_300x0.jpg'],
-},{Сollection: vestern_vud,
-
-
-
-
-,
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'vestern_vud',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/vestern_vud/interiors/lb_ceramics_vestern_vud_3721_152230_0x300.jpg',
 '../src/images/catalog/lb_ceramics/vestern_vud/interiors/lb_ceramics_vestern_vud_3721_231403_0x300.jpg',
 '../src/images/catalog/lb_ceramics/vestern_vud/interiors/lb_ceramics_vestern_vud_3721_431174_0x300.jpg',
 '../src/images/catalog/lb_ceramics/vestern_vud/interiors/lb_ceramics_vestern_vud_3721_431174_0x500.jpg',
 '../src/images/catalog/lb_ceramics/vestern_vud/interiors/lb_ceramics_vestern_vud_3721_766744_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/vestern_vud/tovars/lb_ceramics_vestern_vud_25573_341791_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vestern_vud/tovars/lb_ceramics_vestern_vud_61653_713965_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vestern_vud/tovars/lb_ceramics_vestern_vud_61654_453358_300x0.jpg',
-'../src/images/catalog/lb_ceramics/vestern_vud/tovars/lb_ceramics_vestern_vud_61655_63582_300x0.jpg',
-],
-},{Сollection: vintazh_vud,
-
-
-
-
-,
+'../src/images/catalog/lb_ceramics/vestern_vud/tovars/lb_ceramics_vestern_vud_61655_63582_300x0.jpg'],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'vintazh_vud',
 interiors: [
-
-
 '../src/images/catalog/lb_ceramics/vintazh_vud/interiors/lb_ceramics_vintazh_vud_9634_186213_0x300.jpg',
 '../src/images/catalog/lb_ceramics/vintazh_vud/interiors/lb_ceramics_vintazh_vud_9634_453990_0x300.jpg',
 '../src/images/catalog/lb_ceramics/vintazh_vud/interiors/lb_ceramics_vintazh_vud_9634_453990_0x500.jpg',
 '../src/images/catalog/lb_ceramics/vintazh_vud/interiors/lb_ceramics_vintazh_vud_9634_518514_0x300.jpg',
 '../src/images/catalog/lb_ceramics/vintazh_vud/interiors/lb_ceramics_vintazh_vud_9634_724185_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/vintazh_vud/tovars/lb_ceramics_vintazh_vud_83039_430391_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vintazh_vud/tovars/lb_ceramics_vintazh_vud_83040_806443_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vintazh_vud/tovars/lb_ceramics_vintazh_vud_83041_161394_300x0.jpg',
@@ -11015,472 +10025,162 @@ tovars:  [
 '../src/images/catalog/lb_ceramics/vintazh_vud/tovars/lb_ceramics_vintazh_vud_96488_33082_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vintazh_vud/tovars/lb_ceramics_vintazh_vud_96489_722375_300x0.jpg',
 '../src/images/catalog/lb_ceramics/vintazh_vud/tovars/lb_ceramics_vintazh_vud_96490_914506_300x0.jpg'],
-},{Сollection: yansson
-
-
-],
+},{id: '',
+    Сountry: 'Россия',
+    Category: 'Керамическая плитка',
+    Size: ['20x60'],
+    Name: 'LB Ceramics', 
+    Сollection: 'yansson',
 tovars:  [
-
-
 '../src/images/catalog/lb_ceramics/yansson/tovars/lb_ceramics_yansson_129285_924362_300x0.jpg'],
-},{Сollection: lcm'../src/images/catalog/lcm.
-'../src/images/catalog/lcm..
-'../src/images/catalog/lcmadamant_blue
-'../src/images/catalog/lcmagate_pheonix
-'../src/images/catalog/lcmamazon_river
-'../src/images/catalog/lcmamber_agate
-'../src/images/catalog/lcmamerican_calacatta
-'../src/images/catalog/lcmangel_agate
-'../src/images/catalog/lcmargentina
-'../src/images/catalog/lcmarmani_marble
-'../src/images/catalog/lcmatlantic_marble
-'../src/images/catalog/lcmbarcelo
-'../src/images/catalog/lcmblack_sky
-'../src/images/catalog/lcmblumarin
-'../src/images/catalog/lcmcalacatta_borghini
-'../src/images/catalog/lcmcalacatta_montreal
-'../src/images/catalog/lcmcascade
-'../src/images/catalog/lcmcaspian_onyx
-'../src/images/catalog/lcmcolumbia
-'../src/images/catalog/lcmcuba_blue
-'../src/images/catalog/lcmdallas
-'../src/images/catalog/lcmdavinci
-'../src/images/catalog/lcmdomines
-'../src/images/catalog/lcmflorim
-'../src/images/catalog/lcmgrand_antique
-'../src/images/catalog/lcmice_onyx
-'../src/images/catalog/lcmillusion
-'../src/images/catalog/lcmimperial
-'../src/images/catalog/lcmiron
-'../src/images/catalog/lcmjupiter_marmo
-'../src/images/catalog/lcmkaribib_fantasy
-'../src/images/catalog/lcmlatina
-'../src/images/catalog/lcmlenart
-'../src/images/catalog/lcmlimestone
-'../src/images/catalog/lcmlinari
-'../src/images/catalog/lcmmarmomac
-'../src/images/catalog/lcmmatrix
-'../src/images/catalog/lcmmonaco_onyx
-'../src/images/catalog/lcmmoonstone
-'../src/images/catalog/lcmnamibia
-'../src/images/catalog/lcmonyx_royal
-'../src/images/catalog/lcmonyx_smoke
-'../src/images/catalog/lcmpersia
-'../src/images/catalog/lcmpremiere_stone
-'../src/images/catalog/lcmsandy_carrara
-'../src/images/catalog/lcmsapphire_agate
-'../src/images/catalog/lcmsirius
-'../src/images/catalog/lcmskyros
-'../src/images/catalog/lcmsnow_onyx
-'../src/images/catalog/lcmstatuario
-],
-},{Сollection: adamant_blue,
-
-
-
-,
+},{id: '',
+    Сountry: 'Индия',
+    Category: 'Керамогранит',
+    Size: ['20x60'],
+    Name: 'LCM', 
+    Сollection: 'adamant_blue',
 interiors: [
-
-
 '../src/images/catalog/lcm/adamant_blue/interiors/lcm_adamant_blue_18303_379580_0x300.jpg',
 -agate_pheonix,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/agate_pheonix/interiors/lcm_agate_pheonix_15654_14112_0x300.jpg'],
 },{Сollection: amazon_river,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/amazon_river/interiors/lcm_amazon_river_17125_473141_0x300.jpg'],
 },{Сollection: amber_agate,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/amber_agate/interiors/lcm_amber_agate_15655_58305_0x300.jpg',
 -american_calacatta,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/lcm/american_calacatta/interiors/lcm_american_calacatta_15656_766465_0x300.jpg'],
 },{Сollection: angel_agate,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/angel_agate/interiors/lcm_angel_agate_18304_878514_0x300.jpg'],
 },{Сollection: argentina,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/argentina/interiors/lcm_argentina_18305_123265_0x300.jpg',
 -armani_marble,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/armani_marble/interiors/lcm_armani_marble_15657_544368_0x300.jpg',
 -atlantic_marble,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/atlantic_marble/interiors/lcm_atlantic_marble_15658_487896_0x300.jpg'],
 },{Сollection: barcelo
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/barcelo/interiors/lcm_barcelo_15659_884579_0x300.jpg'],
 },{Сollection: black_sky,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/black_sky/interiors/lcm_black_sky_18306_738139_0x300.jpg'],
 },{Сollection: blumarin
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/blumarin/interiors/lcm_blumarin_17126_632095_0x300.jpg',
 -calacatta_borghini,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/lcm/calacatta_borghini/interiors/lcm_calacatta_borghini_15660_92685_0x300.jpg',
 -calacatta_montreal,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/lcm/calacatta_montreal/interiors/lcm_calacatta_montreal_15661_710763_0x300.jpg'],
 },{Сollection: cascade
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/cascade/interiors/lcm_cascade_15662_238353_0x300.jpg'],
 },{Сollection: caspian_onyx,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/caspian_onyx/interiors/lcm_caspian_onyx_18307_120569_0x300.jpg'],
 },{Сollection: columbia
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/columbia/interiors/lcm_columbia_15663_839783_0x300.jpg'],
 },{Сollection: cuba_blue,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/cuba_blue/interiors/lcm_cuba_blue_17127_447324_0x300.jpg'],
 },{Сollection: dallas
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/dallas/interiors/lcm_dallas_15664_901149_0x300.jpg'],
 },{Сollection: davinci
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/davinci/interiors/lcm_davinci_17128_738206_0x300.jpg'],
 },{Сollection: domines
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/domines/interiors/lcm_domines_15665_280198_0x300.jpg'],
 },{Сollection: florim
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/florim/interiors/lcm_florim_15667_919486_0x300.jpg',
 -grand_antique,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/grand_antique/interiors/lcm_grand_antique_17129_102457_0x300.jpg'],
 },{Сollection: ice_onyx
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/ice_onyx/interiors/lcm_ice_onyx_15668_207678_0x300.jpg'],
 },{Сollection: illusion
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/illusion/interiors/lcm_illusion_17130_13212_0x300.jpg'],
 },{Сollection: imperial
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/imperial/interiors/lcm_imperial_15669_71961_0x300.jpg'],
 },{Сollection: iron
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/iron/interiors/lcm_iron_18308_230714_0x300.jpg',
 -jupiter_marmo,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/jupiter_marmo/interiors/lcm_jupiter_marmo_18310_174364_0x300.jpg',
 -karibib_fantasy,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/karibib_fantasy/interiors/lcm_karibib_fantasy_15670_88539_0x300.jpg'],
 },{Сollection: latina
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/latina/interiors/lcm_latina_18311_651781_0x300.jpg'],
 },{Сollection: lenart
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/lenart/interiors/lcm_lenart_18312_709342_0x300.jpg'],
 },{Сollection: limestone,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/limestone/interiors/lcm_limestone_15671_774626_0x300.jpg'],
 },{Сollection: linari
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/linari/interiors/lcm_linari_18314_221202_0x300.jpg'],
 },{Сollection: marmomac
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/marmomac/interiors/lcm_marmomac_18318_742119_0x300.jpg'],
 },{Сollection: matrix
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/matrix/interiors/lcm_matrix_18315_971247_0x300.jpg'],
 },{Сollection: monaco_onyx,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/monaco_onyx/interiors/lcm_monaco_onyx_18316_435099_0x300.jpg'],
 },{Сollection: moonstone,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/moonstone/interiors/lcm_moonstone_15673_985829_0x300.jpg'],
 },{Сollection: namibia
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/namibia/interiors/lcm_namibia_18319_216849_0x300.jpg'],
 },{Сollection: onyx_royal,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/onyx_royal/interiors/lcm_onyx_royal_15674_355891_0x300.jpg'],
 },{Сollection: onyx_smoke,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/onyx_smoke/interiors/lcm_onyx_smoke_15675_859053_0x300.jpg'],
 },{Сollection: persia
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/persia/interiors/lcm_persia_15676_779535_0x300.jpg',
 -premiere_stone,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/premiere_stone/interiors/lcm_premiere_stone_17131_866436_0x300.jpg',
 -sandy_carrara,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/sandy_carrara/interiors/lcm_sandy_carrara_15677_627617_0x300.jpg',
 -sapphire_agate,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/sapphire_agate/interiors/lcm_sapphire_agate_18320_306061_0x300.jpg'],
 },{Сollection: sirius
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/sirius/interiors/lcm_sirius_15678_664751_0x300.jpg'],
 },{Сollection: skyros
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/skyros/interiors/lcm_skyros_15679_552395_0x300.jpg'],
 },{Сollection: snow_onyx,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/snow_onyx/interiors/lcm_snow_onyx_15680_945084_0x300.jpg'],
 },{Сollection: statuario,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/lcm/statuario/interiors/lcm_statuario_15681_228702_0x300.jpg'],
 },{Сollection: newtrend'../src/images/catalog/newtrend.
 '../src/images/catalog/newtrend..
@@ -11535,22 +10235,14 @@ interiors: [
 '../src/images/catalog/newtrendvolcano
 ],
 },{Сollection: adele_arctic,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/adele_arctic/interiors/newtrend_adele_arctic_10133_136608_0x300.jpg',
 '../src/images/catalog/newtrend/adele_arctic/interiors/newtrend_adele_arctic_10133_356346_0x300.jpg',
 '../src/images/catalog/newtrend/adele_arctic/interiors/newtrend_adele_arctic_10133_864580_0x300.jpg',
 '../src/images/catalog/newtrend/adele_arctic/interiors/newtrend_adele_arctic_10133_864580_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/adele_arctic/tovars/newtrend_adele_arctic_86425_857856_300x0.jpg',
 '../src/images/catalog/newtrend/adele_arctic/tovars/newtrend_adele_arctic_86426_451131_300x0.jpg',
 '../src/images/catalog/newtrend/adele_arctic/tovars/newtrend_adele_arctic_86427_148052_300x0.jpg',
@@ -11558,35 +10250,21 @@ tovars:  [
 '../src/images/catalog/newtrend/adele_arctic/tovars/newtrend_adele_arctic_86429_413245_300x0.jpg',
 '../src/images/catalog/newtrend/adele_arctic/tovars/newtrend_adele_arctic_86430_770342_300x0.jpg'],
 },{Сollection: adele_latte,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/adele_latte/interiors/newtrend_adele_latte_10134_356924_0x300.jpg',
 '../src/images/catalog/newtrend/adele_latte/interiors/newtrend_adele_latte_10134_356924_0x500.jpg',
 '../src/images/catalog/newtrend/adele_latte/interiors/newtrend_adele_latte_10134_708305_0x300.jpg',
 '../src/images/catalog/newtrend/adele_latte/interiors/newtrend_adele_latte_10134_889919_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/adele_latte/tovars/newtrend_adele_latte_86431_150253_300x0.jpg',
 '../src/images/catalog/newtrend/adele_latte/tovars/newtrend_adele_latte_86432_838537_300x0.jpg',
 '../src/images/catalog/newtrend/adele_latte/tovars/newtrend_adele_latte_86433_29154_300x0.jpg',
 '../src/images/catalog/newtrend/adele_latte/tovars/newtrend_adele_latte_86434_158763_300x0.jpg',
 '../src/images/catalog/newtrend/adele_latte/tovars/newtrend_adele_latte_86435_992389_300x0.jpg',
 '../src/images/catalog/newtrend/adele_latte/tovars/newtrend_adele_latte_86436_335664_300x0.jpg'],
-},{Сollection: agatha
-
-
-
-,
+},{Сollection: agatha,
 interiors: [
-
-
 '../src/images/catalog/newtrend/agatha/interiors/newtrend_agatha_10135_176921_0x300.jpg',
 '../src/images/catalog/newtrend/agatha/interiors/newtrend_agatha_10135_231107_0x300.jpg',
 '../src/images/catalog/newtrend/agatha/interiors/newtrend_agatha_10135_561032_0x300.jpg',
@@ -11594,411 +10272,227 @@ interiors: [
 '../src/images/catalog/newtrend/agatha/interiors/newtrend_agatha_10135_959385_0x300.jpg',
 '../src/images/catalog/newtrend/agatha/interiors/newtrend_agatha_10135_959385_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/agatha/tovars/newtrend_agatha_86437_464650_300x0.jpg',
 '../src/images/catalog/newtrend/agatha/tovars/newtrend_agatha_86438_84964_300x0.jpg',
 '../src/images/catalog/newtrend/agatha/tovars/newtrend_agatha_86439_828125_300x0.jpg',
 '../src/images/catalog/newtrend/agatha/tovars/newtrend_agatha_86440_883728_300x0.jpg'],
-},{Сollection: amadeo
-
-
-
-,
+},{Сollection: amadeo,
 interiors: [
-
-
 '../src/images/catalog/newtrend/amadeo/interiors/newtrend_amadeo_14291_185086_0x300.jpg',
 '../src/images/catalog/newtrend/amadeo/interiors/newtrend_amadeo_14291_185086_0x500.jpg',
 '../src/images/catalog/newtrend/amadeo/interiors/newtrend_amadeo_14291_198990_0x300.jpg',
 '../src/images/catalog/newtrend/amadeo/interiors/newtrend_amadeo_14291_444061_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/amadeo/tovars/newtrend_amadeo_111054_460562_300x0.jpg',
 '../src/images/catalog/newtrend/amadeo/tovars/newtrend_amadeo_111055_385144_300x0.jpg',
 '../src/images/catalog/newtrend/amadeo/tovars/newtrend_amadeo_111056_800151_300x0.jpg',
 '../src/images/catalog/newtrend/amadeo/tovars/newtrend_amadeo_111057_566429_300x0.jpg'],
-},{Сollection: artwood
-
-
-
-,
+},{Сollection: artwood,
 interiors: [
-
-
 '../src/images/catalog/newtrend/artwood/interiors/newtrend_artwood_14292_205671_0x300.jpg',
 '../src/images/catalog/newtrend/artwood/interiors/newtrend_artwood_14292_205671_0x500.jpg',
 '../src/images/catalog/newtrend/artwood/interiors/newtrend_artwood_14292_354815_0x300.jpg',
 '../src/images/catalog/newtrend/artwood/interiors/newtrend_artwood_14292_366428_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/artwood/tovars/newtrend_artwood_111058_179028_300x0.jpg',
 '../src/images/catalog/newtrend/artwood/tovars/newtrend_artwood_111059_99238_300x0.jpg'],
-},{Сollection: artwork
-
-
-
-,
+},{Сollection: artwork,
 interiors: [
-
-
 '../src/images/catalog/newtrend/artwork/interiors/newtrend_artwork_10136_290955_0x300.jpg',
 '../src/images/catalog/newtrend/artwork/interiors/newtrend_artwork_10136_569985_0x300.jpg',
 '../src/images/catalog/newtrend/artwork/interiors/newtrend_artwork_10136_699752_0x300.jpg',
 '../src/images/catalog/newtrend/artwork/interiors/newtrend_artwork_10136_699752_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/artwork/tovars/newtrend_artwork_86441_372262_300x0.jpg',
 '../src/images/catalog/newtrend/artwork/tovars/newtrend_artwork_86442_898061_300x0.jpg',
 '../src/images/catalog/newtrend/artwork/tovars/newtrend_artwork_86443_366497_300x0.jpg',
 '../src/images/catalog/newtrend/artwork/tovars/newtrend_artwork_86444_181031_300x0.jpg'],
-},{Сollection: atelier
-
-
-
-,
+},{Сollection: atelier,
 interiors: [
-
-
 '../src/images/catalog/newtrend/atelier/interiors/newtrend_atelier_10137_512668_0x300.jpg',
 '../src/images/catalog/newtrend/atelier/interiors/newtrend_atelier_10137_512668_0x500.jpg',
 '../src/images/catalog/newtrend/atelier/interiors/newtrend_atelier_10137_543772_0x300.jpg',
 '../src/images/catalog/newtrend/atelier/interiors/newtrend_atelier_10137_826507_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/atelier/tovars/newtrend_atelier_86447_673952_300x0.jpg'],
-},{Сollection: bang
-
-
-
-,
+},{Сollection: bang,
 interiors: [
-
-
 '../src/images/catalog/newtrend/bang/interiors/newtrend_bang_10138_316275_0x300.jpg',
 '../src/images/catalog/newtrend/bang/interiors/newtrend_bang_10138_902517_0x300.jpg',
 '../src/images/catalog/newtrend/bang/interiors/newtrend_bang_10138_902517_0x500.jpg',
 '../src/images/catalog/newtrend/bang/interiors/newtrend_bang_10138_997193_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/bang/tovars/newtrend_bang_86449_606106_300x0.jpg'],
 },{Сollection: black_white,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/black_white/interiors/newtrend_black_white_9790_606418_0x300.jpg',
 '../src/images/catalog/newtrend/black_white/interiors/newtrend_black_white_9790_606418_0x500.jpg',
 '../src/images/catalog/newtrend/black_white/interiors/newtrend_black_white_9790_979751_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/black_white/tovars/newtrend_black_white_84045_791117_300x0.jpg',
 '../src/images/catalog/newtrend/black_white/tovars/newtrend_black_white_84046_328103_300x0.jpg'],
-},{Сollection: blues
-
-
-
-,
+},{Сollection: blues,
 interiors: [
-
-
 '../src/images/catalog/newtrend/blues/interiors/newtrend_blues_14293_581473_0x300.jpg',
 '../src/images/catalog/newtrend/blues/interiors/newtrend_blues_14293_764741_0x300.jpg',
 '../src/images/catalog/newtrend/blues/interiors/newtrend_blues_14293_764741_0x500.jpg',
 '../src/images/catalog/newtrend/blues/interiors/newtrend_blues_14293_854402_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/blues/tovars/newtrend_blues_111060_616112_300x0.jpg',
 '../src/images/catalog/newtrend/blues/tovars/newtrend_blues_111061_103347_300x0.jpg',
 '../src/images/catalog/newtrend/blues/tovars/newtrend_blues_111062_547359_300x0.jpg',
 '../src/images/catalog/newtrend/blues/tovars/newtrend_blues_111063_366744_300x0.jpg',
 '../src/images/catalog/newtrend/blues/tovars/newtrend_blues_111064_370130_300x0.jpg'],
-},{Сollection: bounty
-
-
-
-,
+},{Сollection: bounty,
 interiors: [
-
-
 '../src/images/catalog/newtrend/bounty/interiors/newtrend_bounty_10139_446552_0x300.jpg',
 '../src/images/catalog/newtrend/bounty/interiors/newtrend_bounty_10139_459413_0x300.jpg',
 '../src/images/catalog/newtrend/bounty/interiors/newtrend_bounty_10139_459413_0x500.jpg',
 '../src/images/catalog/newtrend/bounty/interiors/newtrend_bounty_10139_945142_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/bounty/tovars/newtrend_bounty_86454_692677_300x0.jpg',
 -brazylyan_sky,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/brazylyan_sky/interiors/newtrend_brazylyan_sky_14275_165824_0x300.jpg',
 '../src/images/catalog/newtrend/brazylyan_sky/interiors/newtrend_brazylyan_sky_14275_165824_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/brazylyan_sky/tovars/newtrend_brazylyan_sky_111015_793884_300x0.jpg'],
-},{Сollection: candy
-
-
-
-,
+},{Сollection: candy,
 interiors: [
-
-
 '../src/images/catalog/newtrend/candy/interiors/newtrend_candy_9944_136676_0x300.jpg',
 '../src/images/catalog/newtrend/candy/interiors/newtrend_candy_9944_375964_0x300.jpg',
 '../src/images/catalog/newtrend/candy/interiors/newtrend_candy_9944_580811_0x300.jpg',
 '../src/images/catalog/newtrend/candy/interiors/newtrend_candy_9944_580811_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/candy/tovars/newtrend_candy_85134_950910_300x0.jpg',
 '../src/images/catalog/newtrend/candy/tovars/newtrend_candy_85135_718792_300x0.jpg',
 '../src/images/catalog/newtrend/candy/tovars/newtrend_candy_85136_930292_300x0.jpg',
 '../src/images/catalog/newtrend/candy/tovars/newtrend_candy_85137_414382_300x0.jpg',
 '../src/images/catalog/newtrend/candy/tovars/newtrend_candy_85138_577808_300x0.jpg'],
-},{Сollection: chicago
-
-
-
-,
+},{Сollection: chicago,
 interiors: [
-
-
 '../src/images/catalog/newtrend/chicago/interiors/newtrend_chicago_10140_190683_0x300.jpg',
 '../src/images/catalog/newtrend/chicago/interiors/newtrend_chicago_10140_273338_0x300.jpg',
 '../src/images/catalog/newtrend/chicago/interiors/newtrend_chicago_10140_355728_0x300.jpg',
 '../src/images/catalog/newtrend/chicago/interiors/newtrend_chicago_10140_355728_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/chicago/tovars/newtrend_chicago_86456_887420_300x0.jpg',
 '../src/images/catalog/newtrend/chicago/tovars/newtrend_chicago_86457_407295_300x0.jpg',
 '../src/images/catalog/newtrend/chicago/tovars/newtrend_chicago_86458_143809_300x0.jpg'],
 },{Сollection: chicago_gray,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/chicago_gray/interiors/newtrend_chicago_gray_10141_402346_0x300.jpg',
 '../src/images/catalog/newtrend/chicago_gray/interiors/newtrend_chicago_gray_10141_495847_0x300.jpg',
 '../src/images/catalog/newtrend/chicago_gray/interiors/newtrend_chicago_gray_10141_89966_0x300.jpg',
 '../src/images/catalog/newtrend/chicago_gray/interiors/newtrend_chicago_gray_10141_89966_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/chicago_gray/tovars/newtrend_chicago_gray_86459_35472_300x0.jpg',
 '../src/images/catalog/newtrend/chicago_gray/tovars/newtrend_chicago_gray_86460_18587_300x0.jpg',
 '../src/images/catalog/newtrend/chicago_gray/tovars/newtrend_chicago_gray_86461_547055_300x0.jpg',
 '../src/images/catalog/newtrend/chicago_gray/tovars/newtrend_chicago_gray_86462_795816_300x0.jpg'],
-},{Сollection: congo
-
-
-
-,
+},{Сollection: congo,
 interiors: [
-
-
 '../src/images/catalog/newtrend/congo/interiors/newtrend_congo_14294_289604_0x300.jpg',
 '../src/images/catalog/newtrend/congo/interiors/newtrend_congo_14294_337565_0x300.jpg',
 '../src/images/catalog/newtrend/congo/interiors/newtrend_congo_14294_820174_0x300.jpg',
 '../src/images/catalog/newtrend/congo/interiors/newtrend_congo_14294_820174_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/congo/tovars/newtrend_congo_111065_63067_300x0.jpg',
 '../src/images/catalog/newtrend/congo/tovars/newtrend_congo_111066_352855_300x0.jpg',
 '../src/images/catalog/newtrend/congo/tovars/newtrend_congo_111067_878668_300x0.jpg',
 '../src/images/catalog/newtrend/congo/tovars/newtrend_congo_111068_175486_300x0.jpg',
 '../src/images/catalog/newtrend/congo/tovars/newtrend_congo_111069_598871_300x0.jpg'],
-},{Сollection: corfu
-
-
-
-,
+},{Сollection: corfu,
 interiors: [
-
-
 '../src/images/catalog/newtrend/corfu/interiors/newtrend_corfu_9791_156058_0x300.jpg',
 '../src/images/catalog/newtrend/corfu/interiors/newtrend_corfu_9791_156058_0x500.jpg',
 '../src/images/catalog/newtrend/corfu/interiors/newtrend_corfu_9791_757670_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/corfu/tovars/newtrend_corfu_84047_989271_300x0.jpg',
 '../src/images/catalog/newtrend/corfu/tovars/newtrend_corfu_84049_524370_300x0.jpg'],
-},{Сollection: corten
-
-
-
-,
+},{Сollection: corten,
 interiors: [
-
-
 '../src/images/catalog/newtrend/corten/interiors/newtrend_corten_16296_138513_0x300.jpg',
 '../src/images/catalog/newtrend/corten/interiors/newtrend_corten_16296_138513_0x500.jpg',
 '../src/images/catalog/newtrend/corten/interiors/newtrend_corten_16296_683645_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/corten/tovars/newtrend_corten_111016_299086_300x0.jpg',
 '../src/images/catalog/newtrend/corten/tovars/newtrend_corten_111017_59681_300x0.jpg'],
-},{Сollection: creta
-
-
-
-,
+},{Сollection: creta,
 interiors: [
-
-
 '../src/images/catalog/newtrend/creta/interiors/newtrend_creta_9792_457843_0x300.jpg',
 '../src/images/catalog/newtrend/creta/interiors/newtrend_creta_9792_81802_0x300.jpg',
 '../src/images/catalog/newtrend/creta/interiors/newtrend_creta_9792_81802_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/creta/tovars/newtrend_creta_84051_138644_300x0.jpg',
 '../src/images/catalog/newtrend/creta/tovars/newtrend_creta_84052_66531_300x0.jpg'],
-},{Сollection: dacar
-
-
-
-,
+},{Сollection: dacar,
 interiors: [
-
-
 '../src/images/catalog/newtrend/dacar/interiors/newtrend_dacar_14295_164911_0x300.jpg',
 '../src/images/catalog/newtrend/dacar/interiors/newtrend_dacar_14295_164911_0x500.jpg',
 '../src/images/catalog/newtrend/dacar/interiors/newtrend_dacar_14295_448004_0x300.jpg',
 '../src/images/catalog/newtrend/dacar/interiors/newtrend_dacar_14295_943067_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/dacar/tovars/newtrend_dacar_111070_207412_300x0.jpg'],
-},{Сollection: dance
-
-
-
-,
+},{Сollection: dance,
 interiors: [
-
-
 '../src/images/catalog/newtrend/dance/interiors/newtrend_dance_9793_386489_0x300.jpg',
 '../src/images/catalog/newtrend/dance/interiors/newtrend_dance_9793_44465_0x300.jpg',
 '../src/images/catalog/newtrend/dance/interiors/newtrend_dance_9793_461344_0x300.jpg',
 '../src/images/catalog/newtrend/dance/interiors/newtrend_dance_9793_461344_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/dance/tovars/newtrend_dance_84054_234073_300x0.jpg'],
-},{Сollection: dax
-
-
-
-,
+},{Сollection: dax,
 interiors: [
-
-
 '../src/images/catalog/newtrend/dax/interiors/newtrend_dax_10248_106627_0x300.jpg',
 '../src/images/catalog/newtrend/dax/interiors/newtrend_dax_10248_556316_0x300.jpg',
 '../src/images/catalog/newtrend/dax/interiors/newtrend_dax_10248_556316_0x500.jpg',
 '../src/images/catalog/newtrend/dax/interiors/newtrend_dax_10248_657661_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/dax/tovars/newtrend_dax_87228_897200_300x0.jpg',
 '../src/images/catalog/newtrend/dax/tovars/newtrend_dax_87229_302318_300x0.jpg',
 '../src/images/catalog/newtrend/dax/tovars/newtrend_dax_87230_328127_300x0.jpg',
 '../src/images/catalog/newtrend/dax/tovars/newtrend_dax_87231_100231_300x0.jpg'],
-},{Сollection: destone
-
-
-
-,
+},{Сollection: destone,
 interiors: [
-
-
 '../src/images/catalog/newtrend/destone/interiors/newtrend_destone_14276_497973_0x300.jpg',
 '../src/images/catalog/newtrend/destone/interiors/newtrend_destone_14276_497973_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/destone/tovars/newtrend_destone_111018_924318_300x0.jpg',
 '../src/images/catalog/newtrend/destone/tovars/newtrend_destone_111019_458119_300x0.jpg'],
-},{Сollection: dover
-
-
-
-,
+},{Сollection: dover,
 interiors: [
-
-
 '../src/images/catalog/newtrend/dover/interiors/newtrend_dover_10415_335651_0x300.jpg',
 '../src/images/catalog/newtrend/dover/interiors/newtrend_dover_10415_795557_0x300.jpg',
 '../src/images/catalog/newtrend/dover/interiors/newtrend_dover_10415_905055_0x300.jpg',
 '../src/images/catalog/newtrend/dover/interiors/newtrend_dover_10415_905055_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/dover/tovars/newtrend_dover_88902_285384_300x0.jpg',
 '../src/images/catalog/newtrend/dover/tovars/newtrend_dover_88903_254099_300x0.jpg',
 '../src/images/catalog/newtrend/dover/tovars/newtrend_dover_88904_850587_300x0.jpg',
 '../src/images/catalog/newtrend/dover/tovars/newtrend_dover_88905_525563_300x0.jpg'],
-},{Сollection: emerald
-
-
-
-,
+},{Сollection: emerald,
 interiors: [
-
-
 '../src/images/catalog/newtrend/emerald/interiors/newtrend_emerald_9946_817923_0x300.jpg',
 '../src/images/catalog/newtrend/emerald/interiors/newtrend_emerald_9946_817923_0x500.jpg',
 '../src/images/catalog/newtrend/emerald/interiors/newtrend_emerald_9946_854578_0x300.jpg',
 '../src/images/catalog/newtrend/emerald/interiors/newtrend_emerald_9946_989711_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/emerald/tovars/newtrend_emerald_85143_27501_300x0.jpg',
 '../src/images/catalog/newtrend/emerald/tovars/newtrend_emerald_85144_455690_300x0.jpg',
 '../src/images/catalog/newtrend/emerald/tovars/newtrend_emerald_85145_329450_300x0.jpg',
 '../src/images/catalog/newtrend/emerald/tovars/newtrend_emerald_85146_502633_300x0.jpg'],
-},{Сollection: essense
-
-
-
-,
+},{Сollection: essense,
 interiors: [
-
-
 '../src/images/catalog/newtrend/essense/interiors/newtrend_essense_10142_104090_0x300.jpg',
 '../src/images/catalog/newtrend/essense/interiors/newtrend_essense_10142_209349_0x300.jpg',
 '../src/images/catalog/newtrend/essense/interiors/newtrend_essense_10142_246192_0x300.jpg',
@@ -12007,395 +10501,217 @@ interiors: [
 '../src/images/catalog/newtrend/essense/interiors/newtrend_essense_10142_855031_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/essense/tovars/newtrend_essense_84056_821923_300x0.jpg',
 '../src/images/catalog/newtrend/essense/tovars/newtrend_essense_84057_379969_300x0.jpg',
 '../src/images/catalog/newtrend/essense/tovars/newtrend_essense_86463_158842_300x0.jpg',
 '../src/images/catalog/newtrend/essense/tovars/newtrend_essense_86464_385592_300x0.jpg',
 '../src/images/catalog/newtrend/essense/tovars/newtrend_essense_86465_814972_300x0.jpg',
 '../src/images/catalog/newtrend/essense/tovars/newtrend_essense_86466_307606_300x0.jpg'],
-},{Сollection: firenze
-
-
-
-,
+},{Сollection: firenze,
 interiors: [
-
-
 '../src/images/catalog/newtrend/firenze/interiors/newtrend_firenze_14277_236657_0x300.jpg',
 '../src/images/catalog/newtrend/firenze/interiors/newtrend_firenze_14277_236657_0x500.jpg',
 '../src/images/catalog/newtrend/firenze/interiors/newtrend_firenze_14277_65432_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/firenze/tovars/newtrend_firenze_111020_750632_300x0.jpg',
 '../src/images/catalog/newtrend/firenze/tovars/newtrend_firenze_111021_276781_300x0.jpg'],
-},{Сollection: fly
-
-
-
-,
+},{Сollection: fly,
 interiors: [
-
-
 '../src/images/catalog/newtrend/fly/interiors/newtrend_fly_10132_116448_0x300.jpg',
 '../src/images/catalog/newtrend/fly/interiors/newtrend_fly_10132_701743_0x300.jpg',
 '../src/images/catalog/newtrend/fly/interiors/newtrend_fly_10132_701743_0x500.jpg',
 '../src/images/catalog/newtrend/fly/interiors/newtrend_fly_10132_713501_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/fly/tovars/newtrend_fly_86418_444181_300x0.jpg',
 '../src/images/catalog/newtrend/fly/tovars/newtrend_fly_86421_609826_300x0.jpg'],
-},{Сollection: garret
-
-
-
-,
+},{Сollection: garret,
 interiors: [
-
-
 '../src/images/catalog/newtrend/garret/interiors/newtrend_garret_10144_555697_0x300.jpg',
 '../src/images/catalog/newtrend/garret/interiors/newtrend_garret_10144_958671_0x300.jpg',
 '../src/images/catalog/newtrend/garret/interiors/newtrend_garret_10144_961480_0x300.jpg',
 '../src/images/catalog/newtrend/garret/interiors/newtrend_garret_10144_961480_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/garret/tovars/newtrend_garret_86469_377982_300x0.jpg',
 '../src/images/catalog/newtrend/garret/tovars/newtrend_garret_86470_150636_300x0.jpg',
 '../src/images/catalog/newtrend/garret/tovars/newtrend_garret_86471_762257_300x0.jpg'],
-},{Сollection: gemstone
-
-
-
-,
+},{Сollection: gemstone,
 interiors: [
-
-
 '../src/images/catalog/newtrend/gemstone/interiors/newtrend_gemstone_10417_234244_0x300.jpg',
 '../src/images/catalog/newtrend/gemstone/interiors/newtrend_gemstone_10417_829951_0x300.jpg',
 '../src/images/catalog/newtrend/gemstone/interiors/newtrend_gemstone_10417_936044_0x300.jpg',
 '../src/images/catalog/newtrend/gemstone/interiors/newtrend_gemstone_10417_936044_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/gemstone/tovars/newtrend_gemstone_88908_749587_300x0.jpg',
 '../src/images/catalog/newtrend/gemstone/tovars/newtrend_gemstone_88909_815995_300x0.jpg',
 '../src/images/catalog/newtrend/gemstone/tovars/newtrend_gemstone_88910_178828_300x0.jpg',
 '../src/images/catalog/newtrend/gemstone/tovars/newtrend_gemstone_88911_265921_300x0.jpg'],
 },{Сollection: invisible,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/invisible/interiors/newtrend_invisible_14278_435201_0x300.jpg',
 '../src/images/catalog/newtrend/invisible/interiors/newtrend_invisible_14278_435201_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/invisible/tovars/newtrend_invisible_111022_515708_300x0.jpg'],
-},{Сollection: konor
-
-
-
-,
+},{Сollection: konor,
 interiors: [
-
-
 '../src/images/catalog/newtrend/konor/interiors/newtrend_konor_10708_312580_0x300.jpg',
 '../src/images/catalog/newtrend/konor/interiors/newtrend_konor_10708_552506_0x300.jpg',
 '../src/images/catalog/newtrend/konor/interiors/newtrend_konor_10708_899602_0x300.jpg',
 '../src/images/catalog/newtrend/konor/interiors/newtrend_konor_10708_899602_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/konor/tovars/newtrend_konor_84043_391781_300x0.jpg',
 '../src/images/catalog/newtrend/konor/tovars/newtrend_konor_90585_482815_300x0.jpg',
 '../src/images/catalog/newtrend/konor/tovars/newtrend_konor_90586_484046_300x0.jpg',
 '../src/images/catalog/newtrend/konor/tovars/newtrend_konor_90587_468848_300x0.jpg',
 -laberta_beige,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/laberta_beige/interiors/newtrend_laberta_beige_9797_953466_0x300.jpg',
 '../src/images/catalog/newtrend/laberta_beige/interiors/newtrend_laberta_beige_9797_997906_0x300.jpg',
 '../src/images/catalog/newtrend/laberta_beige/interiors/newtrend_laberta_beige_9797_997906_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/laberta_beige/tovars/newtrend_laberta_beige_84063_484808_300x0.jpg',
 '../src/images/catalog/newtrend/laberta_beige/tovars/newtrend_laberta_beige_84064_316047_300x0.jpg'],
 },{Сollection: manhattan,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/manhattan/interiors/newtrend_manhattan_10147_264002_0x300.jpg',
 '../src/images/catalog/newtrend/manhattan/interiors/newtrend_manhattan_10147_315595_0x300.jpg',
 '../src/images/catalog/newtrend/manhattan/interiors/newtrend_manhattan_10147_98089_0x300.jpg',
 '../src/images/catalog/newtrend/manhattan/interiors/newtrend_manhattan_10147_98089_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/manhattan/tovars/newtrend_manhattan_86480_452948_300x0.jpg',
 '../src/images/catalog/newtrend/manhattan/tovars/newtrend_manhattan_86481_968762_300x0.jpg',
 '../src/images/catalog/newtrend/manhattan/tovars/newtrend_manhattan_86482_645986_300x0.jpg'],
-},{Сollection: minori
-
-
-
-,
+},{Сollection: minori,
 interiors: [
-
-
 '../src/images/catalog/newtrend/minori/interiors/newtrend_minori_10419_310592_0x300.jpg',
 '../src/images/catalog/newtrend/minori/interiors/newtrend_minori_10419_420702_0x300.jpg',
 '../src/images/catalog/newtrend/minori/interiors/newtrend_minori_10419_420702_0x500.jpg',
 '../src/images/catalog/newtrend/minori/interiors/newtrend_minori_10419_92202_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/minori/tovars/newtrend_minori_88916_212340_300x0.jpg',
 '../src/images/catalog/newtrend/minori/tovars/newtrend_minori_88918_31014_300x0.jpg'],
-},{Сollection: montana
-
-
-
-,
+},{Сollection: montana,
 interiors: [
-
-
 '../src/images/catalog/newtrend/montana/interiors/newtrend_montana_9801_143854_0x300.jpg',
 '../src/images/catalog/newtrend/montana/interiors/newtrend_montana_9801_143854_0x500.jpg',
 '../src/images/catalog/newtrend/montana/interiors/newtrend_montana_9801_402032_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/montana/tovars/newtrend_montana_84071_791138_300x0.jpg',
 '../src/images/catalog/newtrend/montana/tovars/newtrend_montana_84072_969156_300x0.jpg'],
-},{Сollection: neil
-
-
-
-,
+},{Сollection: neil,
 interiors: [
-
-
 '../src/images/catalog/newtrend/neil/interiors/newtrend_neil_15029_236986_0x300.jpg',
 '../src/images/catalog/newtrend/neil/interiors/newtrend_neil_15029_236986_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/neil/tovars/newtrend_neil_113833_76668_300x0.jpg'],
 },{Сollection: paintwood,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/paintwood/interiors/newtrend_paintwood_9803_51205_0x300.jpg',
 '../src/images/catalog/newtrend/paintwood/interiors/newtrend_paintwood_9803_644234_0x300.jpg',
 '../src/images/catalog/newtrend/paintwood/interiors/newtrend_paintwood_9803_644234_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/paintwood/tovars/newtrend_paintwood_84075_527437_300x0.jpg',
 '../src/images/catalog/newtrend/paintwood/tovars/newtrend_paintwood_84076_478568_300x0.jpg',
 -paintwood_brown,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/paintwood_brown/interiors/newtrend_paintwood_brown_9804_336696_0x300.jpg',
 '../src/images/catalog/newtrend/paintwood_brown/interiors/newtrend_paintwood_brown_9804_336696_0x500.jpg',
 '../src/images/catalog/newtrend/paintwood_brown/interiors/newtrend_paintwood_brown_9804_712823_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/paintwood_brown/tovars/newtrend_paintwood_brown_84077_37887_300x0.jpg',
 '../src/images/catalog/newtrend/paintwood_brown/tovars/newtrend_paintwood_brown_84078_576062_300x0.jpg'],
-},{Сollection: play
-
-
-
-,
+},{Сollection: play,
 interiors: [
-
-
 '../src/images/catalog/newtrend/play/interiors/newtrend_play_14296_724520_0x300.jpg',
 '../src/images/catalog/newtrend/play/interiors/newtrend_play_14296_724520_0x500.jpg',
 '../src/images/catalog/newtrend/play/interiors/newtrend_play_14296_796961_0x300.jpg',
 '../src/images/catalog/newtrend/play/interiors/newtrend_play_14296_918180_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/play/tovars/newtrend_play_111071_570150_300x0.jpg',
 '../src/images/catalog/newtrend/play/tovars/newtrend_play_111072_409210_300x0.jpg',
 '../src/images/catalog/newtrend/play/tovars/newtrend_play_111073_383071_300x0.jpg',
 '../src/images/catalog/newtrend/play/tovars/newtrend_play_111074_747192_300x0.jpg',
 '../src/images/catalog/newtrend/play/tovars/newtrend_play_111075_204753_300x0.jpg',
 '../src/images/catalog/newtrend/play/tovars/newtrend_play_111076_260937_300x0.jpg'],
-},{Сollection: prima
-
-
-
-,
+},{Сollection: prima,
 interiors: [
-
-
 '../src/images/catalog/newtrend/prima/interiors/newtrend_prima_9805_462347_0x300.jpg',
 '../src/images/catalog/newtrend/prima/interiors/newtrend_prima_9805_462347_0x500.jpg',
 '../src/images/catalog/newtrend/prima/interiors/newtrend_prima_9805_937568_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/prima/tovars/newtrend_prima_84079_498952_300x0.jpg',
 '../src/images/catalog/newtrend/prima/tovars/newtrend_prima_84080_368968_300x0.jpg',
 -ringwood_brown,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/ringwood_brown/interiors/newtrend_ringwood_brown_9806_537268_0x300.jpg',
 '../src/images/catalog/newtrend/ringwood_brown/interiors/newtrend_ringwood_brown_9806_537268_0x500.jpg',
 '../src/images/catalog/newtrend/ringwood_brown/interiors/newtrend_ringwood_brown_9806_665602_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/ringwood_brown/tovars/newtrend_ringwood_brown_84081_164338_300x0.jpg',
 '../src/images/catalog/newtrend/ringwood_brown/tovars/newtrend_ringwood_brown_84082_354093_300x0.jpg',
 -ringwood_crema,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/ringwood_crema/interiors/newtrend_ringwood_crema_9807_192929_0x300.jpg',
 '../src/images/catalog/newtrend/ringwood_crema/interiors/newtrend_ringwood_crema_9807_192929_0x500.jpg',
 '../src/images/catalog/newtrend/ringwood_crema/interiors/newtrend_ringwood_crema_9807_287339_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/ringwood_crema/tovars/newtrend_ringwood_crema_84083_654725_300x0.jpg',
 '../src/images/catalog/newtrend/ringwood_crema/tovars/newtrend_ringwood_crema_84084_247670_300x0.jpg'],
 },{Сollection: statuario,
-
-
-
-
 ,
 interiors: [
-
-
 '../src/images/catalog/newtrend/statuario/interiors/newtrend_statuario_14281_168398_0x300.jpg',
 '../src/images/catalog/newtrend/statuario/interiors/newtrend_statuario_14281_344737_0x300.jpg',
 '../src/images/catalog/newtrend/statuario/interiors/newtrend_statuario_14281_344737_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/statuario/tovars/newtrend_statuario_111028_986110_300x0.jpg',
 '../src/images/catalog/newtrend/statuario/tovars/newtrend_statuario_111029_518537_300x0.jpg'],
-},{Сollection: street
-
-
-
-,
+},{Сollection: street,
 interiors: [
-
-
 '../src/images/catalog/newtrend/street/interiors/newtrend_street_14282_615501_0x300.jpg',
 '../src/images/catalog/newtrend/street/interiors/newtrend_street_14282_615501_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/street/tovars/newtrend_street_111030_122418_300x0.jpg'],
-},{Сollection: teona
-
-
-
-,
+},{Сollection: teona,
 interiors: [
-
-
 '../src/images/catalog/newtrend/teona/interiors/newtrend_teona_9809_310523_0x300.jpg',
 '../src/images/catalog/newtrend/teona/interiors/newtrend_teona_9809_933529_0x300.jpg',
 '../src/images/catalog/newtrend/teona/interiors/newtrend_teona_9809_933529_0x500.jpg',
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/teona/tovars/newtrend_teona_84087_653267_300x0.jpg',
 '../src/images/catalog/newtrend/teona/tovars/newtrend_teona_84088_122823_300x0.jpg'],
-},{Сollection: venice
-
-
-
-,
+},{Сollection: venice,
 interiors: [
-
-
 '../src/images/catalog/newtrend/venice/interiors/newtrend_venice_14297_829771_0x300.jpg',
 '../src/images/catalog/newtrend/venice/interiors/newtrend_venice_14297_829771_0x500.jpg',
 '../src/images/catalog/newtrend/venice/interiors/newtrend_venice_14297_855327_0x300.jpg',
 '../src/images/catalog/newtrend/venice/interiors/newtrend_venice_14297_961940_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/venice/tovars/newtrend_venice_111077_80216_300x0.jpg',
 '../src/images/catalog/newtrend/venice/tovars/newtrend_venice_111078_663139_300x0.jpg',
 '../src/images/catalog/newtrend/venice/tovars/newtrend_venice_111079_910234_300x0.jpg',
 '../src/images/catalog/newtrend/venice/tovars/newtrend_venice_111080_397745_300x0.jpg'],
-},{Сollection: vincenzo
-
-
-
-,
+},{Сollection: vincenzo,
 interiors: [
-
-
 '../src/images/catalog/newtrend/vincenzo/interiors/newtrend_vincenzo_10422_110799_0x300.jpg',
 '../src/images/catalog/newtrend/vincenzo/interiors/newtrend_vincenzo_10422_656513_0x300.jpg',
 '../src/images/catalog/newtrend/vincenzo/interiors/newtrend_vincenzo_10422_656513_0x500.jpg',
 '../src/images/catalog/newtrend/vincenzo/interiors/newtrend_vincenzo_10422_780947_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/vincenzo/tovars/newtrend_vincenzo_83759_996680_300x0.jpg',
 '../src/images/catalog/newtrend/vincenzo/tovars/newtrend_vincenzo_88927_518256_300x0.jpg',
 '../src/images/catalog/newtrend/vincenzo/tovars/newtrend_vincenzo_88928_101725_300x0.jpg',
@@ -12405,8 +10721,6 @@ tovars:  [
 
 ],
 tovars:  [
-
-
 '../src/images/catalog/newtrend/volcano/tovars/newtrend_volcano_111081_271511_300x0.jpg',
 '../src/images/catalog/newtrend/volcano/tovars/newtrend_volcano_111084_783168_300x0.jpg'],
 },{Сollection: primavera,
@@ -12492,669 +10806,266 @@ tovars:  [
 '../src/images/catalog/primaveraveleta
 ],
 },{Сollection: abside_ice,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/abside_ice/interiors/primavera_abside_ice_18177_672073_0x300.jpg'],
 },{Сollection: acacia
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/acacia/interiors/primavera_acacia_15235_821305_0x300.jpg'],
 },{Сollection: acothly
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/acothly/interiors/primavera_acothly_18162_971516_0x300.jpg'],
 },{Сollection: alcor
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/alcor/interiors/primavera_alcor_15572_942293_0x300.jpg'],
 },{Сollection: allure
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/allure/interiors/primavera_allure_16052_48615_0x300.jpg',
 -almond_cascais,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/almond_cascais/interiors/primavera_almond_cascais_14962_462857_0x300.jpg',
 -almond_light_grey,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/almond_light_grey/interiors/primavera_almond_light_grey_18178_618247_0x300.jpg'],
 },{Сollection: alzirr
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/alzirr/interiors/primavera_alzirr_15573_96882_0x300.jpg'],
 },{Сollection: amore_beige,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/amore_beige/interiors/primavera_amore_beige_16053_386258_0x300.jpg'],
 },{Сollection: amore_silver,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/amore_silver/interiors/primavera_amore_silver_16054_848518_0x300.jpg'],
 },{Сollection: antares
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/antares/interiors/primavera_antares_15574_230711_0x300.jpg',
 -ardesia_grafito,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/ardesia_grafito/interiors/primavera_ardesia_grafito_14917_608813_0x300.jpg'],
 },{Сollection: arena_white,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/arena_white/interiors/primavera_arena_white_14916_470242_0x300.jpg'],
 },{Сollection: arseno
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/arseno/interiors/primavera_arseno_15236_885837_0x300.jpg'],
 },{Сollection: atago
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/atago/interiors/primavera_atago_14919_129304_0x300.jpg'],
 },{Сollection: ayton
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/ayton/interiors/primavera_ayton_15185_599621_0x300.jpg'],
 },{Сollection: balial
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/balial/interiors/primavera_balial_14925_415241_0x300.jpg'],
 },{Сollection: beira_stone,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/beira_stone/interiors/primavera_beira_stone_17865_780910_0x300.jpg'],
 },{Сollection: belfast
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/belfast/interiors/primavera_belfast_15238_965730_0x300.jpg'],
 },{Сollection: bellevue
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/bellevue/interiors/primavera_bellevue_15239_307641_0x300.jpg',
 '../src/images/catalog/primavera/bellevue/interiors/primavera_bellevue_18151_987543_0x300.jpg',
 -bellevue_grit_granula,
 
 '../src/images/catalog/primavera/bellevue_grit_granula..,
-
+,
 interiors: [
-
-
 '../src/images/catalog/primavera/bellevue_grit_granula/interiors/primavera_bellevue_grit_granula_17889_907425_0x300.jpg'],
 },{Сollection: berat
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/berat/interiors/primavera_berat_18166_354008_0x300.jpg'],
 },{Сollection: bigium_blue,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/bigium_blue/interiors/primavera_bigium_blue_14915_616052_0x300.jpg',
 -black_emperador,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/black_emperador/interiors/primavera_black_emperador_14966_871706_0x300.jpg'],
 },{Сollection: black_modulo,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/black_modulo/interiors/primavera_black_modulo_15240_29347_0x300.jpg'],
 },{Сollection: black_velvet,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/black_velvet/interiors/primavera_black_velvet_18176_618609_0x300.jpg',
 -blanco_tranco,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/blanco_tranco/interiors/primavera_blanco_tranco_15241_587580_0x300.jpg'],
 },{Сollection: bondford
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/bondford/interiors/primavera_bondford_15242_165535_0x300.jpg'],
 },{Сollection: borzonti
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/borzonti/interiors/primavera_borzonti_14934_338959_0x300.jpg'],
 },{Сollection: botein
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/botein/interiors/primavera_botein_15575_460323_0x300.jpg'],
-},{Сollection: branch
-
-
-
-,
+},{Сollection: branch,
 interiors: [
-
-
 '../src/images/catalog/primavera/branch/interiors/primavera_branch_15576_23406_0x300.jpg',
 '../src/images/catalog/primavera/branch/interiors/primavera_branch_15576_348597_0x300.jpg',
 '../src/images/catalog/primavera/branch/interiors/primavera_branch_15576_348597_0x500.jpg',
 '../src/images/catalog/primavera/branch/interiors/primavera_branch_15576_461163_0x300.jpg',
 '../src/images/catalog/primavera/branch/interiors/primavera_branch_15576_575901_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/primavera/branch/tovars/primavera_branch_116191_168419_300x0.jpg',
 '../src/images/catalog/primavera/branch/tovars/primavera_branch_116192_391012_300x0.jpg',
 '../src/images/catalog/primavera/branch/tovars/primavera_branch_116193_48939_300x0.jpg',
 '../src/images/catalog/primavera/branch/tovars/primavera_branch_116194_478006_300x0.jpg'],
 },{Сollection: brecia_ivory,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/brecia_ivory/interiors/primavera_brecia_ivory_14913_411205_0x300.jpg'],
 },{Сollection: canta
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/canta/interiors/primavera_canta_14932_543196_0x300.jpg'],
 },{Сollection: canyon
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/canyon/interiors/primavera_canyon_15243_896475_0x300.jpg'],
 },{Сollection: caribbean,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/caribbean/interiors/primavera_caribbean_15244_596206_0x300.jpg'],
 },{Сollection: chalco
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/chalco/interiors/primavera_chalco_18167_649858_0x300.jpg'],
 },{Сollection: chance
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/chance/interiors/primavera_chance_16055_712199_0x300.jpg'],
 },{Сollection: chembra_onyx,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/chembra_onyx/interiors/primavera_chembra_onyx_15245_157760_0x300.jpg'],
 },{Сollection: cobar
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/cobar/interiors/primavera_cobar_18155_938967_0x300.jpg',
 -colonial_white,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/colonial_white/interiors/primavera_colonial_white_14911_929456_0x300.jpg'],
 },{Сollection: cork
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/cork/interiors/primavera_cork_15246_198025_0x300.jpg'],
 },{Сollection: dalim
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/dalim/interiors/primavera_dalim_15577_66968_0x300.jpg'],
 },{Сollection: dario
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/dario/interiors/primavera_dario_14908_458774_0x300.jpg'],
 },{Сollection: dior_white,
-
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/dior_white/interiors/primavera_dior_white_17866_473978_0x300.jpg'],
 },{Сollection: duchess
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/duchess/interiors/primavera_duchess_16056_19649_0x300.jpg'],
 },{Сollection: dzhimara
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/dzhimara/interiors/primavera_dzhimara_14933_677451_0x300.jpg'],
 },{Сollection: ehlbrus
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/ehlbrus/interiors/primavera_ehlbrus_14920_195118_0x300.jpg'],
 },{Сollection: elgon
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/elgon/interiors/primavera_elgon_16393_753802_0x300.jpg'],
 },{Сollection: elise
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/elise/interiors/primavera_elise_16057_351479_0x300.jpg'],
 },{Сollection: empressa
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/empressa/interiors/primavera_empressa_16058_750450_0x300.jpg'],
 },{Сollection: essence_grey,
-
-
-
 interiors: [
-
-
 '../src/images/catalog/primavera/essence_grey/interiors/primavera_essence_grey_14907_673020_0x300.jpg'],
 },{Сollection: fantasy
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/fantasy/interiors/primavera_fantasy_15247_533384_0x300.jpg'],
 },{Сollection: favor
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/favor/interiors/primavera_favor_14935_678193_0x300.jpg'],
-},{Сollection: forest
-
-
-
-,
+},{Сollection: forest,
 interiors: [
-
-
 '../src/images/catalog/primavera/forest/interiors/primavera_forest_15578_528966_0x300.jpg',
 '../src/images/catalog/primavera/forest/interiors/primavera_forest_15578_588703_0x300.jpg',
 '../src/images/catalog/primavera/forest/interiors/primavera_forest_15578_947215_0x300.jpg',
 '../src/images/catalog/primavera/forest/interiors/primavera_forest_15578_947215_0x500.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/primavera/forest/tovars/primavera_forest_116199_126587_300x0.jpg',
 '../src/images/catalog/primavera/forest/tovars/primavera_forest_116200_212695_300x0.jpg',
 '../src/images/catalog/primavera/forest/tovars/primavera_forest_116201_506774_300x0.jpg',
 '../src/images/catalog/primavera/forest/tovars/primavera_forest_116202_565336_300x0.jpg'],
 },{Сollection: gemba
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/gemba/interiors/primavera_gemba_14928_350555_0x300.jpg'],
 },{Сollection: hangar
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/hangar/interiors/primavera_hangar_16394_361748_0x300.jpg'],
 },{Сollection: igman
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/igman/interiors/primavera_igman_14940_525999_0x300.jpg'],
 },{Сollection: kabru
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/kabru/interiors/primavera_kabru_14926_991214_0x300.jpg'],
 },{Сollection: kamatra
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/kamatra/interiors/primavera_kamatra_14931_16262_0x300.jpg'],
 },{Сollection: kazbek
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/kazbek/interiors/primavera_kazbek_14937_277816_0x300.jpg'],
 },{Сollection: ketil
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/ketil/interiors/primavera_ketil_14939_915166_0x300.jpg'],
 },{Сollection: khasiya
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/khasiya/interiors/primavera_khasiya_14923_792329_0x300.jpg'],
 },{Сollection: kongur
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/kongur/interiors/primavera_kongur_14921_247305_0x300.jpg'],
 },{Сollection: libekir
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/libekir/interiors/primavera_libekir_14938_783929_0x300.jpg'],
 },{Сollection: maderas
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/maderas/interiors/primavera_maderas_16395_983149_0x300.jpg'],
 },{Сollection: makalu
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/makalu/interiors/primavera_makalu_14922_50660_0x300.jpg'],
 },{Сollection: manaraga
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/manaraga/interiors/primavera_manaraga_14936_166320_0x300.jpg'],
 },{Сollection: milos
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/milos/interiors/primavera_milos_16396_840108_0x300.jpg'],
 },{Сollection: nemo
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/nemo/interiors/primavera_nemo_16397_648258_0x300.jpg'],
 },{Сollection: nordend
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/nordend/interiors/primavera_nordend_14941_913464_0x300.jpg'],
 },{Сollection: olimbos
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/olimbos/interiors/primavera_olimbos_14929_304671_0x300.jpg'],
 },{Сollection: pantir
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/pantir/interiors/primavera_pantir_14927_758982_0x300.jpg'],
 },{Сollection: ross
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/ross/interiors/primavera_ross_16398_369619_0x300.jpg'],
 },{Сollection: sion
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/sion/interiors/primavera_sion_14942_935834_0x300.jpg'],
-},{Сollection: taiga
-
-
-
-,
+},{Сollection: taiga,
 interiors: [
-
-
 '../src/images/catalog/primavera/taiga/interiors/primavera_taiga_15580_73611_0x300.jpg',
 '../src/images/catalog/primavera/taiga/interiors/primavera_taiga_15580_73611_0x500.jpg',
 '../src/images/catalog/primavera/taiga/interiors/primavera_taiga_15580_757909_0x300.jpg',
 '../src/images/catalog/primavera/taiga/interiors/primavera_taiga_15580_944701_0x300.jpg'],
 tovars:  [
-
-
 '../src/images/catalog/primavera/taiga/tovars/primavera_taiga_116207_754925_300x0.jpg',
 '../src/images/catalog/primavera/taiga/tovars/primavera_taiga_116208_786154_300x0.jpg',
 '../src/images/catalog/primavera/taiga/tovars/primavera_taiga_116209_355433_300x0.jpg',
 '../src/images/catalog/primavera/taiga/tovars/primavera_taiga_116210_142571_300x0.jpg'],
 },{Сollection: tajjshan
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/tajjshan/interiors/primavera_tajjshan_14930_995323_0x300.jpg'],
 },{Сollection: takora
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/takora/interiors/primavera_takora_16399_115631_0x300.jpg'],
 },{Сollection: veleta
-
-
-,
 interiors: [
-
-
 '../src/images/catalog/primavera/veleta/interiors/primavera_veleta_14924_867032_0x300.jpg',
    
