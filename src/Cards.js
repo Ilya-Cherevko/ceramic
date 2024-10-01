@@ -83,7 +83,6 @@ const Cards = [
       require("./images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_260803_0x300.jpg"),
       require("./images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_520011_0x300.jpg"),
       require("./images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_641625_0x300.jpg"),
-      require("./images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_752067_0x300.jpg"),
     ],
     tovars: [
       require("./images/catalog/absolut_gres/boston_light/tovars/absolut_gres_boston_light_124842_913845_300x0.jpg"),
