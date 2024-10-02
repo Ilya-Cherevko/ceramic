@@ -2,7 +2,9 @@ import React from "react";
 import "./card__wrapper.css";
 import "./Card.css";
 //import Cards from "./Cards";//
-import Cards from "./Constants/DirlisterListCatalog";
+//import Cards from "./Constants/DirlisterListCatalog";//
+import Cards from "./CardsTrap";
+import getImageUrl from "./Constants/Utils";
 
 export default function Keramogranit() {
   const keramogranit = Cards.filter((card) => card.Category === "Керамогранит");
@@ -14,8 +16,8 @@ export default function Keramogranit() {
           <div className="card__body">
             <img
               className="card__img"
-              src={card.interiors}
-              alt={`${card.Сollection + card.Name}`}
+              src={getImageUrl(card)}
+              alt={card.Name}
             />
             <p className="card__kollection">{card.Сollection}</p>
             <p className="card__name">{card.Name}</p>

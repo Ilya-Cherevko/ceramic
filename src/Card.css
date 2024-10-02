@@ -7,9 +7,13 @@
     border: solid 1px #000000;
 }
 
+.card__kantry, .card__kollection, .card__name, .card__size{
+    margin: 5px 0 2px;
+}
+
 .card__img{
     width: 100%;
-    height: 100%;
+    height: 100px;
 }
 
 .card__kollection{

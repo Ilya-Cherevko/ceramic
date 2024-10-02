@@ -1,10 +1,10 @@
 const Cards = [
   {
     id: "0",
-    Kantry: "italy",
+    Сountry: "italy",
     Name: "delacora",
-    Kollection: "arts",
-    Tip: "keramogranit",
+    Сollection: "arts",
+    Category: "Керамогранит",
     Size: "60x120",
     interiors: [
       require("./images/catalog/delacora/arts/interiors/delacora_arts_14007_559809_0x500.jpg"),
@@ -13,10 +13,10 @@ const Cards = [
   },
   {
     id: "1",
-    Kantry: "italy",
+    Сountry: "italy",
     Name: "graniteya",
-    Kollection: "iremel",
-    Tip: "keramogranit",
+    Сollection: "iremel",
+    Category: "Керамогранит",
     Size: "60x120",
     interiors: [
       require("./images/catalog/graniteya/iremel/interiors/graniteya_iremel_9203_144974_0x500.jpg"),
@@ -25,10 +25,10 @@ const Cards = [
   },
   {
     id: "2",
-    Kantry: "india",
+    Сountry: "india",
     Name: "absolut_gres",
-    Kollection: "agate",
-    Tip: "keramogranit",
+    Сollection: "agate",
+    Category: "Керамогранит",
     Size: "60x120",
     interiors: [
       require("./images/catalog/azori/acate/interiors/azori_acate_17906_467540_0x500.jpg"),
@@ -37,10 +37,10 @@ const Cards = [
   },
   {
     id: "3",
-    Kantry: "india",
+    Сountry: "india",
     Name: "absolut_gres",
-    Kollection: "agate",
-    Tip: "plitka",
+    Сollection: "agate",
+    Category: "plitka",
     Size: "60x120",
     interiors: [
       require("./images/catalog/azori/acate/interiors/azori_acate_17906_467540_0x500.jpg"),
@@ -49,10 +49,10 @@ const Cards = [
   },
   {
     id: "4",
-    Kantry: "india",
+    Сountry: "india",
     Name: "absolut_gres",
-    Kollection: "agate",
-    Tip: "plitka",
+    Сollection: "agate",
+    Category: "plitka",
     Size: "60x120",
     interiors: [
       require("./images/catalog/azori/acate/interiors/azori_acate_17906_467540_0x500.jpg"),
@@ -61,10 +61,10 @@ const Cards = [
   },
   {
     id: "5",
-    Kantry: "india",
+    Сountry: "india",
     Name: "absolut_gres",
-    Kollection: "agate",
-    Tip: "plitka",
+    Сollection: "agate",
+    Category: "plitka",
     Size: "60x120",
     interiors: [
       require("./images/catalog/azori/acate/interiors/azori_acate_17906_467540_0x500.jpg"),
@@ -72,20 +72,42 @@ const Cards = [
     ],
   },
   {
-    id: "6",
-    Kantry: "Индия",
+    id: "755",
+    Сountry: "Индия",
     Name: "absolut_gres",
-    Kollection: "boston_light",
-    Tip: "keramogranit",
+    Сollection: "aquafina_natural",
+    Category: "Керамогранит",
     Size: "60x120",
     interiors: [
-      require("./images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_752067_0x500.jpg"),
-      require("./images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_260803_0x300.jpg"),
-      require("./images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_520011_0x300.jpg"),
-      require("./images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_641625_0x300.jpg"),
+      require("./images/catalog/absolut_gres/aquafina_natural/interiors/absolut_gres_aquafina_natural_14575_115506_0x500.jpg"),
     ],
     tovars: [
-      require("./images/catalog/absolut_gres/boston_light/tovars/absolut_gres_boston_light_124842_913845_300x0.jpg"),
+      require("./images/catalog/absolut_gres/aquafina_natural/tovars/absolut_gres_aquafina_natural_109164_53651_300x0.jpg"),
+      require("./images/catalog/absolut_gres/aquafina_natural/tovars/absolut_gres_aquafina_natural_109176_163729_300x0.jpg"),
+    ],
+  },
+  { id: "27", Сountry: "Индия", Name: "absolut_gres",
+    Сollection: "aquarelle_grey",
+    Category: "Керамогранит",
+    Size: "60x120",
+    interiors: [
+      require("./images/catalog/absolut_gres/aquarelle_grey/interiors/absolut_gres_aquarelle_grey_16481_98602_0x500.jpg"),
+    ],
+    tovars: [
+      require("./images/catalog/absolut_gres/aquarelle_grey/tovars/absolut_gres_aquarelle_grey_120974_554002_300x0.jpg"),
+      require("./images/catalog/absolut_gres/aquarelle_grey/tovars/absolut_gres_aquarelle_grey_120983_514857_300x0.jpg"),
+    ],
+  },
+  { id: "758", Сountry: "Индия", Name: "absolut_gres", 
+    Сollection: "armani_bianco",
+    Category: "Керамогранит",
+    Size: "60x120",
+    interiors: [
+            require("./images/catalog/absolut_gres/armani_bianco/interiors/absolut_gres_armani_bianco_16438_983310_0x500.jpg"),
+    ],
+    tovars: [
+      require("./images/catalog/absolut_gres/armani_bianco/tovars/absolut_gres_armani_bianco_120967_79856_300x0.jpg"),
+      require("./images/catalog/absolut_gres/armani_bianco/tovars/absolut_gres_armani_bianco_120984_870379_300x0.jpg"),
     ],
   },
 ];
