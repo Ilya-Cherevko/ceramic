@@ -8,6 +8,7 @@ import Estima from "./Estima";
 import Content from "../src/Components/Slider/Content/Content";
 import Ffooter from "./footer";
 import AboutUs from "./AboutUs";
+import "./App.css";
 
 function App() {
   return (
