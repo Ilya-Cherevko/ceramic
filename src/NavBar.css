@@ -1,12 +1,12 @@
 .menu__link{
-    color: rgb(255, 255, 255);
+    color: rgb(212, 181, 3);
     margin-left: 1em;
     text-decoration: none;
     
 }
 
 .menu__link_active{
-    color: rgb(0, 0, 0)
+    color: rgb(255, 255, 255);
 }
 
 .menu{

@@ -7,22 +7,17 @@ import Cards from "./CardsTrap";
 //import getImageUrl from "./Constants/Utils";//
 
 export default function Keramogranit() {
-  const keramogranit = Cards.filter((card) => card.Category === "Керамогранит");
-  console.log(keramogranit);
+  const Keramogranit = Cards.filter((card) => card.Category === "Керамогранит");
+  console.log(Keramogranit);
   return (
     <ul className="card__wrapper">
-      {keramogranit.map((card) => (
+      {Keramogranit.map((card) => (
         <li key={card.id}>
           <div className="card__body">
-            <img
-              className="card__img"
-              src={card.interiors}
-              alt={card.Name}
-            />
+            <img className="card__img" src={card.interiors} alt={card.Name} />
             <p className="card__kollection">{card.Сollection}</p>
             <p className="card__name">{card.Name}</p>
             <p className="card__kantry">{card.Сountry}</p>
-            <p className="card__size">{card.Size}</p>
           </div>
         </li>
       ))}

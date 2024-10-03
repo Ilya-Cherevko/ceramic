@@ -1,4 +1,14 @@
 .footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     border-top: solid 3px #000000;
     padding-top: 30px;
+    margin-top: 1em;
+}
+
+.p{
+    text-decoration: none;
+    font-weight: bold;
 }
