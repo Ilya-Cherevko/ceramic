@@ -1,16 +1,19 @@
 .menu__link{
-    color: blue,
+    color: rgb(255, 255, 255);
+    margin-left: 1em;
+    text-decoration: none;
+    
 }
 
 .menu__link_active{
-    color: red
+    color: rgb(0, 0, 0)
 }
 
 .menu{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
-    border-bottom: 20px;
-    padding-bottom: 60px;
+    justify-content: flex-end;
+    border: auto 20px;
+    width: 50em;
 }

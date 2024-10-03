@@ -1,0 +1,32 @@
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em;
+        max-width: 100%;
+        margin: 0 auto 1em;
+        background-color: rgb(153, 149, 173);
+        border-bottom: 0.5em solid rgba(212, 181, 3, 0.7);
+    }
+    
+    @media screen and (max-width: 900px) {
+        .header {
+            padding: 28px 0 40px;
+          margin: 0 auto 34px;
+          }
+      } 
+
+      .header__logo {
+        width: 100px;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+    
+    @media screen and (max-width: 550px) {
+        .header__logo {
+            width: 103px;
+            height: 24px;
+          }
+      } 
