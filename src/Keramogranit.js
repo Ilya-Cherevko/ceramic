@@ -4,7 +4,7 @@ import "./Card.css";
 //import Cards from "./Cards";//
 //import Cards from "./Constants/DirlisterListCatalog";//
 import Cards from "./CardsTrap";
-import getImageUrl from "./Constants/Utils";
+//import getImageUrl from "./Constants/Utils";//
 
 export default function Keramogranit() {
   const keramogranit = Cards.filter((card) => card.Category === "Керамогранит");
@@ -16,7 +16,7 @@ export default function Keramogranit() {
           <div className="card__body">
             <img
               className="card__img"
-              src={getImageUrl(card)}
+              src={card.interiors}
               alt={card.Name}
             />
             <p className="card__kollection">{card.Сollection}</p>
