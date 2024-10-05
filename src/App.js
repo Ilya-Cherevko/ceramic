@@ -16,10 +16,12 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Content />} />
-        <Route path="/Plitka" element={<Plitka />} />
-        <Route path="Azori" element={<Azori />} />
-        <Route path="/Keramogranit" element={<Keramogranit />} />
-        <Route path="Estima" element={<Estima />} />
+        <Route path="/Plitka" element={<Plitka />}>
+          <Route path="Azori" element={<Azori />} />
+        </Route>
+        <Route path="/Keramogranit" element={<Keramogranit />}>
+          <Route path="Estima" element={<Estima />} />
+        </Route>
         <Route path="/AboutUs" element={<AboutUs />} />
       </Routes>
       <Ffooter />

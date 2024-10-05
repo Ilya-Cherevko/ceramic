@@ -8,13 +8,11 @@ import Cards from "./CardsTrap";
 //import getImageUrl from "./Constants/Utils";//
 
 export default function Plitka() {
-  const Plitka = Cards.filter(
-    (card) => card.Category === "Керамическая плитка"
-  );
-  console.log(Plitka);
+  const Item = Cards.filter((card) => card.Category === "Керамическая плитка");
+  console.log(Item);
   return (
     <ul className="card__wrapper">
-      {Plitka.map((card) => (
+      {Item.map((card) => (
         <li key={card.id}>
           <div className="card__body">
             <img className="card__img" src={card.interiors} alt={card.Name} />

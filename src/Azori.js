@@ -1,23 +1,32 @@
-import React from 'react'
+import React from "react";
+import "./card__wrapper.css";
+import "./Card.css";
+//import Cards from "./Cards";//
+//import Cards from "./Constants/DirlisterListCatalog";//
+import Cards from "./CardsTrap";
+//import getImageUrl from "./Constants/Utils";//
+//import Card from "./Card";//
+import getImageUrl from "./Constants/Utils";
 
-export default function Azori(initialCards) {
+export default function Azori() {
+  const Item = Cards.filter((card) => card.Name === "Azori");
+  console.log(Item);
   return (
-    <div>
-      <h1>Плитка, {initialCards.name}</h1>
-      <image src={initialCards.link}>
-        
-      </image>
-    </div>
-  )
+    <ul className="card__wrapper">
+      {Item.map((card) => (
+        <li key={card.id}>
+          <div className="card__body">
+            <img
+              className="card__img"
+              src={getImageUrl(card)}
+              alt={card.Name + card.interiors}
+            />
+            <p className="card__kollection">{card.Сollection}</p>
+            <p className="card__name">{card.Name}</p>
+            <p className="card__kantry">{card.Сountry}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
 }
-
-const initialCards = [
-    {
-      name: 'Архыз',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg'
-    },
-    {
-      name: 'Челябинская область',
-      link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg'
-    }
-  ];
