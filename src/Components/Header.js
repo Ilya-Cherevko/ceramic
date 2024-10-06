@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../src/images/logo_ceramic-ok/logo_ceramc-ok.png";
+import logo from "../images/logo_ceramic-ok/logo_ceramc-ok.png";
 import "./Header.css";
 import NavBar from "./NavBar";
 

@@ -1,13 +1,13 @@
 import "./App.css";
-import Header from "./Header";
+import Header from "./Components/Header";
 import { Routes, Route } from "react-router-dom";
-import Plitka from "./Plitka";
-import Keramogranit from "./Keramogranit";
-import Azori from "./Azori";
-import Estima from "./Estima";
+import Plitka from "./Pages/Plitka";
+import Keramogranit from "./Pages/Keramogranit";
 import Content from "../src/Components/Slider/Content/Content";
-import Ffooter from "./footer";
-import AboutUs from "./AboutUs";
+import Ffooter from "./Components/footer";
+import AboutUs from "./Pages/AboutUs";
+import CardBuild from "./Pages/CardBuild";
+import NotPage from "./Pages/404";
 import "./App.css";
 
 function App() {
@@ -16,13 +16,14 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Content />} />
-        <Route path="/Plitka" element={<Plitka />}>
-          <Route path="Azori" element={<Azori />} />
-        </Route>
-        <Route path="/Keramogranit" element={<Keramogranit />}>
-          <Route path="Estima" element={<Estima />} />
-        </Route>
+        <Route path="/Plitka" element={<Plitka />} />
+        <Route path="/Plitka/:Name" element={<CardBuild />} />
+
+        <Route path="/Keramogranit" element={<Keramogranit />} />
+
+        <Route path="/Keramogranit/:Name" element={<CardBuild />} />
         <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="*" element={<NotPage />} />
       </Routes>
       <Ffooter />
     </div>

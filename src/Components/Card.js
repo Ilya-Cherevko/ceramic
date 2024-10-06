@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css";
+import "./Components/card.css";
 //import getImageUrl from "./Constants/Utils";//
 
 export default function Card(card) {
@@ -10,9 +10,9 @@ export default function Card(card) {
         src={card.interiors}
         alt={card.Name + card.interiors}
       />
-      <p className="card__kollection">{card.Сollection}</p>
+      <p className="card__collection">{card.Сollection}</p>
       <p className="card__name">{card.Name}</p>
-      <p className="card__kantry">{card.Сountry}</p>
+      <p className="card__country">{card.Сountry}</p>
     </div>
   );
 }

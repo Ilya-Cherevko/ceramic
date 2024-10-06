@@ -1,12 +1,8 @@
 import React from "react";
-import "./card__wrapper.css";
-import "./Card.css";
-//import Cards from "./Cards";//
-//import Cards from "./Constants/DirlisterListCatalog";//
-import Cards from "./CardsTrap";
-//import getImageUrl from "./Constants/Utils";//
-//import Card from "./Card";//
-import getImageUrl from "./Constants/Utils";
+import "../Components/card__wrapper.css";
+import "../Components/Card.css";
+import Cards from "../Constants/CardsTrap";
+import getImageUrl from "../Constants/Utils";
 
 export default function Azori() {
   const Item = Cards.filter((card) => card.Name === "Azori");
@@ -21,9 +17,9 @@ export default function Azori() {
               src={getImageUrl(card)}
               alt={card.Name + card.interiors}
             />
-            <p className="card__kollection">{card.Сollection}</p>
+            <p className="card__collection">{card.Сollection}</p>
             <p className="card__name">{card.Name}</p>
-            <p className="card__kantry">{card.Сountry}</p>
+            <p className="card__country">{card.Сountry}</p>
           </div>
         </li>
       ))}
