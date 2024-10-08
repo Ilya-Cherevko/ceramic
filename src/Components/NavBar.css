@@ -49,7 +49,7 @@
   .dropdown-content a:hover {background-color: #000000;}
   
   /* Показать выпадающее меню при наведении курсора */
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: flex; justify-content: space-around; flex-direction: column; justify-content: center}
   
   /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
   .dropdown:hover .dropbtn {background-color: #ffffff;}
