@@ -3,7 +3,7 @@ import Header from "./Components/Header";
 import { Routes, Route } from "react-router-dom";
 import Category from "./Pages/Category";
 import Content from "../src/Components/Slider/Content/Content";
-import Ffooter from "./Components/footer";
+import Footer from "./Components/footer";
 import AboutUs from "./Pages/AboutUs";
 import CardBuild from "./Pages/CardBuild";
 import CardPit from "./Pages/CardPit";
@@ -19,11 +19,10 @@ function App() {
         <Route path="/:id" element={<Category />} />
         <Route path="/:id/:Name" element={<CardBuild />} />
         <Route path="/:id/:Name/:Collection" element={<CardPit />} />
-        
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="*" element={<NotPage />} />
       </Routes>
-      <Ffooter />
+      <Footer />
     </div>
   );
 }

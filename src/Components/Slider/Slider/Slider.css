@@ -1,13 +1,18 @@
 .slider-wrap{
   width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .slider__actions {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 15px;
-  margin: auto 0 20px auto;
+    width: 93vw;
+    justify-content: space-between;
+    gap: 15px;
+    margin: auto 0;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
 }
 
 .slider {
@@ -52,10 +57,7 @@
   opacity: 1;
 }
 .slide__label {
-  background: var(--gradient);
   font-weight: bold;
-  font-size: 12px;
-  text-transform: uppercase;
 }
 .slide__title {
   font-size: 26px;

@@ -1,17 +1,11 @@
-import '../IconButton/IconButton.css'
+import "../IconButton/IconButton.css";
 
-export const IconButton = ({
-  direction,
-  disable,
-  onClick
-}) => {
-  let cls = 'icon-button'
+export const IconButton = ({ direction, disable, onClick }) => {
+  let cls = "icon-button";
 
-  if (direction === 'left') cls += ' left'
-  if (direction === 'right') cls += ' right'
-  if (disable) cls += ' disable'
+  if (direction === "left") cls += " left";
+  if (direction === "right") cls += " right";
+  if (disable) cls += " disable";
 
-  return (
-    <div className={cls} onClick={onClick} />
-  )
-}
+  return <div className={cls} onClick={onClick} />;
+};

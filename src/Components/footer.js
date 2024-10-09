@@ -1,15 +1,22 @@
 import React from "react";
 import "./footer.css";
 
-function Ffooter() {
+function Footer() {
   return (
     <div className="footer">
-      <p>Самара, ул. Красноармейская, 124</p>
-      <p>8 917 154 17 09</p>
-      <p>https://vk.com/vokceramic</p>
-      <p>vokceramic@mail.ru</p>
+      <p className="text">Самара, ул. Красноармейская, 124</p>
+      <p className="text">8 917 154 17 09</p>
+      <a
+        href="https://vk.com/vokceramic/"
+        className="text"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Vokceramic
+      </a>
+      <p className="text">vokceramic@mail.ru</p>
     </div>
   );
 }
 
-export default Ffooter;
+export default Footer;

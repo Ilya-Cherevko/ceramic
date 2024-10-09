@@ -13,7 +13,8 @@ function NavBar() {
       </NavLink>
 
       <NavLink to="/Plitka" className={setActive}>
-        <div className="dropdown">Керамическая плитка
+        <div className="dropdown">
+          Керамическая плитка
           <div className="dropdown-content">
             <NavLink to="/Plitka/Alma%20Ceramica" className={setActive}>
               Алма Керамика
@@ -34,11 +35,9 @@ function NavBar() {
         </div>
       </NavLink>
 
-      <NavLink
-        to="/Keramogranit"
-        className={setActive}
-      >
-        <div className="dropdown">Керамогранит
+      <NavLink to="/Keramogranit" className={setActive}>
+        <div className="dropdown">
+          Керамогранит
           <div className="dropdown-content">
             <NavLink to="/Keramogranit/Absolut%20Gres" className={setActive}>
               Абсолют Гресс

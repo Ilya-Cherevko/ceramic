@@ -4,3 +4,9 @@
   gap: 30px;
   max-width: 90vw;
 }
+
+.label{
+  font-size: 60px;
+  text-decoration: none;
+  color: #ffffff;
+}
