@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
 import Cards from "../Constants/CardsTrap";
@@ -8,6 +8,10 @@ import getImageUrl from "../Constants/Utils";
 export default function Keramogranit() {
   const Item = Cards.filter((card) => card.Category === "Keramogranit");
   /*console.log(Item);*/
+
+  const location = useLocation();
+  console.log(location.pathname, location.search);
+
   return (
     <ul className="card__wrapper">
       {Item.map((card) => (

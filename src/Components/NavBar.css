@@ -1,6 +1,6 @@
 .menu__link{
     color: rgb(212, 181, 3);
-    margin-left: 1em;
+    margin: 1em;
     text-decoration: none;
     font-size: small;
     cursor: pointer;

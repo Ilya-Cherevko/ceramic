@@ -12,23 +12,22 @@ function NavBar() {
         Главная
       </NavLink>
 
-      <NavLink to="/plitka" className={setActive}>
-        <div className="dropdown">
-          <div>Керамическая плитка</div>
+      <NavLink to="/Plitka" className={setActive}>
+        <div className="dropdown">Керамическая плитка
           <div className="dropdown-content">
-            <NavLink to="/plitka/Alma%20Ceramica" className={setActive}>
+            <NavLink to="/Plitka/Alma%20Ceramica" className={setActive}>
               Алма Керамика
             </NavLink>
-            <NavLink to="/plitka/Azori" className={setActive}>
+            <NavLink to="/Plitka/Azori" className={setActive}>
               Азори
             </NavLink>
-            <NavLink to="/plitka/Eletto_ceramica" className={setActive}>
+            <NavLink to="/Plitka/Eletto_ceramica" className={setActive}>
               Элетто Керамика
             </NavLink>
-            <NavLink to="/plitka/LB%20Ceramics" className={setActive}>
+            <NavLink to="/Plitka/LB%20Ceramics" className={setActive}>
               LB Ceramics
             </NavLink>
-            <NavLink to="/plitka/NewTrend" className={setActive}>
+            <NavLink to="/Plitka/NewTrend" className={setActive}>
               NewTrend
             </NavLink>
           </div>
@@ -36,54 +35,48 @@ function NavBar() {
       </NavLink>
 
       <NavLink
-        to="/keramogranit"
-        className={({ isActive }) =>
-          `menu__link ${isActive ? "menu__link_active" : ""}`
-        }
+        to="/Keramogranit"
+        className={setActive}
       >
-        <div className="dropdown">
-          <div>Керамогранит</div>
+        <div className="dropdown">Керамогранит
           <div className="dropdown-content">
-            <NavLink to="/keramogranit/Estima" className={setActive}>
-              Эстима
-            </NavLink>
-            <NavLink to="/keramogranit/absolut_gres" className={setActive}>
+            <NavLink to="/Keramogranit/Absolut%20Gres" className={setActive}>
               Абсолют Гресс
             </NavLink>
-            <NavLink to="/keramogranit/Alma%20Ceramica" className={setActive}>
+            <NavLink to="/Keramogranit/Alma%20Ceramica" className={setActive}>
               Алма Керамика
             </NavLink>
             <NavLink
-              to="/keramogranit/Ametis%20by%20Estima"
+              to="/Keramogranit/Ametis%20by%20Estima"
               className={setActive}
             >
-              Аetist by Estima
+              Аmetist by Estima
             </NavLink>
-            <NavLink to="/keramogranit/Bluezone" className={setActive}>
+            <NavLink to="/Keramogranit/Bluezone" className={setActive}>
               Bluezone
             </NavLink>
-            <NavLink to="/keramogranit/Delacora" className={setActive}>
+            <NavLink to="/Keramogranit/Delacora" className={setActive}>
               Delacora
             </NavLink>
-            <NavLink to="/keramogranit/Estima" className={setActive}>
+            <NavLink to="/Keramogranit/Estima" className={setActive}>
               Estima
             </NavLink>
-            <NavLink to="/keramogranit/Estima_city" className={setActive}>
+            <NavLink to="/Keramogranit/Estima_city" className={setActive}>
               Estima City
             </NavLink>
-            <NavLink to="/keramogranit/Гранитея" className={setActive}>
+            <NavLink to="/Keramogranit/Гранитея" className={setActive}>
               Гранитея
             </NavLink>
-            <NavLink to="/keramogranit/Gresse" className={setActive}>
+            <NavLink to="/Keramogranit/Gresse" className={setActive}>
               Gresse
             </NavLink>
-            <NavLink to="/keramogranit/Керлайф" className={setActive}>
+            <NavLink to="/Keramogranit/Керлайф" className={setActive}>
               Керлайф
             </NavLink>
-            <NavLink to="/keramogranit/LCM" className={setActive}>
+            <NavLink to="/Keramogranit/LCM" className={setActive}>
               LCM
             </NavLink>
-            <NavLink to="/keramogranit/Primavera" className={setActive}>
+            <NavLink to="/Keramogranit/Primavera" className={setActive}>
               Primavera
             </NavLink>
           </div>

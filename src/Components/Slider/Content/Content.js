@@ -12,7 +12,7 @@ const setActive = ({ isActive }) =>
 const sliderData = [
   {
     label: (
-      <NavLink to="/plitka" className={setActive}>
+      <NavLink to="/Plitka" className={setActive}>
         Керамическая плитка
       </NavLink>
     ),
@@ -20,7 +20,7 @@ const sliderData = [
   },
   {
     label: (
-      <NavLink to="/keramogranit" className={setActive}>
+      <NavLink to="/Keramogranit" className={setActive}>
         Керамогранит
       </NavLink>
     ),
@@ -28,7 +28,7 @@ const sliderData = [
   },
   {
     label: (
-      <NavLink to="/keramogranit" className={setActive}>
+      <NavLink to="/Keramogranit" className={setActive}>
         Гибкий мрамор
       </NavLink>
     ),

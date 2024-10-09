@@ -10,7 +10,7 @@ export default function Card(card) {
         src={card.interiors}
         alt={card.Name + card.interiors}
       />
-      <p className="card__collection">{card.Сollection}</p>
+      <p className="card__collection">{card.Collection}</p>
       <p className="card__name">{card.Name}</p>
       <p className="card__country">{card.Сountry}</p>
     </div>
