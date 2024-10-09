@@ -20,9 +20,9 @@ export default function Keramogranit() {
                 alt={card.Name + card.interiors}
               />
             </Link>
-            <Link to={card.Сollection} className="card__collection">
+            <p className="card__collection">
               {card.Сollection}
-            </Link>
+            </p>
             <Link to={card.Name} className="card__name">
               {card.Name}
             </Link>

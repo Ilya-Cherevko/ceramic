@@ -31,13 +31,11 @@
     font-size: larger;
     font-weight: bold;
     margin-bottom: 12px;
-    cursor: pointer;
     text-decoration: none;
     }
 
 .card__name{
     font-size: medium;
-    cursor: pointer;
     text-decoration: none;
    }
 
