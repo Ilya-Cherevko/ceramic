@@ -15,7 +15,7 @@ export default function CardPit() {
   const Item = Cards.filter((card) => card.Collection === Collection);
   console.log(Item);
 
-  const tovars = Cards.filter((card) => card.tovars === "tovars");
+  const tovars = Item.filter((it) => it.tovars === "tovars");
   console.log(tovars);
 
   return (
@@ -30,15 +30,25 @@ export default function CardPit() {
                 alt={card.Name + card.interiors}
               />
               <div className="card__conteiner">
-                <p className="card__collection">{card.Collection}</p>
-                <p className="card__name">{card.Name}</p>
-                <p className="card__country">{card.Сountry}</p>
+                <p className="card__collection">Коллекция: {card.Collection}</p>
+                <p className="card__name">Производитель: {card.Name}</p>
+                <p className="card__country">
+                  Страна производства: {card.Сountry}
+                </p>
+                <p className="card__country">Размеры: {card.Size}</p>
               </div>
             </div>
           </li>
         ))}
       </ul>
-      <h3>Раздел</h3>
+      <h3>Ассортимент</h3>
+      {Item.map((card) => (
+        <img
+          className="card__img_card"
+          src={card.tovars[1]}
+          alt={card.tovars}
+        />
+      ))}
     </article>
   );
 }
