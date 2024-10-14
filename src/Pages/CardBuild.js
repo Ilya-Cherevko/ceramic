@@ -8,20 +8,20 @@ import { useParams, useLocation } from "react-router-dom";
 
 export default function CardBuild() {
   let { Name } = useParams();
-  console.log('Часть пути', Name);
+  //console.log('Часть пути', Name);//
 
   //const location = useLocation();//
   //console.log(location.pathname, location.search);//
 
   const Item = Cards.filter((card) => card.Name === Name);
   console.log(Item);
-  
+
   return (
     <ul className="card__wrapper">
       {Item.map((card) => (
         <li key={card.id}>
           <div className="card__body">
-          <Link to={card.Collection}>
+            <Link to={card.Collection}>
               <img
                 className="card__img"
                 src={getImageUrl(card)}

@@ -1,7 +1,7 @@
 //import { GradientTitle } from "../GradientTitle/GradientTitle";//
 import { Slider } from "../Slider/Slider";
-import photo_1 from "../../../images/naznachenie_front_1.jpg";
-import photo_2 from "../../../images/naznachenie_front_2.jpg";
+import photo_1 from "../../../images/Slider/22651.jpg";
+import photo_2 from "../../../images/Slider/plitka-bari-axima-30702.jpg";
 import photo_3 from "../../../images/naznachenie_front_3.jpg";
 import "../Content/Content.css";
 import { NavLink } from "react-router-dom";

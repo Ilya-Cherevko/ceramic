@@ -7,16 +7,16 @@ import { useParams, useLocation, Link } from "react-router-dom";
 
 export default function CardPit() {
   let { Collection } = useParams();
-  console.log("Часть пути", Collection);
+  //console.log("Часть пути", Collection);//
 
-  const location = useLocation();
-  console.log(location.pathname, location.search);
+  //const location = useLocation();//
+  //console.log("Полный путь", location.pathname, location.search);//
 
   const Item = Cards.filter((card) => card.Collection === Collection);
   console.log(Item);
 
-  const tovars = Item.filter((it) => it.tovars === "tovars");
-  console.log(tovars);
+  //const tovars = Item.filter((it) => it.tovars === "tovars");//
+  //console.log("Товары из базы", tovars);//
 
   return (
     <article>
@@ -42,11 +42,12 @@ export default function CardPit() {
         ))}
       </ul>
       <h3>Ассортимент</h3>
+
       {Item.map((card) => (
         <img
           className="card__img_card"
-          src={card.tovars[1]}
-          alt={card.tovars}
+          src={card.tovars}
+          alt={card.tovars.length}
         />
       ))}
     </article>
