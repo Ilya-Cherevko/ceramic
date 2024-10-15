@@ -7,6 +7,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/agate/interiors/absolut_gres_agate_12679_825776_0x500.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "1",
@@ -37,6 +38,7 @@ const initialCards = [
     Collection: "alba",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/alba/interiors/absolut_gres_alba_14589_454811_0x500.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "4",
@@ -98,6 +100,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/ambassador/interiors/absolut_gres_ambassador_14580_353460_0x500.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "10",
@@ -119,6 +122,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/andrea_creama/interiors/absolut_gres_andrea_creama_16482_287438_0x500.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "12",
@@ -128,6 +132,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/andrea_creama/interiors/absolut_gres_andrea_creama_16482_359377_0x300.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "13",
@@ -161,6 +166,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antique_grey/interiors/absolut_gres_antique_grey_12661_570759_0x500.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "16",
@@ -182,6 +188,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antique_rough/interiors/absolut_gres_antique_rough_12660_621462_0x500.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "18",
@@ -203,6 +210,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_316562_0x500.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "20",
@@ -212,6 +220,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_378517_0x300.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "21",
@@ -221,6 +230,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_521866_0x300.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "22",
@@ -230,6 +240,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_805714_0x300.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "23",
@@ -239,6 +250,7 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_991946_0x300.jpg"),
+    tovars: [require("../images/catalog/noFoto.jpg")],
   },
   {
     id: "24",
