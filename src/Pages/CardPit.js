@@ -12,8 +12,8 @@ export default function CardPit() {
   console.log(Item);
 
   return (
-    <article>
-      <ul className="card__wrapper">
+    <article className="card__page">
+      <ul className="card__page">
         {Item.map((card) => (
           <li key={card.id}>
             <div className="card__body_one">
@@ -31,9 +31,19 @@ export default function CardPit() {
                 <p className="card__country">Размеры: {card.Size}</p>
               </div>
             </div>
+            <ul className="card__wrapper">
             {card.tovars.map((card) => (
-              <img className="card__img_card" src={card} alt={card} />
+              <li className="card__conteiner">
+              
+              
+                <img className="card__img_tovar" src={card} alt={card} />
+                <p className="card__collection">{card.Collection}</p>
+                <p className="card__name">{card.Name}</p>
+                <p className="card__country">Размеры: {card.Size}</p>
+              
+              </li>
             ))}
+            </ul>
           </li>
         ))}
       </ul>
