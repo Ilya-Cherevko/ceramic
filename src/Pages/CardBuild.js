@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
-import Cards from "../Constants/CardsTrap";
+import Cards from "../Constants/DirlisterListCatalog";
 import getImageUrl from "../Constants/Utils";
 import { useParams, useLocation } from "react-router-dom";
 
@@ -24,7 +24,7 @@ export default function CardBuild() {
             <Link to={card.Collection}>
               <img
                 className="card__img"
-                src={getImageUrl(card)}
+                src={card.interiors[0]}
                 alt={card.Name + card.interiors}
               />
             </Link>

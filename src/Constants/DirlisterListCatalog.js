@@ -2,53 +2,28 @@ const initialCards = [
   {
     id: "0",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "agate",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Agate",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/agate/interiors/absolut_gres_agate_12679_825776_0x500.jpg"),
     ],
-  },
-  {
-    id: "1",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "agate",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/absolut_gres/agate/tovars/absolut_gres_agate_103750_668232_300x0.jpg"),
-    ],
-  },
-  {
-    id: "2",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "agate",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
-    tovars: [
       require("../images/catalog/absolut_gres/agate/tovars/absolut_gres_agate_106802_774882_300x0.jpg"),
     ],
   },
+
   {
     id: "3",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "alba",
+    Name: "Absolut gres",
+    Collection: "Alba",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/alba/interiors/absolut_gres_alba_14589_454811_0x500.jpg"),
     ],
-  },
-  {
-    id: "4",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "alba",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/absolut_gres/alba/tovars/absolut_gres_alba_112165_639576_300x0.jpg"),
     ],
@@ -56,234 +31,106 @@ const initialCards = [
   {
     id: "5",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "almond_wood",
+    Name: "Absolut gres",
+    Collection: "Almond wood",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/almond_wood/interiors/absolut_gres_almond_wood_17005_95319_0x500.jpg"),
     ],
-  },
-  {
-    id: "6",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "almond_wood",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/absolut_gres/almond_wood/tovars/absolut_gres_almond_wood_122766_166185_300x0.jpg"),
-    ],
-  },
-  {
-    id: "7",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "almond_wood",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
-    tovars: [
       require("../images/catalog/absolut_gres/almond_wood/tovars/absolut_gres_almond_wood_122767_657106_300x0.jpg"),
-    ],
-  },
-  {
-    id: "8",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "almond_wood",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
-    tovars: [
       require("../images/catalog/absolut_gres/almond_wood/tovars/absolut_gres_almond_wood_122768_636972_300x0.jpg"),
     ],
   },
+
   {
     id: "9",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "ambassadorinteriors",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Ambassador interiors",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/ambassador/interiors/absolut_gres_ambassador_14580_353460_0x500.jpg"),
     ],
-  },
-  {
-    id: "10",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "ambassadorinteriors",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/absolut_gres/ambassador/tovars/absolut_gres_ambassador_112156_847849_300x0.jpg"),
     ],
   },
+
   {
     id: "11",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "andrea_creama",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Andrea creama",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/andrea_creama/interiors/absolut_gres_andrea_creama_16482_287438_0x500.jpg"),
-    ],
-  },
-  {
-    id: "12",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "andrea_creama",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [
       require("../images/catalog/absolut_gres/andrea_creama/interiors/absolut_gres_andrea_creama_16482_359377_0x300.jpg"),
     ],
-  },
-  {
-    id: "13",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "andrea_creama",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/absolut_gres/andrea_creama/tovars/absolut_gres_andrea_creama_120976_434155_300x0.jpg"),
-    ],
-  },
-  {
-    id: "14",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "andrea_creama",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
-    tovars: [
       require("../images/catalog/absolut_gres/andrea_creama/tovars/absolut_gres_andrea_creama_120986_923157_300x0.jpg"),
     ],
   },
+
   {
     id: "15",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antique_grey",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Antique grey",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/antique_grey/interiors/absolut_gres_antique_grey_12661_570759_0x500.jpg"),
     ],
-  },
-  {
-    id: "16",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antique_grey",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/absolut_gres/antique_grey/tovars/absolut_gres_antique_grey_103731_91518_300x0.jpg"),
     ],
   },
+
   {
     id: "17",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antique_roug",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Antique roug",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/antique_rough/interiors/absolut_gres_antique_rough_12660_621462_0x500.jpg"),
     ],
-  },
-  {
-    id: "18",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antique_roug",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/absolut_gres/antique_rough/tovars/absolut_gres_antique_rough_103730_401996_300x0.jpg"),
     ],
   },
+
   {
     id: "19",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antiqu_onix_natural",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Antiqu onix natural",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_316562_0x500.jpg"),
-    ],
-  },
-  {
-    id: "20",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antiqu_onix_natural",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [
       require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_378517_0x300.jpg"),
-    ],
-  },
-  {
-    id: "21",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antiqu_onix_natural",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [
       require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_521866_0x300.jpg"),
-    ],
-  },
-  {
-    id: "22",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antiqu_onix_natural",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [
       require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_805714_0x300.jpg"),
-    ],
-  },
-  {
-    id: "23",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antiqu_onix_natural",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [
       require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_991946_0x300.jpg"),
     ],
-  },
-  {
-    id: "24",
-    Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "antiqu_onix_natural",
-    Category: "Керамогранит",
-    Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/absolut_gres/antiqu_onix_natural/tovars/absolut_gres_antiqu_onix_natural_109179_258871_300x0.jpg"),
     ],
   },
+
   {
     id: "25",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "apollo_white",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Apollo white",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/apollo_white/interiors/absolut_gres_apollo_white_12687_542930_0x500.jpg"),
@@ -296,9 +143,9 @@ const initialCards = [
   {
     id: "755",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "aquafina_natural",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Aquafina natural",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/aquafina_natural/interiors/absolut_gres_aquafina_natural_14575_115506_0x500.jpg"),
@@ -308,9 +155,12 @@ const initialCards = [
       require("../images/catalog/absolut_gres/aquafina_natural/tovars/absolut_gres_aquafina_natural_109176_163729_300x0.jpg"),
     ],
   },
-  { id: "27", Сountry: "Индия", Name: "absolut_gres",
-    Сollection: "aquarelle_grey",
-    Category: "Керамогранит",
+  {
+    id: "27",
+    Сountry: "Индия",
+    Name: "Absolut gres",
+    Collection: "Aquarelle grey",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/aquarelle_grey/interiors/absolut_gres_aquarelle_grey_16481_98602_0x500.jpg"),
@@ -320,9 +170,12 @@ const initialCards = [
       require("../images/catalog/absolut_gres/aquarelle_grey/tovars/absolut_gres_aquarelle_grey_120983_514857_300x0.jpg"),
     ],
   },
-  { id: "758", Сountry: "Индия", Name: "absolut_gres", 
-    Сollection: "armani_bianco",
-    Category: "Керамогранит",
+  {
+    id: "758",
+    Сountry: "Индия",
+    Name: "Absolut gres",
+    Collection: "Armani bianco",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/armani_bianco/interiors/absolut_gres_armani_bianco_16438_429290_0x300.jpg"),
@@ -336,9 +189,9 @@ const initialCards = [
   {
     id: "29",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "armani_black",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Armani black",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/armani_black/interiors/absolut_gres_armani_black_16480_393626_0x300.jpg"),
@@ -353,9 +206,9 @@ const initialCards = [
   {
     id: "40",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "armani_brown",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Armani brown",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/armani_brown/interiors/absolut_gres_armani_brown_16478_469830_0x300.jpg"),
@@ -370,9 +223,9 @@ const initialCards = [
   {
     id: "752",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "armani_gris",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Armani gris",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/armani_gris/interiors/absolut_gres_armani_gris_12677_882953_0x300.jpg"),
@@ -387,9 +240,9 @@ const initialCards = [
   {
     id: "753",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "armani_silver",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Armani silver",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/armani_silver/interiors/absolut_gres_armani_silver_14578_53331_0x300.jpg"),
@@ -403,9 +256,9 @@ const initialCards = [
   {
     id: "770",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "aroma_wood",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Aroma wood",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/aroma_wood/interiors/absolut_gres_aroma_wood_17011_661330_0x300.jpg"),
@@ -424,9 +277,9 @@ const initialCards = [
   {
     id: "754",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "aspire_gold",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Aspire gold",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/aspire_gold/interiors/absolut_gres_aspire_gold_16461_557988_0x300.jpg"),
@@ -440,9 +293,9 @@ const initialCards = [
   {
     id: "26",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "aura_orointeriors",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Aura orointeriors",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/aura_oro/interiors/absolut_gres_aura_oro_14573_292853_0x300.jpg"),
@@ -456,9 +309,9 @@ const initialCards = [
   {
     id: "757",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "azur",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Azur",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/azur/interiors/absolut_gres_azur_14585_507874_0x300.jpg"),
@@ -471,9 +324,9 @@ const initialCards = [
   {
     id: "28",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "barma_brown",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Barma brown",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/barma_brown/interiors/absolut_gres_barma_brown_12705_23590_0x300.jpg"),
@@ -486,9 +339,9 @@ const initialCards = [
   {
     id: "759",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "barma_cafe",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Barma cafe",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/barma_cafe/interiors/absolut_gres_barma_cafe_12704_399490_0x300.jpg"),
@@ -501,9 +354,9 @@ const initialCards = [
   {
     id: "30",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "barma_teak",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Barma teak",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/barma_teak/interiors/absolut_gres_barma_teak_12706_469753_0x300.jpg"),
@@ -516,11 +369,15 @@ const initialCards = [
   {
     id: "31",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "beton",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Beton",
+    Category: "Keramogranit",
     Size: "60x120",
-    interiors: [require("../images/catalog/noFoto.jpg")],
+    interiors: [
+      require("../images/catalog/absolut_gres/beton/interiors/absolut_gres_novaya_kollekciya__17722_17722_345892.jpg"),
+      require("../images/catalog/absolut_gres/beton/interiors/absolut_gres_novaya_kollekciya__17722_17722_543689.jpg"),
+      require("../images/catalog/absolut_gres/beton/interiors/absolut_gres_novaya_kollekciya__17722_17722_612931.jpg"),
+    ],
     tovars: [
       require("../images/catalog/absolut_gres/beton/tovars/absolut_gres_beton_124840_545918_300x0.jpg"),
     ],
@@ -528,9 +385,9 @@ const initialCards = [
   {
     id: "32",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "bianco_dorado",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Bianco dorado",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/bianco_dorado/interiors/absolut_gres_bianco_dorado_16470_476209_0x300.jpg"),
@@ -544,9 +401,9 @@ const initialCards = [
   {
     id: "33",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "black_marquina",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Black marquina",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/black_marquina/interiors/absolut_gres_black_marquina_12692_766007_0x300.jpg"),
@@ -559,9 +416,9 @@ const initialCards = [
   {
     id: "34",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "blue_jasto",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Blue jasto",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/blue_jasto/interiors/absolut_gres_blue_jasto_12693_205361_0x300.jpg"),
@@ -574,9 +431,9 @@ const initialCards = [
   {
     id: "35",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "blue_jasto_light",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Blue jasto light",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/blue_jasto_light/interiors/absolut_gres_blue_jasto_light_12686_913650_0x300.jpg"),
@@ -589,9 +446,9 @@ const initialCards = [
   {
     id: "36",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "borgini_gold",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Borgini gold",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/borgini_gold/interiors/absolut_gres_borgini_gold_12666_253571_0x300.jpg"),
@@ -604,9 +461,9 @@ const initialCards = [
   {
     id: "37",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "boston_dark",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Boston dark",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/boston_dark/interiors/absolut_gres_boston_dark_17723_416257_0x300.jpg"),
@@ -622,9 +479,9 @@ const initialCards = [
   {
     id: "38",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "boston_light",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Boston light",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/boston_light/interiors/absolut_gres_boston_light_17724_260803_0x300.jpg"),
@@ -639,9 +496,9 @@ const initialCards = [
   {
     id: "41",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "breccia_natural",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Breccia natural",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/breccia_natural/interiors/absolut_gres_breccia_natural_14576_829194_0x300.jpg"),
@@ -655,9 +512,9 @@ const initialCards = [
   {
     id: "42",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "breccia_white",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Breccia white",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/breccia_white/interiors/absolut_gres_breccia_white_15264_75999_0x300.jpg"),
@@ -670,9 +527,9 @@ const initialCards = [
   {
     id: "43",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "calacatta_bronze",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Calacatta bronze",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/calacatta_bronze/interiors/absolut_gres_calacatta_bronze_13403_637778_0x300.jpg"),
@@ -687,9 +544,9 @@ const initialCards = [
   {
     id: "44",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "calacatta_gold_glazed",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Calacatta gold glazed",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/calacatta_gold_glazed/interiors/absolut_gres_calacatta_gold_glazed_12673_255910_0x300.jpg"),
@@ -702,9 +559,9 @@ const initialCards = [
   {
     id: "45",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "calacatta_gold_matt",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Calacatta gold matt",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/calacatta_gold_matt/interiors/absolut_gres_calacatta_gold_matt_12675_415065_0x300.jpg"),
@@ -717,9 +574,9 @@ const initialCards = [
   {
     id: "46",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "calacatta_grey_glazed",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Calacatta grey glazed",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/calacatta_grey_glazed/interiors/absolut_gres_calacatta_grey_glazed_12672_170599_0x300.jpg"),
@@ -732,9 +589,9 @@ const initialCards = [
   {
     id: "47",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "calacatta_grey_matt",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Calacatta grey matt",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/calacatta_grey_matt/interiors/absolut_gres_calacatta_grey_matt_12674_408089_0x300.jpg"),
@@ -747,9 +604,9 @@ const initialCards = [
   {
     id: "48",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "calacatta_sun",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Calacatta sun",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/calacatta_sun/interiors/absolut_gres_calacatta_sun_13404_831195_0x300.jpg"),
@@ -764,9 +621,9 @@ const initialCards = [
   {
     id: "49",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "canoli",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Canoli",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/canoli/interiors/absolut_gres_canoli_16463_581965_0x300.jpg"),
@@ -780,9 +637,9 @@ const initialCards = [
   {
     id: "50",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "carbon",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Carbon",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/carbon/interiors/absolut_gres_carbon_14590_810987_0x300.jpg"),
@@ -795,9 +652,9 @@ const initialCards = [
   {
     id: "51",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "carrara_bianco",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Carrara bianco",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/carrara_bianco/interiors/absolut_gres_carrara_bianco_14588_420105_0x300.jpg"),
@@ -810,9 +667,9 @@ const initialCards = [
   {
     id: "52",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "carrara_classic",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Carrara classic",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/carrara_classic/interiors/absolut_gres_carrara_classic_12655_562792_0x300.jpg"),
@@ -827,9 +684,9 @@ const initialCards = [
   {
     id: "53",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "cemento_dark",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Cemento dark",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/cemento_dark/interiors/absolut_gres_cemento_dark_17725_174489_0x300.jpg"),
@@ -844,9 +701,9 @@ const initialCards = [
   {
     id: "54",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "cemento_light",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Cemento light",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/cemento_light/interiors/absolut_gres_cemento_light_17726_225002_0x300.jpg"),
@@ -862,9 +719,9 @@ const initialCards = [
   {
     id: "55",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "cloudy_beige",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Cloudy beige",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/cloudy_beige/interiors/absolut_gres_cloudy_beige_12662_781040_0x300.jpg"),
@@ -877,9 +734,9 @@ const initialCards = [
   {
     id: "56",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "cloudy_rosa",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Cloudy rosa",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/cloudy_rosa/interiors/absolut_gres_cloudy_rosa_12663_851273_0x300.jpg"),
@@ -892,9 +749,9 @@ const initialCards = [
   {
     id: "57",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "colonial_bianco",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Colonial_bianco",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/colonial_bianco/interiors/absolut_gres_colonial_bianco_16475_898352_0x300.jpg"),
@@ -908,9 +765,9 @@ const initialCards = [
   {
     id: "58",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "diana_beige",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Diana_beige",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/diana_beige/interiors/absolut_gres_diana_beige_12642_393667_0x300.jpg"),
@@ -923,9 +780,9 @@ const initialCards = [
   {
     id: "59",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "docato_pine",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Docato_pine",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/docato_pine/interiors/absolut_gres_docato_pine_12695_740119_0x300.jpg"),
@@ -938,9 +795,9 @@ const initialCards = [
   {
     id: "60",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "dove_onix",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Dove_onix",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/dove_onix/interiors/absolut_gres_dove_onix_12658_123849_0x300.jpg"),
@@ -958,9 +815,9 @@ const initialCards = [
   {
     id: "62",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "downtown",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Downtown",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/downtown/interiors/absolut_gres_downtown_15269_414956_0x300.jpg"),
@@ -975,9 +832,9 @@ const initialCards = [
   {
     id: "61",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "forest_essenze",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Forest_essenze",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/forest_essenze/interiors/absolut_gres_forest_essenze_17012_214762_0x300.jpg"),
@@ -991,9 +848,9 @@ const initialCards = [
   {
     id: "63",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "gia",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Gia",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/gia/interiors/absolut_gres_gia_16462_253634_0x300.jpg"),
@@ -1009,9 +866,9 @@ const initialCards = [
   {
     id: "64",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "gloria",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Gloria",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/gloria/interiors/absolut_gres_gloria_15272_244623_0x300.jpg"),
@@ -1025,9 +882,9 @@ const initialCards = [
   {
     id: "65",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "gold_statuario",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Gold_statuario",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/gold_statuario/interiors/absolut_gres_gold_statuario_12668_619172_0x300.jpg"),
@@ -1040,9 +897,9 @@ const initialCards = [
   {
     id: "66",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "grapfit_black",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Grapfit_black",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/grapfit_black/interiors/absolut_gres_grapfit_black_12708_437839_0x300.jpg"),
@@ -1055,9 +912,9 @@ const initialCards = [
   {
     id: "67",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "grapfit_white",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Grapfit_white",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/grapfit_white/interiors/absolut_gres_grapfit_white_12707_996134_0x300.jpg"),
@@ -1070,9 +927,9 @@ const initialCards = [
   {
     id: "68",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "italy_brown",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Italy_brown",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/italy_brown/interiors/absolut_gres_italy_brown_12702_956819_0x300.jpg"),
@@ -1085,9 +942,9 @@ const initialCards = [
   {
     id: "70",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "italy_choco",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Italy_choco",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/italy_choco/interiors/absolut_gres_italy_choco_12701_364574_0x300.jpg"),
@@ -1100,9 +957,9 @@ const initialCards = [
   {
     id: "71",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "italy_gris",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Italy_gris",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/italy_gris/interiors/absolut_gres_italy_gris_12699_141042_0x300.jpg"),
@@ -1115,9 +972,9 @@ const initialCards = [
   {
     id: "72",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "italy_natural",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Italy_natural",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/italy_natural/interiors/absolut_gres_italy_natural_12700_731448_0x300.jpg"),
@@ -1130,9 +987,9 @@ const initialCards = [
   {
     id: "73",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "juno_dark_grey",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Juno_dark_grey",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/juno_dark_grey/interiors/absolut_gres_juno_dark_grey_15266_717276_0x300.jpg"),
@@ -1147,9 +1004,9 @@ const initialCards = [
   {
     id: "74",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "juno_light_grey",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Juno_light_grey",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/juno_light_grey/interiors/absolut_gres_juno_light_grey_15267_685382_0x300.jpg"),
@@ -1164,9 +1021,9 @@ const initialCards = [
   {
     id: "75",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "lipe_gris",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Lipe_gris",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/lipe_gris/interiors/absolut_gres_lipe_gris_12696_246241_0x300.jpg"),
@@ -1179,9 +1036,9 @@ const initialCards = [
   {
     id: "76",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "marbo_crema",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Marbo_crema",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/marbo_crema/interiors/absolut_gres_marbo_crema_12665_423296_0x300.jpg"),
@@ -1194,9 +1051,9 @@ const initialCards = [
   {
     id: "77",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "modena_white",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Modena_white",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/modena_white/interiors/absolut_gres_modena_white_15271_469488_0x300.jpg"),
@@ -1211,9 +1068,9 @@ const initialCards = [
   {
     id: "78",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "montana_light_grey",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Montana_light_grey",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/montana_light_grey/interiors/absolut_gres_montana_light_grey_15275_22414_0x300.jpg"),
@@ -1229,9 +1086,9 @@ const initialCards = [
   {
     id: "79",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "monte_grey",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Monte_grey",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/monte_grey/interiors/absolut_gres_monte_grey_15268_257065_0x300.jpg"),
@@ -1247,9 +1104,9 @@ const initialCards = [
   {
     id: "80",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "narzo_crema",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Narzo_crema",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/narzo_crema/interiors/absolut_gres_narzo_crema_12703_903767_0x300.jpg"),
@@ -1262,9 +1119,9 @@ const initialCards = [
   {
     id: "81",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "novaya_kollekciya",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Novaya_kollekciya",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/novaya_kollekciya__17722/interiors/absolut_gres_novaya_kollekciya__17722_17722_345892_0x300.jpg"),
@@ -1276,9 +1133,9 @@ const initialCards = [
   {
     id: "82",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "portland",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Portland",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/portland/interiors/absolut_gres_portland_15276_581433_0x300.jpg"),
@@ -1293,9 +1150,9 @@ const initialCards = [
   {
     id: "83",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "ricci_white",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Ricci_white",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
@@ -1305,9 +1162,9 @@ const initialCards = [
   {
     id: "84",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "royal_brown",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Royal_brown",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/royal_brown/interiors/absolut_gres_royal_brown_12697_848494_0x300.jpg"),
@@ -1320,9 +1177,9 @@ const initialCards = [
   {
     id: "85",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "sena_grey",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Sena_grey",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/sena_grey/interiors/absolut_gres_sena_grey_15274_55275_0x300.jpg"),
@@ -1337,9 +1194,9 @@ const initialCards = [
   {
     id: "86",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "spark",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Spark",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/spark/interiors/absolut_gres_spark_15273_705873_0x300.jpg"),
@@ -1352,9 +1209,9 @@ const initialCards = [
   {
     id: "87",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "urban_wood",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "Urban_wood",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/urban_wood/interiors/absolut_gres_urban_wood_17013_803007_0x300.jpg"),
@@ -1367,9 +1224,9 @@ const initialCards = [
   {
     id: "88",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "wenge_cinnamon",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "wenge_cinnamon",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/wenge_cinnamon/interiors/absolut_gres_wenge_cinnamon_12698_155184_0x300.jpg"),
@@ -1382,9 +1239,9 @@ const initialCards = [
   {
     id: "89",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "wildwood",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "wildwood",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/wildwood/interiors/absolut_gres_wildwood_17014_612136_0x300.jpg"),
@@ -1404,9 +1261,9 @@ const initialCards = [
   {
     id: "90",
     Сountry: "Индия",
-    Name: "absolut_gres",
-    Сollection: "woodstyle",
-    Category: "Керамогранит",
+    Name: "Absolut gres",
+    Collection: "woodstyle",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/woodstyle/interiors/absolut_gres_woodstyle_17015_427727_0x300.jpg"),
@@ -1425,10 +1282,10 @@ const initialCards = [
   {
     id: "91",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24.9x50", "41.8x41.8"],
     Name: "Alma Ceramica",
-    Сollection: "Adelia",
+    Collection: "Adelia",
     interiors: [
       require("../images/catalog/alma_ceramica/adelia/interiors/alma_ceramica_adelia_8556_915652_0x300.jpg"),
       require("../images/catalog/alma_ceramica/adelia/interiors/alma_ceramica_adelia_8556_915652_0x500.jpg"),
@@ -1444,10 +1301,10 @@ const initialCards = [
   {
     id: "92",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41.8x41.8"],
     Name: "Alma Ceramica",
-    Сollection: "Ailand",
+    Collection: "Ailand",
     interiors: [
       require("../images/catalog/alma_ceramica/ailand/interiors/alma_ceramica_ailand_4587_817647_0x300.jpg"),
       require("../images/catalog/alma_ceramica/ailand/interiors/alma_ceramica_ailand_4587_817647_0x500.jpg"),
@@ -1470,10 +1327,10 @@ const initialCards = [
   {
     id: "93",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41.8x41.8"],
     Name: "Alma Ceramica",
-    Сollection: "Alaris",
+    Collection: "Alaris",
     interiors: [
       require("../images/catalog/alma_ceramica/alaris/interiors/alma_ceramica_alaris_10227_929177_0x300.jpg"),
       require("../images/catalog/alma_ceramica/alaris/interiors/alma_ceramica_alaris_10227_929177_0x500.jpg"),
@@ -1493,10 +1350,10 @@ const initialCards = [
   {
     id: "94",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Allure",
+    Collection: "Allure",
     interiors: [
       require("../images/catalog/alma_ceramica/allure/interiors/alma_ceramica_allure_11673_818109_0x300.jpg"),
       require("../images/catalog/alma_ceramica/allure/interiors/alma_ceramica_allure_11673_818109_0x500.jpg"),
@@ -1511,10 +1368,10 @@ const initialCards = [
   {
     id: "95",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41.8x41.8"],
     Name: "Alma Ceramica",
-    Сollection: "Almond",
+    Collection: "Almond",
     interiors: [
       require("../images/catalog/alma_ceramica/almond/interiors/alma_ceramica_almond_14686_197392_0x300.jpg"),
       require("../images/catalog/alma_ceramica/almond/interiors/alma_ceramica_almond_14686_560997_0x300.jpg"),
@@ -1536,10 +1393,10 @@ const initialCards = [
   {
     id: "96",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Alpina",
+    Collection: "Alpina",
     interiors: [
       require("../images/catalog/alma_ceramica/alpina/interiors/alma_ceramica_alpina_14687_51573_0x300.jpg"),
       require("../images/catalog/alma_ceramica/alpina/interiors/alma_ceramica_alpina_14687_692512_0x300.jpg"),
@@ -1553,10 +1410,10 @@ const initialCards = [
   {
     id: "97",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41.8x41.8"],
     Name: "Alma Ceramica",
-    Сollection: "Alta",
+    Collection: "Alta",
     interiors: [
       require("../images/catalog/alma_ceramica/alta/interiors/alma_ceramica_alta_5066_496228_0x300.jpg"),
       require("../images/catalog/alma_ceramica/alta/interiors/alma_ceramica_alta_5066_496228_0x500.jpg"),
@@ -1569,10 +1426,10 @@ const initialCards = [
   {
     id: "98",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41.8x41.8"],
     Name: "Alma Ceramica",
-    Сollection: "Alva",
+    Collection: "Alva",
     interiors: [
       require("../images/catalog/alma_ceramica/alva/interiors/alma_ceramica_alva_10228_16963_0x300.jpg"),
       require("../images/catalog/alma_ceramica/alva/interiors/alma_ceramica_alva_10228_16963_0x500.jpg"),
@@ -1589,10 +1446,10 @@ const initialCards = [
   {
     id: "99",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Amsterdam",
+    Collection: "Amsterdam",
     interiors: [
       require("../images/catalog/alma_ceramica/amsterdam/interiors/alma_ceramica_amsterdam_15692_222991_0x300.jpg"),
       require("../images/catalog/alma_ceramica/amsterdam/interiors/alma_ceramica_amsterdam_15692_259964_0x300.jpg"),
@@ -1615,10 +1472,10 @@ const initialCards = [
   {
     id: "100",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Andora",
+    Collection: "Andora",
     interiors: [
       require("../images/catalog/alma_ceramica/andora/interiors/alma_ceramica_andora_14688_133242_0x300.jpg"),
       require("../images/catalog/alma_ceramica/andora/interiors/alma_ceramica_andora_14688_243223_0x300.jpg"),
@@ -1636,10 +1493,10 @@ const initialCards = [
   {
     id: "101",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Angara",
+    Collection: "Angara",
     interiors: [
       require("../images/catalog/alma_ceramica/angara/interiors/alma_ceramica_angara_15693_572325_0x300.jpg"),
       require("../images/catalog/alma_ceramica/angara/interiors/alma_ceramica_angara_15693_622561_0x300.jpg"),
@@ -1660,10 +1517,10 @@ const initialCards = [
   {
     id: "102",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Antik",
+    Collection: "Antik",
     interiors: [
       require("../images/catalog/alma_ceramica/antik/interiors/alma_ceramica_antik_9509_901127_0x300.jpg"),
       require("../images/catalog/alma_ceramica/antik/interiors/alma_ceramica_antik_9509_901127_0x500.jpg"),
@@ -1675,10 +1532,10 @@ const initialCards = [
   {
     id: "103",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Arabesco",
+    Collection: "Arabesco",
     interiors: [
       require("../images/catalog/alma_ceramica/arabesco/interiors/alma_ceramica_arabesco_13506_434957_0x300.jpg"),
       require("../images/catalog/alma_ceramica/arabesco/interiors/alma_ceramica_arabesco_13506_434957_0x500.jpg"),
@@ -1692,10 +1549,10 @@ const initialCards = [
   {
     id: "104",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Arabica",
+    Collection: "Arabica",
     interiors: [
       require("../images/catalog/alma_ceramica/arabica/interiors/alma_ceramica_arabica_4601_778747_0x300.jpg"),
       require("../images/catalog/alma_ceramica/arabica/interiors/alma_ceramica_arabica_4601_778747_0x500.jpg"),
@@ -1711,10 +1568,10 @@ const initialCards = [
   {
     id: "105",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Arcadia",
+    Collection: "Arcadia",
     interiors: [
       require("../images/catalog/alma_ceramica/arcadia/interiors/alma_ceramica_arcadia_11674_233328_0x300.jpg"),
       require("../images/catalog/alma_ceramica/arcadia/interiors/alma_ceramica_arcadia_11674_233328_0x500.jpg"),
@@ -1737,10 +1594,10 @@ const initialCards = [
   {
     id: "106",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Arteo",
+    Collection: "Arteo",
     interiors: [
       require("../images/catalog/alma_ceramica/arteo/interiors/alma_ceramica_arteo_15311_543102_0x300.jpg"),
       require("../images/catalog/alma_ceramica/arteo/interiors/alma_ceramica_arteo_15311_543102_0x500.jpg"),
@@ -1755,10 +1612,10 @@ const initialCards = [
   {
     id: "107",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Ashton",
+    Collection: "Ashton",
     interiors: [
       require("../images/catalog/alma_ceramica/ashton/interiors/alma_ceramica_ashton_11620_227518_0x300.jpg"),
       require("../images/catalog/alma_ceramica/ashton/interiors/alma_ceramica_ashton_11620_570110_0x300.jpg"),
@@ -1776,10 +1633,10 @@ const initialCards = [
   {
     id: "108",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Asteria",
+    Collection: "Asteria",
     interiors: [
       require("../images/catalog/alma_ceramica/asteria/interiors/alma_ceramica_asteria_6487_345606_0x300.jpg"),
       require("../images/catalog/alma_ceramica/asteria/interiors/alma_ceramica_asteria_6487_345606_0x500.jpg"),
@@ -1794,10 +1651,10 @@ const initialCards = [
   {
     id: "109",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Aveiro",
+    Collection: "Aveiro",
     interiors: [
       require("../images/catalog/alma_ceramica/aveiro/interiors/alma_ceramica_aveiro_8562_790200_0x300.jpg"),
       require("../images/catalog/alma_ceramica/aveiro/interiors/alma_ceramica_aveiro_8562_790200_0x500.jpg"),
@@ -1810,10 +1667,10 @@ const initialCards = [
   {
     id: "110",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Bali",
+    Collection: "Bali",
     interiors: [
       require("../images/catalog/alma_ceramica/bali/interiors/alma_ceramica_bali_15908_383926_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bali/interiors/alma_ceramica_bali_15908_383926_0x500.jpg"),
@@ -1825,10 +1682,10 @@ const initialCards = [
   {
     id: "111",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Baltia",
+    Collection: "Baltia",
     interiors: [
       require("../images/catalog/alma_ceramica/baltia/interiors/alma_ceramica_baltia_13507_739357_0x300.jpg"),
       require("../images/catalog/alma_ceramica/baltia/interiors/alma_ceramica_baltia_13507_739357_0x500.jpg"),
@@ -1840,10 +1697,10 @@ const initialCards = [
   {
     id: "112",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Bardiglio",
+    Collection: "Bardiglio",
     interiors: [
       require("../images/catalog/alma_ceramica/bardiglio/interiors/alma_ceramica_bardiglio_14817_890717_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bardiglio/interiors/alma_ceramica_bardiglio_14817_890717_0x500.jpg"),
@@ -1856,10 +1713,10 @@ const initialCards = [
   {
     id: "113",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Basalto",
+    Collection: "Basalto",
     interiors: [
       require("../images/catalog/alma_ceramica/basalto/interiors/alma_ceramica_basalto_13508_144928_0x300.jpg"),
       require("../images/catalog/alma_ceramica/basalto/interiors/alma_ceramica_basalto_13508_171209_0x300.jpg"),
@@ -1884,10 +1741,10 @@ const initialCards = [
   {
     id: "114",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Bellagio",
+    Collection: "Bellagio",
     interiors: [
       require("../images/catalog/alma_ceramica/bellagio/interiors/alma_ceramica_bellagio_15533_185699_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bellagio/interiors/alma_ceramica_bellagio_15533_185699_0x500.jpg"),
@@ -1900,10 +1757,10 @@ const initialCards = [
   {
     id: "115",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Bergamo",
+    Collection: "Bergamo",
     interiors: [
       require("../images/catalog/alma_ceramica/bergamo/interiors/alma_ceramica_bergamo_11675_836103_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bergamo/interiors/alma_ceramica_bergamo_11675_964211_0x300.jpg"),
@@ -1921,10 +1778,10 @@ const initialCards = [
   {
     id: "116",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60", "60x120"],
     Name: "Alma Ceramica",
-    Сollection: "Berlin",
+    Collection: "Berlin",
     interiors: [
       require("../images/catalog/alma_ceramica/berlin/interiors/alma_ceramica_berlin_15694_154023_0x300.jpg"),
       require("../images/catalog/alma_ceramica/berlin/interiors/alma_ceramica_berlin_15694_236180_0x300.jpg"),
@@ -1954,10 +1811,10 @@ const initialCards = [
   {
     id: "117",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Bianco_chiara",
+    Collection: "Bianco_chiara",
     interiors: [
       require("../images/catalog/alma_ceramica/bianco_chiara/interiors/alma_ceramica_bianco_chiara_13509_218366_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bianco_chiara/interiors/alma_ceramica_bianco_chiara_13509_218366_0x500.jpg"),
@@ -1971,10 +1828,10 @@ const initialCards = [
   {
     id: "118",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Bilbao",
+    Collection: "Bilbao",
     interiors: [
       require("../images/catalog/alma_ceramica/bilbao/interiors/alma_ceramica_bilbao_14299_54204_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bilbao/interiors/alma_ceramica_bilbao_14299_550514_0x300.jpg"),
@@ -1992,10 +1849,10 @@ const initialCards = [
   {
     id: "119",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Blare",
+    Collection: "Blare",
     interiors: [
       require("../images/catalog/alma_ceramica/blare/interiors/alma_ceramica_blare_8563_310299_0x300.jpg"),
       require("../images/catalog/alma_ceramica/blare/interiors/alma_ceramica_blare_8563_310299_0x500.jpg"),
@@ -2008,10 +1865,10 @@ const initialCards = [
   {
     id: "120",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Bolle",
+    Collection: "Bolle",
     interiors: [
       require("../images/catalog/alma_ceramica/bolle/interiors/alma_ceramica_bolle_10232_899637_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bolle/interiors/alma_ceramica_bolle_10232_899637_0x500.jpg"),
@@ -2030,10 +1887,10 @@ const initialCards = [
   {
     id: "121",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Bonita",
+    Collection: "Bonita",
     interiors: [
       require("../images/catalog/alma_ceramica/bonita/interiors/alma_ceramica_bonita_9279_689626_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bonita/interiors/alma_ceramica_bonita_9279_689626_0x500.jpg"),
@@ -2054,10 +1911,10 @@ const initialCards = [
   {
     id: "122",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60", "60x120"],
     Name: "Alma Ceramica",
-    Сollection: "Bottichino",
+    Collection: "Bottichino",
     interiors: [
       require("../images/catalog/alma_ceramica/bottichino/interiors/alma_ceramica_bottichino_14818_93782_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bottichino/interiors/alma_ceramica_bottichino_14818_93782_0x500.jpg"),
@@ -2074,10 +1931,10 @@ const initialCards = [
   {
     id: "123",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Boutique",
+    Collection: "Boutique",
     interiors: [
       require("../images/catalog/alma_ceramica/boutique/interiors/alma_ceramica_boutique_11676_855413_0x300.jpg"),
       require("../images/catalog/alma_ceramica/boutique/interiors/alma_ceramica_boutique_11676_855413_0x500.jpg"),
@@ -2092,10 +1949,10 @@ const initialCards = [
   {
     id: "124",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Brazil",
+    Collection: "Brazil",
     interiors: [
       require("../images/catalog/alma_ceramica/brazil/interiors/alma_ceramica_brazil_13510_290168_0x300.jpg"),
       require("../images/catalog/alma_ceramica/brazil/interiors/alma_ceramica_brazil_13510_574663_0x300.jpg"),
@@ -2109,10 +1966,10 @@ const initialCards = [
   {
     id: "125",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60", "20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Brenta",
+    Collection: "Brenta",
     interiors: [
       require("../images/catalog/alma_ceramica/brenta/interiors/alma_ceramica_brenta_11677_647391_0x300.jpg"),
       require("../images/catalog/alma_ceramica/brenta/interiors/alma_ceramica_brenta_11677_647391_0x500.jpg"),
@@ -2126,10 +1983,10 @@ const initialCards = [
   {
     id: "126",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Bruce",
+    Collection: "Bruce",
     interiors: [
       require("../images/catalog/alma_ceramica/bruce/interiors/alma_ceramica_bruce_11621_260855_0x300.jpg"),
       require("../images/catalog/alma_ceramica/bruce/interiors/alma_ceramica_bruce_11621_717756_0x300.jpg"),
@@ -2143,10 +2000,10 @@ const initialCards = [
   {
     id: "127",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Calacatta_oro",
+    Collection: "Calacatta_oro",
     interiors: [
       require("../images/catalog/alma_ceramica/calacatta_oro/interiors/alma_ceramica_calacatta_oro_15534_399829_0x300.jpg"),
       require("../images/catalog/alma_ceramica/calacatta_oro/interiors/alma_ceramica_calacatta_oro_15534_399829_0x500.jpg"),
@@ -2159,10 +2016,10 @@ const initialCards = [
   {
     id: "128",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Capriani",
+    Collection: "Capriani",
     interiors: [
       require("../images/catalog/alma_ceramica/capriani/interiors/alma_ceramica_capriani_15535_618944_0x300.jpg"),
       require("../images/catalog/alma_ceramica/capriani/interiors/alma_ceramica_capriani_15535_618944_0x500.jpg"),
@@ -2175,10 +2032,10 @@ const initialCards = [
   {
     id: "129",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60", "60x120"],
     Name: "Alma Ceramica",
-    Сollection: "Carrara",
+    Collection: "Carrara",
     interiors: [
       require("../images/catalog/alma_ceramica/carrara/interiors/alma_ceramica_carrara_8211_373321_0x300.jpg"),
       require("../images/catalog/alma_ceramica/carrara/interiors/alma_ceramica_carrara_8211_373321_0x500.jpg"),
@@ -2191,10 +2048,10 @@ const initialCards = [
   {
     id: "130",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Cemento",
+    Collection: "Cemento",
     interiors: [
       require("../images/catalog/alma_ceramica/cemento/interiors/alma_ceramica_cemento_13511_480889_0x300.jpg"),
       require("../images/catalog/alma_ceramica/cemento/interiors/alma_ceramica_cemento_13511_480889_0x500.jpg"),
@@ -2216,10 +2073,10 @@ const initialCards = [
   {
     id: "131",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Chester",
+    Collection: "Chester",
     interiors: [
       require("../images/catalog/alma_ceramica/chester/interiors/alma_ceramica_chester_14689_235399_0x300.jpg"),
       require("../images/catalog/alma_ceramica/chester/interiors/alma_ceramica_chester_14689_302609_0x300.jpg"),
@@ -2233,10 +2090,10 @@ const initialCards = [
   {
     id: "132",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Corsica",
+    Collection: "Corsica",
     interiors: [
       require("../images/catalog/alma_ceramica/corsica/interiors/alma_ceramica_corsica_14115_841654_0x300.jpg"),
       require("../images/catalog/alma_ceramica/corsica/interiors/alma_ceramica_corsica_14115_842211_0x300.jpg"),
@@ -2252,10 +2109,10 @@ const initialCards = [
   {
     id: "133",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Costa_rica",
+    Collection: "Costa_rica",
     interiors: [
       require("../images/catalog/alma_ceramica/costa_rica/interiors/alma_ceramica_costa_rica_15312_215705_0x300.jpg"),
       require("../images/catalog/alma_ceramica/costa_rica/interiors/alma_ceramica_costa_rica_15312_269392_0x300.jpg"),
@@ -2275,10 +2132,10 @@ const initialCards = [
   {
     id: "134",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Country",
+    Collection: "Country",
     interiors: [
       require("../images/catalog/alma_ceramica/country/interiors/alma_ceramica_country_14819_894098_0x300.jpg"),
       require("../images/catalog/alma_ceramica/country/interiors/alma_ceramica_country_14819_894098_0x500.jpg"),
@@ -2291,10 +2148,10 @@ const initialCards = [
   {
     id: "135",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Crema_marfil",
+    Collection: "Crema_marfil",
     interiors: [
       require("../images/catalog/alma_ceramica/crema_marfil/interiors/alma_ceramica_crema_marfil_15695_508506_0x300.jpg"),
       require("../images/catalog/alma_ceramica/crema_marfil/interiors/alma_ceramica_crema_marfil_15695_508506_0x500.jpg"),
@@ -2308,10 +2165,10 @@ const initialCards = [
   {
     id: "136",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Daino_reale",
+    Collection: "Daino_reale",
     interiors: [
       require("../images/catalog/alma_ceramica/daino_reale/interiors/alma_ceramica_daino_reale_14820_745062_0x300.jpg"),
       require("../images/catalog/alma_ceramica/daino_reale/interiors/alma_ceramica_daino_reale_14820_745062_0x500.jpg"),
@@ -2323,10 +2180,10 @@ const initialCards = [
   {
     id: "137",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Dakota",
+    Collection: "Dakota",
     interiors: [
       require("../images/catalog/alma_ceramica/dakota/interiors/alma_ceramica_dakota_14116_525652_0x300.jpg"),
       require("../images/catalog/alma_ceramica/dakota/interiors/alma_ceramica_dakota_14116_525652_0x500.jpg"),
@@ -2341,10 +2198,10 @@ const initialCards = [
   {
     id: "137",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "60x60", "60x120"],
     Name: "Alma Ceramica",
-    Сollection: "Dea",
+    Collection: "Dea",
     interiors: [
       require("../images/catalog/alma_ceramica/dea/interiors/alma_ceramica_dea_11678_467406_0x300.jpg"),
       require("../images/catalog/alma_ceramica/dea/interiors/alma_ceramica_dea_11678_467406_0x500.jpg"),
@@ -2360,10 +2217,10 @@ const initialCards = [
   {
     id: "138",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Del_mare",
+    Collection: "Del_mare",
     interiors: [
       require("../images/catalog/alma_ceramica/del_mare/interiors/alma_ceramica_del_mare_4395_657697_0x300.jpg"),
       require("../images/catalog/alma_ceramica/del_mare/interiors/alma_ceramica_del_mare_4395_901451_0x300.jpg"),
@@ -2381,10 +2238,10 @@ const initialCards = [
   {
     id: "139",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Denver",
+    Collection: "Denver",
     interiors: [
       require("../images/catalog/alma_ceramica/denver/interiors/alma_ceramica_denver_11679_519360_0x300.jpg"),
       require("../images/catalog/alma_ceramica/denver/interiors/alma_ceramica_denver_11679_67311_0x300.jpg"),
@@ -2404,10 +2261,10 @@ const initialCards = [
   {
     id: "140",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Dublin",
+    Collection: "Dublin",
     interiors: [
       require("../images/catalog/alma_ceramica/dublin/interiors/alma_ceramica_dublin_11680_653927_0x300.jpg"),
       require("../images/catalog/alma_ceramica/dublin/interiors/alma_ceramica_dublin_11680_653927_0x500.jpg"),
@@ -2421,10 +2278,10 @@ const initialCards = [
   {
     id: "141",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Elsa",
+    Collection: "Elsa",
     interiors: [
       require("../images/catalog/alma_ceramica/elsa/interiors/alma_ceramica_elsa_10240_375706_0x300.jpg"),
       require("../images/catalog/alma_ceramica/elsa/interiors/alma_ceramica_elsa_10240_375706_0x500.jpg"),
@@ -2440,10 +2297,10 @@ const initialCards = [
   {
     id: "142",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Esta",
+    Collection: "Esta",
     interiors: [
       require("../images/catalog/alma_ceramica/esta/interiors/alma_ceramica_esta_4419_604602_0x300.jpg"),
       require("../images/catalog/alma_ceramica/esta/interiors/alma_ceramica_esta_4419_604602_0x500.jpg"),
@@ -2459,10 +2316,10 @@ const initialCards = [
   {
     id: "143",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Evolution",
+    Collection: "Evolution",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/alma_ceramica/evolution/tovars/alma_ceramica_evolution_113068_817157_300x0.jpg"),
@@ -2471,10 +2328,10 @@ const initialCards = [
   {
     id: "144",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Extra_calacatta",
+    Collection: "Extra_calacatta",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/alma_ceramica/extra_calacatta/tovars/alma_ceramica_extra_calacatta_107345_778542_300x0.jpg"),
@@ -2483,10 +2340,10 @@ const initialCards = [
   {
     id: "145",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Fluid_art",
+    Collection: "Fluid_art",
     interiors: [
       require("../images/catalog/alma_ceramica/fluid_art/interiors/alma_ceramica_fluid_art_11681_213920_0x300.jpg"),
       require("../images/catalog/alma_ceramica/fluid_art/interiors/alma_ceramica_fluid_art_11681_213920_0x500.jpg"),
@@ -2500,10 +2357,10 @@ const initialCards = [
   {
     id: "146",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Greys",
+    Collection: "Greys",
     interiors: [
       require("../images/catalog/alma_ceramica/greys/interiors/alma_ceramica_greys_4594_710276_0x300.jpg"),
       require("../images/catalog/alma_ceramica/greys/interiors/alma_ceramica_greys_4594_710276_0x500.jpg"),
@@ -2518,10 +2375,10 @@ const initialCards = [
   {
     id: "147",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Grigio",
+    Collection: "Grigio",
     interiors: [
       require("../images/catalog/alma_ceramica/grigio/interiors/alma_ceramica_grigio_10233_655271_0x300.jpg"),
       require("../images/catalog/alma_ceramica/grigio/interiors/alma_ceramica_grigio_10233_655271_0x500.jpg"),
@@ -2543,10 +2400,10 @@ const initialCards = [
   {
     id: "148",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Harisma",
+    Collection: "Harisma",
     interiors: [
       require("../images/catalog/alma_ceramica/harisma/interiors/alma_ceramica_harisma_6493_424907_0x300.jpg"),
       require("../images/catalog/alma_ceramica/harisma/interiors/alma_ceramica_harisma_6493_424907_0x500.jpg"),
@@ -2560,10 +2417,10 @@ const initialCards = [
   {
     id: "149",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Harvi",
+    Collection: "Harvi",
     interiors: [
       require("../images/catalog/alma_ceramica/harvi/interiors/alma_ceramica_harvi_10241_926509_0x300.jpg"),
       require("../images/catalog/alma_ceramica/harvi/interiors/alma_ceramica_harvi_10241_926509_0x500.jpg"),
@@ -2585,10 +2442,10 @@ const initialCards = [
   {
     id: "150",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90", "20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Iceberg",
+    Collection: "Iceberg",
     interiors: [
       require("../images/catalog/alma_ceramica/iceberg/interiors/alma_ceramica_iceberg_15911_389453_0x300.jpg"),
       require("../images/catalog/alma_ceramica/iceberg/interiors/alma_ceramica_iceberg_15911_486065_0x300.jpg"),
@@ -2602,10 +2459,10 @@ const initialCards = [
   {
     id: "151",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Irma",
+    Collection: "Irma",
     interiors: [
       require("../images/catalog/alma_ceramica/irma/interiors/alma_ceramica_irma_10245_137763_0x300.jpg"),
       require("../images/catalog/alma_ceramica/irma/interiors/alma_ceramica_irma_10245_137763_0x500.jpg"),
@@ -2628,10 +2485,10 @@ const initialCards = [
   {
     id: "152",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Ironwood",
+    Collection: "Ironwood",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/alma_ceramica/ironwood/tovars/alma_ceramica_ironwood_118181_499172_300x0.jpg"),
@@ -2640,10 +2497,10 @@ const initialCards = [
   {
     id: "153",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Jemchug",
+    Collection: "Jemchug",
     interiors: [
       require("../images/catalog/alma_ceramica/jemchug/interiors/alma_ceramica_jemchug_4603_974480_0x300.jpg"),
       require("../images/catalog/alma_ceramica/jemchug/interiors/alma_ceramica_jemchug_4603_974480_0x500.jpg"),
@@ -2657,10 +2514,10 @@ const initialCards = [
   {
     id: "154",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Jungle",
+    Collection: "Jungle",
     interiors: [
       require("../images/catalog/alma_ceramica/jungle/interiors/alma_ceramica_jungle_10229_598626_0x300.jpg"),
       require("../images/catalog/alma_ceramica/jungle/interiors/alma_ceramica_jungle_10229_598626_0x500.jpg"),
@@ -2674,10 +2531,10 @@ const initialCards = [
   {
     id: "155",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90", "60x60", "60x120"],
     Name: "Alma Ceramica",
-    Сollection: "Laredo",
+    Collection: "Laredo",
     interiors: [
       require("../images/catalog/alma_ceramica/laredo/interiors/alma_ceramica_laredo_11682_803446_0x300.jpg"),
       require("../images/catalog/alma_ceramica/laredo/interiors/alma_ceramica_laredo_11682_803446_0x500.jpg"),
@@ -2693,10 +2550,10 @@ const initialCards = [
   {
     id: "156",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Laura",
+    Collection: "Laura",
     interiors: [
       require("../images/catalog/alma_ceramica/laura/interiors/alma_ceramica_laura_14117_213715_0x300.jpg"),
       require("../images/catalog/alma_ceramica/laura/interiors/alma_ceramica_laura_14117_449613_0x300.jpg"),
@@ -2710,10 +2567,10 @@ const initialCards = [
   {
     id: "157",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Lazio",
+    Collection: "Lazio",
     interiors: [
       require("../images/catalog/alma_ceramica/lazio/interiors/alma_ceramica_lazio_11683_945065_0x300.jpg"),
       require("../images/catalog/alma_ceramica/lazio/interiors/alma_ceramica_lazio_11683_945065_0x500.jpg"),
@@ -2728,10 +2585,10 @@ const initialCards = [
   {
     id: "158",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Lea",
+    Collection: "Lea",
     interiors: [
       require("../images/catalog/alma_ceramica/lea/interiors/alma_ceramica_lea_11189_768736_0x300.jpg"),
       require("../images/catalog/alma_ceramica/lea/interiors/alma_ceramica_lea_11189_965106_0x300.jpg"),
@@ -2744,14 +2601,11 @@ const initialCards = [
   {
     id: "159",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Linden",
-    interiors: [
-      require("../images/catalog/alma_ceramica/Linden/interiors/alma_ceramica_linden_11622_613020.jpg"),
-      require("../images/catalog/alma_ceramica/Linden/interiors/alma_ceramica_linden_11622_733759.jpg"),
-    ],
+    Collection: "Linden",
+    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/alma_ceramica/linden/tovars/alma_ceramica_linden_95625_993046_300x0.jpg"),
     ],
@@ -2759,10 +2613,10 @@ const initialCards = [
   {
     id: "160",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90"],
     Name: "Alma Ceramica",
-    Сollection: "Luxor",
+    Collection: "Luxor",
     interiors: [
       require("../images/catalog/alma_ceramica/luxor/interiors/alma_ceramica_luxor_10242_75757_0x300.jpg"),
       require("../images/catalog/alma_ceramica/luxor/interiors/alma_ceramica_luxor_10242_75757_0x500.jpg"),
@@ -2777,10 +2631,10 @@ const initialCards = [
   {
     id: "161",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Madison",
+    Collection: "Madison",
     interiors: [
       require("../images/catalog/alma_ceramica/madison/interiors/alma_ceramica_madison_11188_291724_0x300.jpg"),
       require("../images/catalog/alma_ceramica/madison/interiors/alma_ceramica_madison_11188_291724_0x500.jpg"),
@@ -2795,14 +2649,11 @@ const initialCards = [
   {
     id: "162",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Madrid",
-    interiors: [
-      require("../images/catalog/alma_ceramica/magic/interiors/alma_ceramica_madrid_13518_115178.jpg"),
-      require("../images/catalog/alma_ceramica/magic/interiors/alma_ceramica_madrid_13518_672151.jpg"),
-    ],
+    Collection: "Madrid",
+    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/alma_ceramica/madrid/tovars/alma_ceramica_madrid_107352_394162_300x0.jpg"),
     ],
@@ -2810,10 +2661,10 @@ const initialCards = [
   {
     id: "163",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90", "60x60", "60x120"],
     Name: "Alma Ceramica",
-    Сollection: "Magic",
+    Collection: "Magic",
     interiors: [
       require("../images/catalog/alma_ceramica/magic/interiors/alma_ceramica_magic_11684_36017_0x300.jpg"),
       require("../images/catalog/alma_ceramica/magic/interiors/alma_ceramica_magic_11684_723591_0x300.jpg"),
@@ -2837,10 +2688,10 @@ const initialCards = [
   {
     id: "164",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Marbella",
+    Collection: "Marbella",
     interiors: [
       require("../images/catalog/alma_ceramica/marbella/interiors/alma_ceramica_marbella_9271_417881_0x300.jpg"),
       require("../images/catalog/alma_ceramica/marbella/interiors/alma_ceramica_marbella_9271_570337_0x300.jpg"),
@@ -2861,10 +2712,10 @@ const initialCards = [
   {
     id: "165",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Marrone",
+    Collection: "Marrone",
     interiors: [
       require("../images/catalog/alma_ceramica/mars/interiors/alma_ceramica_mars_15315_523767_0x300.jpg"),
       require("../images/catalog/alma_ceramica/mars/interiors/alma_ceramica_mars_15315_56474_0x300.jpg"),
@@ -2881,10 +2732,10 @@ const initialCards = [
   {
     id: "166",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Mars",
+    Collection: "Mars",
     interiors: [
       require("../images/catalog/alma_ceramica/mars/interiors/alma_ceramica_mars_15315_523767_0x300.jpg"),
       require("../images/catalog/alma_ceramica/mars/interiors/alma_ceramica_mars_15315_56474_0x300.jpg"),
@@ -2906,10 +2757,10 @@ const initialCards = [
   {
     id: "167",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Mattone",
+    Collection: "Mattone",
     interiors: [
       require("../images/catalog/alma_ceramica/mattone/interiors/alma_ceramica_mattone_11685_108015_0x300.jpg"),
       require("../images/catalog/alma_ceramica/mattone/interiors/alma_ceramica_mattone_11685_108015_0x500.jpg"),
@@ -2923,10 +2774,10 @@ const initialCards = [
   {
     id: "168",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Medis",
+    Collection: "Medis",
     interiors: [
       require("../images/catalog/alma_ceramica/medis/interiors/alma_ceramica_medis_10230_774298_0x300.jpg"),
       require("../images/catalog/alma_ceramica/medis/interiors/alma_ceramica_medis_10230_774298_0x500.jpg"),
@@ -2944,10 +2795,10 @@ const initialCards = [
   {
     id: "169",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Melange",
+    Collection: "Melange",
     interiors: [
       require("../images/catalog/alma_ceramica/melange/interiors/alma_ceramica_melange_8572_60647_0x300.jpg"),
       require("../images/catalog/alma_ceramica/melange/interiors/alma_ceramica_melange_8572_60647_0x500.jpg"),
@@ -2962,10 +2813,10 @@ const initialCards = [
   {
     id: "170",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Mercury",
+    Collection: "Mercury",
     interiors: [
       require("../images/catalog/alma_ceramica/mercury/interiors/alma_ceramica_mercury_14118_145708_0x300.jpg"),
       require("../images/catalog/alma_ceramica/mercury/interiors/alma_ceramica_mercury_14118_846140_0x300.jpg"),
@@ -2981,10 +2832,10 @@ const initialCards = [
   {
     id: "171",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["57x57", "57x114"],
     Name: "Alma Ceramica",
-    Сollection: "Mirage",
+    Collection: "Mirage",
     interiors: [
       require("../images/catalog/alma_ceramica/mirage/interiors/alma_ceramica_mirage_13521_253648.jpg"),
       require("../images/catalog/alma_ceramica/mirage/interiors/alma_ceramica_mirage_13521_983280.jpg"),
@@ -2996,10 +2847,10 @@ const initialCards = [
   {
     id: "172",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Mirt",
+    Collection: "Mirt",
     interiors: [
       require("../images/catalog/alma_ceramica/mirt/interiors/alma_ceramica_mirt_11686_259652_0x300.jpg"),
       require("../images/catalog/alma_ceramica/mirt/interiors/alma_ceramica_mirt_11686_259652_0x500.jpg"),
@@ -3012,10 +2863,10 @@ const initialCards = [
   {
     id: "173",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Modena",
+    Collection: "Modena",
     interiors: [
       require("../images/catalog/alma_ceramica/modena/interiors/alma_ceramica_modena_9272_473683_0x300.jpg"),
       require("../images/catalog/alma_ceramica/modena/interiors/alma_ceramica_modena_9272_569302_0x300.jpg"),
@@ -3029,10 +2880,10 @@ const initialCards = [
   {
     id: "174",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Morana",
+    Collection: "Morana",
     interiors: [
       require("../images/catalog/alma_ceramica/morana/interiors/alma_ceramica_morana_8597_645664_0x300.jpg"),
       require("../images/catalog/alma_ceramica/morana/interiors/alma_ceramica_morana_8597_645664_0x500.jpg"),
@@ -3045,10 +2896,10 @@ const initialCards = [
   {
     id: "175",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "57x57"],
     Name: "Alma Ceramica",
-    Сollection: "Nativa",
+    Collection: "Nativa",
     interiors: [
       require("../images/catalog/alma_ceramica/nativa/interiors/alma_ceramica_nativa_15316_175525_0x300.jpg"),
       require("../images/catalog/alma_ceramica/nativa/interiors/alma_ceramica_nativa_15316_782080_0x300.jpg"),
@@ -3064,10 +2915,10 @@ const initialCards = [
   {
     id: "176",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60", "60x120"],
     Name: "Alma Ceramica",
-    Сollection: "Nevada",
+    Collection: "Nevada",
     interiors: [
       require("../images/catalog/alma_ceramica/nevada/interiors/alma_ceramica_nevada_11687_256587_0x300.jpg"),
       require("../images/catalog/alma_ceramica/nevada/interiors/alma_ceramica_nevada_11687_321450_0x300.jpg"),
@@ -3094,10 +2945,10 @@ const initialCards = [
   {
     id: "177",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "New_york",
+    Collection: "New_york",
     interiors: [
       require("../images/catalog/alma_ceramica/new_york/interiors/alma_ceramica_new_york_11688_13507_0x300.jpg"),
       require("../images/catalog/alma_ceramica/new_york/interiors/alma_ceramica_new_york_11688_13507_0x500.jpg"),
@@ -3111,10 +2962,10 @@ const initialCards = [
   {
     id: "178",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "20x90"],
     Name: "Alma Ceramica",
-    Сollection: "North",
+    Collection: "North",
     interiors: [
       require("../images/catalog/alma_ceramica/north/interiors/alma_ceramica_north_11689_543079_0x300.jpg"),
       require("../images/catalog/alma_ceramica/north/interiors/alma_ceramica_north_11689_543079_0x500.jpg"),
@@ -3128,10 +2979,10 @@ const initialCards = [
   {
     id: "179",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Oasis",
+    Collection: "Oasis",
     interiors: [
       require("../images/catalog/alma_ceramica/oasis/interiors/alma_ceramica_oasis_11690_539127_0x300.jpg"),
       require("../images/catalog/alma_ceramica/oasis/interiors/alma_ceramica_oasis_11690_539127_0x500.jpg"),
@@ -3146,10 +2997,10 @@ const initialCards = [
   {
     id: "180",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["30x90", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Origami",
+    Collection: "Origami",
     interiors: [
       require("../images/catalog/alma_ceramica/origami/interiors/alma_ceramica_origami_15912_524885_0x300.jpg"),
       require("../images/catalog/alma_ceramica/origami/interiors/alma_ceramica_origami_15912_539840_0x300.jpg"),
@@ -3165,10 +3016,10 @@ const initialCards = [
   {
     id: "181",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Orlean",
+    Collection: "Orlean",
     interiors: [
       require("../images/catalog/alma_ceramica/orlean/interiors/alma_ceramica_orlean_15697_145218.jpg"),
       require("../images/catalog/alma_ceramica/orlean/interiors/alma_ceramica_orlean_15697_222282.jpg"),
@@ -3181,10 +3032,10 @@ const initialCards = [
   {
     id: "182",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Persa",
+    Collection: "Persa",
     interiors: [
       require("../images/catalog/alma_ceramica/persa/interiors/alma_ceramica_persa_11691_813170_0x300.jpg"),
       require("../images/catalog/alma_ceramica/persa/interiors/alma_ceramica_persa_11691_813170_0x500.jpg"),
@@ -3196,10 +3047,10 @@ const initialCards = [
   {
     id: "183",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Piemonte",
+    Collection: "Piemonte",
     interiors: [
       require("../images/catalog/alma_ceramica/piemonte/interiors/alma_ceramica_piemonte_11692_990528_0x300.jpg"),
       require("../images/catalog/alma_ceramica/piemonte/interiors/alma_ceramica_piemonte_11692_990528_0x500.jpg"),
@@ -3213,10 +3064,10 @@ const initialCards = [
   {
     id: "184",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["24,9x50", "41,8x41,8"],
     Name: "Alma Ceramica",
-    Сollection: "Plesso",
+    Collection: "Plesso",
     interiors: [
       require("../images/catalog/alma_ceramica/plesso/interiors/alma_ceramica_plesso_4404_629889_0x300.jpg"),
       require("../images/catalog/alma_ceramica/plesso/interiors/alma_ceramica_plesso_4404_676388_0x300.jpg"),
@@ -3238,10 +3089,10 @@ const initialCards = [
   {
     id: "185",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Poli",
+    Collection: "Poli",
     interiors: [
       require("../images/catalog/alma_ceramica/poli/interiors/alma_ceramica_poli_4595_437065_0x300.jpg"),
       require("../images/catalog/alma_ceramica/poli/interiors/alma_ceramica_poli_4595_437065_0x500.jpg"),
@@ -3253,10 +3104,10 @@ const initialCards = [
   {
     id: "186",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Relax",
+    Collection: "Relax",
     interiors: [
       require("../images/catalog/alma_ceramica/relax/interiors/alma_ceramica_relax_4408_41129_0x300.jpg"),
       require("../images/catalog/alma_ceramica/relax/interiors/alma_ceramica_relax_4408_41129_0x500.jpg"),
@@ -3278,10 +3129,10 @@ const initialCards = [
   {
     id: "187",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Rialto",
+    Collection: "Rialto",
     interiors: [
       require("../images/catalog/alma_ceramica/rialto/interiors/alma_ceramica_rialto_7909_39219.jpg"),
     ],
@@ -3294,10 +3145,10 @@ const initialCards = [
   {
     id: "188",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Ricci",
+    Collection: "Ricci",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/alma_ceramica/ricci/tovars/alma_ceramica_ricci_113109_694011_300x0.jpg"),
@@ -3306,10 +3157,10 @@ const initialCards = [
   {
     id: "189",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Richard",
+    Collection: "Richard",
     interiors: [
       require("../images/catalog/alma_ceramica/richard/interiors/alma_ceramica_richard_14119_224461_0x300.jpg"),
       require("../images/catalog/alma_ceramica/richard/interiors/alma_ceramica_richard_14119_232587_0x300.jpg"),
@@ -3331,10 +3182,10 @@ const initialCards = [
   {
     id: "190",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Riva",
+    Collection: "Riva",
     interiors: [
       require("../images/catalog/alma_ceramica/riva/interiors/alma_ceramica_riva_8606_922651_0x300.jpg"),
       require("../images/catalog/alma_ceramica/riva/interiors/alma_ceramica_riva_8606_922651_0x500.jpg"),
@@ -3348,10 +3199,10 @@ const initialCards = [
   {
     id: "191",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Riviera",
+    Collection: "Riviera",
     interiors: [
       require("../images/catalog/alma_ceramica/riviera/interiors/alma_ceramica_riviera_3479_189699_0x300.jpg"),
       require("../images/catalog/alma_ceramica/riviera/interiors/alma_ceramica_riviera_3479_189699_0x500.jpg"),
@@ -3368,10 +3219,10 @@ const initialCards = [
   {
     id: "192",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Rivoli",
+    Collection: "Rivoli",
     interiors: [
       require("../images/catalog/alma_ceramica/rivoli/interiors/alma_ceramica_rivoli_10234_438946_0x300.jpg"),
       require("../images/catalog/alma_ceramica/rivoli/interiors/alma_ceramica_rivoli_10234_438946_0x500.jpg"),
@@ -3391,10 +3242,10 @@ const initialCards = [
   {
     id: "193",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Rocko",
+    Collection: "Rocko",
     interiors: [
       require("../images/catalog/alma_ceramica/rocko/interiors/alma_ceramica_rocko_15317_17699_0x300.jpg"),
       require("../images/catalog/alma_ceramica/rocko/interiors/alma_ceramica_rocko_15317_17699_0x500.jpg"),
@@ -3416,10 +3267,10 @@ const initialCards = [
   {
     id: "194",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Romano",
+    Collection: "Romano",
     interiors: [
       require("../images/catalog/alma_ceramica/romano/interiors/alma_ceramica_romano_4597_431156_0x300.jpg"),
       require("../images/catalog/alma_ceramica/romano/interiors/alma_ceramica_romano_4597_431156_0x500.jpg"),
@@ -3432,10 +3283,10 @@ const initialCards = [
   {
     id: "195",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Roxana",
+    Collection: "Roxana",
     interiors: [
       require("../images/catalog/alma_ceramica/roxana/interiors/alma_ceramica_roxana_8565_463610_0x300.jpg"),
       require("../images/catalog/alma_ceramica/roxana/interiors/alma_ceramica_roxana_8565_463610_0x500.jpg"),
@@ -3452,10 +3303,10 @@ const initialCards = [
   {
     id: "196",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Rubi",
+    Collection: "Rubi",
     interiors: [
       require("../images/catalog/alma_ceramica/rubi/interiors/alma_ceramica_rubi_9274_891645_0x300.jpg"),
       require("../images/catalog/alma_ceramica/rubi/interiors/alma_ceramica_rubi_9274_891645_0x500.jpg"),
@@ -3470,10 +3321,10 @@ const initialCards = [
   {
     id: "197",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["60x60"],
     Name: "Alma Ceramica",
-    Сollection: "Salvia",
+    Collection: "Salvia",
     interiors: [
       require("../images/catalog/alma_ceramica/salvia/interiors/alma_ceramica_salvia_10235_143025_0x300.jpg"),
       require("../images/catalog/alma_ceramica/salvia/interiors/alma_ceramica_salvia_10235_143025_0x500.jpg"),
@@ -3490,10 +3341,10 @@ const initialCards = [
   {
     id: "198",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Sandal",
+    Collection: "Sandal",
     interiors: [
       require("../images/catalog/alma_ceramica/sandal/interiors/alma_ceramica_sandal_11624_78730.jpg"),
       require("../images/catalog/alma_ceramica/sandal/interiors/alma_ceramica_sandal_11624_465973.jpg"),
@@ -3508,10 +3359,10 @@ const initialCards = [
   {
     id: "199",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Scandi",
+    Collection: "Scandi",
     interiors: [
       require("../images/catalog/alma_ceramica/scandi/interiors/alma_ceramica_scandi_10231_780989_0x300.jpg"),
       require("../images/catalog/alma_ceramica/scandi/interiors/alma_ceramica_scandi_10231_780989_0x500.jpg"),
@@ -3529,10 +3380,10 @@ const initialCards = [
   {
     id: "200",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Sezal",
+    Collection: "Sezal",
     interiors: [
       require("../images/catalog/alma_ceramica/sezal/interiors/alma_ceramica_sezal_4592_798507_0x300.jpg"),
       require("../images/catalog/alma_ceramica/sezal/interiors/alma_ceramica_sezal_4592_798507_0x500.jpg"),
@@ -3546,10 +3397,10 @@ const initialCards = [
   {
     id: "201",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x90"],
     Name: "Alma Ceramica",
-    Сollection: "Sherwood",
+    Collection: "Sherwood",
     interiors: [
       require("../images/catalog/alma_ceramica/sherwood/interiors/alma_ceramica_sherwood_11625_629465.jpg"),
       require("../images/catalog/alma_ceramica/sherwood/interiors/alma_ceramica_sherwood_11625_629465.jpg"),
@@ -3561,10 +3412,10 @@ const initialCards = [
   {
     id: "202",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Singapore",
+    Collection: "Singapore",
     interiors: [
       require("../images/catalog/alma_ceramica/singapore/interiors/alma_ceramica_singapore_11693_429002_0x300.jpg"),
       require("../images/catalog/alma_ceramica/singapore/interiors/alma_ceramica_singapore_11693_429002_0x500.jpg"),
@@ -3579,10 +3430,10 @@ const initialCards = [
   {
     id: "203",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Slash",
+    Collection: "Slash",
     interiors: [
       require("../images/catalog/alma_ceramica/slash/interiors/alma_ceramica_slash_11694_54446_0x300.jpg"),
       require("../images/catalog/alma_ceramica/slash/interiors/alma_ceramica_slash_11694_54446_0x500.jpg"),
@@ -3595,10 +3446,10 @@ const initialCards = [
   {
     id: "204",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Slate_rock",
+    Collection: "Slate_rock",
     interiors: [
       require("../images/catalog/alma_ceramica/slate_rock/interiors/alma_ceramica_slate_rock_11695_377996_0x300.jpg"),
       require("../images/catalog/alma_ceramica/slate_rock/interiors/alma_ceramica_slate_rock_11695_377996_0x500.jpg"),
@@ -3618,10 +3469,10 @@ const initialCards = [
   {
     id: "205",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Soho",
+    Collection: "Soho",
     interiors: [
       require("../images/catalog/alma_ceramica/soho/interiors/alma_ceramica_soho_15910_97608.jpg"),
       require("../images/catalog/alma_ceramica/soho/interiors/alma_ceramica_soho_15910_221751.jpg"),
@@ -3636,17 +3487,11 @@ const initialCards = [
   {
     id: "206",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Soul",
-    interiors: [
-      require("../images/catalog/alma_ceramica/soul/interiors/alma_ceramica_soul_13529_91082.jpg"),
-      require("../images/catalog/alma_ceramica/soul/interiors/alma_ceramica_soul_13529_150753.jpg"),
-      require("../images/catalog/alma_ceramica/soul/interiors/alma_ceramica_soul_13529_217535.jpg"),
-      require("../images/catalog/alma_ceramica/soul/interiors/alma_ceramica_soul_13529_998503.jpg"),
-      require("../images/catalog/alma_ceramica/soul/interiors/alma_ceramica_soul_13529_999937.jpg"),
-    ],
+    Collection: "Soul",
+    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/alma_ceramica/soul/tovars/alma_ceramica_soul_107374_87986_300x0.jpg"),
       require("../images/catalog/alma_ceramica/soul/tovars/alma_ceramica_soul_107376_378684.jpg"),
@@ -3657,10 +3502,10 @@ const initialCards = [
   {
     id: "207",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Style",
+    Collection: "Style",
     interiors: [
       require("../images/catalog/alma_ceramica/style/interiors/alma_ceramica_style_11696_776810_0x300.jpg"),
       require("../images/catalog/alma_ceramica/style/interiors/alma_ceramica_style_11696_776810_0x500.jpg"),
@@ -3674,10 +3519,10 @@ const initialCards = [
   {
     id: "208",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Sunshine",
+    Collection: "Sunshine",
     interiors: [
       require("../images/catalog/alma_ceramica/sunshine/interiors/alma_ceramica_sunshine_11697_408129_0x300.jpg"),
       require("../images/catalog/alma_ceramica/sunshine/interiors/alma_ceramica_sunshine_11697_408129_0x500.jpg"),
@@ -3692,14 +3537,11 @@ const initialCards = [
   {
     id: "209",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Terrazzo",
-    interiors: [
-      require("../images/catalog/alma_ceramica/terrazzo/interiors/alma_ceramica_sunshine_11697_408129_0x300.jpg"),
-      require("../images/catalog/alma_ceramica/terrazzo/interiors/alma_ceramica_sunshine_11697_408129_0x500.jpg"),
-    ],
+    Collection: "Terrazzo",
+    interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/alma_ceramica/terrazzo/tovars/alma_ceramica_terrazzo_107380_589722_300x0.jpg"),
     ],
@@ -3707,10 +3549,10 @@ const initialCards = [
   {
     id: "210",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Tokio",
+    Collection: "Tokio",
     interiors: [
       require("../images/catalog/alma_ceramica/tokio/interiors/alma_ceramica_tokio_11698_208216_0x300.jpg"),
       require("../images/catalog/alma_ceramica/tokio/interiors/alma_ceramica_tokio_11698_208216_0x500.jpg"),
@@ -3726,10 +3568,10 @@ const initialCards = [
   {
     id: "211",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Tori",
+    Collection: "Tori",
     interiors: [
       require("../images/catalog/alma_ceramica/tori/interiors/alma_ceramica_tori_9276_123218_0x300.jpg"),
       require("../images/catalog/alma_ceramica/tori/interiors/alma_ceramica_tori_9276_123218_0x500.jpg"),
@@ -3751,10 +3593,10 @@ const initialCards = [
   {
     id: "212",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Toscana",
+    Collection: "Toscana",
     interiors: [
       require("../images/catalog/alma_ceramica/toscana/interiors/alma_ceramica_toscana_13532_124594.jpg"),
       require("../images/catalog/alma_ceramica/toscana/interiors/alma_ceramica_toscana_13532_516921.jpg"),
@@ -3767,10 +3609,10 @@ const initialCards = [
   {
     id: "213",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Trevis",
+    Collection: "Trevis",
     interiors: [
       require("../images/catalog/alma_ceramica/trevis/interiors/alma_ceramica_trevis_10236_682159_0x300.jpg"),
       require("../images/catalog/alma_ceramica/trevis/interiors/alma_ceramica_trevis_10236_682159_0x500.jpg"),
@@ -3787,10 +3629,10 @@ const initialCards = [
   {
     id: "214",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Umberto",
+    Collection: "Umberto",
     interiors: [
       require("../images/catalog/alma_ceramica/umberto/interiors/alma_ceramica_umberto_10243_230285_0x300.jpg"),
       require("../images/catalog/alma_ceramica/umberto/interiors/alma_ceramica_umberto_10243_230285_0x500.jpg"),
@@ -3806,10 +3648,10 @@ const initialCards = [
   {
     id: "215",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Uno",
+    Collection: "Uno",
     interiors: [
       require("../images/catalog/alma_ceramica/uno/interiors/alma_ceramica_uno_11187_728611_0x300.jpg"),
       require("../images/catalog/alma_ceramica/uno/interiors/alma_ceramica_uno_11187_728611_0x500.jpg"),
@@ -3822,10 +3664,10 @@ const initialCards = [
   {
     id: "216",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Urban",
+    Collection: "Urban",
     interiors: [
       require("../images/catalog/alma_ceramica/urban/interiors/alma_ceramica_uno_11187_728611.jpg"),
       require("../images/catalog/alma_ceramica/urban/interiors/alma_ceramica_uno_11187_956042.jpg"),
@@ -3838,10 +3680,10 @@ const initialCards = [
   {
     id: "217",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Varadero",
+    Collection: "Varadero",
     interiors: [
       require("../images/catalog/alma_ceramica/varadero/interiors/alma_ceramica_varadero_14120_53601_0x300.jpg"),
       require("../images/catalog/alma_ceramica/varadero/interiors/alma_ceramica_varadero_14120_53601_0x500.jpg"),
@@ -3857,10 +3699,10 @@ const initialCards = [
   {
     id: "218",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Vegas",
+    Collection: "Vegas",
     interiors: [
       require("../images/catalog/alma_ceramica/vegas/interiors/alma_ceramica_vegas_14121_104985_0x300.jpg"),
       require("../images/catalog/alma_ceramica/vegas/interiors/alma_ceramica_vegas_14121_279039_0x300.jpg"),
@@ -3876,10 +3718,10 @@ const initialCards = [
   {
     id: "219",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Veliente",
+    Collection: "Veliente",
     interiors: [
       require("../images/catalog/alma_ceramica/veliente/interiors/alma_ceramica_veliente_9282_948233_0x300.jpg"),
       require("../images/catalog/alma_ceramica/veliente/interiors/alma_ceramica_veliente_9282_948233_0x500.jpg"),
@@ -3897,10 +3739,10 @@ const initialCards = [
   {
     id: "220",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Velvet",
+    Collection: "Velvet",
     interiors: [
       require("../images/catalog/alma_ceramica/velvet/interiors/alma_ceramica_velvet_15913_810283_0x300.jpg"),
       require("../images/catalog/alma_ceramica/velvet/interiors/alma_ceramica_velvet_15913_892951_0x300.jpg"),
@@ -3915,10 +3757,10 @@ const initialCards = [
   {
     id: "221",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Venezia",
+    Collection: "Venezia",
     interiors: [
       require("../images/catalog/alma_ceramica/venezia/interiors/alma_ceramica_venezia_11186_56906_0x300.jpg"),
       require("../images/catalog/alma_ceramica/venezia/interiors/alma_ceramica_venezia_11186_650475_0x300.jpg"),
@@ -3933,10 +3775,10 @@ const initialCards = [
   {
     id: "222",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Vialle",
+    Collection: "Vialle",
     interiors: [
       require("../images/catalog/alma_ceramica/vialle/interiors/alma_ceramica_vialle_8613_536050_0x300.jpg"),
       require("../images/catalog/alma_ceramica/vialle/interiors/alma_ceramica_vialle_8613_536050_0x500.jpg"),
@@ -3950,10 +3792,10 @@ const initialCards = [
   {
     id: "223",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Vilona",
+    Collection: "Vilona",
     interiors: [
       require("../images/catalog/alma_ceramica/vilona/interiors/alma_ceramica_vilona_9277_36880_0x300.jpg"),
       require("../images/catalog/alma_ceramica/vilona/interiors/alma_ceramica_vilona_9277_36880_0x500.jpg"),
@@ -3971,10 +3813,10 @@ const initialCards = [
   {
     id: "224",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Vision",
+    Collection: "Vision",
     interiors: [
       require("../images/catalog/alma_ceramica/vision/interiors/alma_ceramica_vision_11699_56738_0x300.jpg"),
       require("../images/catalog/alma_ceramica/vision/interiors/alma_ceramica_vision_11699_56738_0x500.jpg"),
@@ -3986,10 +3828,10 @@ const initialCards = [
   {
     id: "225",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Westwood",
+    Collection: "Westwood",
     interiors: [
       require("../images/catalog/alma_ceramica/westwood/interiors/alma_ceramica_westwood_11626_204461.jpg"),
       require("../images/catalog/alma_ceramica/westwood/interiors/alma_ceramica_westwood_11626_293945.jpg"),
@@ -4005,10 +3847,10 @@ const initialCards = [
   {
     id: "226",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Wizard",
+    Collection: "Wizard",
     interiors: [
       require("../images/catalog/alma_ceramica/wizard/interiors/alma_ceramica_wizard_10244_557956_0x300.jpg"),
       require("../images/catalog/alma_ceramica/wizard/interiors/alma_ceramica_wizard_10244_557956_0x500.jpg"),
@@ -4027,10 +3869,10 @@ const initialCards = [
   {
     id: "227",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "Alma Ceramica",
-    Сollection: "Wood",
+    Collection: "Wood",
     interiors: [
       require("../images/catalog/alma_ceramica/wood/interiors/alma_ceramica_wood_11176_234760_0x300.jpg"),
       require("../images/catalog/alma_ceramica/wood/interiors/alma_ceramica_wood_11176_234760_0x500.jpg"),
@@ -4048,10 +3890,10 @@ const initialCards = [
   {
     id: "228",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Alavesa",
+    Collection: "Alavesa",
     interiors: [
       require("../images/catalog/ametis_by_estima/alavesa/interiors/ametis_by_estima_alavesa_18706_116385_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/alavesa/interiors/ametis_by_estima_alavesa_18706_116385_0x500.jpg"),
@@ -4088,10 +3930,10 @@ const initialCards = [
   {
     id: "229",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Arti",
+    Collection: "Arti",
     interiors: [
       require("../images/catalog/ametis_by_estima/arti/interiors/ametis_by_estima_arti_13617_177155_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/arti/interiors/ametis_by_estima_arti_13617_207595_0x300.jpg"),
@@ -4122,10 +3964,10 @@ const initialCards = [
   {
     id: "230",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Daintree",
+    Collection: "Daintree",
     interiors: [
       require("../images/catalog/ametis_by_estima/daintree/interiors/ametis_by_estima_daintree_9836_241873_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/daintree/interiors/ametis_by_estima_daintree_9836_286705_0x300.jpg"),
@@ -4173,10 +4015,10 @@ const initialCards = [
   {
     id: "231",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Intense",
+    Collection: "Intense",
     interiors: [
       require("../images/catalog/ametis_by_estima/intense/interiors/ametis_by_estima_intense_18707_358022_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/intense/interiors/ametis_by_estima_intense_18707_358022_0x500.jpg"),
@@ -4198,10 +4040,10 @@ const initialCards = [
   {
     id: "232",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Kailas",
+    Collection: "Kailas",
     interiors: [
       require("../images/catalog/ametis_by_estima/kailas/interiors/ametis_by_estima_kailas_9858_217066_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/kailas/interiors/ametis_by_estima_kailas_9858_40235_0x300.jpg"),
@@ -4257,10 +4099,10 @@ const initialCards = [
   {
     id: "233",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Magmas",
+    Collection: "Magmas",
     interiors: [
       require("../images/catalog/ametis_by_estima/magmas/interiors/ametis_by_estima_magmas_16292_761799_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/magmas/interiors/ametis_by_estima_magmas_16292_827523_0x300.jpg"),
@@ -4296,10 +4138,10 @@ const initialCards = [
   {
     id: "234",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Marmulla",
+    Collection: "Marmulla",
     interiors: [
       require("../images/catalog/ametis_by_estima/marmulla/interiors/ametis_by_estima_marmulla_9860_183478_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/marmulla/interiors/ametis_by_estima_marmulla_9860_309381_0x300.jpg"),
@@ -4385,10 +4227,10 @@ const initialCards = [
   {
     id: "235",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Oceanmist",
+    Collection: "Oceanmist",
     interiors: [
       require("../images/catalog/ametis_by_estima/oceanmist/interiors/ametis_by_estima_oceanmist_16293_715344_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/oceanmist/interiors/ametis_by_estima_oceanmist_16293_786444_0x300.jpg"),
@@ -4425,10 +4267,10 @@ const initialCards = [
   {
     id: "236",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Selection",
+    Collection: "Selection",
     interiors: [
       require("../images/catalog/ametis_by_estima/selection/interiors/ametis_by_estima_selection_12019_106857_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/selection/interiors/ametis_by_estima_selection_12019_185537_0x300.jpg"),
@@ -4470,10 +4312,10 @@ const initialCards = [
   {
     id: "237",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Spectrum",
+    Collection: "Spectrum",
     interiors: [
       require("../images/catalog/ametis_by_estima/spectrum/interiors/ametis_by_estima_spectrum_12018_179984_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/spectrum/interiors/ametis_by_estima_spectrum_12018_179984_0x500.jpg"),
@@ -4572,10 +4414,10 @@ const initialCards = [
   {
     id: "238",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Ametis by Estima",
-    Сollection: "Supreme",
+    Collection: "Supreme",
     interiors: [
       require("../images/catalog/ametis_by_estima/supreme/interiors/ametis_by_estima_supreme_12020_108991_0x300.jpg"),
       require("../images/catalog/ametis_by_estima/supreme/interiors/ametis_by_estima_supreme_12020_424141_0x300.jpg"),
@@ -4655,10 +4497,10 @@ const initialCards = [
   {
     id: "239",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Acate",
+    Collection: "Acate",
     interiors: [
       require("../images/catalog/azori/acate/interiors/azori_acate_17906_167402_0x300.jpg"),
       require("../images/catalog/azori/acate/interiors/azori_acate_17906_300786_0x300.jpg"),
@@ -4688,7 +4530,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Alpi",
+    Collection: "Alpi",
     interiors: [
       require("../images/catalog/azori/alpi/interiors/azori_alpi_13431_157172_0x300.jpg"),
       require("../images/catalog/azori/alpi/interiors/azori_alpi_13431_157172_0x500.jpg"),
@@ -4712,7 +4554,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Amati",
+    Collection: "Amati",
     interiors: [
       require("../images/catalog/azori/amati/interiors/azori_amati_4710_296512_0x300.jpg"),
       require("../images/catalog/azori/amati/interiors/azori_amati_4710_461035_0x300.jpg"),
@@ -4749,7 +4591,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Aapulia_oro",
+    Collection: "Aapulia_oro",
     interiors: [
       require("../images/catalog/azori/apulia_oro/interiors/azori_apulia_oro_13725_495321_0x300.jpg"),
       require("../images/catalog/azori/apulia_oro/interiors/azori_apulia_oro_13725_495321_0x500.jpg"),
@@ -4771,7 +4613,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Artemest",
+    Collection: "Artemest",
     interiors: [
       require("../images/catalog/azori/artemest/interiors/azori_artemest_17909_276933_0x300.jpg"),
       require("../images/catalog/azori/artemest/interiors/azori_artemest_17909_276933_0x500.jpg"),
@@ -4794,7 +4636,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Ascoli",
+    Collection: "Ascoli",
     interiors: [
       require("../images/catalog/azori/ascoli/interiors/azori_ascoli_9373_257932_0x300.jpg"),
       require("../images/catalog/azori/ascoli/interiors/azori_ascoli_9373_388063_0x300.jpg"),
@@ -4827,7 +4669,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Atlas",
+    Collection: "Atlas",
     interiors: [
       require("../images/catalog/azori/atlas/interiors/azori_atlas_13430_100694_0x300.jpg"),
       require("../images/catalog/azori/atlas/interiors/azori_atlas_13430_339962_0x300.jpg"),
@@ -4851,7 +4693,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Aura",
+    Collection: "Aura",
     interiors: [
       require("../images/catalog/azori/aura/interiors/azori_aura_8125_404447_0x300.jpg"),
       require("../images/catalog/azori/aura/interiors/azori_aura_8125_526070_0x300.jpg"),
@@ -4875,7 +4717,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Azolla",
+    Collection: "Azolla",
     interiors: [
       require("../images/catalog/azori/azolla/interiors/azori_azolla_10968_110206_0x300.jpg"),
       require("../images/catalog/azori/azolla/interiors/azori_azolla_10968_246403_0x300.jpg"),
@@ -4911,7 +4753,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Bianco Venatino",
+    Collection: "Bianco Venatino",
     interiors: [
       require("../images/catalog/azori/bianco_venatino/interiors/azori_bianco_venatino_18662_566695_0x300.jpg"),
       require("../images/catalog/azori/bianco_venatino/interiors/azori_bianco_venatino_18662_64108_0x300.jpg"),
@@ -4933,7 +4775,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Bricks",
+    Collection: "Bricks",
     interiors: [
       require("../images/catalog/azori/bricks/interiors/azori_bricks_17907_185589_0x300.jpg"),
       require("../images/catalog/azori/bricks/interiors/azori_bricks_17907_185616_0x300.jpg"),
@@ -4970,7 +4812,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Calacatta Ivori",
+    Collection: "Calacatta Ivori",
     interiors: [
       require("../images/catalog/azori/calacatta_ivori/interiors/azori_calacatta_ivori_15900_143925_0x300.jpg"),
       require("../images/catalog/azori/calacatta_ivori/interiors/azori_calacatta_ivori_15900_252733_0x300.jpg"),
@@ -4997,7 +4839,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Calacatta Opaco",
+    Collection: "Calacatta Opaco",
     interiors: [
       require("../images/catalog/azori/calacatta_opaco/interiors/azori_calacatta_opaco_18646_286831_0x300.jpg"),
       require("../images/catalog/azori/calacatta_opaco/interiors/azori_calacatta_opaco_18646_292270_0x300.jpg"),
@@ -5022,7 +4864,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Calacatta Royal",
+    Collection: "Calacatta Royal",
     interiors: [
       require("../images/catalog/azori/calacatta_royal/interiors/azori_calacatta_royal_10595_27318_0x300.jpg"),
       require("../images/catalog/azori/calacatta_royal/interiors/azori_calacatta_royal_10595_27318_0x500.jpg"),
@@ -5049,7 +4891,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Calypso",
+    Collection: "Calypso",
     interiors: [
       require("../images/catalog/azori/calypso/interiors/azori_calypso_16252_269853_0x300.jpg"),
       require("../images/catalog/azori/calypso/interiors/azori_calypso_16252_269853_0x500.jpg"),
@@ -5071,7 +4913,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Carrara",
+    Collection: "Carrara",
     interiors: [
       require("../images/catalog/azori/carrara/interiors/azori_carrara_18644_193214_0x300.jpg"),
       require("../images/catalog/azori/carrara/interiors/azori_carrara_18644_305230_0x300.jpg"),
@@ -5098,7 +4940,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Defile",
+    Collection: "Defile",
     interiors: [
       require("../images/catalog/azori/defile/interiors/azori_defile_654_825145_0x300.jpg"),
       require("../images/catalog/azori/defile/interiors/azori_defile_654_825145_0x500.jpg"),
@@ -5118,7 +4960,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Desert",
+    Collection: "Desert",
     interiors: [
       require("../images/catalog/azori/desert/interiors/azori_desert_15501_274852_0x300.jpg"),
       require("../images/catalog/azori/desert/interiors/azori_desert_15501_299312_0x300.jpg"),
@@ -5146,7 +4988,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Devore",
+    Collection: "Devore",
     interiors: [
       require("../images/catalog/azori/devore/interiors/azori_devore_9375_111420_0x300.jpg"),
       require("../images/catalog/azori/devore/interiors/azori_devore_9375_344234_0x300.jpg"),
@@ -5176,7 +5018,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Ebri",
+    Collection: "Ebri",
     interiors: [
       require("../images/catalog/azori/ebri/interiors/azori_ebri_17911_114848_0x300.jpg"),
       require("../images/catalog/azori/ebri/interiors/azori_ebri_17911_743339_0x300.jpg"),
@@ -5209,7 +5051,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Eclipse",
+    Collection: "Eclipse",
     interiors: [
       require("../images/catalog/azori/eclipse/interiors/azori_eclipse_6519_297222_0x300.jpg"),
       require("../images/catalog/azori/eclipse/interiors/azori_eclipse_6519_360160_0x300.jpg"),
@@ -5235,7 +5077,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Ehlara",
+    Collection: "Ehlara",
     interiors: [
       require("../images/catalog/azori/ehlara/interiors/azori_ehlara_4546_107753_0x300.jpg"),
       require("../images/catalog/azori/ehlara/interiors/azori_ehlara_4546_231518_0x300.jpg"),
@@ -5261,7 +5103,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Equadore",
+    Collection: "Equadore",
     interiors: [
       require("../images/catalog/azori/equadore/interiors/azori_equadore_9376_607323_0x300.jpg"),
       require("../images/catalog/azori/equadore/interiors/azori_equadore_9376_607323_0x500.jpg"),
@@ -5279,7 +5121,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Fortezza",
+    Collection: "Fortezza",
     interiors: [
       require("../images/catalog/azori/fortezza/interiors/azori_fortezza_17905_123245_0x300.jpg"),
       require("../images/catalog/azori/fortezza/interiors/azori_fortezza_17905_123245_0x500.jpg"),
@@ -5304,7 +5146,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Global",
+    Collection: "Global",
     interiors: [
       require("../images/catalog/azori/global/interiors/azori_global_9378_124984_0x300.jpg"),
       require("../images/catalog/azori/global/interiors/azori_global_9378_215396_0x300.jpg"),
@@ -5332,7 +5174,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Grazia",
+    Collection: "Grazia",
     interiors: [
       require("../images/catalog/azori/grazia/interiors/azori_grazia_6145_173871_0x300.jpg"),
       require("../images/catalog/azori/grazia/interiors/azori_grazia_6145_173871_0x500.jpg"),
@@ -5356,7 +5198,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Grunge",
+    Collection: "Grunge",
     interiors: [
       require("../images/catalog/azori/grunge/interiors/azori_grunge_10596_233777_0x300.jpg"),
       require("../images/catalog/azori/grunge/interiors/azori_grunge_10596_645051_0x300.jpg"),
@@ -5379,7 +5221,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Hygge",
+    Collection: "Hygge",
     interiors: [
       require("../images/catalog/azori/hygge/interiors/azori_hygge_10969_168184_0x300.jpg"),
       require("../images/catalog/azori/hygge/interiors/azori_hygge_10969_325128_0x300.jpg"),
@@ -5413,7 +5255,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Incisio",
+    Collection: "Incisio",
     interiors: [
       require("../images/catalog/azori/incisio/interiors/azori_incisio_17910_13161_0x300.jpg"),
       require("../images/catalog/azori/incisio/interiors/azori_incisio_17910_13161_0x500.jpg"),
@@ -5439,7 +5281,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Latila",
+    Collection: "Latila",
     interiors: [
       require("../images/catalog/azori/latila/interiors/azori_latila_13726_117750_0x300.jpg"),
       require("../images/catalog/azori/latila/interiors/azori_latila_13726_154800_0x300.jpg"),
@@ -5461,7 +5303,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Loft Silver Light m",
+    Collection: "Loft Silver Light m",
     interiors: [
       require("../images/catalog/azori/loft_silver_light_m/interiors/azori_loft_silver_light_m_18669_369164_0x300.jpg"),
       require("../images/catalog/azori/loft_silver_light_m/interiors/azori_loft_silver_light_m_18669_369164_0x500.jpg"),
@@ -5478,7 +5320,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Loft Silver m",
+    Collection: "Loft Silver m",
     interiors: [
       require("../images/catalog/azori/loft_silver_m/interiors/azori_loft_silver_m_18670_653464_0x300.jpg"),
       require("../images/catalog/azori/loft_silver_m/interiors/azori_loft_silver_m_18670_742500_0x300.jpg"),
@@ -5494,7 +5336,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Loft Smoky m",
+    Collection: "Loft Smoky m",
     interiors: [
       require("../images/catalog/azori/loft_smoky_m/interiors/azori_loft_smoky_m_18667_340123_0x300.jpg"),
       require("../images/catalog/azori/loft_smoky_m/interiors/azori_loft_smoky_m_18667_502863_0x300.jpg"),
@@ -5510,7 +5352,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Lounge",
+    Collection: "Lounge",
     interiors: [
       require("../images/catalog/azori/lounge/interiors/azori_lounge_10970_134926_0x300.jpg"),
       require("../images/catalog/azori/lounge/interiors/azori_lounge_10970_308139_0x300.jpg"),
@@ -5564,7 +5406,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Macbeth",
+    Collection: "Macbeth",
     interiors: [
       require("../images/catalog/azori/macbeth/interiors/azori_macbeth_8128_201211_0x300.jpg"),
       require("../images/catalog/azori/macbeth/interiors/azori_macbeth_8128_343018_0x300.jpg"),
@@ -5588,7 +5430,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Mallorca",
+    Collection: "Mallorca",
     interiors: [
       require("../images/catalog/azori/mallorca/interiors/azori_mallorca_6604_186971_0x300.jpg"),
       require("../images/catalog/azori/mallorca/interiors/azori_mallorca_6604_186971_0x500.jpg"),
@@ -5623,7 +5465,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Marmaro Gold",
+    Collection: "Marmaro Gold",
     interiors: [
       require("../images/catalog/azori/marmaro_gold/interiors/azori_marmaro_gold_18656_285466_0x300.jpg"),
       require("../images/catalog/azori/marmaro_gold/interiors/azori_marmaro_gold_18656_309891_0x300.jpg"),
@@ -5642,7 +5484,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Nuvola",
+    Collection: "Nuvola",
     interiors: [
       require("../images/catalog/azori/nuvola/interiors/azori_nuvola_8129_543859_0x300.jpg"),
       require("../images/catalog/azori/nuvola/interiors/azori_nuvola_8129_574734_0x300.jpg"),
@@ -5665,7 +5507,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Onyx Crema",
+    Collection: "Onyx Crema",
     interiors: [
       require("../images/catalog/azori/onyx_crema/interiors/azori_onyx_crema_18653_190853_0x300.jpg"),
       require("../images/catalog/azori/onyx_crema/interiors/azori_onyx_crema_18653_193563_0x300.jpg"),
@@ -5684,7 +5526,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Onyx Ivory",
+    Collection: "Onyx Ivory",
     interiors: [
       require("../images/catalog/azori/onyx_ivory/interiors/azori_onyx_ivory_18664_221064_0x300.jpg"),
       require("../images/catalog/azori/onyx_ivory/interiors/azori_onyx_ivory_18664_221064_0x500.jpg"),
@@ -5703,7 +5545,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Onyx Pearl",
+    Collection: "Onyx Pearl",
     interiors: [
       require("../images/catalog/azori/onyx_pearl/interiors/azori_onyx_pearl_18666_478158_0x300.jpg"),
       require("../images/catalog/azori/onyx_pearl/interiors/azori_onyx_pearl_18666_736796_0x300.jpg"),
@@ -5723,7 +5565,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Onyx Smoky Sugar",
+    Collection: "Onyx Smoky Sugar",
     interiors: [
       require("../images/catalog/azori/onyx_smoky_sugar/interiors/azori_onyx_smoky_sugar_18668_184046_0x300.jpg"),
       require("../images/catalog/azori/onyx_smoky_sugar/interiors/azori_onyx_smoky_sugar_18668_219413_0x300.jpg"),
@@ -5744,7 +5586,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Onyx Vanilla Sky",
+    Collection: "Onyx Vanilla Sky",
     interiors: [
       require("../images/catalog/azori/onyx_vanilla_sky/interiors/azori_onyx_vanilla_sky_18652_199826_0x300.jpg"),
       require("../images/catalog/azori/onyx_vanilla_sky/interiors/azori_onyx_vanilla_sky_18652_330779_0x300.jpg"),
@@ -5763,7 +5605,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Opale",
+    Collection: "Opale",
     interiors: [
       require("../images/catalog/azori/opale/interiors/azori_opale_13728_130363_0x300.jpg"),
       require("../images/catalog/azori/opale/interiors/azori_opale_13728_217843_0x300.jpg"),
@@ -5804,7 +5646,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Palladio",
+    Collection: "Palladio",
     interiors: [
       require("../images/catalog/azori/palladio/interiors/azori_palladio_15902_131275_0x300.jpg"),
       require("../images/catalog/azori/palladio/interiors/azori_palladio_15902_177701_0x300.jpg"),
@@ -5829,7 +5671,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Pandora",
+    Collection: "Pandora",
     interiors: [
       require("../images/catalog/azori/pandora/interiors/azori_pandora_6520_307657_0x300.jpg"),
       require("../images/catalog/azori/pandora/interiors/azori_pandora_6520_307657_0x500.jpg"),
@@ -5868,7 +5710,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Polar",
+    Collection: "Polar",
     interiors: [
       require("../images/catalog/azori/polar/interiors/azori_polar_15901_264650_0x300.jpg"),
       require("../images/catalog/azori/polar/interiors/azori_polar_15901_497958_0x300.jpg"),
@@ -5888,7 +5730,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Pulpis Dark",
+    Collection: "Pulpis Dark",
     interiors: [
       require("../images/catalog/azori/pulpis_dark/interiors/azori_pulpis_dark_18654_247385_0x300.jpg"),
       require("../images/catalog/azori/pulpis_dark/interiors/azori_pulpis_dark_18654_281745_0x300.jpg"),
@@ -5908,7 +5750,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Pulpis Grey",
+    Collection: "Pulpis Grey",
     interiors: [
       require("../images/catalog/azori/pulpis_grey/interiors/azori_pulpis_grey_18657_83594_0x300.jpg"),
       require("../images/catalog/azori/pulpis_grey/interiors/azori_pulpis_grey_18657_83594_0x500.jpg"),
@@ -5924,7 +5766,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Pulpis Light",
+    Collection: "Pulpis Light",
     interiors: [
       require("../images/catalog/azori/pulpis_light/interiors/azori_pulpis_light_18663_229561_0x300.jpg"),
       require("../images/catalog/azori/pulpis_light/interiors/azori_pulpis_light_18663_812005_0x300.jpg"),
@@ -5940,7 +5782,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Riviera",
+    Collection: "Riviera",
     interiors: [
       require("../images/catalog/azori/riviera/interiors/azori_riviera_8130_621483_0x300.jpg"),
       require("../images/catalog/azori/riviera/interiors/azori_riviera_8130_950624_0x300.jpg"),
@@ -5963,7 +5805,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Romanico",
+    Collection: "Romanico",
     interiors: [
       require("../images/catalog/azori/romanico/interiors/azori_romanico_13432_502643_0x300.jpg"),
       require("../images/catalog/azori/romanico/interiors/azori_romanico_13432_502643_0x500.jpg"),
@@ -5988,7 +5830,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Rosso Venato",
+    Collection: "Rosso Venato",
     interiors: [
       require("../images/catalog/azori/rosso_venato/interiors/azori_rosso_venato_17908_175499_0x300.jpg"),
       require("../images/catalog/azori/rosso_venato/interiors/azori_rosso_venato_17908_19360_0x300.jpg"),
@@ -6008,7 +5850,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Rustic",
+    Collection: "Rustic",
     interiors: [
       require("../images/catalog/azori/rustic/interiors/azori_rustic_13434_149529_0x300.jpg"),
       require("../images/catalog/azori/rustic/interiors/azori_rustic_13434_153868_0x300.jpg"),
@@ -6035,7 +5877,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Scandi",
+    Collection: "Scandi",
     interiors: [
       require("../images/catalog/azori/scandi/interiors/azori_scandi_13732_127760_0x300.jpg"),
       require("../images/catalog/azori/scandi/interiors/azori_scandi_13732_199453_0x300.jpg"),
@@ -6059,7 +5901,7 @@ const initialCards = [
     ],
   },
   {
-    Сollection: "Sfumato",
+    Collection: "Sfumato",
     interiors: [
       require("../images/catalog/azori/sfumato/interiors/azori_sfumato_3595_189692_0x300.jpg"),
       require("../images/catalog/azori/sfumato/interiors/azori_sfumato_3595_525603_0x300.jpg"),
@@ -6086,7 +5928,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Shabby",
+    Collection: "Shabby",
     interiors: [
       require("../images/catalog/azori/shabby/interiors/azori_shabby_9380_191544_0x300.jpg"),
       require("../images/catalog/azori/shabby/interiors/azori_shabby_9380_191544_0x500.jpg"),
@@ -6113,7 +5955,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Sonnet",
+    Collection: "Sonnet",
     interiors: [
       require("../images/catalog/azori/sonnet/interiors/azori_sonnet_13433_305181_0x300.jpg"),
       require("../images/catalog/azori/sonnet/interiors/azori_sonnet_13433_395877_0x300.jpg"),
@@ -6145,7 +5987,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Starck",
+    Collection: "Starck",
     interiors: [
       require("../images/catalog/azori/starck/interiors/azori_starck_15502_232876_0x300.jpg"),
       require("../images/catalog/azori/starck/interiors/azori_starck_15502_402471_0x300.jpg"),
@@ -6171,7 +6013,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Vela",
+    Collection: "Vela",
     interiors: [
       require("../images/catalog/azori/vela/interiors/azori_vela_8916_123321_0x300.jpg"),
       require("../images/catalog/azori/vela/interiors/azori_vela_8916_434626_0x300.jpg"),
@@ -6190,7 +6032,6 @@ const initialCards = [
       require("../images/catalog/azori/vela/tovars/azori_vela_76160_928762_300x0.jpg"),
       require("../images/catalog/azori/vela/tovars/azori_vela_76161_143389_300x0.jpg"),
       require("../images/catalog/azori/vela/tovars/azori_vela_76162_119549_300x0.jpg"),
-      require("../src/images/catalog/azori/vela/tovars/azori_vela_76163_410016_300x0.jpg"),
       require("../images/catalog/azori/vela/tovars/azori_vela_76164_90835_300x0.jpg"),
       require("../images/catalog/azori/vela/tovars/azori_vela_76165_782545_300x0.jpg"),
       require("../images/catalog/azori/vela/tovars/azori_vela_76166_290417_300x0.jpg"),
@@ -6225,7 +6066,7 @@ const initialCards = [
     Category: "Керамическая плика",
     Size: ["20x60"],
     Name: "Azori",
-    Сollection: "Veneziano",
+    Collection: "Veneziano",
     interiors: [
       require("../images/catalog/azori/veneziano/interiors/azori_veneziano_15503_179782_0x300.jpg"),
       require("../images/catalog/azori/veneziano/interiors/azori_veneziano_15503_355053_0x300.jpg"),
@@ -6250,10 +6091,10 @@ const initialCards = [
   {
     id: "313",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Afion",
+    Collection: "Afion",
     interiors: [
       require("../images/catalog/bluezone/afion/interiors/bluezone_afion_11440_674277_0x300.jpg"),
       require("../images/catalog/bluezone/afion/interiors/bluezone_afion_11440_856398_0x300.jpg"),
@@ -6268,10 +6109,10 @@ const initialCards = [
   {
     id: "314",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Aagyaro",
+    Collection: "Aagyaro",
     interiors: [
       require("../images/catalog/bluezone/agyaro/interiors/bluezone_agyaro_11441_228455_0x300.jpg"),
       require("../images/catalog/bluezone/agyaro/interiors/bluezone_agyaro_11441_228455_0x500.jpg"),
@@ -6287,10 +6128,10 @@ const initialCards = [
   {
     id: "315",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Alabaster",
+    Collection: "Alabaster",
     interiors: [
       require("../images/catalog/bluezone/alabaster/interiors/bluezone_alabaster_12240_677468_0x300.jpg"),
       require("../images/catalog/bluezone/alabaster/interiors/bluezone_alabaster_12240_677468_0x500.jpg"),
@@ -6305,10 +6146,10 @@ const initialCards = [
   {
     id: "316",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Antique_satvario",
+    Collection: "Antique_satvario",
     interiors: [
       require("../images/catalog/bluezone/antique_satvario/interiors/bluezone_antique_satvario_16391_651825_0x300.jpg"),
       require("../images/catalog/bluezone/antique_satvario/interiors/bluezone_antique_satvario_16391_651825_0x500.jpg"),
@@ -6320,10 +6161,10 @@ const initialCards = [
   {
     id: "317",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Arizona",
+    Collection: "Arizona",
     interiors: [
       require("../images/catalog/bluezone/arizona/interiors/bluezone_arizona_16392_543093_0x300.jpg"),
       require("../images/catalog/bluezone/arizona/interiors/bluezone_arizona_16392_543093_0x500.jpg"),
@@ -6336,10 +6177,10 @@ const initialCards = [
   {
     id: "318",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Armeo",
+    Collection: "Armeo",
     interiors: [
       require("../images/catalog/bluezone/armeo/interiors/bluezone_armeo_12241_793337_0x300.jpg"),
       require("../images/catalog/bluezone/armeo/interiors/bluezone_armeo_12241_793337_0x500.jpg"),
@@ -6351,10 +6192,10 @@ const initialCards = [
   {
     id: "319",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Atlanta",
+    Collection: "Atlanta",
     interiors: [
       require("../images/catalog/bluezone/atlanta/interiors/bluezone_atlanta_12242_850822_0x300.jpg"),
       require("../images/catalog/bluezone/atlanta/interiors/bluezone_atlanta_12242_850822_0x500.jpg"),
@@ -6368,10 +6209,10 @@ const initialCards = [
   {
     id: "320",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Bellisimo",
+    Collection: "Bellisimo",
     interiors: [
       require("../images/catalog/bluezone/bellisimo/interiors/bluezone_bellisimo_16401_547143_0x300.jpg"),
       require("../images/catalog/bluezone/bellisimo/interiors/bluezone_bellisimo_16401_547143_0x500.jpg"),
@@ -6385,10 +6226,10 @@ const initialCards = [
   {
     id: "321",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Biardo",
+    Collection: "Biardo",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/bluezone/biardo/tovars/bluezone_biardo_94991_942857_300x0.jpg"),
@@ -6397,10 +6238,10 @@ const initialCards = [
   {
     id: "322",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Brezza",
+    Collection: "Brezza",
     interiors: [
       require("../images/catalog/bluezone/brezza/interiors/bluezone_brezza_11443_114858_0x300.jpg"),
       require("../images/catalog/bluezone/brezza/interiors/bluezone_brezza_11443_114858_0x500.jpg"),
@@ -6412,10 +6253,10 @@ const initialCards = [
   {
     id: "323",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Bronze_armani",
+    Collection: "Bronze_armani",
     interiors: [
       require("../images/catalog/bluezone/bronze_armani/interiors/bluezone_bronze_armani_12243_370691_0x300.jpg"),
       require("../images/catalog/bluezone/bronze_armani/interiors/bluezone_bronze_armani_12243_38039_0x300.jpg"),
@@ -6429,10 +6270,10 @@ const initialCards = [
   {
     id: "324",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Brunt",
+    Collection: "Brunt",
     interiors: [
       require("../images/catalog/bluezone/brunt/interiors/bluezone_brunt_12244_160074_0x300.jpg"),
       require("../images/catalog/bluezone/brunt/interiors/bluezone_brunt_12244_160074_0x500.jpg"),
@@ -6445,10 +6286,10 @@ const initialCards = [
   {
     id: "325",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Burberry",
+    Collection: "Burberry",
     interiors: [
       require("../images/catalog/bluezone/burberry/interiors/bluezone_burberry_11105_468468_0x300.jpg"),
       require("../images/catalog/bluezone/burberry/interiors/bluezone_burberry_11105_678161_0x300.jpg"),
@@ -6462,10 +6303,10 @@ const initialCards = [
   {
     id: "326",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Bz_10012",
+    Collection: "Bz 10012",
     interiors: [
       require("../images/catalog/bluezone/bz_10012/interiors/bluezone_bz_10012_16402_153334_0x300.jpg"),
       require("../images/catalog/bluezone/bz_10012/interiors/bluezone_bz_10012_16402_308728_0x300.jpg"),
@@ -6479,10 +6320,10 @@ const initialCards = [
   {
     id: "327",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Capitone_white",
+    Collection: "Capitone white",
     interiors: [
       require("../images/catalog/bluezone/capitone_white/interiors/bluezone_capitone_white_11874_651507_0x300.jpg"),
       require("../images/catalog/bluezone/capitone_white/interiors/bluezone_capitone_white_11874_651507_0x500.jpg"),
@@ -6494,10 +6335,10 @@ const initialCards = [
   {
     id: "328",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Cristallo_tiffany",
+    Collection: "Cristallo tiffany",
     interiors: [
       require("../images/catalog/bluezone/cristallo_tiffany/interiors/bluezone_cristallo_tiffany_12245_297106_0x300.jpg"),
       require("../images/catalog/bluezone/cristallo_tiffany/interiors/bluezone_cristallo_tiffany_12245_297106_0x500.jpg"),
@@ -6509,10 +6350,10 @@ const initialCards = [
   {
     id: "329",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Croma_onyx",
+    Collection: "Croma onyx",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/bluezone/croma_onyx/tovars/bluezone_croma_onyx_94993_790455_300x0.jpg"),
@@ -6521,10 +6362,10 @@ const initialCards = [
   {
     id: "330",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "crystal_iris",
+    Collection: "Crystal iris",
     interiors: [
       require("../images/catalog/bluezone/crystal_iris/interiors/bluezone_crystal_iris_11900_982060_0x300.jpg"),
       require("../images/catalog/bluezone/crystal_iris/interiors/bluezone_crystal_iris_11900_982060_0x500.jpg"),
@@ -6536,10 +6377,10 @@ const initialCards = [
   {
     id: "331",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Delta",
+    Collection: "Delta",
     interiors: [
       require("../images/catalog/bluezone/delta/interiors/bluezone_delta_18484_483367_0x300.jpg"),
       require("../images/catalog/bluezone/delta/interiors/bluezone_delta_18484_930244_0x300.jpg"),
@@ -6553,10 +6394,10 @@ const initialCards = [
   {
     id: "332",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Ethipian",
+    Collection: "Ethipian",
     interiors: [
       require("../images/catalog/bluezone/ethipian/interiors/bluezone_ethipian_13729_430680_0x300.jpg"),
       require("../images/catalog/bluezone/ethipian/interiors/bluezone_ethipian_13729_430680_0x500.jpg"),
@@ -6568,10 +6409,10 @@ const initialCards = [
   {
     id: "333",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Favorite_onyx",
+    Collection: "Favorite onyx",
     interiors: [
       require("../images/catalog/bluezone/favorite_onyx/interiors/bluezone_favorite_onyx_12246_29787_0x300.jpg"),
       require("../images/catalog/bluezone/favorite_onyx/interiors/bluezone_favorite_onyx_12246_29787_0x500.jpg"),
@@ -6584,10 +6425,10 @@ const initialCards = [
   {
     id: "334",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Fenton_blue",
+    Collection: "Fenton blue",
     interiors: [
       require("../images/catalog/bluezone/fenton_blue/interiors/bluezone_fenton_blue_11106_735986_0x300.jpg"),
       require("../images/catalog/bluezone/fenton_blue/interiors/bluezone_fenton_blue_11106_735986_0x500.jpg"),
@@ -6599,10 +6440,10 @@ const initialCards = [
   {
     id: "335",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Ferro_natural",
+    Collection: "Ferro natural",
     interiors: [
       require("../images/catalog/bluezone/ferro_natural/interiors/bluezone_ferro_natural_12247_147589_0x300.jpg"),
       require("../images/catalog/bluezone/ferro_natural/interiors/bluezone_ferro_natural_12247_147589_0x500.jpg"),
@@ -6615,10 +6456,10 @@ const initialCards = [
   {
     id: "336",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "filito_rosso",
+    Collection: "Filito rosso",
     interiors: [
       require("../images/catalog/bluezone/filito_rosso/interiors/bluezone_filito_rosso_16403_294355_0x300.jpg"),
       require("../images/catalog/bluezone/filito_rosso/interiors/bluezone_filito_rosso_16403_294355_0x500.jpg"),
@@ -6630,10 +6471,10 @@ const initialCards = [
   {
     id: "337",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Florian",
+    Collection: "Florian",
     interiors: [
       require("../images/catalog/bluezone/florian/interiors/bluezone_florian_11445_417577_0x300.jpg"),
       require("../images/catalog/bluezone/florian/interiors/bluezone_florian_11445_417577_0x500.jpg"),
@@ -6645,10 +6486,10 @@ const initialCards = [
   {
     id: "338",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "galaxy_black",
+    Collection: "Galaxy black",
     interiors: [
       require("../images/catalog/bluezone/galaxy_black/interiors/bluezone_galaxy_black_11107_43016_0x300.jpg"),
       require("../images/catalog/bluezone/galaxy_black/interiors/bluezone_galaxy_black_11107_43016_0x500.jpg"),
@@ -6660,10 +6501,10 @@ const initialCards = [
   {
     id: "339",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Ice_onyx_black",
+    Collection: "Ice onyx black",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/bluezone/ice_onyx_black/tovars/bluezone_ice_onyx_black_97480_378625_300x0.jpg"),
@@ -6672,10 +6513,10 @@ const initialCards = [
   {
     id: "340",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Infinity",
+    Collection: "Infinity",
     interiors: [
       require("../images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_105800_0x300.jpg"),
       require("../images/catalog/bluezone/infinity/interiors/bluezone_infinity_11875_132215_0x300.jpg"),
@@ -6694,10 +6535,10 @@ const initialCards = [
   {
     id: "341",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Istanbul",
+    Collection: "Istanbul",
     interiors: [
       require("../images/catalog/bluezone/istanbul/interiors/bluezone_istanbul_15853_293641_0x300.jpg"),
       require("../images/catalog/bluezone/istanbul/interiors/bluezone_istanbul_15853_40702_0x300.jpg"),
@@ -6715,10 +6556,10 @@ const initialCards = [
   {
     id: "342",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "liverpool",
+    Collection: "Liverpool",
     interiors: [
       require("../images/catalog/bluezone/liverpool/interiors/bluezone_liverpool_16404_691605_0x300.jpg"),
       require("../images/catalog/bluezone/liverpool/interiors/bluezone_liverpool_16404_691605_0x500.jpg"),
@@ -6731,10 +6572,10 @@ const initialCards = [
   {
     id: "343",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "longines",
+    Collection: "Longines",
     interiors: [
       require("../images/catalog/bluezone/longines/interiors/bluezone_longines_16405_775377_0x300.jpg"),
       require("../images/catalog/bluezone/longines/interiors/bluezone_longines_16405_775377_0x500.jpg"),
@@ -6746,10 +6587,10 @@ const initialCards = [
   {
     id: "344",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "luxuria",
+    Collection: "Luxuria",
     interiors: [
       require("../images/catalog/bluezone/luxuria/interiors/bluezone_luxuria_11902_30222_0x300.jpg"),
       require("../images/catalog/bluezone/luxuria/interiors/bluezone_luxuria_11902_30222_0x500.jpg"),
@@ -6761,10 +6602,10 @@ const initialCards = [
   {
     id: "345",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "mistike",
+    Collection: "Mistike",
     interiors: [
       require("../images/catalog/bluezone/mistike/interiors/bluezone_mistike_11903_644290_0x300.jpg"),
       require("../images/catalog/bluezone/mistike/interiors/bluezone_mistike_11903_644290_0x500.jpg"),
@@ -6776,10 +6617,10 @@ const initialCards = [
   {
     id: "346",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "Multi_milkyway",
+    Collection: "Multi_milkyway",
     interiors: [
       require("../images/catalog/bluezone/multi_milkyway/interiors/bluezone_multi_milkyway_12248_17555_0x300.jpg"),
       require("../images/catalog/bluezone/multi_milkyway/interiors/bluezone_multi_milkyway_12248_17555_0x500.jpg"),
@@ -6791,10 +6632,10 @@ const initialCards = [
   {
     id: "347",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "noks_black",
+    Collection: "Noks_black",
     interiors: [
       require("../images/catalog/bluezone/noks_black/interiors/bluezone_noks_black_11108_282594_0x300.jpg"),
       require("../images/catalog/bluezone/noks_black/interiors/bluezone_noks_black_11108_282594_0x500.jpg"),
@@ -6807,10 +6648,10 @@ const initialCards = [
   {
     id: "348",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "nordic_blue",
+    Collection: "Nordic_blue",
     interiors: [
       require("../images/catalog/bluezone/nordic_blue/interiors/bluezone_nordic_blue_11109_159910_0x300.jpg"),
       require("../images/catalog/bluezone/nordic_blue/interiors/bluezone_nordic_blue_11109_159910_0x500.jpg"),
@@ -6822,10 +6663,10 @@ const initialCards = [
   {
     id: "349",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "onyx_fern",
+    Collection: "Onyx_fern",
     interiors: [
       require("../images/catalog/bluezone/onyx_fern/interiors/bluezone_onyx_fern_11876_728878_0x300.jpg"),
       require("../images/catalog/bluezone/onyx_fern/interiors/bluezone_onyx_fern_11876_728878_0x500.jpg"),
@@ -6838,10 +6679,10 @@ const initialCards = [
   {
     id: "350",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "onyx_teal",
+    Collection: "Onyx_teal",
     interiors: [
       require("../images/catalog/bluezone/onyx_teal/interiors/bluezone_onyx_teal_11899_209914_0x300.jpg"),
       require("../images/catalog/bluezone/onyx_teal/interiors/bluezone_onyx_teal_11899_209914_0x500.jpg"),
@@ -6854,10 +6695,10 @@ const initialCards = [
   {
     id: "351",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "opus",
+    Collection: "Opus",
     interiors: [
       require("../images/catalog/bluezone/opus/interiors/bluezone_opus_12249_115229_0x300.jpg"),
       require("../images/catalog/bluezone/opus/interiors/bluezone_opus_12249_855709_0x300.jpg"),
@@ -6871,10 +6712,10 @@ const initialCards = [
   {
     id: "352",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "oribica",
+    Collection: "Oribica",
     interiors: [
       require("../images/catalog/bluezone/oribica/interiors/bluezone_oribica_11877_720540_0x300.jpg"),
       require("../images/catalog/bluezone/oribica/interiors/bluezone_oribica_11877_720540_0x500.jpg"),
@@ -6888,10 +6729,10 @@ const initialCards = [
   {
     id: "353",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "oriental",
+    Collection: "Oriental",
     interiors: [
       require("../images/catalog/bluezone/oriental/interiors/bluezone_oriental_13730_107129_0x300.jpg"),
       require("../images/catalog/bluezone/oriental/interiors/bluezone_oriental_13730_107129_0x500.jpg"),
@@ -6903,10 +6744,10 @@ const initialCards = [
   {
     id: "354",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "panda_white",
+    Collection: "Panda_white",
     interiors: [
       require("../images/catalog/bluezone/panda_white/interiors/bluezone_panda_white_11110_371894_0x300.jpg"),
       require("../images/catalog/bluezone/panda_white/interiors/bluezone_panda_white_11110_371894_0x500.jpg"),
@@ -6918,10 +6759,10 @@ const initialCards = [
   {
     id: "355",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "phantom",
+    Collection: "Phantom",
     interiors: [
       require("../images/catalog/bluezone/phantom/interiors/bluezone_phantom_16406_208284_0x300.jpg"),
       require("../images/catalog/bluezone/phantom/interiors/bluezone_phantom_16406_208284_0x500.jpg"),
@@ -6933,10 +6774,10 @@ const initialCards = [
   {
     id: "356",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "rockstone_azure",
+    Collection: "Rockstone_azure",
     interiors: [
       require("../images/catalog/bluezone/rockstone_azure/interiors/bluezone_rockstone_azure_11878_449936_0x300.jpg"),
       require("../images/catalog/bluezone/rockstone_azure/interiors/bluezone_rockstone_azure_11878_449936_0x500.jpg"),
@@ -6949,10 +6790,10 @@ const initialCards = [
   {
     id: "357",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "romano_versailles",
+    Collection: "Romano_versailles",
     interiors: [
       require("../images/catalog/bluezone/romano_versailles/interiors/bluezone_romano_versailles_16407_101446_0x300.jpg"),
       require("../images/catalog/bluezone/romano_versailles/interiors/bluezone_romano_versailles_16407_106847_0x300.jpg"),
@@ -6969,10 +6810,10 @@ const initialCards = [
   {
     id: "358",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "santorini_drizzle",
+    Collection: "Santorini_drizzle",
     interiors: [
       require("../images/catalog/bluezone/santorini_drizzle/interiors/bluezone_santorini_drizzle_11904_402148_0x300.jpg"),
       require("../images/catalog/bluezone/santorini_drizzle/interiors/bluezone_santorini_drizzle_11904_402148_0x500.jpg"),
@@ -6984,10 +6825,10 @@ const initialCards = [
   {
     id: "359",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "scotish_white",
+    Collection: "Scotish_white",
     interiors: [
       require("../images/catalog/bluezone/scotish_white/interiors/bluezone_scotish_white_11112_321001_0x300.jpg"),
       require("../images/catalog/bluezone/scotish_white/interiors/bluezone_scotish_white_11112_321001_0x500.jpg"),
@@ -7002,10 +6843,10 @@ const initialCards = [
   {
     id: "360",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Bluezone",
-    Сollection: "scot_white",
+    Collection: "Scot_white",
     interiors: [
       require("../images/catalog/bluezone/scot_white/interiors/bluezone_scot_white_11111_400102_0x300.jpg"),
       require("../images/catalog/bluezone/scot_white/interiors/bluezone_scot_white_11111_400102_0x500.jpg"),
@@ -7019,10 +6860,10 @@ const initialCards = [
   {
     id: "361",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "absolute",
+    Collection: "Absolute",
     interiors: [
       require("../images/catalog/delacora/absolute/interiors/delacora_absolute_14006_506225_0x300.jpg"),
       require("../images/catalog/delacora/absolute/interiors/delacora_absolute_14006_506225_0x500.jpg"),
@@ -7035,10 +6876,10 @@ const initialCards = [
   {
     id: "362",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "alicante",
+    Collection: "Alicante",
     interiors: [
       require("../images/catalog/delacora/alicante/interiors/delacora_alicante_13657_422208_0x300.jpg"),
       require("../images/catalog/delacora/alicante/interiors/delacora_alicante_13657_833679_0x300.jpg"),
@@ -7054,10 +6895,10 @@ const initialCards = [
   {
     id: "363",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "arts",
+    Collection: "Arts",
     interiors: [
       require("../images/catalog/delacora/arts/interiors/delacora_arts_14007_559809_0x300.jpg"),
       require("../images/catalog/delacora/arts/interiors/delacora_arts_14007_559809_0x500.jpg"),
@@ -7069,10 +6910,10 @@ const initialCards = [
   {
     id: "364",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "baffin_gray",
+    Collection: "Baffin_gray",
     interiors: [
       require("../images/catalog/delacora/baffin_gray/interiors/delacora_baffin_gray_9736_676207_0x300.jpg"),
       require("../images/catalog/delacora/baffin_gray/interiors/delacora_baffin_gray_9736_676207_0x500.jpg"),
@@ -7091,10 +6932,10 @@ const initialCards = [
   {
     id: "365",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "barbados",
+    Collection: "Barbados",
     interiors: [
       require("../images/catalog/delacora/barbados/interiors/delacora_barbados_18906_259796_0x300.jpg"),
       require("../images/catalog/delacora/barbados/interiors/delacora_barbados_18906_352980_0x300.jpg"),
@@ -7110,10 +6951,10 @@ const initialCards = [
   {
     id: "366",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "bavaro",
+    Collection: "Bavaro",
     interiors: [
       require("../images/catalog/delacora/bavaro/interiors/delacora_bavaro_19083_122381_0x300.jpg"),
       require("../images/catalog/delacora/bavaro/interiors/delacora_bavaro_19083_629970_0x300.jpg"),
@@ -7128,10 +6969,10 @@ const initialCards = [
   {
     id: "367",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "bohema",
+    Collection: "Bohema",
     interiors: [
       require("../images/catalog/delacora/bohema/interiors/delacora_bohema_15169_366728_0x300.jpg"),
       require("../images/catalog/delacora/bohema/interiors/delacora_bohema_15169_859854_0x300.jpg"),
@@ -7148,10 +6989,10 @@ const initialCards = [
   {
     id: "368",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "bryston",
+    Collection: "Bryston",
     interiors: [
       require("../images/catalog/delacora/bryston/interiors/delacora_bryston_16495_122415_0x300.jpg"),
       require("../images/catalog/delacora/bryston/interiors/delacora_bryston_16495_122415_0x500.jpg"),
@@ -7166,10 +7007,10 @@ const initialCards = [
   {
     id: "369",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "calacatta_andrea",
+    Collection: "Calacatta andrea",
     interiors: [
       require("../images/catalog/delacora/calacatta_andrea/interiors/delacora_calacatta_andrea_16905_271608_0x300.jpg"),
       require("../images/catalog/delacora/calacatta_andrea/interiors/delacora_calacatta_andrea_16905_271608_0x500.jpg"),
@@ -7183,10 +7024,10 @@ const initialCards = [
   {
     id: "370",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "calacatta_premium",
+    Collection: "Calacatta premium",
     interiors: [
       require("../images/catalog/delacora/calacatta_premium/interiors/delacora_calacatta_premium_16907_187695_0x300.jpg"),
       require("../images/catalog/delacora/calacatta_premium/interiors/delacora_calacatta_premium_16907_187695_0x500.jpg"),
@@ -7200,10 +7041,10 @@ const initialCards = [
   {
     id: "371",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "canova",
+    Collection: "Canova",
     interiors: [
       require("../images/catalog/delacora/canova/interiors/delacora_canova_14290_144969_0x300.jpg"),
       require("../images/catalog/delacora/canova/interiors/delacora_canova_14290_764364_0x300.jpg"),
@@ -7218,10 +7059,10 @@ const initialCards = [
   {
     id: "372",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "canyon",
+    Collection: "Canyon",
     interiors: [
       require("../images/catalog/delacora/canyon/interiors/delacora_canyon_12059_718443_0x300.jpg"),
       require("../images/catalog/delacora/canyon/interiors/delacora_canyon_12059_718443_0x500.jpg"),
@@ -7236,10 +7077,10 @@ const initialCards = [
   {
     id: "373",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "carrara_cersei",
+    Collection: "Carrara cersei",
     interiors: [
       require("../images/catalog/delacora/carrara_cersei/interiors/delacora_carrara_cersei_16906_527909_0x300.jpg"),
       require("../images/catalog/delacora/carrara_cersei/interiors/delacora_carrara_cersei_16906_716029_0x300.jpg"),
@@ -7253,10 +7094,10 @@ const initialCards = [
   {
     id: "374",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "centro",
+    Collection: "Centro",
     interiors: [
       require("../images/catalog/delacora/centro/interiors/delacora_centro_16908_127519_0x300.jpg"),
       require("../images/catalog/delacora/centro/interiors/delacora_centro_16908_480790_0x300.jpg"),
@@ -7282,10 +7123,10 @@ const initialCards = [
   {
     id: "375",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "chrome",
+    Collection: "Chrome",
     interiors: [
       require("../images/catalog/delacora/chrome/interiors/delacora_chrome_14008_626514_0x300.jpg"),
       require("../images/catalog/delacora/chrome/interiors/delacora_chrome_14008_626514_0x500.jpg"),
@@ -7298,10 +7139,10 @@ const initialCards = [
   {
     id: "376",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "colorstone",
+    Collection: "Colorstone",
     interiors: [
       require("../images/catalog/delacora/colorstone/interiors/delacora_colorstone_13659_638333_0x300.jpg"),
       require("../images/catalog/delacora/colorstone/interiors/delacora_colorstone_13659_766549_0x300.jpg"),
@@ -7315,10 +7156,10 @@ const initialCards = [
   {
     id: "377",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "corsa",
+    Collection: "Corsa",
     interiors: [
       require("../images/catalog/delacora/corsa/interiors/delacora_corsa_16909_357462_0x300.jpg"),
       require("../images/catalog/delacora/corsa/interiors/delacora_corsa_16909_357462_0x500.jpg"),
@@ -7332,10 +7173,10 @@ const initialCards = [
   {
     id: "378",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "corten",
+    Collection: "Corten",
     interiors: [
       require("../images/catalog/delacora/corten/interiors/delacora_corten_14009_569068_0x300.jpg"),
       require("../images/catalog/delacora/corten/interiors/delacora_corten_14009_861952_0x300.jpg"),
@@ -7348,10 +7189,10 @@ const initialCards = [
   {
     id: "379",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "crystal",
+    Collection: "Crystal",
     interiors: [
       require("../images/catalog/delacora/crystal/interiors/delacora_crystal_9741_644490_0x300.jpg"),
       require("../images/catalog/delacora/crystal/interiors/delacora_crystal_9741_644490_0x500.jpg"),
@@ -7370,10 +7211,10 @@ const initialCards = [
   {
     id: "380",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "delight",
+    Collection: "Delight",
     interiors: [
       require("../images/catalog/delacora/delight/interiors/delacora_delight_12713_237372_0x300.jpg"),
       require("../images/catalog/delacora/delight/interiors/delacora_delight_12713_237372_0x500.jpg"),
@@ -7389,10 +7230,10 @@ const initialCards = [
   {
     id: "381",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "delta",
+    Collection: "Delta",
     interiors: [
       require("../images/catalog/delacora/delta/interiors/delacora_delta_13660_752116_0x300.jpg"),
       require("../images/catalog/delacora/delta/interiors/delacora_delta_13660_752116_0x500.jpg"),
@@ -7408,10 +7249,10 @@ const initialCards = [
   {
     id: "382",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "dixon",
+    Collection: "Dixon",
     interiors: [
       require("../images/catalog/delacora/dixon/interiors/delacora_dixon_14010_516629_0x300.jpg"),
       require("../images/catalog/delacora/dixon/interiors/delacora_dixon_14010_516629_0x500.jpg"),
@@ -7423,10 +7264,10 @@ const initialCards = [
   {
     id: "383",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "dream",
+    Collection: "Dream",
     interiors: [
       require("../images/catalog/delacora/dream/interiors/delacora_dream_16910_623254_0x300.jpg"),
       require("../images/catalog/delacora/dream/interiors/delacora_dream_16910_728841_0x300.jpg"),
@@ -7440,10 +7281,10 @@ const initialCards = [
   {
     id: "384",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "estelle",
+    Collection: "Estelle",
     interiors: [
       require("../images/catalog/delacora/estelle/interiors/delacora_estelle_16911_223278_0x300.jpg"),
       require("../images/catalog/delacora/estelle/interiors/delacora_estelle_16911_223278_0x500.jpg"),
@@ -7460,10 +7301,10 @@ const initialCards = [
   {
     id: "385",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "evan",
+    Collection: "Evan",
     interiors: [
       require("../images/catalog/delacora/evan/interiors/delacora_evan_15170_63545_0x300.jpg"),
       require("../images/catalog/delacora/evan/interiors/delacora_evan_15170_861463_0x300.jpg"),
@@ -7479,10 +7320,10 @@ const initialCards = [
   {
     id: "386",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "exotic",
+    Collection: "Exotic",
     interiors: [
       require("../images/catalog/delacora/exotic/interiors/delacora_exotic_10412_359506_0x300.jpg"),
       require("../images/catalog/delacora/exotic/interiors/delacora_exotic_10412_552847_0x300.jpg"),
@@ -7497,10 +7338,10 @@ const initialCards = [
   {
     id: "387",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "faenza",
+    Collection: "Faenza",
     interiors: [
       require("../images/catalog/delacora/faenza/interiors/delacora_faenza_13661_673798_0x300.jpg"),
       require("../images/catalog/delacora/faenza/interiors/delacora_faenza_13661_83101_0x300.jpg"),
@@ -7515,10 +7356,10 @@ const initialCards = [
   {
     id: "388",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "freedom",
+    Collection: "Freedom",
     interiors: [
       require("../images/catalog/delacora/freedom/interiors/delacora_freedom_16930_523664_0x300.jpg"),
       require("../images/catalog/delacora/freedom/interiors/delacora_freedom_16930_523664_0x500.jpg"),
@@ -7530,10 +7371,10 @@ const initialCards = [
   {
     id: "389",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "frost",
+    Collection: "Frost",
     interiors: [
       require("../images/catalog/delacora/frost/interiors/delacora_frost_10644_244266_0x300.jpg"),
       require("../images/catalog/delacora/frost/interiors/delacora_frost_10644_244266_0x500.jpg"),
@@ -7548,10 +7389,10 @@ const initialCards = [
   {
     id: "390",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "grafito",
+    Collection: "Grafito",
     interiors: [
       require("../images/catalog/delacora/grafito/interiors/delacora_grafito_15171_281522_0x300.jpg"),
       require("../images/catalog/delacora/grafito/interiors/delacora_grafito_15171_281522_0x500.jpg"),
@@ -7566,10 +7407,10 @@ const initialCards = [
   {
     id: "391",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "kioto",
+    Collection: "Kioto",
     interiors: [
       require("../images/catalog/delacora/kioto/interiors/delacora_kioto_19084_650510_0x300.jpg"),
       require("../images/catalog/delacora/kioto/interiors/delacora_kioto_19084_650510_0x500.jpg"),
@@ -7584,10 +7425,10 @@ const initialCards = [
   {
     id: "392",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "kreo",
+    Collection: "Kreo",
     interiors: [
       require("../images/catalog/delacora/kreo/interiors/delacora_kreo_16496_284083_0x300.jpg"),
       require("../images/catalog/delacora/kreo/interiors/delacora_kreo_16496_284083_0x500.jpg"),
@@ -7601,10 +7442,10 @@ const initialCards = [
   {
     id: "393",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "leon",
+    Collection: "Leon",
     interiors: [
       require("../images/catalog/delacora/leon/interiors/delacora_leon_15172_194926_0x300.jpg"),
       require("../images/catalog/delacora/leon/interiors/delacora_leon_15172_570607_0x300.jpg"),
@@ -7619,10 +7460,10 @@ const initialCards = [
   {
     id: "394",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "maiolica",
+    Collection: "Maiolica",
     interiors: [
       require("../images/catalog/delacora/maiolica/interiors/delacora_maiolica_18907_930282_0x300.jpg"),
       require("../images/catalog/delacora/maiolica/interiors/delacora_maiolica_18907_930282_0x500.jpg"),
@@ -7638,10 +7479,10 @@ const initialCards = [
   {
     id: "395",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "metallic",
+    Collection: "Metallic",
     interiors: [
       require("../images/catalog/delacora/metallic/interiors/delacora_metallic_14011_32411_0x300.jpg"),
       require("../images/catalog/delacora/metallic/interiors/delacora_metallic_14011_32411_0x500.jpg"),
@@ -7653,10 +7494,10 @@ const initialCards = [
   {
     id: "396",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "millennium",
+    Collection: "Millennium",
     interiors: [
       require("../images/catalog/delacora/millennium/interiors/delacora_millennium_19085_792076_0x300.jpg"),
       require("../images/catalog/delacora/millennium/interiors/delacora_millennium_19085_889433_0x300.jpg"),
@@ -7672,10 +7513,10 @@ const initialCards = [
   {
     id: "397",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "muse",
+    Collection: "Muse",
     interiors: [
       require("../images/catalog/delacora/muse/interiors/delacora_muse_16912_21474_0x300.jpg"),
       require("../images/catalog/delacora/muse/interiors/delacora_muse_16912_21474_0x500.jpg"),
@@ -7689,10 +7530,10 @@ const initialCards = [
   {
     id: "398",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "nebraska",
+    Collection: "Nebraska",
     interiors: [
       require("../images/catalog/delacora/nebraska/interiors/delacora_nebraska_15173_178197_0x300.jpg"),
       require("../images/catalog/delacora/nebraska/interiors/delacora_nebraska_15173_487973_0x300.jpg"),
@@ -7710,10 +7551,10 @@ const initialCards = [
   {
     id: "399",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "omega",
+    Collection: "Omega",
     interiors: [
       require("../images/catalog/delacora/omega/interiors/delacora_omega_14012_350493_0x300.jpg"),
       require("../images/catalog/delacora/omega/interiors/delacora_omega_14012_350493_0x500.jpg"),
@@ -7726,10 +7567,10 @@ const initialCards = [
   {
     id: "400",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "oregon",
+    Collection: "Oregon",
     interiors: [
       require("../images/catalog/delacora/oregon/interiors/delacora_oregon_14013_788302_0x300.jpg"),
       require("../images/catalog/delacora/oregon/interiors/delacora_oregon_14013_788302_0x500.jpg"),
@@ -7743,10 +7584,10 @@ const initialCards = [
   {
     id: "401",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "palissandro",
+    Collection: "Palissandro",
     interiors: [
       require("../images/catalog/delacora/palissandro/interiors/delacora_palissandro_12714_485176_0x300.jpg"),
       require("../images/catalog/delacora/palissandro/interiors/delacora_palissandro_12714_896506_0x300.jpg"),
@@ -7762,10 +7603,10 @@ const initialCards = [
   {
     id: "402",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "rock",
+    Collection: "Rock",
     interiors: [
       require("../images/catalog/delacora/rock/interiors/delacora_rock_16913_320227_0x300.jpg"),
       require("../images/catalog/delacora/rock/interiors/delacora_rock_16913_320227_0x500.jpg"),
@@ -7790,10 +7631,10 @@ const initialCards = [
   {
     id: "403",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "rockstyle",
+    Collection: "Rockstyle",
     interiors: [
       require("../images/catalog/delacora/rockstyle/interiors/delacora_rockstyle_18908_419601_0x300.jpg"),
       require("../images/catalog/delacora/rockstyle/interiors/delacora_rockstyle_18908_419601_0x500.jpg"),
@@ -7810,10 +7651,10 @@ const initialCards = [
   {
     id: "404",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "romana",
+    Collection: "Romana",
     interiors: [
       require("../images/catalog/delacora/romana/interiors/delacora_romana_16914_165725_0x300.jpg"),
       require("../images/catalog/delacora/romana/interiors/delacora_romana_16914_165725_0x500.jpg"),
@@ -7832,10 +7673,10 @@ const initialCards = [
   {
     id: "405",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "roxy",
+    Collection: "Roxy",
     interiors: [
       require("../images/catalog/delacora/roxy/interiors/delacora_roxy_14109_235437_0x300.jpg"),
       require("../images/catalog/delacora/roxy/interiors/delacora_roxy_14109_374806_0x300.jpg"),
@@ -7850,10 +7691,10 @@ const initialCards = [
   {
     id: "406",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "royal",
+    Collection: "Royal",
     interiors: [
       require("../images/catalog/delacora/royal/interiors/delacora_royal_9748_120311_0x300.jpg"),
       require("../images/catalog/delacora/royal/interiors/delacora_royal_9748_184469_0x300.jpg"),
@@ -7874,10 +7715,10 @@ const initialCards = [
   {
     id: "407",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "safari",
+    Collection: "Safari",
     interiors: [
       require("../images/catalog/delacora/safari/interiors/delacora_safari_16497_705038_0x300.jpg"),
       require("../images/catalog/delacora/safari/interiors/delacora_safari_16497_983477_0x300.jpg"),
@@ -7891,10 +7732,10 @@ const initialCards = [
   {
     id: "408",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "sandy",
+    Collection: "Sandy",
     interiors: [
       require("../images/catalog/delacora/sandy/interiors/delacora_sandy_15028_767261_0x300.jpg"),
       require("../images/catalog/delacora/sandy/interiors/delacora_sandy_15028_870614_0x300.jpg"),
@@ -7908,10 +7749,10 @@ const initialCards = [
   {
     id: "409",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "slate",
+    Collection: "Slate",
     interiors: [
       require("../images/catalog/delacora/slate/interiors/delacora_slate_14110_486867_0x300.jpg"),
     ],
@@ -7919,10 +7760,10 @@ const initialCards = [
   {
     id: "410",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "statuary_venato",
+    Collection: "Statuary_venato",
     interiors: [
       require("../images/catalog/delacora/statuary_venato/interiors/delacora_statuary_venato_14111_262363_0x300.jpg"),
     ],
@@ -7930,10 +7771,10 @@ const initialCards = [
   {
     id: "411",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "turin",
+    Collection: "Turin",
     interiors: [
       require("../images/catalog/delacora/turin/interiors/delacora_turin_14014_990409_0x300.jpg"),
     ],
@@ -7941,10 +7782,10 @@ const initialCards = [
   {
     id: "412",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "waterfall",
+    Collection: "waterfall",
     interiors: [
       require("../images/catalog/delacora/waterfall/interiors/delacora_waterfall_14114_89983_0x300.jpg"),
     ],
@@ -7952,23 +7793,36 @@ const initialCards = [
   {
     id: "413",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Delacora",
-    Сollection: "woodstyle",
+    Collection: "woodstyle",
+    interiors: [
+      require("../images/catalog/delacora/woodstyle/interiors/delacora_woodstyle_18909_211830.jpg"),
+      require("../images/catalog/delacora/woodstyle/interiors/delacora_woodstyle_18909_481747.jpg"),
+      require("../images/catalog/delacora/woodstyle/interiors/delacora_woodstyle_18909_490752.jpg"),
+      require("../images/catalog/delacora/woodstyle/interiors/delacora_woodstyle_18909_788584.jpg"),
+      require("../images/catalog/delacora/woodstyle/interiors/delacora_woodstyle_18909_936735.jpg"),
+    ],
     tovars: [
       require("../images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130201_118777_300x0.jpg"),
       require("../images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130202_513603_300x0.jpg"),
+      require("../images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130203_845959_500x0.jpg"),
+      require("../images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130204_978734_500x0.jpg"),
+      require("../images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130205_836224_500x0.jpg"),
+      require("../images/catalog/delacora/woodstyle/tovars/delacora_woodstyle_130206_248653_500x0.jpg"),
+      require("../images/catalog/delacora/woodstyle/tovars/delacora_barbados_130192_726539_500x0.jpg"),
+      require("../images/catalog/delacora/woodstyle/tovars/delacora_barbados_130193_596856_500x0.jpg"),
     ],
   },
 
   {
     id: "414",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "basalt",
+    Name: "Eletto ceramica",
+    Collection: "Basalt",
     interiors: [
       require("../images/catalog/eletto_ceramica/basalt/interiors/eletto_ceramica_basalt_14857_200164_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/basalt/interiors/eletto_ceramica_basalt_14857_599045_0x300.jpg"),
@@ -7987,10 +7841,10 @@ const initialCards = [
   {
     id: "415",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "bianco_covelano",
+    Name: "Eletto ceramica",
+    Collection: "Bianco covelano",
     interiors: [
       require("../images/catalog/eletto_ceramica/bianco_covelano/interiors/eletto_ceramica_bianco_covelano_10425_107409_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/bianco_covelano/interiors/eletto_ceramica_bianco_covelano_10425_126938_0x300.jpg"),
@@ -8008,10 +7862,10 @@ const initialCards = [
   {
     id: "416",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "black___gold",
+    Name: "Eletto ceramica",
+    Collection: "Black gold",
     interiors: [
       require("../images/catalog/eletto_ceramica/black___gold/interiors/eletto_ceramica_black___gold_10426_224672_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/black___gold/interiors/eletto_ceramica_black___gold_10426_224672_0x500.jpg"),
@@ -8030,10 +7884,10 @@ const initialCards = [
   {
     id: "417",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "calacatta",
+    Name: "Eletto ceramica",
+    Collection: "Calacatta",
     interiors: [
       require("../images/catalog/eletto_ceramica/calacatta/interiors/eletto_ceramica_calacatta_8712_472903_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/calacatta/interiors/eletto_ceramica_calacatta_8712_859652_0x300.jpg"),
@@ -8053,10 +7907,10 @@ const initialCards = [
   {
     id: "418",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "calacatta_fantasy",
+    Name: "Eletto ceramica",
+    Collection: "Calacatta fantasy",
     interiors: [
       require("../images/catalog/eletto_ceramica/calacatta_fantasy/interiors/eletto_ceramica_calacatta_fantasy_14858_22789_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/calacatta_fantasy/interiors/eletto_ceramica_calacatta_fantasy_14858_22789_0x500.jpg"),
@@ -8076,10 +7930,10 @@ const initialCards = [
   {
     id: "419",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "calacatta_grey",
+    Name: "Eletto ceramica",
+    Collection: "Calacatta grey",
     interiors: [
       require("../images/catalog/eletto_ceramica/calacatta_grey/interiors/eletto_ceramica_calacatta_grey_14859_781751_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/calacatta_grey/interiors/eletto_ceramica_calacatta_grey_14859_781751_0x500.jpg"),
@@ -8097,10 +7951,10 @@ const initialCards = [
   {
     id: "420",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "calacatta_oro",
+    Name: "Eletto ceramica",
+    Collection: "Calacatta oro",
     interiors: [
       require("../images/catalog/eletto_ceramica/calacatta_oro/interiors/eletto_ceramica_calacatta_oro_10427_163066_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/calacatta_oro/interiors/eletto_ceramica_calacatta_oro_10427_341748_0x300.jpg"),
@@ -8124,10 +7978,10 @@ const initialCards = [
   {
     id: "421",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "couture",
+    Name: "Eletto ceramica",
+    Collection: "Couture",
     interiors: [
       require("../images/catalog/eletto_ceramica/couture/interiors/eletto_ceramica_couture_18289_169447_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/couture/interiors/eletto_ceramica_couture_18289_489882_0x300.jpg"),
@@ -8150,10 +8004,10 @@ const initialCards = [
   {
     id: "422",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "fletto",
+    Name: "Eletto ceramica",
+    Collection: "Fletto",
     interiors: [
       require("../images/catalog/eletto_ceramica/fletto/interiors/eletto_ceramica_fletto_12211_281227_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/fletto/interiors/eletto_ceramica_fletto_12211_294287_0x300.jpg"),
@@ -8172,10 +8026,10 @@ const initialCards = [
   {
     id: "423",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "foresta",
+    Name: "Eletto ceramica",
+    Collection: "Foresta",
     interiors: [
       require("../images/catalog/eletto_ceramica/foresta/interiors/eletto_ceramica_foresta_18290_119155_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/foresta/interiors/eletto_ceramica_foresta_18290_184209_0x300.jpg"),
@@ -8200,10 +8054,10 @@ const initialCards = [
   {
     id: "424",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "gala",
+    Name: "Eletto ceramica",
+    Collection: "Gala",
     interiors: [
       require("../images/catalog/eletto_ceramica/gala/interiors/eletto_ceramica_gala_10220_170006_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/gala/interiors/eletto_ceramica_gala_10220_263422_0x300.jpg"),
@@ -8226,10 +8080,10 @@ const initialCards = [
   {
     id: "425",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "gala_ivory",
+    Name: "Eletto ceramica",
+    Collection: "Gala ivory",
     interiors: [
       require("../images/catalog/eletto_ceramica/gala_ivory/interiors/eletto_ceramica_gala_ivory_11653_11061_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/gala_ivory/interiors/eletto_ceramica_gala_ivory_11653_11061_0x500.jpg"),
@@ -8250,10 +8104,10 @@ const initialCards = [
   {
     id: "426",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "grey_portogallo",
+    Name: "Eletto ceramica",
+    Collection: "Grey portogallo",
     interiors: [
       require("../images/catalog/eletto_ceramica/grey_portogallo/interiors/eletto_ceramica_grey_portogallo_14860_25149_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/grey_portogallo/interiors/eletto_ceramica_grey_portogallo_14860_430159_0x300.jpg"),
@@ -8271,10 +8125,10 @@ const initialCards = [
   {
     id: "427",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "insignia",
+    Name: "Eletto ceramica",
+    Collection: "Insignia",
     interiors: [
       require("../images/catalog/eletto_ceramica/insignia/interiors/eletto_ceramica_insignia_11976_136582_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/insignia/interiors/eletto_ceramica_insignia_11976_236721_0x300.jpg"),
@@ -8307,10 +8161,10 @@ const initialCards = [
   {
     id: "428",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "levanto_nero",
+    Name: "Eletto ceramica",
+    Collection: "Levanto nero",
     interiors: [
       require("../images/catalog/eletto_ceramica/levanto_nero/interiors/eletto_ceramica_levanto_nero_11654_316585_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/levanto_nero/interiors/eletto_ceramica_levanto_nero_11654_316585_0x500.jpg"),
@@ -8331,10 +8185,10 @@ const initialCards = [
   {
     id: "429",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "limestone",
+    Name: "Eletto ceramica",
+    Collection: "Limestone",
     interiors: [
       require("../images/catalog/eletto_ceramica/limestone/interiors/eletto_ceramica_limestone_18371_141585_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/limestone/interiors/eletto_ceramica_limestone_18371_158421_0x300.jpg"),
@@ -8363,10 +8217,10 @@ const initialCards = [
   {
     id: "430",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "lunario",
+    Name: "Eletto ceramica",
+    Collection: "Lunario",
     interiors: [
       require("../images/catalog/eletto_ceramica/lunario/interiors/eletto_ceramica_lunario_18291_175806_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/lunario/interiors/eletto_ceramica_lunario_18291_449829_0x300.jpg"),
@@ -8388,10 +8242,10 @@ const initialCards = [
   {
     id: "431",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "malwiya",
+    Name: "Eletto ceramica",
+    Collection: "Malwiya",
     interiors: [
       require("../images/catalog/eletto_ceramica/malwiya/interiors/eletto_ceramica_malwiya_8716_213511_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/malwiya/interiors/eletto_ceramica_malwiya_8716_480453_0x300.jpg"),
@@ -8416,10 +8270,10 @@ const initialCards = [
   {
     id: "432",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "odense",
+    Name: "Eletto ceramica",
+    Collection: "Odense",
     interiors: [
       require("../images/catalog/eletto_ceramica/odense/interiors/eletto_ceramica_odense_8717_325019_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/odense/interiors/eletto_ceramica_odense_8717_325019_0x500.jpg"),
@@ -8443,10 +8297,10 @@ const initialCards = [
   {
     id: "433",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "old_tjikko",
+    Name: "Eletto ceramica",
+    Collection: "Old tjikko",
     interiors: [
       require("../images/catalog/eletto_ceramica/old_tjikko/interiors/eletto_ceramica_old_tjikko_8718_61328_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/old_tjikko/interiors/eletto_ceramica_old_tjikko_8718_61328_0x500.jpg"),
@@ -8462,10 +8316,10 @@ const initialCards = [
   {
     id: "434",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "rosa_portogallo",
+    Name: "Eletto ceramica",
+    Collection: "Rosa portogallo",
     interiors: [
       require("../images/catalog/eletto_ceramica/rosa_portogallo/interiors/eletto_ceramica_rosa_portogallo_11655_723469_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/rosa_portogallo/interiors/eletto_ceramica_rosa_portogallo_11655_723469_0x500.jpg"),
@@ -8488,10 +8342,10 @@ const initialCards = [
   {
     id: "435",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto_ceramica",
-    Сollection: "trevi",
+    Name: "Eletto ceramica",
+    Collection: "Trevi",
     interiors: [
       require("../images/catalog/eletto_ceramica/trevi/interiors/eletto_ceramica_trevi_9627_19875_0x300.jpg"),
       require("../images/catalog/eletto_ceramica/trevi/interiors/eletto_ceramica_trevi_9627_564098_0x300.jpg"),
@@ -8513,10 +8367,10 @@ const initialCards = [
   {
     id: "436",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "aglomerat",
+    Collection: "Aglomerat",
     interiors: [
       require("../images/catalog/estima/aglomerat/interiors/estima_aglomerat_3646_691883_0x300.jpg"),
       require("../images/catalog/estima/aglomerat/interiors/estima_aglomerat_3646_691883_0x500.jpg"),
@@ -8533,10 +8387,10 @@ const initialCards = [
   {
     id: "437",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "alba",
+    Collection: "Alba",
     interiors: [
       require("../images/catalog/estima/alba/interiors/estima_alba_10812_114380_0x300.jpg"),
       require("../images/catalog/estima/alba/interiors/estima_alba_10812_837479_0x300.jpg"),
@@ -8567,10 +8421,10 @@ const initialCards = [
   {
     id: "438",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "artwood",
+    Collection: "Artwood",
     interiors: [
       require("../images/catalog/estima/artwood/interiors/estima_artwood_4329_332281_0x300.jpg"),
       require("../images/catalog/estima/artwood/interiors/estima_artwood_4329_332281_0x500.jpg"),
@@ -8583,10 +8437,10 @@ const initialCards = [
   {
     id: "439",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "bernini",
+    Collection: "Bernini",
     interiors: [
       require("../images/catalog/estima/bernini/interiors/estima_bernini_14421_112396_0x300.jpg"),
       require("../images/catalog/estima/bernini/interiors/estima_bernini_14421_137972_0x300.jpg"),
@@ -8671,10 +8525,10 @@ const initialCards = [
   {
     id: "440",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "brigantina",
+    Collection: "Brigantina",
     interiors: [
       require("../images/catalog/estima/brigantina/interiors/estima_brigantina_3265_171878_0x300.jpg"),
       require("../images/catalog/estima/brigantina/interiors/estima_brigantina_3265_171878_0x500.jpg"),
@@ -8707,10 +8561,10 @@ const initialCards = [
   {
     id: "441",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "cave",
+    Collection: "Cave",
     interiors: [
       require("../images/catalog/estima/cave/interiors/estima_cave_16202_926716_0x300.jpg"),
       require("../images/catalog/estima/cave/interiors/estima_cave_16202_926716_0x500.jpg"),
@@ -8751,10 +8605,10 @@ const initialCards = [
   {
     id: "442",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "chambord",
+    Collection: "Chambord",
     interiors: [
       require("../images/catalog/estima/chambord/interiors/estima_chambord_5585_750321_0x300.jpg"),
       require("../images/catalog/estima/chambord/interiors/estima_chambord_5585_750321_0x500.jpg"),
@@ -8766,10 +8620,10 @@ const initialCards = [
   {
     id: "443",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "classic_wood",
+    Collection: "Classic wood",
     interiors: [
       require("../images/catalog/estima/classic_wood/interiors/estima_classic_wood_12016_425005_0x300.jpg"),
       require("../images/catalog/estima/classic_wood/interiors/estima_classic_wood_12016_85982_0x300.jpg"),
@@ -8801,10 +8655,10 @@ const initialCards = [
   {
     id: "444",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "comfort",
+    Collection: "Comfort",
     interiors: [
       require("../images/catalog/estima/comfort/interiors/estima_comfort_489_214155_0x300.jpg"),
       require("../images/catalog/estima/comfort/interiors/estima_comfort_489_214155_0x500.jpg"),
@@ -8817,10 +8671,10 @@ const initialCards = [
   {
     id: "445",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "cosmos",
+    Collection: "Cosmos",
     interiors: [
       require("../images/catalog/estima/cosmos/interiors/estima_cosmos_11749_13586_0x300.jpg"),
       require("../images/catalog/estima/cosmos/interiors/estima_cosmos_11749_176774_0x300.jpg"),
@@ -8859,10 +8713,10 @@ const initialCards = [
   {
     id: "446",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "fusion",
+    Collection: "Fusion",
     interiors: [
       require("../images/catalog/estima/fusion/interiors/estima_fusion_5588_97365_0x300.jpg"),
       require("../images/catalog/estima/fusion/interiors/estima_fusion_5588_97365_0x500.jpg"),
@@ -8877,10 +8731,10 @@ const initialCards = [
   {
     id: "447",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "gabbro",
+    Collection: "Gabbro",
     interiors: [
       require("../images/catalog/estima/gabbro/interiors/estima_gabbro_12017_338870_0x300.jpg"),
       require("../images/catalog/estima/gabbro/interiors/estima_gabbro_12017_338870_0x500.jpg"),
@@ -8928,10 +8782,10 @@ const initialCards = [
   {
     id: "448",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "gobi",
+    Collection: "Gobi",
     interiors: [
       require("../images/catalog/estima/gobi/interiors/estima_gobi_16203_885445_0x300.jpg"),
       require("../images/catalog/estima/gobi/interiors/estima_gobi_16203_885445_0x500.jpg"),
@@ -8957,10 +8811,10 @@ const initialCards = [
   {
     id: "449",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "graffito",
+    Collection: "Graffito",
     interiors: [
       require("../images/catalog/estima/graffito/interiors/estima_graffito_18701_252228_0x300.jpg"),
       require("../images/catalog/estima/graffito/interiors/estima_graffito_18701_252228_0x500.jpg"),
@@ -8986,10 +8840,10 @@ const initialCards = [
   {
     id: "450",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "ideal",
+    Collection: "Ideal",
     interiors: [
       require("../images/catalog/estima/ideal/interiors/estima_ideal_8897_220429_0x300.jpg"),
       require("../images/catalog/estima/ideal/interiors/estima_ideal_8897_220429_0x500.jpg"),
@@ -9017,10 +8871,10 @@ const initialCards = [
   {
     id: "451",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "improve",
+    Collection: "Improve",
     interiors: [
       require("../images/catalog/estima/improve/interiors/estima_improve_18702_450431_0x300.jpg"),
       require("../images/catalog/estima/improve/interiors/estima_improve_18702_479163_0x300.jpg"),
@@ -9041,10 +8895,10 @@ const initialCards = [
   {
     id: "452",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "iron",
+    Collection: "Iron",
     interiors: [
       require("../images/catalog/estima/iron/interiors/estima_iron_5590_191796_0x300.jpg"),
       require("../images/catalog/estima/iron/interiors/estima_iron_5590_225227_0x300.jpg"),
@@ -9060,10 +8914,10 @@ const initialCards = [
   {
     id: "453",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "jazz",
+    Collection: "Jazz",
     interiors: [
       require("../images/catalog/estima/jazz/interiors/estima_jazz_171_178396_0x300.jpg"),
       require("../images/catalog/estima/jazz/interiors/estima_jazz_171_178396_0x500.jpg"),
@@ -9098,10 +8952,10 @@ const initialCards = [
   {
     id: "454",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "kraft_wood",
+    Collection: "Kraft wood",
     interiors: [
       require("../images/catalog/estima/kraft_wood/interiors/estima_kraft_wood_18703_186782_0x300.jpg"),
       require("../images/catalog/estima/kraft_wood/interiors/estima_kraft_wood_18703_186782_0x500.jpg"),
@@ -9138,10 +8992,10 @@ const initialCards = [
   {
     id: "455",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "loft",
+    Collection: "Loft",
     interiors: [
       require("../images/catalog/estima/loft/interiors/estima_loft_3388_565535_0x300.jpg"),
       require("../images/catalog/estima/loft/interiors/estima_loft_3388_565535_0x500.jpg"),
@@ -9191,10 +9045,10 @@ const initialCards = [
   {
     id: "456",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "luna",
+    Collection: "Luna",
     interiors: [
       require("../images/catalog/estima/luna/interiors/estima_luna_10811_327283_0x300.jpg"),
       require("../images/catalog/estima/luna/interiors/estima_luna_10811_327283_0x500.jpg"),
@@ -9269,10 +9123,10 @@ const initialCards = [
   {
     id: "457",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "mild",
+    Collection: "Mild",
     interiors: [
       require("../images/catalog/estima/mild/interiors/estima_mild_3645_260108_0x300.jpg"),
       require("../images/catalog/estima/mild/interiors/estima_mild_3645_260108_0x500.jpg"),
@@ -9292,10 +9146,10 @@ const initialCards = [
   {
     id: "458",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "miramare",
+    Collection: "Miramare",
     interiors: [
       require("../images/catalog/estima/miramare/interiors/estima_miramare_18705_519407_0x300.jpg"),
       require("../images/catalog/estima/miramare/interiors/estima_miramare_18705_519407_0x500.jpg"),
@@ -9316,10 +9170,10 @@ const initialCards = [
   {
     id: "459",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "montis",
+    Collection: "Montis",
     interiors: [
       require("../images/catalog/estima/montis/interiors/estima_montis_10809_43176_0x300.jpg"),
       require("../images/catalog/estima/montis/interiors/estima_montis_10809_43176_0x500.jpg"),
@@ -9349,10 +9203,10 @@ const initialCards = [
   {
     id: "460",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "nolana",
+    Collection: "Nolana",
     interiors: [
       require("../images/catalog/estima/nolana/interiors/estima_nolana_18704_601749_0x300.jpg"),
       require("../images/catalog/estima/nolana/interiors/estima_nolana_18704_601749_0x500.jpg"),
@@ -9407,10 +9261,10 @@ const initialCards = [
   {
     id: "461",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "rainbow",
+    Collection: "Rainbow",
     interiors: [
       require("../images/catalog/estima/rainbow/interiors/estima_rainbow_164_798742_0x300.jpg"),
       require("../images/catalog/estima/rainbow/interiors/estima_rainbow_164_798742_0x500.jpg"),
@@ -9464,10 +9318,10 @@ const initialCards = [
   {
     id: "462",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "sherwood",
+    Collection: "Sherwood",
     interiors: [
       require("../images/catalog/estima/sherwood/interiors/estima_sherwood_5593_182363_0x300.jpg"),
       require("../images/catalog/estima/sherwood/interiors/estima_sherwood_5593_182363_0x500.jpg"),
@@ -9479,10 +9333,10 @@ const initialCards = [
   {
     id: "463",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "soft_wood",
+    Collection: "Soft wood",
     interiors: [
       require("../images/catalog/estima/soft_wood/interiors/estima_soft_wood_16204_496758_0x300.jpg"),
       require("../images/catalog/estima/soft_wood/interiors/estima_soft_wood_16204_496758_0x500.jpg"),
@@ -9511,10 +9365,10 @@ const initialCards = [
   {
     id: "464",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "standard",
+    Collection: "Standard",
     interiors: [
       require("../images/catalog/estima/standard/interiors/estima_standard_5870_123641_0x300.jpg"),
       require("../images/catalog/estima/standard/interiors/estima_standard_5870_144380_0x300.jpg"),
@@ -9542,10 +9396,10 @@ const initialCards = [
   {
     id: "465",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "technica_standard",
+    Collection: "Technica standard",
     interiors: [
       require("../images/catalog/estima/technica_standard/interiors/estima_technica_standard_5869_604342_0x300.jpg"),
       require("../images/catalog/estima/technica_standard/interiors/estima_technica_standard_5869_604342_0x500.jpg"),
@@ -9561,10 +9415,10 @@ const initialCards = [
   {
     id: "466",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "terra",
+    Collection: "Terra",
     interiors: [
       require("../images/catalog/estima/terra/interiors/estima_terra_10810_736634_0x300.jpg"),
       require("../images/catalog/estima/terra/interiors/estima_terra_10810_736634_0x500.jpg"),
@@ -9610,10 +9464,10 @@ const initialCards = [
   {
     id: "467",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "tottori",
+    Collection: "Tottori",
     interiors: [
       require("../images/catalog/estima/tottori/interiors/estima_tottori_16205_271949_0x300.jpg"),
       require("../images/catalog/estima/tottori/interiors/estima_tottori_16205_271949_0x500.jpg"),
@@ -9634,10 +9488,10 @@ const initialCards = [
   {
     id: "468",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "traffic",
+    Collection: "Traffic",
     interiors: [
       require("../images/catalog/estima/traffic/interiors/estima_traffic_4141_607102_0x300.jpg"),
       require("../images/catalog/estima/traffic/interiors/estima_traffic_4141_60869_0x300.jpg"),
@@ -9667,10 +9521,10 @@ const initialCards = [
   {
     id: "469",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "tramontana",
+    Collection: "Tramontana",
     interiors: [
       require("../images/catalog/estima/tramontana/interiors/estima_tramontana_14180_136049_0x300.jpg"),
       require("../images/catalog/estima/tramontana/interiors/estima_tramontana_14180_267859_0x300.jpg"),
@@ -9724,10 +9578,10 @@ const initialCards = [
   {
     id: "470",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "vision",
+    Collection: "Vision",
     interiors: [
       require("../images/catalog/estima/vision/interiors/estima_vision_8900_612362_0x300.jpg"),
       require("../images/catalog/estima/vision/interiors/estima_vision_8900_706493_0x300.jpg"),
@@ -9769,10 +9623,10 @@ const initialCards = [
   {
     id: "471",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Estima",
-    Сollection: "yourcolor",
+    Collection: "Yourcolor",
     interiors: [
       require("../images/catalog/estima/yourcolor/interiors/estima_yourcolor_10112_361957_0x300.jpg"),
       require("../images/catalog/estima/yourcolor/interiors/estima_yourcolor_10112_361957_0x500.jpg"),
@@ -9825,10 +9679,10 @@ const initialCards = [
   {
     id: "472",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "art",
+    Name: "Estima city",
+    Collection: "Art",
     interiors: [
       require("../images/catalog/estima_city/art/interiors/estima_city_art_10584_358330_0x300.jpg"),
       require("../images/catalog/estima_city/art/interiors/estima_city_art_10584_358330_0x500.jpg"),
@@ -9840,10 +9694,10 @@ const initialCards = [
   {
     id: "473",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "brigantina",
+    Name: "Estima city",
+    Collection: "Brigantina",
     interiors: [
       require("../images/catalog/estima_city/brigantina/interiors/estima_city_brigantina_12780_355347_0x300.jpg"),
       require("../images/catalog/estima_city/brigantina/interiors/estima_city_brigantina_12780_392565_0x300.jpg"),
@@ -9869,10 +9723,10 @@ const initialCards = [
   {
     id: "474",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "dream_wood",
+    Name: "Estima city",
+    Collection: "Dream_wood",
     interiors: [
       require("../images/catalog/estima_city/dream_wood/interiors/estima_city_dream_wood_10813_145559_0x300.jpg"),
       require("../images/catalog/estima_city/dream_wood/interiors/estima_city_dream_wood_10813_145559_0x500.jpg"),
@@ -9892,10 +9746,10 @@ const initialCards = [
   {
     id: "475",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "jam",
+    Name: "Estima city",
+    Collection: "Jam",
     interiors: [
       require("../images/catalog/estima_city/jam/interiors/estima_city_jam_18709_110909_0x300.jpg"),
       require("../images/catalog/estima_city/jam/interiors/estima_city_jam_18709_110909_0x500.jpg"),
@@ -9910,10 +9764,10 @@ const initialCards = [
   {
     id: "476",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "jasper",
+    Name: "Estima city",
+    Collection: "Jasper",
     interiors: [
       require("../images/catalog/estima_city/jasper/interiors/estima_city_jasper_15830_304147_0x300.jpg"),
       require("../images/catalog/estima_city/jasper/interiors/estima_city_jasper_15830_304147_0x500.jpg"),
@@ -9930,10 +9784,10 @@ const initialCards = [
   {
     id: "477",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "melody",
+    Name: "Estima city",
+    Collection: "Melody",
     interiors: [
       require("../images/catalog/estima_city/melody/interiors/estima_city_melody_10585_406858_0x300.jpg"),
       require("../images/catalog/estima_city/melody/interiors/estima_city_melody_10585_406858_0x500.jpg"),
@@ -9971,10 +9825,10 @@ const initialCards = [
   {
     id: "478",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "modern_wood",
+    Name: "Estima city",
+    Collection: "Modern wood",
     interiors: [
       require("../images/catalog/estima_city/modern_wood/interiors/estima_city_modern_wood_10814_775991_0x300.jpg"),
       require("../images/catalog/estima_city/modern_wood/interiors/estima_city_modern_wood_10814_775991_0x500.jpg"),
@@ -9994,10 +9848,10 @@ const initialCards = [
   {
     id: "479",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "newport",
+    Name: "Estima city",
+    Collection: "Newport",
     interiors: [
       require("../images/catalog/estima_city/newport/interiors/estima_city_newport_15831_556517_0x300.jpg"),
       require("../images/catalog/estima_city/newport/interiors/estima_city_newport_15831_556517_0x500.jpg"),
@@ -10017,10 +9871,10 @@ const initialCards = [
   {
     id: "480",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "ragtime",
+    Name: "Estima city",
+    Collection: "Ragtime",
     interiors: [
       require("../images/catalog/estima_city/ragtime/interiors/estima_city_ragtime_10586_516307_0x300.jpg"),
       require("../images/catalog/estima_city/ragtime/interiors/estima_city_ragtime_10586_516307_0x500.jpg"),
@@ -10039,10 +9893,10 @@ const initialCards = [
   {
     id: "481",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "rock",
+    Name: "Estima city",
+    Collection: "Rock",
     interiors: [
       require("../images/catalog/estima_city/rock/interiors/estima_city_rock_10587_904091_0x300.jpg"),
       require("../images/catalog/estima_city/rock/interiors/estima_city_rock_10587_904091_0x500.jpg"),
@@ -10057,10 +9911,10 @@ const initialCards = [
   {
     id: "482",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "seed",
+    Name: "Estima city",
+    Collection: "Seed",
     interiors: [
       require("../images/catalog/estima_city/seed/interiors/estima_city_seed_18708_268669_0x300.jpg"),
       require("../images/catalog/estima_city/seed/interiors/estima_city_seed_18708_330772_0x300.jpg"),
@@ -10082,10 +9936,10 @@ const initialCards = [
   {
     id: "483",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "solo",
+    Name: "Estima city",
+    Collection: "Solo",
     interiors: [
       require("../images/catalog/estima_city/solo/interiors/estima_city_solo_10588_547716_0x300.jpg"),
       require("../images/catalog/estima_city/solo/interiors/estima_city_solo_10588_547716_0x500.jpg"),
@@ -10097,10 +9951,10 @@ const initialCards = [
   {
     id: "484",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "stride",
+    Name: "Estima city",
+    Collection: "Stride",
     interiors: [
       require("../images/catalog/estima_city/stride/interiors/estima_city_stride_18710_238093_0x300.jpg"),
       require("../images/catalog/estima_city/stride/interiors/estima_city_stride_18710_238093_0x500.jpg"),
@@ -10124,10 +9978,10 @@ const initialCards = [
   {
     id: "485",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima_city",
-    Сollection: "underground",
+    Name: "Estima city",
+    Collection: "Underground",
     interiors: [
       require("../images/catalog/estima_city/underground/interiors/estima_city_underground_10589_98545_0x300.jpg"),
       require("../images/catalog/estima_city/underground/interiors/estima_city_underground_10589_98545_0x500.jpg"),
@@ -10147,10 +10001,10 @@ const initialCards = [
   {
     id: "486",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "allaki",
+    Collection: "Allaki",
     interiors: [
       require("../images/catalog/graniteya/allaki/interiors/graniteya_allaki_9201_177837_0x300.jpg"),
       require("../images/catalog/graniteya/allaki/interiors/graniteya_allaki_9201_177837_0x500.jpg"),
@@ -10169,10 +10023,10 @@ const initialCards = [
   {
     id: "487",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "arkaim",
+    Collection: "Arkaim",
     interiors: [
       require("../images/catalog/graniteya/arkaim/interiors/graniteya_arkaim_9202_165775_0x300.jpg"),
       require("../images/catalog/graniteya/arkaim/interiors/graniteya_arkaim_9202_246488_0x300.jpg"),
@@ -10202,10 +10056,10 @@ const initialCards = [
   {
     id: "488",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "artbeton",
+    Collection: "Artbeton",
     interiors: [
       require("../images/catalog/graniteya/artbeton/interiors/graniteya_artbeton_17969_645144_0x300.jpg"),
       require("../images/catalog/graniteya/artbeton/interiors/graniteya_artbeton_17969_645144_0x500.jpg"),
@@ -10230,10 +10084,10 @@ const initialCards = [
   {
     id: "489",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "iremel",
+    Collection: "Iremel",
     interiors: [
       require("../images/catalog/graniteya/iremel/interiors/graniteya_iremel_9203_108685_0x300.jpg"),
       require("../images/catalog/graniteya/iremel/interiors/graniteya_iremel_9203_111024_0x300.jpg"),
@@ -10267,10 +10121,10 @@ const initialCards = [
   {
     id: "490",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "iset",
+    Collection: "Iset",
     interiors: [
       require("../images/catalog/graniteya/iset/interiors/graniteya_iset_9204_50021_0x300.jpg"),
       require("../images/catalog/graniteya/iset/interiors/graniteya_iset_9204_830129_0x300.jpg"),
@@ -10287,10 +10141,10 @@ const initialCards = [
   {
     id: "491",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "karatash",
+    Collection: "Karatash",
     interiors: [
       require("../images/catalog/graniteya/karatash/interiors/graniteya_karatash_9492_815271_0x300.jpg"),
       require("../images/catalog/graniteya/karatash/interiors/graniteya_karatash_9492_815271_0x500.jpg"),
@@ -10313,10 +10167,10 @@ const initialCards = [
   {
     id: "492",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "kirety",
+    Collection: "Kirety",
     interiors: [
       require("../images/catalog/graniteya/kirety/interiors/graniteya_kirety_9205_154595_0x300.jpg"),
       require("../images/catalog/graniteya/kirety/interiors/graniteya_kirety_9205_722949_0x300.jpg"),
@@ -10344,10 +10198,10 @@ const initialCards = [
   {
     id: "493",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "kojjva",
+    Collection: "Kojjva",
     interiors: [
       require("../images/catalog/graniteya/kojjva/interiors/graniteya_kojjva_9206_539554_0x300.jpg"),
       require("../images/catalog/graniteya/kojjva/interiors/graniteya_kojjva_9206_539554_0x500.jpg"),
@@ -10362,10 +10216,10 @@ const initialCards = [
   {
     id: "494",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "konzhak",
+    Collection: "Konzhak",
     interiors: [
       require("../images/catalog/graniteya/konzhak/interiors/graniteya_konzhak_9207_156536_0x300.jpg"),
       require("../images/catalog/graniteya/konzhak/interiors/graniteya_konzhak_9207_170127_0x300.jpg"),
@@ -10393,10 +10247,10 @@ const initialCards = [
   {
     id: "495",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "kukazar",
+    Collection: "Kukazar",
     interiors: [
       require("../images/catalog/graniteya/kukazar/interiors/graniteya_kukazar_9208_305872_0x300.jpg"),
       require("../images/catalog/graniteya/kukazar/interiors/graniteya_kukazar_9208_413432_0x300.jpg"),
@@ -10416,10 +10270,10 @@ const initialCards = [
   {
     id: "496",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "nejjva",
+    Collection: "Nejjva",
     interiors: [
       require("../images/catalog/graniteya/nejjva/interiors/graniteya_nejjva_17963_118730_0x300.jpg"),
       require("../images/catalog/graniteya/nejjva/interiors/graniteya_nejjva_17963_246713_0x300.jpg"),
@@ -10459,10 +10313,10 @@ const initialCards = [
   {
     id: "497",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "pajjer",
+    Collection: "Pajjer",
     interiors: [
       require("../images/catalog/graniteya/pajjer/interiors/graniteya_pajjer_9209_178736_0x300.jpg"),
       require("../images/catalog/graniteya/pajjer/interiors/graniteya_pajjer_9209_292075_0x300.jpg"),
@@ -10492,10 +10346,10 @@ const initialCards = [
   {
     id: "498",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "shikhan",
+    Collection: "Shikhan",
     interiors: [
       require("../images/catalog/graniteya/shikhan/interiors/graniteya_shikhan_9216_18864_0x300.jpg"),
       require("../images/catalog/graniteya/shikhan/interiors/graniteya_shikhan_9216_822246_0x300.jpg"),
@@ -10510,10 +10364,10 @@ const initialCards = [
   {
     id: "499",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "shunut",
+    Collection: "Shunut",
     interiors: [
       require("../images/catalog/graniteya/shunut/interiors/graniteya_shunut_9217_202416_0x300.jpg"),
       require("../images/catalog/graniteya/shunut/interiors/graniteya_shunut_9217_299171_0x300.jpg"),
@@ -10534,10 +10388,10 @@ const initialCards = [
   {
     id: "500",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "sinara",
+    Collection: "Sinara",
     interiors: [
       require("../images/catalog/graniteya/sinara/interiors/graniteya_sinara_9210_136219_0x300.jpg"),
       require("../images/catalog/graniteya/sinara/interiors/graniteya_sinara_9210_155439_0x300.jpg"),
@@ -10577,10 +10431,10 @@ const initialCards = [
   {
     id: "501",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "sugomak",
+    Collection: "Sugomak",
     interiors: [
       require("../images/catalog/graniteya/sugomak/interiors/graniteya_sugomak_9211_36215_0x300.jpg"),
       require("../images/catalog/graniteya/sugomak/interiors/graniteya_sugomak_9211_36215_0x500.jpg"),
@@ -10608,10 +10462,10 @@ const initialCards = [
   {
     id: "502",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "sungul",
+    Collection: "Sungul",
     interiors: [
       require("../images/catalog/graniteya/sungul/interiors/graniteya_sungul_9212_909294_0x300.jpg"),
       require("../images/catalog/graniteya/sungul/interiors/graniteya_sungul_9212_909294_0x500.jpg"),
@@ -10628,10 +10482,10 @@ const initialCards = [
   {
     id: "503",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "taganajj",
+    Collection: "Taganajj",
     interiors: [
       require("../images/catalog/graniteya/taganajj/interiors/graniteya_taganajj_9213_347455_0x300.jpg"),
       require("../images/catalog/graniteya/taganajj/interiors/graniteya_taganajj_9213_347455_0x500.jpg"),
@@ -10660,10 +10514,10 @@ const initialCards = [
   {
     id: "504",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "turgoyak",
+    Collection: "Turgoyak",
     interiors: [
       require("../images/catalog/graniteya/turgoyak/interiors/graniteya_turgoyak_9214_110051_0x300.jpg"),
       require("../images/catalog/graniteya/turgoyak/interiors/graniteya_turgoyak_9214_110051_0x500.jpg"),
@@ -10686,10 +10540,10 @@ const initialCards = [
   {
     id: "505",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "uvildy",
+    Collection: "Uvildy",
     interiors: [
       require("../images/catalog/graniteya/uvildy/interiors/graniteya_uvildy_9215_433123_0x300.jpg"),
       require("../images/catalog/graniteya/uvildy/interiors/graniteya_uvildy_9215_433123_0x500.jpg"),
@@ -10708,10 +10562,10 @@ const initialCards = [
   {
     id: "506",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Гранитея",
-    Сollection: "yurma",
+    Collection: "Yurma",
     interiors: [
       require("../images/catalog/graniteya/yurma/interiors/graniteya_yurma_9218_834741_0x300.jpg"),
       require("../images/catalog/graniteya/yurma/interiors/graniteya_yurma_9218_834741_0x500.jpg"),
@@ -10727,10 +10581,10 @@ const initialCards = [
   {
     id: "507",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "ajanta",
+    Collection: "Ajanta",
     interiors: [
       require("../images/catalog/gresse/ajanta/interiors/gresse_ajanta_11971_595657_0x300.jpg"),
       require("../images/catalog/gresse/ajanta/interiors/gresse_ajanta_11971_715261_0x300.jpg"),
@@ -10752,10 +10606,10 @@ const initialCards = [
   {
     id: "508",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "arbel",
+    Collection: "Arbel",
     interiors: [
       require("../images/catalog/gresse/arbel/interiors/gresse_arbel_11972_710463_0x300.jpg"),
       require("../images/catalog/gresse/arbel/interiors/gresse_arbel_11972_710463_0x500.jpg"),
@@ -10769,10 +10623,10 @@ const initialCards = [
   {
     id: "509",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "ellora",
+    Collection: "Ellora",
     interiors: [
       require("../images/catalog/gresse/ellora/interiors/gresse_ellora_11963_103519_0x300.jpg"),
       require("../images/catalog/gresse/ellora/interiors/gresse_ellora_11963_141634_0x300.jpg"),
@@ -10804,10 +10658,10 @@ const initialCards = [
   {
     id: "510",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "gila",
+    Collection: "Gila",
     interiors: [
       require("../images/catalog/gresse/gila/interiors/gresse_gila_11965_119036_0x300.jpg"),
       require("../images/catalog/gresse/gila/interiors/gresse_gila_11965_119036_0x500.jpg"),
@@ -10822,10 +10676,10 @@ const initialCards = [
   {
     id: "511",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "lalibela",
+    Collection: "Lalibela",
     interiors: [
       require("../images/catalog/gresse/lalibela/interiors/gresse_lalibela_11966_131622_0x300.jpg"),
       require("../images/catalog/gresse/lalibela/interiors/gresse_lalibela_11966_202407_0x300.jpg"),
@@ -10843,10 +10697,10 @@ const initialCards = [
   {
     id: "512",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "madain",
+    Collection: "Madain",
     interiors: [
       require("../images/catalog/gresse/madain/interiors/gresse_madain_11969_239208_0x300.jpg"),
       require("../images/catalog/gresse/madain/interiors/gresse_madain_11969_293327_0x300.jpg"),
@@ -10869,10 +10723,10 @@ const initialCards = [
   {
     id: "513",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "matera",
+    Collection: "Matera",
     interiors: [
       require("../images/catalog/gresse/matera/interiors/gresse_matera_11968_152952_0x300.jpg"),
       require("../images/catalog/gresse/matera/interiors/gresse_matera_11968_359590_0x300.jpg"),
@@ -10907,10 +10761,10 @@ const initialCards = [
   {
     id: "514",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "petra",
+    Collection: "Petra",
     interiors: [
       require("../images/catalog/gresse/petra/interiors/gresse_petra_11964_11786_0x300.jpg"),
       require("../images/catalog/gresse/petra/interiors/gresse_petra_11964_172548_0x300.jpg"),
@@ -10946,10 +10800,10 @@ const initialCards = [
   {
     id: "515",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "sigiriya",
+    Collection: "Sigiriya",
     interiors: [
       require("../images/catalog/gresse/sigiriya/interiors/gresse_sigiriya_11970_537968_0x300.jpg"),
       require("../images/catalog/gresse/sigiriya/interiors/gresse_sigiriya_11970_537968_0x500.jpg"),
@@ -10966,10 +10820,10 @@ const initialCards = [
   {
     id: "516",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "simbel",
+    Collection: "Simbel",
     interiors: [
       require("../images/catalog/gresse/simbel/interiors/gresse_simbel_11967_160392_0x300.jpg"),
       require("../images/catalog/gresse/simbel/interiors/gresse_simbel_11967_24768_0x300.jpg"),
@@ -10997,10 +10851,10 @@ const initialCards = [
   {
     id: "517",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Gresse",
-    Сollection: "troo",
+    Collection: "Troo",
     interiors: [
       require("../images/catalog/gresse/troo/interiors/gresse_troo_11973_830774_0x300.jpg"),
       require("../images/catalog/gresse/troo/interiors/gresse_troo_11973_830774_0x500.jpg"),
@@ -11013,10 +10867,10 @@ const initialCards = [
   {
     id: "518",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Керлайф",
-    Сollection: "marblestone",
+    Collection: "Marblestone",
     interiors: [
       require("../images/catalog/kerlife/marblestone/interiors/kerlife_marblestone_16897_218575_0x300.jpg"),
     ],
@@ -11025,10 +10879,10 @@ const initialCards = [
   {
     id: "519",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Керлайф",
-    Сollection: "nrk",
+    Collection: "Nrk",
     interiors: [
       require("../images/catalog/kerlife/nrk/interiors/kerlife_nrk_18475_553626_0x300.jpg"),
     ],
@@ -11037,10 +10891,10 @@ const initialCards = [
   {
     id: "520",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Керлайф",
-    Сollection: "rabat",
+    Collection: "Rabat",
     interiors: [
       require("../images/catalog/kerlife/rabat/interiors/kerlife_rabat_15966_569010_0x300.jpg"),
     ],
@@ -11049,10 +10903,10 @@ const initialCards = [
   {
     id: "521",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Керлайф",
-    Сollection: "small_tile",
+    Collection: "Small tile",
     interiors: [
       require("../images/catalog/kerlife/small_tile/interiors/kerlife_small_tile_11284_28866_0x300.jpg"),
       require("../images/catalog/kerlife/small_tile/interiors/kerlife_small_tile_11284_316867_0x300.jpg"),
@@ -11070,10 +10924,10 @@ const initialCards = [
   {
     id: "522",
     Сountry: "Россия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Керлайф",
-    Сollection: "tanger",
+    Collection: "Tanger",
     interiors: [
       require("../images/catalog/kerlife/tanger/interiors/kerlife_tanger_15967_701023_0x300.jpg"),
     ],
@@ -11082,10 +10936,10 @@ const initialCards = [
   {
     id: "523",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "ajjrish",
+    Collection: "Ajjrish",
     interiors: [
       require("../images/catalog/lb_ceramics/ajjrish/interiors/lb_ceramics_ajjrish_7737_493166_0x300.jpg"),
       require("../images/catalog/lb_ceramics/ajjrish/interiors/lb_ceramics_ajjrish_7737_493166_0x500.jpg"),
@@ -11099,10 +10953,10 @@ const initialCards = [
   {
     id: "524",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "albervud",
+    Collection: "Albervud",
     interiors: [
       require("../images/catalog/lb_ceramics/albervud/interiors/lb_ceramics_albervud_8120_675732_0x300.jpg"),
       require("../images/catalog/lb_ceramics/albervud/interiors/lb_ceramics_albervud_8120_675732_0x500.jpg"),
@@ -11123,10 +10977,10 @@ const initialCards = [
   {
     id: "525",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "andersson",
+    Collection: "Andersson",
     interiors: [
       require("../images/catalog/lb_ceramics/andersson/interiors/lb_ceramics_andersson_10636_193141_0x300.jpg"),
       require("../images/catalog/lb_ceramics/andersson/interiors/lb_ceramics_andersson_10636_23438_0x300.jpg"),
@@ -11141,10 +10995,10 @@ const initialCards = [
   {
     id: "526",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "asgard",
+    Collection: "Asgard",
     interiors: [
       require("../images/catalog/lb_ceramics/asgard/interiors/lb_ceramics_asgard_18682_79539_0x300.jpg"),
       require("../images/catalog/lb_ceramics/asgard/interiors/lb_ceramics_asgard_18682_79539_0x500.jpg"),
@@ -11157,10 +11011,10 @@ const initialCards = [
   {
     id: "527",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "aspen",
+    Collection: "Aspen",
     interiors: [
       require("../images/catalog/lb_ceramics/aspen/interiors/lb_ceramics_aspen_11769_137144_0x300.jpg"),
       require("../images/catalog/lb_ceramics/aspen/interiors/lb_ceramics_aspen_11769_137144_0x500.jpg"),
@@ -11174,10 +11028,10 @@ const initialCards = [
   {
     id: "528",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "bliss",
+    Collection: "Bliss",
     interiors: [
       require("../images/catalog/lb_ceramics/bliss/interiors/lb_ceramics_bliss_13482_799505_0x300.jpg"),
       require("../images/catalog/lb_ceramics/bliss/interiors/lb_ceramics_bliss_13482_799505_0x500.jpg"),
@@ -11193,10 +11047,10 @@ const initialCards = [
   {
     id: "529",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "blyum",
+    Collection: "Blyum",
     interiors: [
       require("../images/catalog/lb_ceramics/blyum/interiors/lb_ceramics_blyum_11770_454253_0x300.jpg"),
       require("../images/catalog/lb_ceramics/blyum/interiors/lb_ceramics_blyum_11770_454253_0x500.jpg"),
@@ -11211,10 +11065,10 @@ const initialCards = [
   {
     id: "530",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "diamante",
+    Collection: "Diamante",
     interiors: [
       require("../images/catalog/lb_ceramics/diamante/interiors/lb_ceramics_diamante_10638_134333_0x300.jpg"),
       require("../images/catalog/lb_ceramics/diamante/interiors/lb_ceramics_diamante_10638_134333_0x500.jpg"),
@@ -11227,10 +11081,10 @@ const initialCards = [
   {
     id: "531",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "dikkens",
+    Collection: "Dikkens",
     interiors: [
       require("../images/catalog/lb_ceramics/dikkens/interiors/lb_ceramics_dikkens_17016_140134_0x300.jpg"),
       require("../images/catalog/lb_ceramics/dikkens/interiors/lb_ceramics_dikkens_17016_140134_0x500.jpg"),
@@ -11245,10 +11099,10 @@ const initialCards = [
   {
     id: "532",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "domino",
+    Collection: "Domino",
     interiors: [
       require("../images/catalog/lb_ceramics/domino/interiors/lb_ceramics_domino_13484_401319_0x300.jpg"),
       require("../images/catalog/lb_ceramics/domino/interiors/lb_ceramics_domino_13484_401319_0x500.jpg"),
@@ -11261,10 +11115,10 @@ const initialCards = [
   {
     id: "533",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "dyuna",
+    Collection: "Dyuna",
     interiors: [
       require("../images/catalog/lb_ceramics/dyuna/interiors/lb_ceramics_dyuna_7738_703095_0x300.jpg"),
       require("../images/catalog/lb_ceramics/dyuna/interiors/lb_ceramics_dyuna_7738_961754_0x300.jpg"),
@@ -11286,10 +11140,10 @@ const initialCards = [
   {
     id: "534",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "dzhapandi",
+    Collection: "Dzhapandi",
     interiors: [
       require("../images/catalog/lb_ceramics/dzhapandi/interiors/lb_ceramics_dzhapandi_11772_474084_0x300.jpg"),
       require("../images/catalog/lb_ceramics/dzhapandi/interiors/lb_ceramics_dzhapandi_11772_474084_0x500.jpg"),
@@ -11305,10 +11159,10 @@ const initialCards = [
   {
     id: "535",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "dzhordano",
+    Collection: "Dzhordano",
     interiors: [
       require("../images/catalog/lb_ceramics/dzhordano/interiors/lb_ceramics_dzhordano_16729_394603_0x300.jpg"),
       require("../images/catalog/lb_ceramics/dzhordano/interiors/lb_ceramics_dzhordano_16729_434398_0x300.jpg"),
@@ -11330,10 +11184,10 @@ const initialCards = [
   {
     id: "536",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "ehllen",
+    Collection: "Ehllen",
     interiors: [
       require("../images/catalog/lb_ceramics/ehllen/interiors/lb_ceramics_ehllen_11778_789396_0x300.jpg"),
       require("../images/catalog/lb_ceramics/ehllen/interiors/lb_ceramics_ehllen_11778_789396_0x500.jpg"),
@@ -11348,10 +11202,10 @@ const initialCards = [
   {
     id: "537",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "ehlzas",
+    Collection: "Ehlzas",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/lb_ceramics/ehlzas/tovars/lb_ceramics_ehlzas_96540_221414_300x0.jpg"),
@@ -11360,10 +11214,10 @@ const initialCards = [
   {
     id: "538",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "fiori_gridzho",
+    Collection: "Fiori_gridzho",
     interiors: [
       require("../images/catalog/lb_ceramics/fiori_gridzho/interiors/lb_ceramics_fiori_gridzho_6744_84710_0x500.jpg"),
     ],
@@ -11382,10 +11236,10 @@ const initialCards = [
   {
     id: "539",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "gauss",
+    Collection: "Gauss",
     interiors: [
       require("../images/catalog/lb_ceramics/gauss/interiors/lb_ceramics_gauss_11771_60591_0x300.jpg"),
       require("../images/catalog/lb_ceramics/gauss/interiors/lb_ceramics_gauss_11771_60591_0x500.jpg"),
@@ -11402,10 +11256,10 @@ const initialCards = [
   {
     id: "540",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "gunnar",
+    Collection: "Gunnar",
     interiors: [
       require("../images/catalog/lb_ceramics/gunnar/interiors/lb_ceramics_gunnar_13483_672405_0x300.jpg"),
       require("../images/catalog/lb_ceramics/gunnar/interiors/lb_ceramics_gunnar_13483_672405_0x500.jpg"),
@@ -11423,10 +11277,10 @@ const initialCards = [
   {
     id: "541",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "ipanema",
+    Collection: "Ipanema",
     interiors: [
       require("../images/catalog/lb_ceramics/ipanema/interiors/lb_ceramics_ipanema_10639_843940_0x300.jpg"),
       require("../images/catalog/lb_ceramics/ipanema/interiors/lb_ceramics_ipanema_10639_843940_0x500.jpg"),
@@ -11442,10 +11296,10 @@ const initialCards = [
   {
     id: "542",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "kampanilya",
+    Collection: "Kampanilya",
     interiors: [
       require("../images/catalog/lb_ceramics/kampanilya/interiors/lb_ceramics_kampanilya_7739_607484_0x300.jpg"),
       require("../images/catalog/lb_ceramics/kampanilya/interiors/lb_ceramics_kampanilya_7739_607484_0x500.jpg"),
@@ -11464,10 +11318,10 @@ const initialCards = [
   {
     id: "543",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "karrara_nova",
+    Collection: "Karrara_nova",
     interiors: [
       require("../images/catalog/lb_ceramics/karrara_nova/interiors/lb_ceramics_karrara_nova_13485_39267_0x300.jpg"),
       require("../images/catalog/lb_ceramics/karrara_nova/interiors/lb_ceramics_karrara_nova_13485_39267_0x500.jpg"),
@@ -11483,10 +11337,10 @@ const initialCards = [
   {
     id: "544",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "karrarskijj_mramor_i_loft",
+    Collection: "Karrarskijj_mramor_i_loft",
     interiors: [
       require("../images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/interiors/lb_ceramics_karrarskijj_mramor_i_loft_9635_162497_0x300.jpg"),
       require("../images/catalog/lb_ceramics/karrarskijj_mramor_i_loft/interiors/lb_ceramics_karrarskijj_mramor_i_loft_9635_505132_0x300.jpg"),
@@ -11505,10 +11359,10 @@ const initialCards = [
   {
     id: "545",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "kehrroll",
+    Collection: "Kehrroll",
     interiors: [
       require("../images/catalog/lb_ceramics/kehrroll/interiors/lb_ceramics_kehrroll_18683_961284_0x300.jpg"),
       require("../images/catalog/lb_ceramics/kehrroll/interiors/lb_ceramics_kehrroll_18683_961284_0x500.jpg"),
@@ -11520,10 +11374,10 @@ const initialCards = [
   {
     id: "546",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "kincugi",
+    Collection: "Kincugi",
     interiors: [
       require("../images/catalog/lb_ceramics/kincugi/interiors/lb_ceramics_kincugi_13486_853791_0x300.jpg"),
       require("../images/catalog/lb_ceramics/kincugi/interiors/lb_ceramics_kincugi_13486_853791_0x500.jpg"),
@@ -11539,10 +11393,10 @@ const initialCards = [
   {
     id: "547",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "kipling",
+    Collection: "Kipling",
     interiors: [
       require("../images/catalog/lb_ceramics/kipling/interiors/lb_ceramics_kipling_17017_284337_0x300.jpg"),
       require("../images/catalog/lb_ceramics/kipling/interiors/lb_ceramics_kipling_17017_284337_0x500.jpg"),
@@ -11557,10 +11411,10 @@ const initialCards = [
   {
     id: "548",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "lissabon",
+    Collection: "Lissabon",
     interiors: [
       require("../images/catalog/lb_ceramics/lissabon/interiors/lb_ceramics_lissabon_11774_294585_0x300.jpg"),
       require("../images/catalog/lb_ceramics/lissabon/interiors/lb_ceramics_lissabon_11774_294585_0x500.jpg"),
@@ -11577,10 +11431,10 @@ const initialCards = [
   {
     id: "549",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "loft_stajjl",
+    Collection: "Loft_stajjl",
     interiors: [
       require("../images/catalog/lb_ceramics/loft_stajjl/interiors/lb_ceramics_loft_stajjl_5644_306600_0x300.jpg"),
       require("../images/catalog/lb_ceramics/loft_stajjl/interiors/lb_ceramics_loft_stajjl_5644_306600_0x500.jpg"),
@@ -11593,10 +11447,10 @@ const initialCards = [
   {
     id: "550",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "lokivud",
+    Collection: "Lokivud",
     interiors: [
       require("../images/catalog/lb_ceramics/lokivud/interiors/lb_ceramics_lokivud_11775_366233_0x300.jpg"),
       require("../images/catalog/lb_ceramics/lokivud/interiors/lb_ceramics_lokivud_11775_366233_0x500.jpg"),
@@ -11610,10 +11464,10 @@ const initialCards = [
   {
     id: "551",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "makedoniya",
+    Collection: "Makedoniya",
     interiors: [
       require("../images/catalog/lb_ceramics/makedoniya/interiors/lb_ceramics_makedoniya_11297_243812_0x300.jpg"),
       require("../images/catalog/lb_ceramics/makedoniya/interiors/lb_ceramics_makedoniya_11297_535956_0x300.jpg"),
@@ -11629,10 +11483,10 @@ const initialCards = [
   {
     id: "552",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "merc",
+    Collection: "Merc",
     interiors: [
       require("../images/catalog/lb_ceramics/merc/interiors/lb_ceramics_merc_16201_908417_0x300.jpg"),
       require("../images/catalog/lb_ceramics/merc/interiors/lb_ceramics_merc_16201_908417_0x500.jpg"),
@@ -11646,10 +11500,10 @@ const initialCards = [
   {
     id: "553",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "mezon",
+    Collection: "Mezon",
     interiors: [
       require("../images/catalog/lb_ceramics/mezon/interiors/lb_ceramics_mezon_4731_854814_0x300.jpg"),
       require("../images/catalog/lb_ceramics/mezon/interiors/lb_ceramics_mezon_4731_854814_0x500.jpg"),
@@ -11665,10 +11519,10 @@ const initialCards = [
   {
     id: "554",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "milaneze_dizajjn",
+    Collection: "Milaneze dizajjn",
     interiors: [
       require("../images/catalog/lb_ceramics/milaneze_dizajjn/interiors/lb_ceramics_milaneze_dizajjn_6719_516008_0x300.jpg"),
       require("../images/catalog/lb_ceramics/milaneze_dizajjn/interiors/lb_ceramics_milaneze_dizajjn_6719_516008_0x500.jpg"),
@@ -11687,10 +11541,10 @@ const initialCards = [
   {
     id: "555",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "mirabello",
+    Collection: "Mirabello",
     interiors: [
       require("../images/catalog/lb_ceramics/mirabello/interiors/lb_ceramics_mirabello_17018_444462_0x300.jpg"),
       require("../images/catalog/lb_ceramics/mirabello/interiors/lb_ceramics_mirabello_17018_444462_0x500.jpg"),
@@ -11702,10 +11556,10 @@ const initialCards = [
   {
     id: "556",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "moreska",
+    Collection: "Moreska",
     interiors: [
       require("../images/catalog/lb_ceramics/moreska/interiors/lb_ceramics_moreska_9636_549210_0x300.jpg"),
       require("../images/catalog/lb_ceramics/moreska/interiors/lb_ceramics_moreska_9636_595942_0x300.jpg"),
@@ -11732,10 +11586,10 @@ const initialCards = [
   {
     id: "557",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "naomi",
+    Collection: "Naomi",
     interiors: [
       require("../images/catalog/lb_ceramics/naomi/interiors/lb_ceramics_naomi_6128_340220_0x300.jpg"),
       require("../images/catalog/lb_ceramics/naomi/interiors/lb_ceramics_naomi_6128_340220_0x500.jpg"),
@@ -11752,10 +11606,10 @@ const initialCards = [
   {
     id: "558",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "niagara",
+    Collection: "Niagara",
     interiors: [
       require("../images/catalog/lb_ceramics/niagara/interiors/lb_ceramics_niagara_11776_616614_0x300.jpg"),
       require("../images/catalog/lb_ceramics/niagara/interiors/lb_ceramics_niagara_11776_616614_0x500.jpg"),
@@ -11770,10 +11624,10 @@ const initialCards = [
   {
     id: "559",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "nordanvind",
+    Collection: "Nordanvind",
     interiors: [
       require("../images/catalog/lb_ceramics/nordanvind/interiors/lb_ceramics_nordanvind_6732_528157_0x300.jpg"),
       require("../images/catalog/lb_ceramics/nordanvind/interiors/lb_ceramics_nordanvind_6732_528157_0x500.jpg"),
@@ -11791,10 +11645,10 @@ const initialCards = [
   {
     id: "560",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "oklend",
+    Collection: "Oklend",
     interiors: [
       require("../images/catalog/lb_ceramics/oklend/interiors/lb_ceramics_oklend_13487_322054_0x300.jpg"),
       require("../images/catalog/lb_ceramics/oklend/interiors/lb_ceramics_oklend_13487_322054_0x500.jpg"),
@@ -11808,10 +11662,10 @@ const initialCards = [
   {
     id: "561",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "parizhanka",
+    Collection: "Parizhanka",
     interiors: [
       require("../images/catalog/lb_ceramics/parizhanka/interiors/lb_ceramics_parizhanka_8309_38750_0x300.jpg"),
       require("../images/catalog/lb_ceramics/parizhanka/interiors/lb_ceramics_parizhanka_8309_678691_0x300.jpg"),
@@ -11841,10 +11695,10 @@ const initialCards = [
   {
     id: "562",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "patio",
+    Collection: "Patio",
     interiors: [
       require("../images/catalog/lb_ceramics/patio/interiors/lb_ceramics_patio_13488_324987_0x300.jpg"),
       require("../images/catalog/lb_ceramics/patio/interiors/lb_ceramics_patio_13488_324987_0x500.jpg"),
@@ -11858,10 +11712,10 @@ const initialCards = [
   {
     id: "563",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "rerikh",
+    Collection: "Rerikh",
     interiors: [
       require("../images/catalog/lb_ceramics/rerikh/interiors/lb_ceramics_rerikh_18684_974789_0x300.jpg"),
       require("../images/catalog/lb_ceramics/rerikh/interiors/lb_ceramics_rerikh_18684_974789_0x500.jpg"),
@@ -11873,10 +11727,10 @@ const initialCards = [
   {
     id: "564",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "river_vud",
+    Collection: "River vud",
     interiors: [
       require("../images/catalog/lb_ceramics/river_vud/interiors/lb_ceramics_river_vud_4312_272295_0x300.jpg"),
       require("../images/catalog/lb_ceramics/river_vud/interiors/lb_ceramics_river_vud_4312_272295_0x500.jpg"),
@@ -11889,10 +11743,10 @@ const initialCards = [
   {
     id: "565",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "rosa_rok",
+    Collection: "Rosa rok",
     interiors: [
       require("../images/catalog/lb_ceramics/rosa_rok/interiors/lb_ceramics_rosa_rok_13489_109368_0x300.jpg"),
       require("../images/catalog/lb_ceramics/rosa_rok/interiors/lb_ceramics_rosa_rok_13489_109368_0x500.jpg"),
@@ -11913,10 +11767,10 @@ const initialCards = [
   {
     id: "566",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "shebbi_shik",
+    Collection: "Shebbi shik",
     interiors: [
       require("../images/catalog/lb_ceramics/shebbi_shik/interiors/lb_ceramics_shebbi_shik_5651_898880_0x500.jpg"),
     ],
@@ -11933,10 +11787,10 @@ const initialCards = [
   {
     id: "567",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "shvarc",
+    Collection: "Shvarc",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/lb_ceramics/shvarc/tovars/lb_ceramics_shvarc_129283_757398_300x0.jpg"),
@@ -11945,10 +11799,10 @@ const initialCards = [
   {
     id: "568",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "smart",
+    Collection: "Smart",
     interiors: [
       require("../images/catalog/lb_ceramics/smart/interiors/lb_ceramics_smart_11777_549403_0x300.jpg"),
       require("../images/catalog/lb_ceramics/smart/interiors/lb_ceramics_smart_11777_549403_0x500.jpg"),
@@ -11964,10 +11818,10 @@ const initialCards = [
   {
     id: "569",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "sten",
+    Collection: "Sten",
     interiors: [
       require("../images/catalog/lb_ceramics/sten/interiors/lb_ceramics_sten_10640_939089_0x300.jpg"),
       require("../images/catalog/lb_ceramics/sten/interiors/lb_ceramics_sten_10640_939089_0x500.jpg"),
@@ -11982,10 +11836,10 @@ const initialCards = [
   {
     id: "570",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "taverna",
+    Collection: "Taverna",
     interiors: [
       require("../images/catalog/lb_ceramics/taverna/interiors/lb_ceramics_taverna_10641_541151_0x300.jpg"),
       require("../images/catalog/lb_ceramics/taverna/interiors/lb_ceramics_taverna_10641_541151_0x500.jpg"),
@@ -11998,10 +11852,10 @@ const initialCards = [
   {
     id: "571",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "titan",
+    Collection: "Titan",
     interiors: [
       require("../images/catalog/lb_ceramics/titan/interiors/lb_ceramics_titan_8971_798526_0x300.jpg"),
       require("../images/catalog/lb_ceramics/titan/interiors/lb_ceramics_titan_8971_798526_0x500.jpg"),
@@ -12016,10 +11870,10 @@ const initialCards = [
   {
     id: "572",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "venskijj_les",
+    Collection: "Venskijj les",
     interiors: [
       require("../images/catalog/lb_ceramics/venskijj_les/interiors/lb_ceramics_venskijj_les_4311_174073_0x300.jpg"),
       require("../images/catalog/lb_ceramics/venskijj_les/interiors/lb_ceramics_venskijj_les_4311_394010_0x300.jpg"),
@@ -12038,10 +11892,10 @@ const initialCards = [
   {
     id: "573",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "vestanvind",
+    Collection: "Vestanvind",
     interiors: [
       require("../images/catalog/lb_ceramics/vestanvind/interiors/lb_ceramics_vestanvind_6709_27579_0x300.jpg"),
       require("../images/catalog/lb_ceramics/vestanvind/interiors/lb_ceramics_vestanvind_6709_344947_0x300.jpg"),
@@ -12061,10 +11915,10 @@ const initialCards = [
   {
     id: "574",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "vestern_vud",
+    Collection: "Vestern vud",
     interiors: [
       require("../images/catalog/lb_ceramics/vestern_vud/interiors/lb_ceramics_vestern_vud_3721_152230_0x300.jpg"),
       require("../images/catalog/lb_ceramics/vestern_vud/interiors/lb_ceramics_vestern_vud_3721_231403_0x300.jpg"),
@@ -12082,10 +11936,10 @@ const initialCards = [
   {
     id: "575",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "vintazh_vud",
+    Collection: "Vintazh vud",
     interiors: [
       require("../images/catalog/lb_ceramics/vintazh_vud/interiors/lb_ceramics_vintazh_vud_9634_186213_0x300.jpg"),
       require("../images/catalog/lb_ceramics/vintazh_vud/interiors/lb_ceramics_vintazh_vud_9634_453990_0x300.jpg"),
@@ -12106,10 +11960,10 @@ const initialCards = [
   {
     id: "576",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "LB Ceramics",
-    Сollection: "yansson",
+    Collection: "Yansson",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/lb_ceramics/yansson/tovars/lb_ceramics_yansson_129285_924362_300x0.jpg"),
@@ -12118,10 +11972,10 @@ const initialCards = [
   {
     id: "577",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "adamant_blue",
+    Collection: "Adamant blue",
     interiors: [
       require("../images/catalog/lcm/adamant_blue/interiors/lcm_adamant_blue_18303_379580_0x300.jpg"),
     ],
@@ -12130,10 +11984,10 @@ const initialCards = [
   {
     id: "5788",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "agate_pheonix",
+    Collection: "Agate pheonix",
     interiors: [
       require("../images/catalog/lcm/agate_pheonix/interiors/lcm_agate_pheonix_15654_14112_0x300.jpg"),
     ],
@@ -12142,10 +11996,10 @@ const initialCards = [
   {
     id: "579",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "amazon_river",
+    Collection: "Amazon river",
     interiors: [
       require("../images/catalog/lcm/amazon_river/interiors/lcm_amazon_river_17125_473141_0x300.jpg"),
     ],
@@ -12154,10 +12008,10 @@ const initialCards = [
   {
     id: "580",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "amber_agate",
+    Collection: "Amber agate",
     interiors: [
       require("../images/catalog/lcm/amber_agate/interiors/lcm_amber_agate_15655_58305_0x300.jpg"),
     ],
@@ -12166,10 +12020,10 @@ const initialCards = [
   {
     id: "581",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "american_calacatta",
+    Collection: "American calacatta",
     interiors: [
       require("../images/catalog/lcm/american_calacatta/interiors/lcm_american_calacatta_15656_766465_0x300.jpg"),
     ],
@@ -12178,10 +12032,10 @@ const initialCards = [
   {
     id: "582",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "angel_agate",
+    Collection: "Angel agate",
     interiors: [
       require("../images/catalog/lcm/angel_agate/interiors/lcm_angel_agate_18304_878514_0x300.jpg"),
     ],
@@ -12190,10 +12044,10 @@ const initialCards = [
   {
     id: "583",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "argentina",
+    Collection: "Argentina",
     interiors: [
       require("../images/catalog/lcm/argentina/interiors/lcm_argentina_18305_123265_0x300.jpg"),
     ],
@@ -12202,10 +12056,10 @@ const initialCards = [
   {
     id: "584",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "armani_marble",
+    Collection: "Armani marble",
     interiors: [
       require("../images/catalog/lcm/armani_marble/interiors/lcm_armani_marble_15657_544368_0x300.jpg"),
     ],
@@ -12214,10 +12068,10 @@ const initialCards = [
   {
     id: "585",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "atlantic_marble",
+    Collection: "Atlantic marble",
     interiors: [
       require("../images/catalog/lcm/atlantic_marble/interiors/lcm_atlantic_marble_15658_487896_0x300.jpg"),
     ],
@@ -12226,10 +12080,10 @@ const initialCards = [
   {
     id: "586",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "barcelo",
+    Collection: "Barcelo",
     interiors: [
       require("../images/catalog/lcm/barcelo/interiors/lcm_barcelo_15659_884579_0x300.jpg"),
     ],
@@ -12238,10 +12092,10 @@ const initialCards = [
   {
     id: "587",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "black_sky",
+    Collection: "Black sky",
     interiors: [
       require("../images/catalog/lcm/black_sky/interiors/lcm_black_sky_18306_738139_0x300.jpg"),
     ],
@@ -12250,10 +12104,10 @@ const initialCards = [
   {
     id: "588",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "blumarin",
+    Collection: "Blumarin",
     interiors: [
       require("../images/catalog/lcm/blumarin/interiors/lcm_blumarin_17126_632095_0x300.jpg"),
     ],
@@ -12262,10 +12116,10 @@ const initialCards = [
   {
     id: "589",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "calacatta_borghini",
+    Collection: "Calacatta borghini",
     interiors: [
       require("../images/catalog/lcm/calacatta_borghini/interiors/lcm_calacatta_borghini_15660_92685_0x300.jpg"),
     ],
@@ -12274,10 +12128,10 @@ const initialCards = [
   {
     id: "590",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "calacatta_montreal",
+    Collection: "Calacatta montreal",
     interiors: [
       require("../images/catalog/lcm/calacatta_montreal/interiors/lcm_calacatta_montreal_15661_710763_0x300.jpg"),
     ],
@@ -12286,10 +12140,10 @@ const initialCards = [
   {
     id: "591",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "cascade",
+    Collection: "Cascade",
     interiors: [
       require("../images/catalog/lcm/cascade/interiors/lcm_cascade_15662_238353_0x300.jpg"),
     ],
@@ -12298,10 +12152,10 @@ const initialCards = [
   {
     id: "592",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "caspian_onyx",
+    Collection: "Caspian onyx",
     interiors: [
       require("../images/catalog/lcm/caspian_onyx/interiors/lcm_caspian_onyx_18307_120569_0x300.jpg"),
     ],
@@ -12310,10 +12164,10 @@ const initialCards = [
   {
     id: "593",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "columbia",
+    Collection: "Columbia",
     interiors: [
       require("../images/catalog/lcm/columbia/interiors/lcm_columbia_15663_839783_0x300.jpg"),
     ],
@@ -12322,10 +12176,10 @@ const initialCards = [
   {
     id: "594",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "cuba_blue",
+    Collection: "Cuba blue",
     interiors: [
       require("../images/catalog/lcm/cuba_blue/interiors/lcm_cuba_blue_17127_447324_0x300.jpg"),
     ],
@@ -12334,10 +12188,10 @@ const initialCards = [
   {
     id: "595",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "dallas",
+    Collection: "Dallas",
     interiors: [
       require("../images/catalog/lcm/dallas/interiors/lcm_dallas_15664_901149_0x300.jpg"),
     ],
@@ -12346,10 +12200,10 @@ const initialCards = [
   {
     id: "596",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "davinci",
+    Collection: "Davinci",
     interiors: [
       require("../images/catalog/lcm/davinci/interiors/lcm_davinci_17128_738206_0x300.jpg"),
     ],
@@ -12358,10 +12212,10 @@ const initialCards = [
   {
     id: "597",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "domines",
+    Collection: "Domines",
     interiors: [
       require("../images/catalog/lcm/domines/interiors/lcm_domines_15665_280198_0x300.jpg"),
     ],
@@ -12370,10 +12224,10 @@ const initialCards = [
   {
     id: "598",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "florim",
+    Collection: "Florim",
     interiors: [
       require("../images/catalog/lcm/florim/interiors/lcm_florim_15667_919486_0x300.jpg"),
     ],
@@ -12382,10 +12236,10 @@ const initialCards = [
   {
     id: "599",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "grand_antique",
+    Collection: "Grand antique",
     interiors: [
       require("../images/catalog/lcm/grand_antique/interiors/lcm_grand_antique_17129_102457_0x300.jpg"),
     ],
@@ -12394,10 +12248,10 @@ const initialCards = [
   {
     id: "600",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "ice_onyx",
+    Collection: "Ice onyx",
     interiors: [
       require("../images/catalog/lcm/ice_onyx/interiors/lcm_ice_onyx_15668_207678_0x300.jpg"),
     ],
@@ -12406,10 +12260,10 @@ const initialCards = [
   {
     id: "601",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "illusion",
+    Collection: "Illusion",
     interiors: [
       require("../images/catalog/lcm/illusion/interiors/lcm_illusion_17130_13212_0x300.jpg"),
     ],
@@ -12418,10 +12272,10 @@ const initialCards = [
   {
     id: "602",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "imperial",
+    Collection: "Imperial",
     interiors: [
       require("../images/catalog/lcm/imperial/interiors/lcm_imperial_15669_71961_0x300.jpg"),
     ],
@@ -12430,10 +12284,10 @@ const initialCards = [
   {
     id: "603",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "iron",
+    Collection: "Iron",
     interiors: [
       require("../images/catalog/lcm/iron/interiors/lcm_iron_18308_230714_0x300.jpg"),
     ],
@@ -12442,10 +12296,10 @@ const initialCards = [
   {
     id: "604",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "jupiter_marmo",
+    Collection: "Jupiter marmo",
     interiors: [
       require("../images/catalog/lcm/jupiter_marmo/interiors/lcm_jupiter_marmo_18310_174364_0x300.jpg"),
     ],
@@ -12454,10 +12308,10 @@ const initialCards = [
   {
     id: "605",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "karibib_fantasy",
+    Collection: "Karibib fantasy",
     interiors: [
       require("../images/catalog/lcm/karibib_fantasy/interiors/lcm_karibib_fantasy_15670_88539_0x300.jpg"),
     ],
@@ -12466,10 +12320,10 @@ const initialCards = [
   {
     id: "606",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "latina",
+    Collection: "Latina",
     interiors: [
       require("../images/catalog/lcm/latina/interiors/lcm_latina_18311_651781_0x300.jpg"),
     ],
@@ -12478,10 +12332,10 @@ const initialCards = [
   {
     id: "607",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "lenart",
+    Collection: "Lenart",
     interiors: [
       require("../images/catalog/lcm/lenart/interiors/lcm_lenart_18312_709342_0x300.jpg"),
     ],
@@ -12490,10 +12344,10 @@ const initialCards = [
   {
     id: "608",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "limestone",
+    Collection: "Limestone",
     interiors: [
       require("../images/catalog/lcm/limestone/interiors/lcm_limestone_15671_774626_0x300.jpg"),
     ],
@@ -12502,10 +12356,10 @@ const initialCards = [
   {
     id: "609",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "linari",
+    Collection: "Linari",
     interiors: [
       require("../images/catalog/lcm/linari/interiors/lcm_linari_18314_221202_0x300.jpg"),
     ],
@@ -12514,10 +12368,10 @@ const initialCards = [
   {
     id: "610",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "marmomac",
+    Collection: "Marmomac",
     interiors: [
       require("../images/catalog/lcm/marmomac/interiors/lcm_marmomac_18318_742119_0x300.jpg"),
     ],
@@ -12526,10 +12380,10 @@ const initialCards = [
   {
     id: "611",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "matrix",
+    Collection: "Matrix",
     interiors: [
       require("../images/catalog/lcm/matrix/interiors/lcm_matrix_18315_971247_0x300.jpg"),
     ],
@@ -12538,10 +12392,10 @@ const initialCards = [
   {
     id: "612",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "monaco_onyx",
+    Collection: "Monaco onyx",
     interiors: [
       require("../images/catalog/lcm/monaco_onyx/interiors/lcm_monaco_onyx_18316_435099_0x300.jpg"),
     ],
@@ -12550,10 +12404,10 @@ const initialCards = [
   {
     id: "613",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "moonstone",
+    Collection: "Moonstone",
     interiors: [
       require("../images/catalog/lcm/moonstone/interiors/lcm_moonstone_15673_985829_0x300.jpg"),
     ],
@@ -12562,10 +12416,10 @@ const initialCards = [
   {
     id: "614",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "namibia",
+    Collection: "Namibia",
     interiors: [
       require("../images/catalog/lcm/namibia/interiors/lcm_namibia_18319_216849_0x300.jpg"),
     ],
@@ -12574,10 +12428,10 @@ const initialCards = [
   {
     id: "615",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "onyx_royal",
+    Collection: "Onyx royal",
     interiors: [
       require("../images/catalog/lcm/onyx_royal/interiors/lcm_onyx_royal_15674_355891_0x300.jpg"),
     ],
@@ -12586,10 +12440,10 @@ const initialCards = [
   {
     id: "616",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "onyx_smoke",
+    Collection: "Onyx smoke",
     interiors: [
       require("../images/catalog/lcm/onyx_smoke/interiors/lcm_onyx_smoke_15675_859053_0x300.jpg"),
     ],
@@ -12598,10 +12452,10 @@ const initialCards = [
   {
     id: "617",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "persia",
+    Collection: "Persia",
     interiors: [
       require("../images/catalog/lcm/persia/interiors/lcm_persia_15676_779535_0x300.jpg"),
     ],
@@ -12610,10 +12464,10 @@ const initialCards = [
   {
     id: "618",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "premiere_stone",
+    Collection: "Premiere stone",
     interiors: [
       require("../images/catalog/lcm/premiere_stone/interiors/lcm_premiere_stone_17131_866436_0x300.jpg"),
     ],
@@ -12622,10 +12476,10 @@ const initialCards = [
   {
     id: "619",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "sandy_carrara",
+    Collection: "Sandy carrara",
     interiors: [
       require("../images/catalog/lcm/sandy_carrara/interiors/lcm_sandy_carrara_15677_627617_0x300.jpg"),
     ],
@@ -12634,10 +12488,10 @@ const initialCards = [
   {
     id: "620",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "sapphire_agate",
+    Collection: "Sapphire agate",
     interiors: [
       require("../images/catalog/lcm/sapphire_agate/interiors/lcm_sapphire_agate_18320_306061_0x300.jpg"),
     ],
@@ -12646,10 +12500,10 @@ const initialCards = [
   {
     id: "621",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "sirius",
+    Collection: "Sirius",
     interiors: [
       require("../images/catalog/lcm/sirius/interiors/lcm_sirius_15678_664751_0x300.jpg"),
     ],
@@ -12658,10 +12512,10 @@ const initialCards = [
   {
     id: "622",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "skyros",
+    Collection: "Skyros",
     interiors: [
       require("../images/catalog/lcm/skyros/interiors/lcm_skyros_15679_552395_0x300.jpg"),
     ],
@@ -12670,10 +12524,10 @@ const initialCards = [
   {
     id: "623",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "snow_onyx",
+    Collection: "Snow onyx",
     interiors: [
       require("../images/catalog/lcm/snow_onyx/interiors/lcm_snow_onyx_15680_945084_0x300.jpg"),
     ],
@@ -12682,10 +12536,10 @@ const initialCards = [
   {
     id: "624",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "LCM",
-    Сollection: "statuario",
+    Collection: "Statuario",
     interiors: [
       require("../images/catalog/lcm/statuario/interiors/lcm_statuario_15681_228702_0x300.jpg"),
     ],
@@ -12694,10 +12548,10 @@ const initialCards = [
   {
     id: "625",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "adele_arctic",
+    Collection: "Adele arctic",
     interiors: [
       require("../images/catalog/newtrend/adele_arctic/interiors/newtrend_adele_arctic_10133_136608_0x300.jpg"),
       require("../images/catalog/newtrend/adele_arctic/interiors/newtrend_adele_arctic_10133_356346_0x300.jpg"),
@@ -12716,10 +12570,10 @@ const initialCards = [
   {
     id: "626",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "adele_latte",
+    Collection: "Adele latte",
     interiors: [
       require("../images/catalog/newtrend/adele_latte/interiors/newtrend_adele_latte_10134_356924_0x300.jpg"),
       require("../images/catalog/newtrend/adele_latte/interiors/newtrend_adele_latte_10134_356924_0x500.jpg"),
@@ -12738,10 +12592,10 @@ const initialCards = [
   {
     id: "627",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "agatha",
+    Collection: "Agatha",
     interiors: [
       require("../images/catalog/newtrend/agatha/interiors/newtrend_agatha_10135_176921_0x300.jpg"),
       require("../images/catalog/newtrend/agatha/interiors/newtrend_agatha_10135_231107_0x300.jpg"),
@@ -12760,10 +12614,10 @@ const initialCards = [
   {
     id: "628",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "amadeo",
+    Collection: "Amadeo",
     interiors: [
       require("../images/catalog/newtrend/amadeo/interiors/newtrend_amadeo_14291_185086_0x300.jpg"),
       require("../images/catalog/newtrend/amadeo/interiors/newtrend_amadeo_14291_185086_0x500.jpg"),
@@ -12780,10 +12634,10 @@ const initialCards = [
   {
     id: "629",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "artwood",
+    Collection: "Artwood",
     interiors: [
       require("../images/catalog/newtrend/artwood/interiors/newtrend_artwood_14292_205671_0x300.jpg"),
       require("../images/catalog/newtrend/artwood/interiors/newtrend_artwood_14292_205671_0x500.jpg"),
@@ -12798,10 +12652,10 @@ const initialCards = [
   {
     id: "630",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "artwork",
+    Collection: "Artwork",
     interiors: [
       require("../images/catalog/newtrend/artwork/interiors/newtrend_artwork_10136_290955_0x300.jpg"),
       require("../images/catalog/newtrend/artwork/interiors/newtrend_artwork_10136_569985_0x300.jpg"),
@@ -12818,10 +12672,10 @@ const initialCards = [
   {
     id: "631",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "atelier",
+    Collection: "Atelier",
     interiors: [
       require("../images/catalog/newtrend/atelier/interiors/newtrend_atelier_10137_512668_0x300.jpg"),
       require("../images/catalog/newtrend/atelier/interiors/newtrend_atelier_10137_512668_0x500.jpg"),
@@ -12835,10 +12689,10 @@ const initialCards = [
   {
     id: "632",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "bang",
+    Collection: "Bang",
     interiors: [
       require("../images/catalog/newtrend/bang/interiors/newtrend_bang_10138_316275_0x300.jpg"),
       require("../images/catalog/newtrend/bang/interiors/newtrend_bang_10138_902517_0x300.jpg"),
@@ -12852,10 +12706,10 @@ const initialCards = [
   {
     id: "633",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "black_white",
+    Collection: "Black white",
     interiors: [
       require("../images/catalog/newtrend/black_white/interiors/newtrend_black_white_9790_606418_0x300.jpg"),
       require("../images/catalog/newtrend/black_white/interiors/newtrend_black_white_9790_606418_0x500.jpg"),
@@ -12869,10 +12723,10 @@ const initialCards = [
   {
     id: "634",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "blues",
+    Collection: "Blues",
     interiors: [
       require("../images/catalog/newtrend/blues/interiors/newtrend_blues_14293_581473_0x300.jpg"),
       require("../images/catalog/newtrend/blues/interiors/newtrend_blues_14293_764741_0x300.jpg"),
@@ -12890,10 +12744,10 @@ const initialCards = [
   {
     id: "635",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "bounty",
+    Collection: "Bounty",
     interiors: [
       require("../images/catalog/newtrend/bounty/interiors/newtrend_bounty_10139_446552_0x300.jpg"),
       require("../images/catalog/newtrend/bounty/interiors/newtrend_bounty_10139_459413_0x300.jpg"),
@@ -12907,10 +12761,10 @@ const initialCards = [
   {
     id: "636",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "brazylyan_sky",
+    Collection: "Brazylyan sky",
     interiors: [
       require("../images/catalog/newtrend/brazylyan_sky/interiors/newtrend_brazylyan_sky_14275_165824_0x300.jpg"),
       require("../images/catalog/newtrend/brazylyan_sky/interiors/newtrend_brazylyan_sky_14275_165824_0x500.jpg"),
@@ -12922,10 +12776,10 @@ const initialCards = [
   {
     id: "637",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "candy",
+    Collection: "Candy",
     interiors: [
       require("../images/catalog/newtrend/candy/interiors/newtrend_candy_9944_136676_0x300.jpg"),
       require("../images/catalog/newtrend/candy/interiors/newtrend_candy_9944_375964_0x300.jpg"),
@@ -12943,10 +12797,10 @@ const initialCards = [
   {
     id: "638",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "chicago",
+    Collection: "Chicago",
     interiors: [
       require("../images/catalog/newtrend/chicago/interiors/newtrend_chicago_10140_190683_0x300.jpg"),
       require("../images/catalog/newtrend/chicago/interiors/newtrend_chicago_10140_273338_0x300.jpg"),
@@ -12962,10 +12816,10 @@ const initialCards = [
   {
     id: "639",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "chicago_gray",
+    Collection: "Chicago gray",
     interiors: [
       require("../images/catalog/newtrend/chicago_gray/interiors/newtrend_chicago_gray_10141_402346_0x300.jpg"),
       require("../images/catalog/newtrend/chicago_gray/interiors/newtrend_chicago_gray_10141_495847_0x300.jpg"),
@@ -12982,10 +12836,10 @@ const initialCards = [
   {
     id: "640",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "congo",
+    Collection: "Congo",
     interiors: [
       require("../images/catalog/newtrend/congo/interiors/newtrend_congo_14294_289604_0x300.jpg"),
       require("../images/catalog/newtrend/congo/interiors/newtrend_congo_14294_337565_0x300.jpg"),
@@ -13003,10 +12857,10 @@ const initialCards = [
   {
     id: "641",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "corfu",
+    Collection: "Corfu",
     interiors: [
       require("../images/catalog/newtrend/corfu/interiors/newtrend_corfu_9791_156058_0x300.jpg"),
       require("../images/catalog/newtrend/corfu/interiors/newtrend_corfu_9791_156058_0x500.jpg"),
@@ -13020,10 +12874,10 @@ const initialCards = [
   {
     id: "642",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "corten",
+    Collection: "Corten",
     interiors: [
       require("../images/catalog/newtrend/corten/interiors/newtrend_corten_16296_138513_0x300.jpg"),
       require("../images/catalog/newtrend/corten/interiors/newtrend_corten_16296_138513_0x500.jpg"),
@@ -13037,10 +12891,10 @@ const initialCards = [
   {
     id: "643",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "creta",
+    Collection: "Creta",
     interiors: [
       require("../images/catalog/newtrend/creta/interiors/newtrend_creta_9792_457843_0x300.jpg"),
       require("../images/catalog/newtrend/creta/interiors/newtrend_creta_9792_81802_0x300.jpg"),
@@ -13054,10 +12908,10 @@ const initialCards = [
   {
     id: "644",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "dacar",
+    Collection: "Dacar",
     interiors: [
       require("../images/catalog/newtrend/dacar/interiors/newtrend_dacar_14295_164911_0x300.jpg"),
       require("../images/catalog/newtrend/dacar/interiors/newtrend_dacar_14295_164911_0x500.jpg"),
@@ -13071,10 +12925,10 @@ const initialCards = [
   {
     id: "645",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "dance",
+    Collection: "Dance",
     interiors: [
       require("../images/catalog/newtrend/dance/interiors/newtrend_dance_9793_386489_0x300.jpg"),
       require("../images/catalog/newtrend/dance/interiors/newtrend_dance_9793_44465_0x300.jpg"),
@@ -13088,10 +12942,10 @@ const initialCards = [
   {
     id: "646",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "dax",
+    Collection: "Dax",
     interiors: [
       require("../images/catalog/newtrend/dax/interiors/newtrend_dax_10248_106627_0x300.jpg"),
       require("../images/catalog/newtrend/dax/interiors/newtrend_dax_10248_556316_0x300.jpg"),
@@ -13108,10 +12962,10 @@ const initialCards = [
   {
     id: "647",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "destone",
+    Collection: "Destone",
     interiors: [
       require("../images/catalog/newtrend/destone/interiors/newtrend_destone_14276_497973_0x300.jpg"),
       require("../images/catalog/newtrend/destone/interiors/newtrend_destone_14276_497973_0x500.jpg"),
@@ -13124,10 +12978,10 @@ const initialCards = [
   {
     id: "648",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "dover",
+    Collection: "Dover",
     interiors: [
       require("../images/catalog/newtrend/dover/interiors/newtrend_dover_10415_335651_0x300.jpg"),
       require("../images/catalog/newtrend/dover/interiors/newtrend_dover_10415_795557_0x300.jpg"),
@@ -13144,10 +12998,10 @@ const initialCards = [
   {
     id: "649",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "emerald",
+    Collection: "Emerald",
     interiors: [
       require("../images/catalog/newtrend/emerald/interiors/newtrend_emerald_9946_817923_0x300.jpg"),
       require("../images/catalog/newtrend/emerald/interiors/newtrend_emerald_9946_817923_0x500.jpg"),
@@ -13164,10 +13018,10 @@ const initialCards = [
   {
     id: "650",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "essense",
+    Collection: "Essense",
     interiors: [
       require("../images/catalog/newtrend/essense/interiors/newtrend_essense_10142_104090_0x300.jpg"),
       require("../images/catalog/newtrend/essense/interiors/newtrend_essense_10142_209349_0x300.jpg"),
@@ -13188,10 +13042,10 @@ const initialCards = [
   {
     id: "651",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "firenze",
+    Collection: "Firenze",
     interiors: [
       require("../images/catalog/newtrend/firenze/interiors/newtrend_firenze_14277_236657_0x300.jpg"),
       require("../images/catalog/newtrend/firenze/interiors/newtrend_firenze_14277_236657_0x500.jpg"),
@@ -13205,10 +13059,10 @@ const initialCards = [
   {
     id: "652",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "fly",
+    Collection: "Fly",
     interiors: [
       require("../images/catalog/newtrend/fly/interiors/newtrend_fly_10132_116448_0x300.jpg"),
       require("../images/catalog/newtrend/fly/interiors/newtrend_fly_10132_701743_0x300.jpg"),
@@ -13223,10 +13077,10 @@ const initialCards = [
   {
     id: "653",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "garret",
+    Collection: "Garret",
     interiors: [
       require("../images/catalog/newtrend/garret/interiors/newtrend_garret_10144_555697_0x300.jpg"),
       require("../images/catalog/newtrend/garret/interiors/newtrend_garret_10144_958671_0x300.jpg"),
@@ -13242,10 +13096,10 @@ const initialCards = [
   {
     id: "654",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "gemstone",
+    Collection: "Gemstone",
     interiors: [
       require("../images/catalog/newtrend/gemstone/interiors/newtrend_gemstone_10417_234244_0x300.jpg"),
       require("../images/catalog/newtrend/gemstone/interiors/newtrend_gemstone_10417_829951_0x300.jpg"),
@@ -13262,10 +13116,10 @@ const initialCards = [
   {
     id: "655",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "invisible",
+    Collection: "Invisible",
     interiors: [
       require("../images/catalog/newtrend/invisible/interiors/newtrend_invisible_14278_435201_0x300.jpg"),
       require("../images/catalog/newtrend/invisible/interiors/newtrend_invisible_14278_435201_0x500.jpg"),
@@ -13277,10 +13131,10 @@ const initialCards = [
   {
     id: "656",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "konor",
+    Collection: "Konor",
     interiors: [
       require("../images/catalog/newtrend/konor/interiors/newtrend_konor_10708_312580_0x300.jpg"),
       require("../images/catalog/newtrend/konor/interiors/newtrend_konor_10708_552506_0x300.jpg"),
@@ -13297,10 +13151,10 @@ const initialCards = [
   {
     id: "657",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "laberta_beige",
+    Collection: "Laberta beige",
     interiors: [
       require("../images/catalog/newtrend/laberta_beige/interiors/newtrend_laberta_beige_9797_953466_0x300.jpg"),
       require("../images/catalog/newtrend/laberta_beige/interiors/newtrend_laberta_beige_9797_997906_0x300.jpg"),
@@ -13314,10 +13168,10 @@ const initialCards = [
   {
     id: "658",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "manhattan",
+    Collection: "Manhattan",
     interiors: [
       require("../images/catalog/newtrend/manhattan/interiors/newtrend_manhattan_10147_264002_0x300.jpg"),
       require("../images/catalog/newtrend/manhattan/interiors/newtrend_manhattan_10147_315595_0x300.jpg"),
@@ -13333,10 +13187,10 @@ const initialCards = [
   {
     id: "659",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "minori",
+    Collection: "Minori",
     interiors: [
       require("../images/catalog/newtrend/minori/interiors/newtrend_minori_10419_310592_0x300.jpg"),
       require("../images/catalog/newtrend/minori/interiors/newtrend_minori_10419_420702_0x300.jpg"),
@@ -13351,10 +13205,10 @@ const initialCards = [
   {
     id: "660",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "montana",
+    Collection: "Montana",
     interiors: [
       require("../images/catalog/newtrend/montana/interiors/newtrend_montana_9801_143854_0x300.jpg"),
       require("../images/catalog/newtrend/montana/interiors/newtrend_montana_9801_143854_0x500.jpg"),
@@ -13368,10 +13222,10 @@ const initialCards = [
   {
     id: "661",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "neil",
+    Collection: "Neil",
     interiors: [
       require("../images/catalog/newtrend/neil/interiors/newtrend_neil_15029_236986_0x300.jpg"),
       require("../images/catalog/newtrend/neil/interiors/newtrend_neil_15029_236986_0x500.jpg"),
@@ -13383,10 +13237,10 @@ const initialCards = [
   {
     id: "662",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "paintwood",
+    Collection: "Paintwood",
     interiors: [
       require("../images/catalog/newtrend/paintwood/interiors/newtrend_paintwood_9803_51205_0x300.jpg"),
       require("../images/catalog/newtrend/paintwood/interiors/newtrend_paintwood_9803_644234_0x300.jpg"),
@@ -13400,10 +13254,10 @@ const initialCards = [
   {
     id: "663",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "paintwood_brown",
+    Collection: "Paintwood brown",
     interiors: [
       require("../images/catalog/newtrend/paintwood_brown/interiors/newtrend_paintwood_brown_9804_336696_0x300.jpg"),
       require("../images/catalog/newtrend/paintwood_brown/interiors/newtrend_paintwood_brown_9804_336696_0x500.jpg"),
@@ -13417,10 +13271,10 @@ const initialCards = [
   {
     id: "664",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "play",
+    Collection: "Play",
     interiors: [
       require("../images/catalog/newtrend/play/interiors/newtrend_play_14296_724520_0x300.jpg"),
       require("../images/catalog/newtrend/play/interiors/newtrend_play_14296_724520_0x500.jpg"),
@@ -13439,10 +13293,10 @@ const initialCards = [
   {
     id: "665",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "prima",
+    Collection: "Prima",
     interiors: [
       require("../images/catalog/newtrend/prima/interiors/newtrend_prima_9805_462347_0x300.jpg"),
       require("../images/catalog/newtrend/prima/interiors/newtrend_prima_9805_462347_0x500.jpg"),
@@ -13456,10 +13310,10 @@ const initialCards = [
   {
     id: "666",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "ringwood_brown",
+    Collection: "Ringwood brown",
     interiors: [
       require("../images/catalog/newtrend/ringwood_brown/interiors/newtrend_ringwood_brown_9806_537268_0x300.jpg"),
       require("../images/catalog/newtrend/ringwood_brown/interiors/newtrend_ringwood_brown_9806_537268_0x500.jpg"),
@@ -13473,10 +13327,10 @@ const initialCards = [
   {
     id: "667",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "ringwood_crema",
+    Collection: "Ringwood crema",
     interiors: [
       require("../images/catalog/newtrend/ringwood_crema/interiors/newtrend_ringwood_crema_9807_192929_0x300.jpg"),
       require("../images/catalog/newtrend/ringwood_crema/interiors/newtrend_ringwood_crema_9807_192929_0x500.jpg"),
@@ -13490,10 +13344,10 @@ const initialCards = [
   {
     id: "668",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "statuario",
+    Collection: "Statuario",
     interiors: [
       require("../images/catalog/newtrend/statuario/interiors/newtrend_statuario_14281_168398_0x300.jpg"),
       require("../images/catalog/newtrend/statuario/interiors/newtrend_statuario_14281_344737_0x300.jpg"),
@@ -13507,10 +13361,10 @@ const initialCards = [
   {
     id: "669",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "street",
+    Collection: "Street",
     interiors: [
       require("../images/catalog/newtrend/street/interiors/newtrend_street_14282_615501_0x300.jpg"),
       require("../images/catalog/newtrend/street/interiors/newtrend_street_14282_615501_0x500.jpg"),
@@ -13522,10 +13376,10 @@ const initialCards = [
   {
     id: "670",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "teona",
+    Collection: "Teona",
     interiors: [
       require("../images/catalog/newtrend/teona/interiors/newtrend_teona_9809_310523_0x300.jpg"),
       require("../images/catalog/newtrend/teona/interiors/newtrend_teona_9809_933529_0x300.jpg"),
@@ -13539,10 +13393,10 @@ const initialCards = [
   {
     id: "671",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "venice",
+    Collection: "Venice",
     interiors: [
       require("../images/catalog/newtrend/venice/interiors/newtrend_venice_14297_829771_0x300.jpg"),
       require("../images/catalog/newtrend/venice/interiors/newtrend_venice_14297_829771_0x500.jpg"),
@@ -13559,10 +13413,10 @@ const initialCards = [
   {
     id: "672",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "vincenzo",
+    Collection: "Vincenzo",
     interiors: [
       require("../images/catalog/newtrend/vincenzo/interiors/newtrend_vincenzo_10422_110799_0x300.jpg"),
       require("../images/catalog/newtrend/vincenzo/interiors/newtrend_vincenzo_10422_656513_0x300.jpg"),
@@ -13579,10 +13433,10 @@ const initialCards = [
   {
     id: "673",
     Сountry: "Россия",
-    Category: "Керамическая плитка",
+    Category: "Plitka",
     Size: ["20x60"],
     Name: "NewTrend",
-    Сollection: "volcano",
+    Collection: "Volcano",
     interiors: [require("../images/catalog/noFoto.jpg")],
     tovars: [
       require("../images/catalog/newtrend/volcano/tovars/newtrend_volcano_111081_271511_300x0.jpg"),
@@ -13593,10 +13447,10 @@ const initialCards = [
   {
     id: "674",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "abside_ice",
+    Collection: "Abside ice",
     interiors: [
       require("../images/catalog/primavera/abside_ice/interiors/primavera_abside_ice_18177_672073_0x300.jpg"),
     ],
@@ -13605,10 +13459,10 @@ const initialCards = [
   {
     id: "675",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "acacia",
+    Collection: "Acacia",
     interiors: [
       require("../images/catalog/primavera/acacia/interiors/primavera_acacia_15235_821305_0x300.jpg"),
     ],
@@ -13617,10 +13471,10 @@ const initialCards = [
   {
     id: "676",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "acothly",
+    Collection: "Acothly",
     interiors: [
       require("../images/catalog/primavera/acothly/interiors/primavera_acothly_18162_971516_0x300.jpg"),
     ],
@@ -13629,10 +13483,10 @@ const initialCards = [
   {
     id: "677",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "alcor",
+    Collection: "Alcor",
     interiors: [
       require("../images/catalog/primavera/alcor/interiors/primavera_alcor_15572_942293_0x300.jpg"),
     ],
@@ -13641,10 +13495,10 @@ const initialCards = [
   {
     id: "678",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "allure",
+    Collection: "Allure",
     interiors: [
       require("../images/catalog/primavera/allure/interiors/primavera_allure_16052_48615_0x300.jpg"),
     ],
@@ -13653,10 +13507,10 @@ const initialCards = [
   {
     id: "679",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "almond_cascais",
+    Collection: "Almond cascais",
     interiors: [
       require("../images/catalog/primavera/almond_cascais/interiors/primavera_almond_cascais_14962_462857_0x300.jpg"),
     ],
@@ -13665,10 +13519,10 @@ const initialCards = [
   {
     id: "680",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "almond_light_grey",
+    Collection: "Almond light grey",
     interiors: [
       require("../images/catalog/primavera/almond_light_grey/interiors/primavera_almond_light_grey_18178_618247_0x300.jpg"),
     ],
@@ -13677,10 +13531,10 @@ const initialCards = [
   {
     id: "681",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "alzirr",
+    Collection: "Alzirr",
     interiors: [
       require("../images/catalog/primavera/alzirr/interiors/primavera_alzirr_15573_96882_0x300.jpg"),
     ],
@@ -13689,10 +13543,10 @@ const initialCards = [
   {
     id: "682",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "amore_beige",
+    Collection: "Amore beige",
     interiors: [
       require("../images/catalog/primavera/amore_beige/interiors/primavera_amore_beige_16053_386258_0x300.jpg"),
     ],
@@ -13701,10 +13555,10 @@ const initialCards = [
   {
     id: "683",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "amore_silver",
+    Collection: "Amore silver",
     interiors: [
       require("../images/catalog/primavera/amore_silver/interiors/primavera_amore_silver_16054_848518_0x300.jpg"),
     ],
@@ -13713,10 +13567,10 @@ const initialCards = [
   {
     id: "684",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "antares",
+    Collection: "Antares",
     interiors: [
       require("../images/catalog/primavera/antares/interiors/primavera_antares_15574_230711_0x300.jpg"),
     ],
@@ -13725,10 +13579,10 @@ const initialCards = [
   {
     id: "685",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "ardesia_grafito",
+    Collection: "Ardesia grafito",
     interiors: [
       require("../images/catalog/primavera/ardesia_grafito/interiors/primavera_ardesia_grafito_14917_608813_0x300.jpg"),
     ],
@@ -13737,10 +13591,10 @@ const initialCards = [
   {
     id: "686",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "arena_white",
+    Collection: "Arena white",
     interiors: [
       require("../images/catalog/primavera/arena_white/interiors/primavera_arena_white_14916_470242_0x300.jpg"),
     ],
@@ -13749,10 +13603,10 @@ const initialCards = [
   {
     id: "687",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "arseno",
+    Collection: "Arseno",
     interiors: [
       require("../images/catalog/primavera/arseno/interiors/primavera_arseno_15236_885837_0x300.jpg"),
     ],
@@ -13761,10 +13615,10 @@ const initialCards = [
   {
     id: "688",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "atago",
+    Collection: "Atago",
     interiors: [
       require("../images/catalog/primavera/atago/interiors/primavera_atago_14919_129304_0x300.jpg"),
     ],
@@ -13773,10 +13627,10 @@ const initialCards = [
   {
     id: "689",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "ayton",
+    Collection: "Ayton",
     interiors: [
       require("../images/catalog/primavera/ayton/interiors/primavera_ayton_15185_599621_0x300.jpg"),
     ],
@@ -13785,10 +13639,10 @@ const initialCards = [
   {
     id: "690",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "balial",
+    Collection: "Balial",
     interiors: [
       require("../images/catalog/primavera/balial/interiors/primavera_balial_14925_415241_0x300.jpg"),
     ],
@@ -13797,10 +13651,10 @@ const initialCards = [
   {
     id: "691",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "beira_stone",
+    Collection: "Beira stone",
     interiors: [
       require("../images/catalog/primavera/beira_stone/interiors/primavera_beira_stone_17865_780910_0x300.jpg"),
     ],
@@ -13809,10 +13663,10 @@ const initialCards = [
   {
     id: "692",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "belfast",
+    Collection: "Belfast",
     interiors: [
       require("../images/catalog/primavera/belfast/interiors/primavera_belfast_15238_965730_0x300.jpg"),
     ],
@@ -13821,10 +13675,10 @@ const initialCards = [
   {
     id: "693",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "bellevue",
+    Collection: "Bellevue",
     interiors: [
       require("../images/catalog/primavera/bellevue/interiors/primavera_bellevue_15239_307641_0x300.jpg"),
       require("../images/catalog/primavera/bellevue/interiors/primavera_bellevue_18151_987543_0x300.jpg"),
@@ -13834,10 +13688,10 @@ const initialCards = [
   {
     id: "694",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "bellevue_grit_granula",
+    Collection: "Bellevue grit granula",
     interiors: [
       require("../images/catalog/primavera/bellevue_grit_granula/interiors/primavera_bellevue_grit_granula_17889_907425_0x300.jpg"),
     ],
@@ -13846,10 +13700,10 @@ const initialCards = [
   {
     id: "695",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "berat",
+    Collection: "Berat",
     interiors: [
       require("../images/catalog/primavera/berat/interiors/primavera_berat_18166_354008_0x300.jpg"),
     ],
@@ -13858,10 +13712,10 @@ const initialCards = [
   {
     id: "696",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "bigium_blue",
+    Collection: "Bigium blue",
     interiors: [
       require("../images/catalog/primavera/bigium_blue/interiors/primavera_bigium_blue_14915_616052_0x300.jpg"),
     ],
@@ -13870,10 +13724,10 @@ const initialCards = [
   {
     id: "697",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "black_emperador",
+    Collection: "Black emperador",
     interiors: [
       require("../images/catalog/primavera/black_emperador/interiors/primavera_black_emperador_14966_871706_0x300.jpg"),
     ],
@@ -13882,10 +13736,10 @@ const initialCards = [
   {
     id: "698",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "black_modulo",
+    Collection: "Black modulo",
     interiors: [
       require("../images/catalog/primavera/black_modulo/interiors/primavera_black_modulo_15240_29347_0x300.jpg"),
     ],
@@ -13894,10 +13748,10 @@ const initialCards = [
   {
     id: "699",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "black_velvet",
+    Collection: "Black velvet",
     interiors: [
       require("../images/catalog/primavera/black_velvet/interiors/primavera_black_velvet_18176_618609_0x300.jpg"),
     ],
@@ -13906,10 +13760,10 @@ const initialCards = [
   {
     id: "700",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "blanco_tranco",
+    Collection: "Blanco tranco",
     interiors: [
       require("../images/catalog/primavera/blanco_tranco/interiors/primavera_blanco_tranco_15241_587580_0x300.jpg"),
     ],
@@ -13918,10 +13772,10 @@ const initialCards = [
   {
     id: "701",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "bondford",
+    Collection: "Bondford",
     interiors: [
       require("../images/catalog/primavera/bondford/interiors/primavera_bondford_15242_165535_0x300.jpg"),
     ],
@@ -13930,10 +13784,10 @@ const initialCards = [
   {
     id: "702",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "borzonti",
+    Collection: "Borzonti",
     interiors: [
       require("../images/catalog/primavera/borzonti/interiors/primavera_borzonti_14934_338959_0x300.jpg"),
     ],
@@ -13942,10 +13796,10 @@ const initialCards = [
   {
     id: "703",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "botein",
+    Collection: "Botein",
     interiors: [
       require("../images/catalog/primavera/botein/interiors/primavera_botein_15575_460323_0x300.jpg"),
     ],
@@ -13954,10 +13808,10 @@ const initialCards = [
   {
     id: "704",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "branch",
+    Collection: "Branch",
     interiors: [
       require("../images/catalog/primavera/branch/interiors/primavera_branch_15576_23406_0x300.jpg"),
       require("../images/catalog/primavera/branch/interiors/primavera_branch_15576_348597_0x300.jpg"),
@@ -13975,10 +13829,10 @@ const initialCards = [
   {
     id: "705",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "brecia_ivory",
+    Collection: "Brecia ivory",
     interiors: [
       require("../images/catalog/primavera/brecia_ivory/interiors/primavera_brecia_ivory_14913_411205_0x300.jpg"),
     ],
@@ -13987,10 +13841,10 @@ const initialCards = [
   {
     id: "706",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "canta",
+    Collection: "Canta",
     interiors: [
       require("../images/catalog/primavera/canta/interiors/primavera_canta_14932_543196_0x300.jpg"),
     ],
@@ -13999,10 +13853,10 @@ const initialCards = [
   {
     id: "707",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "canyon",
+    Collection: "Canyon",
     interiors: [
       require("../images/catalog/primavera/canyon/interiors/primavera_canyon_15243_896475_0x300.jpg"),
     ],
@@ -14011,10 +13865,10 @@ const initialCards = [
   {
     id: "708",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "caribbean",
+    Collection: "Caribbean",
     interiors: [
       require("../images/catalog/primavera/caribbean/interiors/primavera_caribbean_15244_596206_0x300.jpg"),
     ],
@@ -14023,10 +13877,10 @@ const initialCards = [
   {
     id: "709",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "chalco",
+    Collection: "Chalco",
     interiors: [
       require("../images/catalog/primavera/chalco/interiors/primavera_chalco_18167_649858_0x300.jpg"),
     ],
@@ -14035,10 +13889,10 @@ const initialCards = [
   {
     id: "710",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "chance",
+    Collection: "Chance",
     interiors: [
       require("../images/catalog/primavera/chance/interiors/primavera_chance_16055_712199_0x300.jpg"),
     ],
@@ -14047,10 +13901,10 @@ const initialCards = [
   {
     id: "711",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "chembra_onyx",
+    Collection: "Chembra onyx",
     interiors: [
       require("../images/catalog/primavera/chembra_onyx/interiors/primavera_chembra_onyx_15245_157760_0x300.jpg"),
     ],
@@ -14059,10 +13913,10 @@ const initialCards = [
   {
     id: "712",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "cobar",
+    Collection: "Cobar",
     interiors: [
       require("../images/catalog/primavera/cobar/interiors/primavera_cobar_18155_938967_0x300.jpg"),
     ],
@@ -14071,10 +13925,10 @@ const initialCards = [
   {
     id: "713",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "colonial_white",
+    Collection: "Colonial white",
     interiors: [
       require("../images/catalog/primavera/colonial_white/interiors/primavera_colonial_white_14911_929456_0x300.jpg"),
     ],
@@ -14083,10 +13937,10 @@ const initialCards = [
   {
     id: "714",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "cork",
+    Collection: "Cork",
     interiors: [
       require("../images/catalog/primavera/cork/interiors/primavera_cork_15246_198025_0x300.jpg"),
     ],
@@ -14095,10 +13949,10 @@ const initialCards = [
   {
     id: "715",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "dalim",
+    Collection: "Dalim",
     interiors: [
       require("../images/catalog/primavera/dalim/interiors/primavera_dalim_15577_66968_0x300.jpg"),
     ],
@@ -14107,10 +13961,10 @@ const initialCards = [
   {
     id: "716",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "dario",
+    Collection: "Dario",
     interiors: [
       require("../images/catalog/primavera/dario/interiors/primavera_dario_14908_458774_0x300.jpg"),
     ],
@@ -14119,10 +13973,10 @@ const initialCards = [
   {
     id: "717",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "dior_white",
+    Collection: "Dior white",
     interiors: [
       require("../images/catalog/primavera/dior_white/interiors/primavera_dior_white_17866_473978_0x300.jpg"),
     ],
@@ -14131,10 +13985,10 @@ const initialCards = [
   {
     id: "718",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "duchess",
+    Collection: "Duchess",
     interiors: [
       require("../images/catalog/primavera/duchess/interiors/primavera_duchess_16056_19649_0x300.jpg"),
     ],
@@ -14143,10 +13997,10 @@ const initialCards = [
   {
     id: "719",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "dzhimara",
+    Collection: "Dzhimara",
     interiors: [
       require("../images/catalog/primavera/dzhimara/interiors/primavera_dzhimara_14933_677451_0x300.jpg"),
     ],
@@ -14155,10 +14009,10 @@ const initialCards = [
   {
     id: "720",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "ehlbrus",
+    Collection: "Ehlbrus",
     interiors: [
       require("../images/catalog/primavera/ehlbrus/interiors/primavera_ehlbrus_14920_195118_0x300.jpg"),
     ],
@@ -14167,10 +14021,10 @@ const initialCards = [
   {
     id: "721",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "elgon",
+    Collection: "Elgon",
     interiors: [
       require("../images/catalog/primavera/elgon/interiors/primavera_elgon_16393_753802_0x300.jpg"),
     ],
@@ -14179,10 +14033,10 @@ const initialCards = [
   {
     id: "722",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "elise",
+    Collection: "Elise",
     interiors: [
       require("../images/catalog/primavera/elise/interiors/primavera_elise_16057_351479_0x300.jpg"),
     ],
@@ -14191,10 +14045,10 @@ const initialCards = [
   {
     id: "723",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "empressa",
+    Collection: "Empressa",
     interiors: [
       require("../images/catalog/primavera/empressa/interiors/primavera_empressa_16058_750450_0x300.jpg"),
     ],
@@ -14203,10 +14057,10 @@ const initialCards = [
   {
     id: "724",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "essence_grey",
+    Collection: "Essence grey",
     interiors: [
       require("../images/catalog/primavera/essence_grey/interiors/primavera_essence_grey_14907_673020_0x300.jpg"),
     ],
@@ -14215,10 +14069,10 @@ const initialCards = [
   {
     id: "725",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "fantasy",
+    Collection: "Fantasy",
     interiors: [
       require("../images/catalog/primavera/fantasy/interiors/primavera_fantasy_15247_533384_0x300.jpg"),
     ],
@@ -14227,10 +14081,10 @@ const initialCards = [
   {
     id: "726",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "favor",
+    Collection: "Favor",
     interiors: [
       require("../images/catalog/primavera/favor/interiors/primavera_favor_14935_678193_0x300.jpg"),
     ],
@@ -14239,10 +14093,10 @@ const initialCards = [
   {
     id: "727",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "forest",
+    Collection: "Forest",
     interiors: [
       require("../images/catalog/primavera/forest/interiors/primavera_forest_15578_528966_0x300.jpg"),
       require("../images/catalog/primavera/forest/interiors/primavera_forest_15578_588703_0x300.jpg"),
@@ -14259,10 +14113,10 @@ const initialCards = [
   {
     id: "728",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "gemba",
+    Collection: "Gemba",
     interiors: [
       require("../images/catalog/primavera/gemba/interiors/primavera_gemba_14928_350555_0x300.jpg"),
     ],
@@ -14271,10 +14125,10 @@ const initialCards = [
   {
     id: "729",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "hangar",
+    Collection: "Hangar",
     interiors: [
       require("../images/catalog/primavera/hangar/interiors/primavera_hangar_16394_361748_0x300.jpg"),
     ],
@@ -14283,10 +14137,10 @@ const initialCards = [
   {
     id: "730",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "igman",
+    Collection: "Igman",
     interiors: [
       require("../images/catalog/primavera/igman/interiors/primavera_igman_14940_525999_0x300.jpg"),
     ],
@@ -14295,10 +14149,10 @@ const initialCards = [
   {
     id: "731",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "kabru",
+    Collection: "Kabru",
     interiors: [
       require("../images/catalog/primavera/kabru/interiors/primavera_kabru_14926_991214_0x300.jpg"),
     ],
@@ -14307,10 +14161,10 @@ const initialCards = [
   {
     id: "732",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "kamatra",
+    Collection: "Kamatra",
     interiors: [
       require("../images/catalog/primavera/kamatra/interiors/primavera_kamatra_14931_16262_0x300.jpg"),
     ],
@@ -14319,10 +14173,10 @@ const initialCards = [
   {
     id: "733",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "kazbek",
+    Collection: "Kazbek",
     interiors: [
       require("../images/catalog/primavera/kazbek/interiors/primavera_kazbek_14937_277816_0x300.jpg"),
     ],
@@ -14331,10 +14185,10 @@ const initialCards = [
   {
     id: "734",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "ketil",
+    Collection: "Ketil",
     interiors: [
       require("../images/catalog/primavera/ketil/interiors/primavera_ketil_14939_915166_0x300.jpg"),
     ],
@@ -14343,10 +14197,10 @@ const initialCards = [
   {
     id: "735",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "khasiya",
+    Collection: "Khasiya",
     interiors: [
       require("../images/catalog/primavera/khasiya/interiors/primavera_khasiya_14923_792329_0x300.jpg"),
     ],
@@ -14355,10 +14209,10 @@ const initialCards = [
   {
     id: "272",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "kongur",
+    Collection: "Kongur",
     interiors: [
       require("../images/catalog/primavera/kongur/interiors/primavera_kongur_14921_247305_0x300.jpg"),
     ],
@@ -14367,10 +14221,10 @@ const initialCards = [
   {
     id: "736",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "libekir",
+    Collection: "Libekir",
     interiors: [
       require("../images/catalog/primavera/libekir/interiors/primavera_libekir_14938_783929_0x300.jpg"),
     ],
@@ -14379,10 +14233,10 @@ const initialCards = [
   {
     id: "737",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "maderas",
+    Collection: "Maderas",
     interiors: [
       require("../images/catalog/primavera/maderas/interiors/primavera_maderas_16395_983149_0x300.jpg"),
     ],
@@ -14391,10 +14245,10 @@ const initialCards = [
   {
     id: "738",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "makalu",
+    Collection: "Makalu",
     interiors: [
       require("../images/catalog/primavera/makalu/interiors/primavera_makalu_14922_50660_0x300.jpg"),
     ],
@@ -14403,10 +14257,10 @@ const initialCards = [
   {
     id: "273",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "manaraga",
+    Collection: "Manaraga",
     interiors: [
       require("../images/catalog/primavera/manaraga/interiors/primavera_manaraga_14936_166320_0x300.jpg"),
     ],
@@ -14415,10 +14269,10 @@ const initialCards = [
   {
     id: "274",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "milos",
+    Collection: "Milos",
     interiors: [
       require("../images/catalog/primavera/milos/interiors/primavera_milos_16396_840108_0x300.jpg"),
     ],
@@ -14427,10 +14281,10 @@ const initialCards = [
   {
     id: "275",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "nemo",
+    Collection: "Nemo",
     interiors: [
       require("../images/catalog/primavera/nemo/interiors/primavera_nemo_16397_648258_0x300.jpg"),
     ],
@@ -14439,10 +14293,10 @@ const initialCards = [
   {
     id: "276",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "nordend",
+    Collection: "Nordend",
     interiors: [
       require("../images/catalog/primavera/nordend/interiors/primavera_nordend_14941_913464_0x300.jpg"),
     ],
@@ -14451,10 +14305,10 @@ const initialCards = [
   {
     id: "277",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "olimbos",
+    Collection: "Olimbos",
     interiors: [
       require("../images/catalog/primavera/olimbos/interiors/primavera_olimbos_14929_304671_0x300.jpg"),
     ],
@@ -14463,10 +14317,10 @@ const initialCards = [
   {
     id: "278",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "pantir",
+    Collection: "Pantir",
     interiors: [
       require("../images/catalog/primavera/pantir/interiors/primavera_pantir_14927_758982_0x300.jpg"),
     ],
@@ -14475,10 +14329,10 @@ const initialCards = [
   {
     id: "279",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "ross",
+    Collection: "Ross",
     interiors: [
       require("../images/catalog/primavera/ross/interiors/primavera_ross_16398_369619_0x300.jpg"),
     ],
@@ -14487,10 +14341,10 @@ const initialCards = [
   {
     id: "280",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "sion",
+    Collection: "Sion",
     interiors: [
       require("../images/catalog/primavera/sion/interiors/primavera_sion_14942_935834_0x300.jpg"),
     ],
@@ -14499,10 +14353,10 @@ const initialCards = [
   {
     id: "281",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "taiga",
+    Collection: "Taiga",
     interiors: [
       require("../images/catalog/primavera/taiga/interiors/primavera_taiga_15580_73611_0x300.jpg"),
       require("../images/catalog/primavera/taiga/interiors/primavera_taiga_15580_73611_0x500.jpg"),
@@ -14519,10 +14373,10 @@ const initialCards = [
   {
     id: "282",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "tajjshan",
+    Collection: "Tajjshan",
     interiors: [
       require("../images/catalog/primavera/tajjshan/interiors/primavera_tajjshan_14930_995323_0x300.jpg"),
     ],
@@ -14531,10 +14385,10 @@ const initialCards = [
   {
     id: "283",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "takora",
+    Collection: "Takora",
     interiors: [
       require("../images/catalog/primavera/takora/interiors/primavera_takora_16399_115631_0x300.jpg"),
     ],
@@ -14543,10 +14397,10 @@ const initialCards = [
   {
     id: "284",
     Сountry: "Индия",
-    Category: "Керамогранит",
+    Category: "Keramogranit",
     Size: ["20x60"],
     Name: "Primavera",
-    Сollection: "veleta",
+    Collection: "Veleta",
     interiors: [
       require("../images/catalog/primavera/veleta/interiors/primavera_veleta_14924_867032_0x300.jpg"),
     ],

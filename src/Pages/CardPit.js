@@ -1,27 +1,33 @@
 import React from "react";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
-import Cards from "../Constants/CardsTrap";
+import Cards from "../Constants/DirlisterListCatalog";
 import getImageUrl from "../Constants/Utils";
 import { useParams, useLocation, Link } from "react-router-dom";
 
+//console.log(Cards);//
+
 export default function CardPit() {
   let { Collection } = useParams();
+  //console.log("Часть пути начальная", Collection);//
+
+  //const location = useLocation();//
+  //console.log(location.pathname, location.search);//
 
   const Item = Cards.filter((card) => card.Collection === Collection);
-  console.log(Item);
+  //console.log(Item);//
 
   return (
     <article className="card__page">
-      <ul className="card__page">
-        {Item.map((card) => (
-          <li key={card.id}>
-            <div className="card__body_one">
-              <img
-                className="card__img_card"
-                src={getImageUrl(card)}
-                alt={card.Name + card.interiors}
-              />
+      {Item.map((card) => (
+        <div key={card.id}>
+          <div className="card__body_one">
+            <img
+              className="card__img_card"
+              src={card.interiors[0]}
+              alt={card.Name}
+            />
+            <div className="card__img-interior">
               <div className="card__conteiner">
                 <p className="card__collection">Коллекция: {card.Collection}</p>
                 <p className="card__name">Производитель: {card.Name}</p>
@@ -30,24 +36,28 @@ export default function CardPit() {
                 </p>
                 <p className="card__country">Размеры: {card.Size}</p>
               </div>
+
+              <ul className="card__img-interiors">
+                {card.interiors.map((card) => (
+                  <li className="card__img_tovars">
+                    <img className="card__img_tovar" src={card} alt={card} />
+                  </li>
+                ))}
+              </ul>
             </div>
-            <ul className="card__wrapper">
+          </div>
+          <ul className="card__wrapper-tovars">
             {card.tovars.map((card) => (
-              <li className="card__conteiner">
-              
-              
+              <li className="card__body">
                 <img className="card__img_tovar" src={card} alt={card} />
                 <p className="card__collection">{card.Collection}</p>
                 <p className="card__name">{card.Name}</p>
                 <p className="card__country">Размеры: {card.Size}</p>
-              
               </li>
             ))}
-            </ul>
-          </li>
-        ))}
-      </ul>
-      <h3>Ассортимент</h3>
+          </ul>
+        </div>
+      ))}
     </article>
   );
 }

@@ -13,11 +13,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     width: 100%;
     height: 100%;
-    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    
     padding-bottom: 8px;
 }
 
@@ -69,19 +68,39 @@
 .card__conteiner{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    
+    padding-bottom: 8px;
+    justify-content: space-between
 }
 
 .card__page{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 0;
+    align-content: center;
 }
 
 .card__img_tovar{
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
+}
+
+.card__img-interior{
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img-interiors{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.card__img_tovars{
+    margin-right: 1vh;
 }

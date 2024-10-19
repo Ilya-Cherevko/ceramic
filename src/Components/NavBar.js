@@ -1,6 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import Cards from "../Constants/DirlisterListCatalog";
+
+const KerPlitka = Cards.filter(
+  (card) => card.Category === "Керамическая плитка"
+);
+console.log("Это в Навбаре", KerPlitka);
+
+const KerGranit = Cards.filter((card) => card.Category === "Керамогранит");
+console.log("Это в Навбаре", KerGranit);
 
 const setActive = ({ isActive }) =>
   `menu__link ${isActive ? "menu__link_active" : ""}`;
@@ -22,7 +31,7 @@ function NavBar() {
             <NavLink to="/Plitka/Azori" className={setActive}>
               Азори
             </NavLink>
-            <NavLink to="/Plitka/Eletto_ceramica" className={setActive}>
+            <NavLink to="/Plitka/Eletto%20ceramica" className={setActive}>
               Элетто Керамика
             </NavLink>
             <NavLink to="/Plitka/LB%20Ceramics" className={setActive}>
@@ -39,7 +48,7 @@ function NavBar() {
         <div className="dropdown">
           Керамогранит
           <div className="dropdown-content">
-            <NavLink to="/Keramogranit/Absolut%20Gres" className={setActive}>
+            <NavLink to="/Keramogranit/Absolut%20gres" className={setActive}>
               Абсолют Гресс
             </NavLink>
             <NavLink to="/Keramogranit/Alma%20Ceramica" className={setActive}>
@@ -60,7 +69,7 @@ function NavBar() {
             <NavLink to="/Keramogranit/Estima" className={setActive}>
               Estima
             </NavLink>
-            <NavLink to="/Keramogranit/Estima_city" className={setActive}>
+            <NavLink to="/Keramogranit/Estima%20city" className={setActive}>
               Estima City
             </NavLink>
             <NavLink to="/Keramogranit/Гранитея" className={setActive}>

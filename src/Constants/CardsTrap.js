@@ -7,30 +7,12 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/agate/interiors/absolut_gres_agate_12679_825776_0x500.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "1",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "agate",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
     tovars: [
       require("../images/catalog/absolut_gres/agate/tovars/absolut_gres_agate_103750_668232_300x0.jpg"),
-    ],
-  },
-  {
-    id: "2",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "agate",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
-    tovars: [
       require("../images/catalog/absolut_gres/agate/tovars/absolut_gres_agate_106802_774882_300x0.jpg"),
     ],
   },
+
   {
     id: "3",
     Сountry: "Индия",
@@ -38,19 +20,11 @@ const initialCards = [
     Collection: "alba",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/alba/interiors/absolut_gres_alba_14589_454811_0x500.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "4",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "alba",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
     tovars: [
       require("../images/catalog/absolut_gres/alba/tovars/absolut_gres_alba_112165_639576_300x0.jpg"),
     ],
   },
+
   {
     id: "5",
     Сountry: "Индия",
@@ -58,40 +32,13 @@ const initialCards = [
     Collection: "almond_wood",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/almond_wood/interiors/absolut_gres_almond_wood_17005_95319_0x500.jpg"),
-  },
-  {
-    id: "6",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "almond_wood",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
     tovars: [
       require("../images/catalog/absolut_gres/almond_wood/tovars/absolut_gres_almond_wood_122766_166185_300x0.jpg"),
-    ],
-  },
-  {
-    id: "7",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "almond_wood",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
-    tovars: [
       require("../images/catalog/absolut_gres/almond_wood/tovars/absolut_gres_almond_wood_122767_657106_300x0.jpg"),
-    ],
-  },
-  {
-    id: "8",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "almond_wood",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
-    tovars: [
       require("../images/catalog/absolut_gres/almond_wood/tovars/absolut_gres_almond_wood_122768_636972_300x0.jpg"),
     ],
   },
+
   {
     id: "9",
     Сountry: "Индия",
@@ -100,20 +47,11 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/ambassador/interiors/absolut_gres_ambassador_14580_353460_0x500.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "10",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "ambassador",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
     tovars: [
       require("../images/catalog/absolut_gres/ambassador/tovars/absolut_gres_ambassador_112156_847849_300x0.jpg"),
     ],
   },
+
   {
     id: "11",
     Сountry: "Индия",
@@ -121,43 +59,16 @@ const initialCards = [
     Collection: "andrea_creama",
     Category: "Keramogranit",
     Size: "60x120",
-    interiors: require("../images/catalog/absolut_gres/andrea_creama/interiors/absolut_gres_andrea_creama_16482_287438_0x500.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "12",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "andrea_creama",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/absolut_gres/andrea_creama/interiors/absolut_gres_andrea_creama_16482_359377_0x300.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "13",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "andrea_creama",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
+    interiors: [
+      require("../images/catalog/absolut_gres/andrea_creama/interiors/absolut_gres_andrea_creama_16482_287438_0x500.jpg"),
+      require("../images/catalog/absolut_gres/andrea_creama/interiors/absolut_gres_andrea_creama_16482_359377_0x300.jpg"),
+    ],
     tovars: [
       require("../images/catalog/absolut_gres/andrea_creama/tovars/absolut_gres_andrea_creama_120976_434155_300x0.jpg"),
-    ],
-  },
-  {
-    id: "14",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "andrea_creama",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
-    tovars: [
       require("../images/catalog/absolut_gres/andrea_creama/tovars/absolut_gres_andrea_creama_120986_923157_300x0.jpg"),
     ],
   },
+
   {
     id: "15",
     Сountry: "Индия",
@@ -166,20 +77,11 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antique_grey/interiors/absolut_gres_antique_grey_12661_570759_0x500.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "16",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "antique_grey",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
     tovars: [
       require("../images/catalog/absolut_gres/antique_grey/tovars/absolut_gres_antique_grey_103731_91518_300x0.jpg"),
     ],
   },
+
   {
     id: "17",
     Сountry: "Индия",
@@ -188,20 +90,11 @@ const initialCards = [
     Category: "Keramogranit",
     Size: "60x120",
     interiors: require("../images/catalog/absolut_gres/antique_rough/interiors/absolut_gres_antique_rough_12660_621462_0x500.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "18",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "antique_roug",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
     tovars: [
       require("../images/catalog/absolut_gres/antique_rough/tovars/absolut_gres_antique_rough_103730_401996_300x0.jpg"),
     ],
   },
+
   {
     id: "19",
     Сountry: "Индия",
@@ -209,61 +102,18 @@ const initialCards = [
     Collection: "antiqu_onix_natural",
     Category: "Keramogranit",
     Size: "60x120",
-    interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_316562_0x500.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "20",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "antiqu_onix_natural",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_378517_0x300.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "21",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "antiqu_onix_natural",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_521866_0x300.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "22",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "antiqu_onix_natural",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_805714_0x300.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "23",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "antiqu_onix_natural",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_991946_0x300.jpg"),
-    tovars: [require("../images/catalog/noFoto.jpg")],
-  },
-  {
-    id: "24",
-    Сountry: "Индия",
-    Name: "Absolut Gres",
-    Collection: "antiqu_onix_natural",
-    Category: "Keramogranit",
-    Size: "60x120",
-    interiors: require("../images/catalog/noFoto.jpg"),
+    interiors: [
+      require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_316562_0x500.jpg"),
+      require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_378517_0x300.jpg"),
+      require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_521866_0x300.jpg"),
+      require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_805714_0x300.jpg"),
+      require("../images/catalog/absolut_gres/antiqu_onix_natural/interiors/absolut_gres_antiqu_onix_natural_15277_991946_0x300.jpg"),
+    ],
     tovars: [
       require("../images/catalog/absolut_gres/antiqu_onix_natural/tovars/absolut_gres_antiqu_onix_natural_109179_258871_300x0.jpg"),
     ],
   },
+
   {
     id: "25",
     Сountry: "Индия",
@@ -483,7 +333,12 @@ const initialCards = [
     Collection: "beton",
     Category: "Keramogranit",
     Size: "60x120",
-    interiors: require("../images/catalog/absolut_gres/beton/tovars/absolut_gres_beton_124840_545918_300x0.jpg"),
+    interiors: [
+      require("../images/catalog/absolut_gres/beton/interiors/absolut_gres_novaya_kollekciya__17722_17722_345892.jpg"),
+      require("../images/catalog/absolut_gres/beton/interiors/absolut_gres_novaya_kollekciya__17722_17722_543689.jpg"),
+      require("../images/catalog/absolut_gres/beton/interiors/absolut_gres_novaya_kollekciya__17722_17722_612931.jpg"),
+    ],
+    tovars: require("../images/catalog/absolut_gres/beton/tovars/absolut_gres_beton_124840_545918_300x0.jpg"),
   },
   {
     id: "32",
