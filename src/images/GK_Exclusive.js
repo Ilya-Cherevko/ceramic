@@ -8,14 +8,14 @@ const initialCards = [
     Collection: "Cloudy Grey",
 
     interiors: [
-      require("../images/catalog/Cloudy-Grey-v-interere-1.jpg"),
-      require("../images/catalog/Cloudy-Grey-v-interere-2(1).jpg"),
-      require("../images/catalog/Cloudy-Grey-v-interere-3.jpg"),
-      require("../images/catalog/Cloudy-Grey-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Cloudy Grey/interiors/Cloudy-Grey-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Cloudy Grey/interiors/Cloudy-Grey-v-interere-2(1).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Cloudy Grey/interiors/Cloudy-Grey-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Cloudy Grey/interiors/Cloudy-Grey-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Cloudy-Grey.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(16).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Cloudy Grey/tovars/Cloudy-Grey.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Cloudy Grey/tovars/variant-razmeshcheniya(16).jpg"),
     ],
   },
   {
@@ -27,14 +27,14 @@ const initialCards = [
     Collection: "Crystal White",
 
     interiors: [
-      require("../images/catalog/Crystal-White-v-interere-1.jpg"),
-      require("../images/catalog/Crystal-White-v-interere-2.jpg"),
-      require("../images/catalog/Crystal-White-v-interere-3.jpg"),
-      require("../images/catalog/Crystal-White-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Crystal White/interiors/Crystal-White-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Crystal White/interiors/Crystal-White-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Crystal White/interiors/Crystal-White-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Crystal White/interiors/Crystal-White-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Crystal-White.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(17).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Crystal White/tovars/Crystal-White.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Crystal White/tovars/variant-razmeshcheniya(17).jpg"),
     ],
   },
   {
@@ -46,14 +46,14 @@ const initialCards = [
     Collection: "Estremoz",
 
     interiors: [
-      require("../images/catalog/Estremoz-v-interere-1.jpg"),
-      require("../images/catalog/Estremoz-v-interere-2.jpg"),
-      require("../images/catalog/Estremoz-v-interere-3.jpg"),
-      require("../images/catalog/Estremoz-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Estremoz/interiors/Estremoz-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Estremoz/interiors/Estremoz-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Estremoz/interiors/Estremoz-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Estremoz/interiors/Estremoz-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Estremoz.jpg"),
-      require("../images/catalog/variant-razmeshcheniya.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Estremoz/tovars/Estremoz.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Estremoz/tovars/variant-razmeshcheniya.jpg"),
     ],
   },
   {
@@ -65,14 +65,14 @@ const initialCards = [
     Collection: "Golden Cream",
 
     interiors: [
-      require("../images/catalog/Golden-Cream-v-interere-1.jpg"),
-      require("../images/catalog/Golden-Cream-v-interere-2.jpg"),
-      require("../images/catalog/Golden-Cream-v-interere-3.jpg"),
-      require("../images/catalog/Golden-Cream-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Cream/interiors/Golden-Cream-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Cream/interiors/Golden-Cream-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Cream/interiors/Golden-Cream-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Cream/interiors/Golden-Cream-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Golden-Cream.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(1).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Cream/tovars/Golden-Cream.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Cream/tovars/variant-razmeshcheniya(1).jpg"),
     ],
   },
   {
@@ -83,14 +83,14 @@ const initialCards = [
     Size: "120x240",
     Collection: "Golden Jade",
     interiors: [
-      require("../images/catalog/Golden-Jade-v-interere-1(1).jpg"),
-      require("../images/catalog/Golden-Jade-v-interere-2.jpg"),
-      require("../images/catalog/Golden-Jade-v-interere-3.jpg"),
-      require("../images/catalog/Golden-Jade-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Jade/interiors/Golden-Jade-v-interere-1(1).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Jade/interiors/Golden-Jade-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Jade/interiors/Golden-Jade-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Jade/interiors/Golden-Jade-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Golden-Jade.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(18).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Jade/tovars/Golden-Jade.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Jade/tovars/variant-razmeshcheniya(18).jpg"),
     ],
   },
   {
@@ -101,14 +101,14 @@ const initialCards = [
     Size: "120x240",
     Collection: "Golden Spider",
     interiors: [
-      require("../images/catalog/Golden-Spider-v-interere-1.jpg"),
-      require("../images/catalog/Golden-Spider-v-interere-2.jpg"),
-      require("../images/catalog/Golden-Spider-v-interere-3.jpg"),
-      require("../images/catalog/Golden-Spider-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Spider/interiors/Golden-Spider-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Spider/interiors/Golden-Spider-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Spider/interiors/Golden-Spider-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Spider/interiors/Golden-Spider-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Golden-Spider.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(2).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Spider/tovars/Golden-Spider.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Golden Spider/tovars/variant-razmeshcheniya(2).jpg"),
     ],
   },
   {
@@ -120,14 +120,14 @@ const initialCards = [
     Collection: "Grey Silk",
 
     interiors: [
-      require("../images/catalog/Grey-Silk-v-interere-1.jpg"),
-      require("../images/catalog/Grey-Silk-v-interere-2.jpg"),
-      require("../images/catalog/Grey-Silk-v-interere-3.jpg"),
-      require("../images/catalog/Grey-Silk-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grey Silk/interiors/Grey-Silk-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grey Silk/interiors/Grey-Silk-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grey Silk/interiors/Grey-Silk-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grey Silk/interiors/Grey-Silk-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Grey-Silk.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(19).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grey Silk/tovars/Grey-Silk.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grey Silk/tovars/variant-razmeshcheniya(19).jpg"),
     ],
   },
   {
@@ -139,14 +139,14 @@ const initialCards = [
     Collection: "Grigio Carnico",
 
     interiors: [
-      require("../images/catalog/Grigio-Carnico-v-interere-1.jpg"),
-      require("../images/catalog/Grigio-Carnico-v-interere-2.jpg"),
-      require("../images/catalog/Grigio-Carnico-v-interere-3.jpg"),
-      require("../images/catalog/Grigio-Carnico-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grigio Carnico/interiors/Grigio-Carnico-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grigio Carnico/interiors/Grigio-Carnico-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grigio Carnico/interiors/Grigio-Carnico-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grigio Carnico/interiors/Grigio-Carnico-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Grigio-Carnico.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(3).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grigio Carnico/tovars/Grigio-Carnico.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Grigio Carnico/tovars/variant-razmeshcheniya(3).jpg"),
     ],
   },
   {
@@ -158,14 +158,14 @@ const initialCards = [
     Collection: "Imperador Desert",
 
     interiors: [
-      require("../images/catalog/Imperador-Desert-v-interere-1.jpg"),
-      require("../images/catalog/Imperador-Desert-v-interere-2.jpg"),
-      require("../images/catalog/Imperador-Desert-v-interere-3.jpg"),
-      require("../images/catalog/Imperador-Desert-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Desert/interiors/Imperador-Desert-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Desert/interiors/Imperador-Desert-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Desert/interiors/Imperador-Desert-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Desert/interiors/Imperador-Desert-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Imperador-Desert.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(4).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Desert/tovars/Imperador-Desert.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Desert/tovars/variant-razmeshcheniya(4).jpg"),
     ],
   },
   {
@@ -177,14 +177,14 @@ const initialCards = [
     Collection: "Imperador Gold",
 
     interiors: [
-      require("../images/catalog/Imperador-Gold-v-interere-1(1).jpg"),
-      require("../images/catalog/Imperador-Gold-v-interere-2.jpg"),
-      require("../images/catalog/Imperador-Gold-v-interere-3.jpg"),
-      require("../images/catalog/Imperador-Gold-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Gold/interiors/Imperador-Gold-v-interere-1(1).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Gold/interiors/Imperador-Gold-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Gold/interiors/Imperador-Gold-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Gold/interiors/Imperador-Gold-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Imperador-Gold.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(20).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Gold/tovars/Imperador-Gold.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Imperador Gold/tovars/variant-razmeshcheniya(20).jpg"),
     ],
   },
   {
@@ -196,14 +196,14 @@ const initialCards = [
     Collection: "Marron Imperador",
 
     interiors: [
-      require("../images/catalog/Marron-Imperador-v-interere-1.jpg"),
-      require("../images/catalog/Marron-Imperador-v-interere-2.jpg"),
-      require("../images/catalog/Marron-Imperador-v-interere-3.jpg"),
-      require("../images/catalog/Marron-Imperador-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Marron Imperador/interiors/Marron-Imperador-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Marron Imperador/interiors/Marron-Imperador-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Marron Imperador/interiors/Marron-Imperador-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Marron Imperador/interiors/Marron-Imperador-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Marron-Imperador.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(5).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Marron Imperador/tovars/Marron-Imperador.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Marron Imperador/tovars/variant-razmeshcheniya(5).jpg"),
     ],
   },
   {
@@ -215,14 +215,14 @@ const initialCards = [
     Collection: "Misti Blue",
 
     interiors: [
-      require("../images/catalog/Misti-Blue-v-interere-1.jpg"),
-      require("../images/catalog/Misti-Blue-v-interere-2.jpg"),
-      require("../images/catalog/Misti-Blue-v-interere-3.jpg"),
-      require("../images/catalog/Misti-Blue-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Blue/interiors/Misti-Blue-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Blue/interiors/Misti-Blue-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Blue/interiors/Misti-Blue-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Blue/interiors/Misti-Blue-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Misti-Blue.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(6).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Blue/tovars/Misti-Blue.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Blue/tovars/variant-razmeshcheniya(6).jpg"),
     ],
   },
   {
@@ -234,14 +234,14 @@ const initialCards = [
     Collection: "Misti Grey",
 
     interiors: [
-      require("../images/catalog/Misti-Grey-v-interere-1.jpg"),
-      require("../images/catalog/Misti-Grey-v-interere-2.jpg"),
-      require("../images/catalog/Misti-Grey-v-interere-3.jpg"),
-      require("../images/catalog/Misti-Grey-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Grey/interiors/Misti-Grey-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Grey/interiors/Misti-Grey-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Grey/interiors/Misti-Grey-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Grey/interiors/Misti-Grey-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Misti-Grey.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(7).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Grey/tovars/Misti-Grey.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Misti Grey/tovars/variant-razmeshcheniya(7).jpg"),
     ],
   },
   {
@@ -253,14 +253,14 @@ const initialCards = [
     Collection: "Moca Classico",
 
     interiors: [
-      require("../images/catalog/Moca-Classico-v-interere-1.jpg"),
-      require("../images/catalog/Moca-Classico-v-interere-2.jpg"),
-      require("../images/catalog/Moca-Classico-v-interere-3.jpg"),
-      require("../images/catalog/Moca-Classico-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Classico/interiors/Moca-Classico-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Classico/interiors/Moca-Classico-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Classico/interiors/Moca-Classico-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Classico/interiors/Moca-Classico-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Moca-Classico.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(8).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Classico/tovars/Moca-Classico.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Classico/tovars/variant-razmeshcheniya(8).jpg"),
     ],
   },
   {
@@ -272,14 +272,14 @@ const initialCards = [
     Collection: "Moca Cream",
 
     interiors: [
-      require("../images/catalog/Moca-Cream-v-interere-1.jpg"),
-      require("../images/catalog/Moca-Cream-v-interere-2.jpg"),
-      require("../images/catalog/Moca-Cream-v-interere-3.jpg"),
-      require("../images/catalog/Moca-Cream-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Cream/interiors/Moca-Cream-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Cream/interiors/Moca-Cream-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Cream/interiors/Moca-Cream-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Cream/interiors/Moca-Cream-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Moca-Cream.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(9).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Cream/tovars/Moca-Cream.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Moca Cream/tovars/variant-razmeshcheniya(9).jpg"),
     ],
   },
   {
@@ -291,14 +291,14 @@ const initialCards = [
     Collection: "Monaco Blue",
 
     interiors: [
-      require("../images/catalog/Monaco-Blue-v-interere-1.jpg"),
-      require("../images/catalog/Monaco-Blue-v-interere-2.jpg"),
-      require("../images/catalog/Monaco-Blue-v-interere-3.jpg"),
-      require("../images/catalog/Monaco-Blue-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Blue/interiors/Monaco-Blue-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Blue/interiors/Monaco-Blue-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Blue/interiors/Monaco-Blue-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Blue/interiors/Monaco-Blue-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Monaco-Blue.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(10).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Blue/tovars/Monaco-Blue.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Blue/tovars/variant-razmeshcheniya(10).jpg"),
     ],
   },
   {
@@ -310,14 +310,14 @@ const initialCards = [
     Collection: "Monaco Brown",
 
     interiors: [
-      require("../images/catalog/Monaco-Brown-v-interere-1.jpg"),
-      require("../images/catalog/Monaco-Brown-v-interere-2.jpg"),
-      require("../images/catalog/Monaco-Brown-v-interere-3.jpg"),
-      require("../images/catalog/Monaco-Brown-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Brown/interiors/Monaco-Brown-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Brown/interiors/Monaco-Brown-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Brown/interiors/Monaco-Brown-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE//interiors/Monaco-Brown-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Monaco-Brown.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(11).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Brown/tovars/Monaco-Brown.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Monaco Brown/tovars/variant-razmeshcheniya(11).jpg"),
     ],
   },
   {
@@ -329,14 +329,14 @@ const initialCards = [
     Collection: "Opera Fantastico",
 
     interiors: [
-      require("../images/catalog/Opera-Fantastico-v-interere-1.jpg"),
-      require("../images/catalog/Opera-Fantastico-v-interere-2.jpg"),
-      require("../images/catalog/Opera-Fantastico-v-interere-3.jpg"),
-      require("../images/catalog/Opera-Fantastico-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Opera Fantastico/interiors/Opera-Fantastico-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Opera Fantastico/interiors/Opera-Fantastico-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Opera Fantastico/interiors/Opera-Fantastico-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Opera Fantastico/interiors/Opera-Fantastico-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Opera-Fantastico.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(15).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Opera Fantastico/tovars/Opera-Fantastico.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Opera Fantastico/tovars/variant-razmeshcheniya(15).jpg"),
     ],
   },
   {
@@ -348,14 +348,14 @@ const initialCards = [
     Collection: "Pallisandro Blue",
 
     interiors: [
-      require("../images/catalog/Pallisandro-Blue-v-interere-1.jpg"),
-      require("../images/catalog/Pallisandro-Blue-v-interere-2.jpg"),
-      require("../images/catalog/Pallisandro-Blue-v-interere-3.jpg"),
-      require("../images/catalog/Pallisandro-Blue-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Blue/interiors/Pallisandro-Blue-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Blue/interiors/Pallisandro-Blue-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Blue/interiors/Pallisandro-Blue-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Blue/interiors/Pallisandro-Blue-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Pallisandro-Blue.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(12).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Blue/tovars/Pallisandro-Blue.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Blue/tovars/variant-razmeshcheniya(12).jpg"),
     ],
   },
   {
@@ -367,14 +367,14 @@ const initialCards = [
     Collection: "Pallisandro Classico",
 
     interiors: [
-      require("../images/catalog/Pallisandro-Classico-v-interere-1.jpg"),
-      require("../images/catalog/Pallisandro-Classico-v-interere-2.jpg"),
-      require("../images/catalog/Pallisandro-Classico-v-interere-3.jpg"),
-      require("../images/catalog/Pallisandro-Classico-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Classico/interiors/Pallisandro-Classico-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Classico/interiors/Pallisandro-Classico-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Classico/interiors/Pallisandro-Classico-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Classico/interiors/Pallisandro-Classico-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Pallisandro-Classico.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(13).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Classico/tovars/Pallisandro-Classico.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Pallisandro Classico/tovars/variant-razmeshcheniya(13).jpg"),
     ],
   },
   {
@@ -386,14 +386,14 @@ const initialCards = [
     Collection: "Saint Louis",
 
     interiors: [
-      require("../images/catalog/Saint-Louis-v-interere-1.jpg"),
-      require("../images/catalog/Saint-Louis-v-interere-2(1).jpg"),
-      require("../images/catalog/Saint-Louis-v-interere-3.jpg"),
-      require("../images/catalog/Saint-Louis-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Saint Louis/interiors/Saint-Louis-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Saint Louis/interiors/Saint-Louis-v-interere-2(1).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Saint Louis/interiors/Saint-Louis-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Saint Louis/interiors/Saint-Louis-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Saint-Louis.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(21).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Saint Louis/tovars/Saint-Louis.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Saint Louis/tovars/variant-razmeshcheniya(21).jpg"),
     ],
   },
   {
@@ -405,14 +405,14 @@ const initialCards = [
     Collection: "Skyline",
 
     interiors: [
-      require("../images/catalog/Skyline-v-interere-1.jpg"),
-      require("../images/catalog/Skyline-v-interere-2.jpg"),
-      require("../images/catalog/Skyline-v-interere-3.jpg"),
-      require("../images/catalog/Skyline-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Skyline/interiors/Skyline-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Skyline/interiors/Skyline-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Skyline/interiors/Skyline-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Skyline/interiors/Skyline-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Skyline.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(22).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Skyline/tovars/Skyline.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Skyline/tovars/variant-razmeshcheniya(22).jpg"),
     ],
   },
   {
@@ -424,14 +424,14 @@ const initialCards = [
     Collection: "Sunny Gold",
 
     interiors: [
-      require("../images/catalog/Sunny-Gold-v-interere-1.jpg"),
-      require("../images/catalog/Sunny-Gold-v-interere-2.jpg"),
-      require("../images/catalog/Sunny-Gold-v-interere-3.jpg"),
-      require("../images/catalog/Sunny-Gold-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Sunny Gold/interiors/Sunny-Gold-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Sunny Gold/interiors/Sunny-Gold-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Sunny Gold/interiors/Sunny-Gold-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Sunny Gold/interiors/Sunny-Gold-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/Sunny-Gold.jpg"),
-      require("../images/catalog/variant-razmeshcheniya(23).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Sunny Gold/tovars/Sunny-Gold.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/Sunny Gold/tovars/variant-razmeshcheniya(23).jpg"),
     ],
   },
   {
@@ -443,14 +443,14 @@ const initialCards = [
     Collection: "White Cream",
 
     interiors: [
-      require("../images/catalog/White-Cream-v-interere-1.jpg"),
-      require("../images/catalog/White-Cream-v-interere-2.jpg"),
-      require("../images/catalog/White-Cream-v-interere-3.jpg"),
-      require("../images/catalog/White-Cream-v-interere-4(1).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Cream/interiors/White-Cream-v-interere-1.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Cream/interiors/White-Cream-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Cream/interiors/White-Cream-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Cream/interiors/White-Cream-v-interere-4(1).jpg"),
     ],
     tovars: [
-      require("../images/catalog/variant-razmeshcheniya(24).jpg"),
-      require("../images/catalog/White-Cream.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Cream/tovars/variant-razmeshcheniya(24).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Cream/tovars/White-Cream.jpg"),
     ],
   },
   {
@@ -462,14 +462,14 @@ const initialCards = [
     Collection: "White Jade",
 
     interiors: [
-      require("../images/catalog/White-Jade-v-interere-1(1).jpg"),
-      require("../images/catalog/White-Jade-v-interere-2.jpg"),
-      require("../images/catalog/White-Jade-v-interere-3.jpg"),
-      require("../images/catalog/White-Jade-v-interere-4.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Jade/interiors/White-Jade-v-interere-1(1).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Jade/interiors/White-Jade-v-interere-2.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Jade/interiors/White-Jade-v-interere-3.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Jade/interiors/White-Jade-v-interere-4.jpg"),
     ],
     tovars: [
-      require("../images/catalog/variant-razmeshcheniya(25).jpg"),
-      require("../images/catalog/White-Jade.jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Jade/tovars/variant-razmeshcheniya(25).jpg"),
+      require("../images/catalog/GK_EXCLUSIVE/White Jade/tovars/White-Jade.jpg"),
     ],
   },
 ];

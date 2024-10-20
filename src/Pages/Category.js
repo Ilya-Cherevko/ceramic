@@ -27,7 +27,10 @@ export default function CardBuild() {
                 alt={card.Name + card.interiors}
               />
             </Link>
-            <Link to={card.Collection} className="card__collection">
+            <Link
+              to={card.Name + "/" + card.Collection}
+              className="card__collection"
+            >
               {card.Collection}
             </Link>
             <Link to={card.Name} className="card__name">
