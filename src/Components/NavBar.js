@@ -91,6 +91,23 @@ function NavBar() {
         </div>
       </NavLink>
 
+      <NavLink to="/GibkyMramor" className={setActive}>
+        <div className="dropdown">
+          Гибкий мрамор
+          <div className="dropdown-content">
+            <NavLink to="/GibkyMramor/Elite" className={setActive}>
+              Elite
+            </NavLink>
+            <NavLink to="/GibkyMramor/Exclusive" className={setActive}>
+              Exclusive
+            </NavLink>
+            <NavLink to="/GibkyMramor/Vip" className={setActive}>
+              Vip
+            </NavLink>
+          </div>
+        </div>
+      </NavLink>
+
       <NavLink to="/AboutUs" className={setActive}>
         Как нас найти
       </NavLink>
