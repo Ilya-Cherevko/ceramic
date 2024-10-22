@@ -2,7 +2,7 @@
     color: #d4b503;
     margin: 1em;
     text-decoration: none;
-    font-size: 12px;
+    font-size: small;
     cursor: pointer;
 }
 
@@ -17,7 +17,6 @@
     flex-wrap: nowrap;
     justify-content: flex-end;
     border: auto 20px;
-    width: 50em;
 }
 
   /* Контейнер <div> - необходим для размещения выпадающего содержимого */

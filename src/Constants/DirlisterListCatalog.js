@@ -13481,7 +13481,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/abside_ice/interiors/primavera_abside_ice_18177_672073_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/abside_ice/tovars/primavera_abside_ice_126589_400386_500x0.jpg"),
+    ],
   },
   {
     id: "675",
@@ -13493,7 +13495,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/acacia/interiors/primavera_acacia_15235_821305_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/acacia/tovars/primavera_acacia_114943_253175_500x0.jpg"),
+    ],
   },
   {
     id: "676",
@@ -13505,7 +13509,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/acothly/interiors/primavera_acothly_18162_971516_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/acothly/tovars/primavera_acothly_126538_573843_500x0.jpg"),
+      require("../images/catalog/primavera/acothly/tovars/primavera_acothly_126539_897482_500x0.jpg"),
+      require("../images/catalog/primavera/acothly/tovars/primavera_acothly_126540_439758_500x0.jpg"),
+      require("../images/catalog/primavera/acothly/tovars/primavera_acothly_126541_782254_500x0.jpg"),
+    ],
   },
   {
     id: "677",
@@ -13517,7 +13526,14 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/alcor/interiors/primavera_alcor_15572_942293_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/alcor/tovars/primavera_alcor_116177_891483_500x0.jpg"),
+      require("../images/catalog/primavera/alcor/tovars/primavera_alcor_116178_307588_500x0.jpg"),
+      require("../images/catalog/primavera/alcor/tovars/tyan_shan_titaniya_114939_728412_500x0.jpg"),
+      require("../images/catalog/primavera/alcor/tovars/tyan_shan_titaniya_114940_982506_500x0.jpg"),
+      require("../images/catalog/primavera/alcor/tovars/tyan_shan_titaniya_114941_676319_500x0.jpg"),
+      require("../images/catalog/primavera/alcor/tovars/tyan_shan_titaniya_114942_680201_500x0.jpg"),
+    ],
   },
   {
     id: "678",
@@ -13529,7 +13545,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/allure/interiors/primavera_allure_16052_48615_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/allure/tovars/primavera_allure_118886_377280_500x0.jpg"),
+      require("../images/catalog/primavera/allure/tovars/primavera_allure_118887_409523_500x0.jpg"),
+      require("../images/catalog/primavera/allure/tovars/primavera_allure_118888_526215_500x0.jpg"),
+      require("../images/catalog/primavera/allure/tovars/primavera_allure_118889_787516_500x0.jpg"),
+    ],
   },
   {
     id: "679",
@@ -13539,9 +13560,13 @@ const initialCards = [
     Name: "Primavera",
     Collection: "Almond cascais",
     interiors: [
+      require("../images/catalog/primavera/almond_cascais/interiors/primavera_almond_cascais_14962_32054.jpg"),
       require("../images/catalog/primavera/almond_cascais/interiors/primavera_almond_cascais_14962_462857_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/almond_cascais/tovars/primavera_almond_cascais_113673_977807_500x0.jpg"),
+      require("../images/catalog/primavera/almond_cascais/tovars/primavera_almond_cascais_113674_213089_500x0.jpg"),
+    ],
   },
   {
     id: "680",
@@ -13553,7 +13578,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/almond_light_grey/interiors/primavera_almond_light_grey_18178_618247_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/almond_light_grey/tovars/primavera_almond_light_grey_126591_480899_500x0.jpg"),
+    ],
   },
   {
     id: "681",
@@ -13565,7 +13592,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/alzirr/interiors/primavera_alzirr_15573_96882_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/alzirr/tovars/primavera_alzirr_116179_387645_500x0.jpg"),
+      require("../images/catalog/primavera/alzirr/tovars/primavera_alzirr_116180_471781_500x0.jpg"),
+      require("../images/catalog/primavera/alzirr/tovars/primavera_alzirr_116181_643497_500x0.jpg"),
+      require("../images/catalog/primavera/alzirr/tovars/primavera_alzirr_116182_176031_500x0.jpg"),
+    ],
   },
   {
     id: "682",
@@ -13577,7 +13609,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/amore_beige/interiors/primavera_amore_beige_16053_386258_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/amore_beige/tovars/primavera_amore_beige_118890_490105_500x0.jpg"),
+      require("../images/catalog/primavera/amore_beige/tovars/primavera_amore_beige_118891_818070_500x0.jpg"),
+      require("../images/catalog/primavera/amore_beige/tovars/primavera_amore_beige_118892_768168_500x0.jpg"),
+      require("../images/catalog/primavera/amore_beige/tovars/primavera_amore_beige_118893_84239_500x0.jpg"),
+    ],
   },
   {
     id: "683",
@@ -13589,7 +13626,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/amore_silver/interiors/primavera_amore_silver_16054_848518_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/amore_silver/tovars/primavera_amore_silver_118895_254704_500x0.jpg"),
+      require("../images/catalog/primavera/amore_silver/tovars/primavera_amore_silver_118896_954037_500x0.jpg"),
+      require("../images/catalog/primavera/amore_silver/tovars/primavera_amore_silver_118897_568370_500x0.jpg"),
+      require("../images/catalog/primavera/amore_silver/tovars/primavera_amore_silver_118898_826733_500x0.jpg"),
+    ],
   },
   {
     id: "684",
@@ -13601,7 +13643,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/antares/interiors/primavera_antares_15574_230711_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/antares/tovars/primavera_antares_116183_800728_500x0.jpg"),
+      require("../images/catalog/primavera/antares/tovars/primavera_antares_116184_928486_500x0.jpg"),
+      require("../images/catalog/primavera/antares/tovars/primavera_antares_116185_13617_500x0.jpg"),
+      require("../images/catalog/primavera/antares/tovars/primavera_antares_116186_550245_500x0.jpg"),
+    ],
   },
   {
     id: "685",
@@ -13611,9 +13658,13 @@ const initialCards = [
     Name: "Primavera",
     Collection: "Ardesia grafito",
     interiors: [
+      require("../images/catalog/primavera/ardesia_grafito/interiors/primavera_ardesia_grafito_14917_557934.jpg"),
       require("../images/catalog/primavera/ardesia_grafito/interiors/primavera_ardesia_grafito_14917_608813_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/ardesia_grafito/tovars/primavera_ardesia_grafito_113602_932292_500x0.jpg"),
+      require("../images/catalog/primavera/ardesia_grafito/tovars/primavera_ardesia_grafito_113603_56338_500x0.jpg"),
+    ],
   },
   {
     id: "686",
@@ -13625,7 +13676,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/arena_white/interiors/primavera_arena_white_14916_470242_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/arena_white/tovars/primavera_arena_white_113601_216120_500x0.jpg"),
+    ],
   },
   {
     id: "687",
@@ -13637,7 +13690,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/arseno/interiors/primavera_arseno_15236_885837_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/arseno/tovars/primavera_arseno_114944_712224_500x0.jpg"),
+      require("../images/catalog/primavera/arseno/tovars/primavera_arseno_114945_897478_500x0.jpg"),
+      require("../images/catalog/primavera/arseno/tovars/primavera_arseno_114946_487664_500x0.jpg"),
+      require("../images/catalog/primavera/arseno/tovars/primavera_arseno_114947_417480_500x0.jpg"),
+    ],
   },
   {
     id: "688",
@@ -13661,7 +13719,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/ayton/interiors/primavera_ayton_15185_599621_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/ayton/tovars/primavera_ayton_114848_414190_500x0.jpg"),
+      require("../images/catalog/primavera/ayton/tovars/primavera_ayton_114849_43136_500x0.jpg"),
+      require("../images/catalog/primavera/ayton/tovars/primavera_ayton_114850_270246_500x0.jpg"),
+      require("../images/catalog/primavera/ayton/tovars/primavera_ayton_114851_251035_500x0.jpg"),
+    ],
   },
   {
     id: "690",
@@ -13697,7 +13760,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/belfast/interiors/primavera_belfast_15238_965730_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/belfast/tovars/primavera_belfast_114950_907211_500x0.jpg"),
+    ],
   },
   {
     id: "693",
@@ -13708,9 +13773,12 @@ const initialCards = [
     Collection: "Bellevue",
     interiors: [
       require("../images/catalog/primavera/bellevue/interiors/primavera_bellevue_15239_307641_0x300.jpg"),
+      require("../images/catalog/primavera/bellevue/interiors/primavera_bellevue_18151_987543.jpg"),
       require("../images/catalog/primavera/bellevue/interiors/primavera_bellevue_18151_987543_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/bellevue/tovars/primavera_bellevue_126514_445983_500x0.jpg"),
+    ],
   },
   {
     id: "694",
@@ -13720,9 +13788,14 @@ const initialCards = [
     Name: "Primavera",
     Collection: "Bellevue grit granula",
     interiors: [
-      require("../images/catalog/primavera/bellevue_grit_granula/interiors/primavera_bellevue_grit_granula_17889_907425_0x300.jpg"),
+      require("../images/catalog/primavera/bellevue_gold/interiors/primavera_bellevue_15239_307641.jpg"),
+      require("../images/catalog/primavera/bellevue_gold/interiors/primavera_bellevue_15239_405390.jpg"),
+      require("../images/catalog/primavera/bellevue_gold/interiors/primavera_bellevue_grit_granula_17889_907425_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/bellevue_gold/tovars/primavera_bellevue_114951_243095_500x0.jpg"),
+      require("../images/catalog/primavera/bellevue_gold/tovars/primavera_bellevue_114952_404216_500x0.jpg"),
+    ],
   },
   {
     id: "695",
@@ -13734,7 +13807,10 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/berat/interiors/primavera_berat_18166_354008_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/berat/tovars/primavera_berat_126562_499580_500x0.jpg"),
+      require("../images/catalog/primavera/berat/tovars/primavera_berat_126563_860174_500x0.jpg"),
+    ],
   },
   {
     id: "696",
@@ -13746,7 +13822,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/bigium_blue/interiors/primavera_bigium_blue_14915_616052_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/bigium_blue/tovars/primavera_bigium_blue_113600_648240_500x0.jpg"),
+    ],
   },
   {
     id: "697",
@@ -13758,7 +13836,10 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/black_emperador/interiors/primavera_black_emperador_14966_871706_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/black_emperador/tovars/primavera_black_emperador_113681_205197_500x0.jpg"),
+      require("../images/catalog/primavera/black_emperador/tovars/primavera_black_emperador_113682_800459_500x0.jpg"),
+    ],
   },
   {
     id: "698",
@@ -13770,7 +13851,10 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/black_modulo/interiors/primavera_black_modulo_15240_29347_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/black_modulo/tovars/primavera_black_modulo_114953_38795_500x0.jpg"),
+      require("../images/catalog/primavera/black_modulo/tovars/primavera_black_modulo_114954_15527_500x0.jpg"),
+    ],
   },
   {
     id: "699",
@@ -13782,7 +13866,10 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/black_velvet/interiors/primavera_black_velvet_18176_618609_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/black_velvet/tovars/primavera_black_velvet_126587_861652_500x0.jpg"),
+      require("../images/catalog/primavera/black_velvet/tovars/primavera_black_velvet_126588_876460_500x0.jpg"),
+    ],
   },
   {
     id: "700",
@@ -13794,7 +13881,10 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/blanco_tranco/interiors/primavera_blanco_tranco_15241_587580_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/blanco_tranco/tovars/primavera_blanco_tranco_114955_908670_500x0.jpg"),
+      require("../images/catalog/primavera/blanco_tranco/tovars/primavera_blanco_tranco_114956_473506_500x0.jpg"),
+    ],
   },
   {
     id: "701",
@@ -13830,7 +13920,12 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/botein/interiors/primavera_botein_15575_460323_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/botein/tovars/primavera_botein_116187_863117_500x0.jpg"),
+      require("../images/catalog/primavera/botein/tovars/primavera_botein_116188_168028_500x0.jpg"),
+      require("../images/catalog/primavera/botein/tovars/primavera_botein_116189_206754_500x0.jpg"),
+      require("../images/catalog/primavera/botein/tovars/primavera_botein_116190_422729_500x0.jpg"),
+    ],
   },
   {
     id: "704",
@@ -13861,9 +13956,18 @@ const initialCards = [
     Name: "Primavera",
     Collection: "Brecia ivory",
     interiors: [
-      require("../images/catalog/primavera/brecia_ivory/interiors/primavera_brecia_ivory_14913_411205_0x300.jpg"),
+      require("../images/catalog/primavera/branch/interiors/primavera_branch_15576_23406_0x300.jpg"),
+      require("../images/catalog/primavera/branch/interiors/primavera_branch_15576_348597_0x300.jpg"),
+      require("../images/catalog/primavera/branch/interiors/primavera_branch_15576_348597_0x500.jpg"),
+      require("../images/catalog/primavera/branch/interiors/primavera_branch_15576_461163_0x300.jpg"),
+      require("../images/catalog/primavera/branch/interiors/primavera_branch_15576_575901_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/branch/tovars/primavera_branch_116191_168419_300x0.jpg"),
+      require("../images/catalog/primavera/branch/tovars/primavera_branch_116192_391012_300x0.jpg"),
+      require("../images/catalog/primavera/branch/tovars/primavera_branch_116193_48939_300x0.jpg"),
+      require("../images/catalog/primavera/branch/tovars/primavera_branch_116194_478006_300x0.jpg"),
+    ],
   },
   {
     id: "706",
@@ -13887,7 +13991,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/canyon/interiors/primavera_canyon_15243_896475_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/canyon/tovars/primavera_canyon_114958_294017_500x0.jpg"),
+    ],
   },
   {
     id: "708",
@@ -13899,7 +14005,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/caribbean/interiors/primavera_caribbean_15244_596206_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/caribbean/tovars/primavera_caribbean_114959_712502_500x0.jpg"),
+    ],
   },
   {
     id: "709",
@@ -13911,7 +14019,10 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/chalco/interiors/primavera_chalco_18167_649858_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/chalco/tovars/primavera_chalco_126564_299112_500x0.jpg"),
+      require("../images/catalog/primavera/chalco/tovars/primavera_chalco_126565_110619_500x0.jpg"),
+    ],
   },
   {
     id: "710",
@@ -13923,7 +14034,11 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/chance/interiors/primavera_chance_16055_712199_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/chance/tovars/primavera_chance_118900_874463_500x0.jpg"),
+      require("../images/catalog/primavera/chance/tovars/primavera_chance_118901_605554_500x0.jpg"),
+      require("../images/catalog/primavera/chance/tovars/primavera_chance_118902_889436_500x0.jpg"),
+    ],
   },
   {
     id: "711",
@@ -13935,7 +14050,9 @@ const initialCards = [
     interiors: [
       require("../images/catalog/primavera/chembra_onyx/interiors/primavera_chembra_onyx_15245_157760_0x300.jpg"),
     ],
-    tovars: [require("../images/catalog/noFoto.jpg")],
+    tovars: [
+      require("../images/catalog/primavera/chembra_onyx/tovars/primavera_chembra_onyx_114960_973847_500x0.jpg"),
+    ],
   },
   {
     id: "712",

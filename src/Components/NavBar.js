@@ -101,7 +101,7 @@ function NavBar() {
             <NavLink to="/GibkyMramor/Exclusive" className={setActive}>
               Exclusive
             </NavLink>
-            <NavLink to="/GibkyMramor/Vip" className={setActive}>
+            <NavLink to="/GibkyMramor/VIP" className={setActive}>
               Vip
             </NavLink>
           </div>

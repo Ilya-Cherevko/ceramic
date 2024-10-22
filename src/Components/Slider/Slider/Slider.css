@@ -6,7 +6,7 @@
 
 .slider__actions {
   display: flex;
-    width: 93vw;
+    width: 100%;
     justify-content: space-between;
     gap: 15px;
     margin: auto 0;
@@ -42,7 +42,7 @@
   width: 101%;
   height: 101%;
   object-fit: cover;
-  object-position: center -1px;
+  object-position: bottom;
 }
 
 .slide__info {
