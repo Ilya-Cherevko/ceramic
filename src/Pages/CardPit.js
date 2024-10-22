@@ -40,7 +40,7 @@ export default function CardPit() {
               <ul className="card__img-interiors">
                 {card.interiors.map((card) => (
                   <li className="card__img_tovars">
-                    <img className="card__img_tovar" src={card} alt={card} />
+                    <img className="card__img_interiors" src={card} alt={card} />
                   </li>
                 ))}
               </ul>
@@ -52,7 +52,7 @@ export default function CardPit() {
                 <img className="card__img_tovar" src={card} alt={card} />
                 <p className="card__collection">{card.Collection}</p>
                 <p className="card__name">{card.Name}</p>
-                <p className="card__country">Размеры: {card.Size}</p>
+                <p className="card__country">{card.Size}</p>
               </li>
             ))}
           </ul>

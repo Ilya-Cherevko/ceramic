@@ -12,7 +12,7 @@
 .card__body_one{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #ffffff;
     width: 100%;
     height: 100%;
@@ -83,26 +83,41 @@
     align-content: center;
 }
 
-.card__img_tovar{
-    width: 150px;
-    height: 150px;
+.card__img_interiors{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 8px 8px 0 0;
+    
+}
+
+.card__img_tovar{
+    width: auto;
+    height: 14vh;
+    object-fit: contain;
+    
 }
 
 .card__img-interior{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
+    
 }
 
 .card__img-interiors{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 160px));
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
     list-style: none;
+    margin: 0;
+    width: 700px;
+    height: 100%;
+    padding: 0 10px;
 }
 
 .card__img_tovars{
-    margin-right: 1vh;
+    width: 100%;
+    height: 100%;
 }

@@ -30,3 +30,17 @@
             height: 24px;
           }
       } 
+
+
+      .header__text{
+        text-decoration: none;
+    font-weight: bold;
+    margin: 10px 5px;
+    color: #d4b503;
+      }
+
+      .header__decor{
+        display: flex;
+    align-items: center;
+    text-decoration: none;
+      }

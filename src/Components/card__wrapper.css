@@ -16,7 +16,7 @@
     width: 100%;
     height: 100%;
     align-items: flex-start;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+    grid-template-columns: repeat(auto-fit, minmax(10vh, 22vh));
     grid-template-rows: auto auto;
     grid-row-gap: 20px;
     grid-column-gap: 20px;
