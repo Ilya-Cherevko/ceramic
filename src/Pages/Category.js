@@ -1,9 +1,9 @@
 import React from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
 import Cards from "../Constants/DirlisterListCatalog";
-import getImageUrl from "../Constants/Utils";
+//import getImageUrl from "../Constants/Utils";//
 
 export default function CardBuild() {
   let { id } = useParams();

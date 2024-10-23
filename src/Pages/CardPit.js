@@ -2,8 +2,8 @@ import React from "react";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
 import Cards from "../Constants/DirlisterListCatalog";
-import getImageUrl from "../Constants/Utils";
-import { useParams, useLocation, Link } from "react-router-dom";
+//import getImageUrl from "../Constants/Utils";//
+import { useParams } from "react-router-dom";
 
 //console.log(Cards);//
 
@@ -40,7 +40,11 @@ export default function CardPit() {
               <ul className="card__img-interiors">
                 {card.interiors.map((card) => (
                   <li className="card__img_tovars">
-                    <img className="card__img_interiors" src={card} alt={card} />
+                    <img
+                      className="card__img_interiors"
+                      src={card}
+                      alt={card}
+                    />
                   </li>
                 ))}
               </ul>
