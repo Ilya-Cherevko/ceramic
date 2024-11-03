@@ -20,6 +20,7 @@ const initialCards = [
     Сountry: "Индия",
     Name: "Absolut gres",
     Collection: "Alba",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/alba/interiors/absolut_gres_alba_14589_454811_0x500.jpg"),
@@ -33,6 +34,7 @@ const initialCards = [
     Сountry: "Индия",
     Name: "Absolut gres",
     Collection: "Almond wood",
+    Category: "Keramogranit",
     Size: "60x120",
     interiors: [
       require("../images/catalog/absolut_gres/almond_wood/interiors/absolut_gres_almond_wood_17005_95319_0x500.jpg"),
@@ -2201,7 +2203,7 @@ const initialCards = [
     ],
   },
   {
-    id: "137",
+    id: "890",
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60", "60x60", "60x120"],

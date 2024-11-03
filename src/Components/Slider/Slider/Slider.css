@@ -6,7 +6,7 @@
 
 .slider__actions {
   display: flex;
-    width: 100%;
+    width: 1280px;
     justify-content: space-between;
     gap: 15px;
     margin: auto 0;

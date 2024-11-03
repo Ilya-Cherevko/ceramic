@@ -4,6 +4,7 @@
     text-decoration: none;
     font-size: small;
     cursor: pointer;
+    z-index: 1;
 }
 
 .menu__link_active{
