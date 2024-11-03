@@ -4,10 +4,15 @@ import "../Components/Card.css";
 import Cards from "../Constants/DirlisterListCatalog";
 //import getImageUrl from "../Constants/Utils";//
 import { useParams } from "react-router-dom";
+import { useState } from "react";
+import ImagePopup from "../Components/ImagePopup";
 
 //console.log(Cards);//
 
 export default function CardPit() {
+  // Состояние попапа
+  const [selectedCard, setSelectedCard] = useState({ isOpen: false });
+
   let { Collection } = useParams();
   //console.log("Часть пути начальная", Collection);//
 
@@ -16,6 +21,19 @@ export default function CardPit() {
 
   const Item = Cards.filter((card) => card.Collection === Collection);
   //console.log(Item);//
+
+  function closeAllPopups() {
+    setSelectedCard({ isOpen: false });
+  }
+
+  // Большая картинка
+  function handleCardClick(card) {
+    setSelectedCard({
+      isOpen: true,
+      ...card,
+    });
+    console.log("кликнул");
+  }
 
   return (
     <article className="card__page">
@@ -26,6 +44,7 @@ export default function CardPit() {
               className="card__img_card"
               src={card.interiors[0]}
               alt={card.Name}
+              onCardClick={handleCardClick}
             />
             <div className="card__img-interior">
               <div className="card__conteiner">
@@ -62,6 +81,8 @@ export default function CardPit() {
           </ul>
         </div>
       ))}
+      {/* Превью большой картинки */}
+      <ImagePopup card={selectedCard} onClose={closeAllPopups} />
     </article>
   );
 }

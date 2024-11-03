@@ -1,3 +1,26 @@
+
+/* Хедер */
+
+
+/* Карточка */
+
+
+/* Футер */
+
+
+/* Попапы */
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/__overlay/popup__overlay.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__close-button/popup__close-button.css);
+
+@import url(./blocks/popup/_opened/popup_opened.css);
+
+@import url(./blocks/popup/__content-container/popup__content-container.css);
+@import url(./blocks/popup/__image-big/popup__image-big.css);
+@import url(./blocks/popup/__image-caption/popup__image-caption.css);
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

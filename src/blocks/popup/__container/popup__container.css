@@ -1,0 +1,13 @@
+.popup__container {
+    position: relative;
+    margin: auto;
+    padding: 40px;
+    transition: padding 1s linear;
+    z-index: 10;
+}
+
+@media screen and (max-width: 550px) {
+    .popup__container {
+        padding: 40px 0 0 0;
+      }
+  }
