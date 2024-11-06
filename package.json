@@ -2,6 +2,7 @@
   "name": "ceramic",
   "version": "0.1.0",
   "private": true,
+  "homepage": "vokceramic.ru",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && scp -r ./build/* ssh.vok6655679.nichost.ru"
   },
   "eslintConfig": {
     "extends": [
