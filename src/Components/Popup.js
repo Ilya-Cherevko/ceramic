@@ -16,11 +16,11 @@ function Popup(props) {
     }
 
     document.addEventListener("keydown", handleEscKey);
-    popup.current.addEventListener("mousedown", handleClickOverlay);
+    //popup.current.addEventListener("mousedown", handleClickOverlay);//
 
     return () => {
       document.removeEventListener("keydown", handleEscKey);
-      popup.current.removeEventListener("mousedown", handleClickOverlay);
+      //popup.current.removeEventListener("mousedown", handleClickOverlay);//
     };
   });
 

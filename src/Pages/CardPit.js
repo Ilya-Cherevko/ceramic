@@ -14,13 +14,8 @@ export default function CardPit() {
   const [selectedCard, setSelectedCard] = useState({ isOpen: false });
 
   let { Collection } = useParams();
-  //console.log("Часть пути начальная", Collection);//
-
-  //const location = useLocation();//
-  //console.log(location.pathname, location.search);//
 
   const Item = Cards.filter((card) => card.Collection === Collection);
-  //console.log(Item);//
 
   function closeAllPopups() {
     setSelectedCard({ isOpen: false });
@@ -32,7 +27,7 @@ export default function CardPit() {
       isOpen: true,
       ...card,
     });
-    console.log("кликнул");
+    console.log("кликнул", card);
   }
 
   return (
@@ -44,8 +39,9 @@ export default function CardPit() {
               className="card__img_card"
               src={card.interiors[0]}
               alt={card.Name}
-              onCardClick={handleCardClick}
+              onClick={handleCardClick}
             />
+
             <div className="card__img-interior">
               <div className="card__conteiner">
                 <p className="card__collection">Коллекция: {card.Collection}</p>

@@ -7,13 +7,8 @@ import Cards from "../Constants/DirlisterListCatalog";
 
 export default function CardBuild() {
   let { id } = useParams();
-  //console.log("Часть пути начальная", id);//
 
   const Item = Cards.filter((card) => card.Category === id);
-  //console.log(Item);//
-
-  //const location = useLocation();//
-  //console.log(location.pathname, location.search);//
 
   return (
     <ul className="card__wrapper">

@@ -107,7 +107,7 @@
 .card__img-interiors{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 160px));
-    grid-template-rows: auto auto;
+    grid-template-rows: repeat(auto-fit, minmax(80px, 160px));
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     list-style: none;

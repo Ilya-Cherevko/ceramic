@@ -1,13 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
-import Cards from "../Constants/DirlisterListCatalog";
-
-const KerPlitka = Cards.filter((card) => card.Category === "Plitka");
-console.log("Это в Навбаре", KerPlitka);
-
-const KerGranit = Cards.filter((card) => card.Category === "Keramogranit");
-console.log("Это в Навбаре", KerGranit);
 
 const setActive = ({ isActive }) =>
   `menu__link ${isActive ? "menu__link_active" : ""}`;

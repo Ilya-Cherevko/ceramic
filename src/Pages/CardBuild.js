@@ -8,13 +8,8 @@ import { useParams } from "react-router-dom";
 
 export default function CardBuild() {
   let { Name } = useParams();
-  //console.log('Часть пути', Name);//
-
-  //const location = useLocation();//
-  //console.log(location.pathname, location.search);//
 
   const Item = Cards.filter((card) => card.Name === Name);
-  console.log(Item);
 
   return (
     <ul className="card__wrapper">

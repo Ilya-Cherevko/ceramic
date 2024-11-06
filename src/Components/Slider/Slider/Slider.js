@@ -4,6 +4,7 @@ import "../Slider/Slider.css";
 
 export const Slider = ({ data }) => {
   const [activeId, setActiveId] = useState(0);
+  console.log(data);
 
   const prev = () => {
     setActiveId((activeId) => {
