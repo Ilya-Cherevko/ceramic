@@ -2,7 +2,7 @@ const initialCards = [
   {
     id: "0",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Agate",
     Category: "Keramogranit",
     Size: "60x120",
@@ -18,7 +18,7 @@ const initialCards = [
   {
     id: "3",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Alba",
     Category: "Keramogranit",
     Size: "60x120",
@@ -32,7 +32,7 @@ const initialCards = [
   {
     id: "5",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Almond wood",
     Category: "Keramogranit",
     Size: "60x120",
@@ -49,7 +49,7 @@ const initialCards = [
   {
     id: "9",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Ambassador interiors",
     Category: "Keramogranit",
     Size: "60x120",
@@ -64,7 +64,7 @@ const initialCards = [
   {
     id: "11",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Andrea creama",
     Category: "Keramogranit",
     Size: "60x120",
@@ -81,7 +81,7 @@ const initialCards = [
   {
     id: "15",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Antique grey",
     Category: "Keramogranit",
     Size: "60x120",
@@ -96,7 +96,7 @@ const initialCards = [
   {
     id: "17",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Antique roug",
     Category: "Keramogranit",
     Size: "60x120",
@@ -111,7 +111,7 @@ const initialCards = [
   {
     id: "19",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Antiqu onix natural",
     Category: "Keramogranit",
     Size: "60x120",
@@ -130,7 +130,7 @@ const initialCards = [
   {
     id: "25",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Apollo white",
     Category: "Keramogranit",
     Size: "60x120",
@@ -145,7 +145,7 @@ const initialCards = [
   {
     id: "755",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Aquafina natural",
     Category: "Keramogranit",
     Size: "60x120",
@@ -160,7 +160,7 @@ const initialCards = [
   {
     id: "27",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Aquarelle grey",
     Category: "Keramogranit",
     Size: "60x120",
@@ -175,7 +175,7 @@ const initialCards = [
   {
     id: "758",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Armani bianco",
     Category: "Keramogranit",
     Size: "60x120",
@@ -191,7 +191,7 @@ const initialCards = [
   {
     id: "29",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Armani black",
     Category: "Keramogranit",
     Size: "60x120",
@@ -208,7 +208,7 @@ const initialCards = [
   {
     id: "40",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Armani brown",
     Category: "Keramogranit",
     Size: "60x120",
@@ -225,7 +225,7 @@ const initialCards = [
   {
     id: "752",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Armani gris",
     Category: "Keramogranit",
     Size: "60x120",
@@ -242,7 +242,7 @@ const initialCards = [
   {
     id: "753",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Armani silver",
     Category: "Keramogranit",
     Size: "60x120",
@@ -258,7 +258,7 @@ const initialCards = [
   {
     id: "770",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Aroma wood",
     Category: "Keramogranit",
     Size: "60x120",
@@ -279,7 +279,7 @@ const initialCards = [
   {
     id: "754",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Aspire gold",
     Category: "Keramogranit",
     Size: "60x120",
@@ -295,7 +295,7 @@ const initialCards = [
   {
     id: "26",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Aura orointeriors",
     Category: "Keramogranit",
     Size: "60x120",
@@ -311,7 +311,7 @@ const initialCards = [
   {
     id: "757",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Azur",
     Category: "Keramogranit",
     Size: "60x120",
@@ -326,7 +326,7 @@ const initialCards = [
   {
     id: "28",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Barma brown",
     Category: "Keramogranit",
     Size: "60x120",
@@ -341,7 +341,7 @@ const initialCards = [
   {
     id: "759",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Barma cafe",
     Category: "Keramogranit",
     Size: "60x120",
@@ -356,7 +356,7 @@ const initialCards = [
   {
     id: "30",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Barma teak",
     Category: "Keramogranit",
     Size: "60x120",
@@ -371,7 +371,7 @@ const initialCards = [
   {
     id: "31",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Beton",
     Category: "Keramogranit",
     Size: "60x120",
@@ -387,7 +387,7 @@ const initialCards = [
   {
     id: "32",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Bianco dorado",
     Category: "Keramogranit",
     Size: "60x120",
@@ -403,7 +403,7 @@ const initialCards = [
   {
     id: "33",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Black marquina",
     Category: "Keramogranit",
     Size: "60x120",
@@ -418,7 +418,7 @@ const initialCards = [
   {
     id: "34",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Blue jasto",
     Category: "Keramogranit",
     Size: "60x120",
@@ -433,7 +433,7 @@ const initialCards = [
   {
     id: "35",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Blue jasto light",
     Category: "Keramogranit",
     Size: "60x120",
@@ -448,7 +448,7 @@ const initialCards = [
   {
     id: "36",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Borgini gold",
     Category: "Keramogranit",
     Size: "60x120",
@@ -463,7 +463,7 @@ const initialCards = [
   {
     id: "37",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Boston dark",
     Category: "Keramogranit",
     Size: "60x120",
@@ -481,7 +481,7 @@ const initialCards = [
   {
     id: "38",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Boston light",
     Category: "Keramogranit",
     Size: "60x120",
@@ -498,7 +498,7 @@ const initialCards = [
   {
     id: "41",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Breccia natural",
     Category: "Keramogranit",
     Size: "60x120",
@@ -514,7 +514,7 @@ const initialCards = [
   {
     id: "42",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Breccia white",
     Category: "Keramogranit",
     Size: "60x120",
@@ -529,7 +529,7 @@ const initialCards = [
   {
     id: "43",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Calacatta bronze",
     Category: "Keramogranit",
     Size: "60x120",
@@ -546,7 +546,7 @@ const initialCards = [
   {
     id: "44",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Calacatta gold glazed",
     Category: "Keramogranit",
     Size: "60x120",
@@ -561,7 +561,7 @@ const initialCards = [
   {
     id: "45",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Calacatta gold matt",
     Category: "Keramogranit",
     Size: "60x120",
@@ -576,7 +576,7 @@ const initialCards = [
   {
     id: "46",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Calacatta grey glazed",
     Category: "Keramogranit",
     Size: "60x120",
@@ -591,7 +591,7 @@ const initialCards = [
   {
     id: "47",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Calacatta grey matt",
     Category: "Keramogranit",
     Size: "60x120",
@@ -606,7 +606,7 @@ const initialCards = [
   {
     id: "48",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Calacatta sun",
     Category: "Keramogranit",
     Size: "60x120",
@@ -623,7 +623,7 @@ const initialCards = [
   {
     id: "49",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Canoli",
     Category: "Keramogranit",
     Size: "60x120",
@@ -639,7 +639,7 @@ const initialCards = [
   {
     id: "50",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Carbon",
     Category: "Keramogranit",
     Size: "60x120",
@@ -654,7 +654,7 @@ const initialCards = [
   {
     id: "51",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Carrara bianco",
     Category: "Keramogranit",
     Size: "60x120",
@@ -669,7 +669,7 @@ const initialCards = [
   {
     id: "52",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Carrara classic",
     Category: "Keramogranit",
     Size: "60x120",
@@ -686,7 +686,7 @@ const initialCards = [
   {
     id: "53",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Cemento dark",
     Category: "Keramogranit",
     Size: "60x120",
@@ -703,7 +703,7 @@ const initialCards = [
   {
     id: "54",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Cemento light",
     Category: "Keramogranit",
     Size: "60x120",
@@ -721,7 +721,7 @@ const initialCards = [
   {
     id: "55",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Cloudy beige",
     Category: "Keramogranit",
     Size: "60x120",
@@ -736,7 +736,7 @@ const initialCards = [
   {
     id: "56",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Cloudy rosa",
     Category: "Keramogranit",
     Size: "60x120",
@@ -751,7 +751,7 @@ const initialCards = [
   {
     id: "57",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Colonial_bianco",
     Category: "Keramogranit",
     Size: "60x120",
@@ -767,7 +767,7 @@ const initialCards = [
   {
     id: "58",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Diana_beige",
     Category: "Keramogranit",
     Size: "60x120",
@@ -782,7 +782,7 @@ const initialCards = [
   {
     id: "59",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Docato_pine",
     Category: "Keramogranit",
     Size: "60x120",
@@ -797,7 +797,7 @@ const initialCards = [
   {
     id: "60",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Dove_onix",
     Category: "Keramogranit",
     Size: "60x120",
@@ -817,7 +817,7 @@ const initialCards = [
   {
     id: "62",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Downtown",
     Category: "Keramogranit",
     Size: "60x120",
@@ -834,7 +834,7 @@ const initialCards = [
   {
     id: "61",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Forest_essenze",
     Category: "Keramogranit",
     Size: "60x120",
@@ -850,7 +850,7 @@ const initialCards = [
   {
     id: "63",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Gia",
     Category: "Keramogranit",
     Size: "60x120",
@@ -868,7 +868,7 @@ const initialCards = [
   {
     id: "64",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Gloria",
     Category: "Keramogranit",
     Size: "60x120",
@@ -884,7 +884,7 @@ const initialCards = [
   {
     id: "65",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Gold_statuario",
     Category: "Keramogranit",
     Size: "60x120",
@@ -899,7 +899,7 @@ const initialCards = [
   {
     id: "66",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Grapfit_black",
     Category: "Keramogranit",
     Size: "60x120",
@@ -914,7 +914,7 @@ const initialCards = [
   {
     id: "67",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Grapfit_white",
     Category: "Keramogranit",
     Size: "60x120",
@@ -929,7 +929,7 @@ const initialCards = [
   {
     id: "68",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Italy_brown",
     Category: "Keramogranit",
     Size: "60x120",
@@ -944,7 +944,7 @@ const initialCards = [
   {
     id: "70",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Italy_choco",
     Category: "Keramogranit",
     Size: "60x120",
@@ -959,7 +959,7 @@ const initialCards = [
   {
     id: "71",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Italy_gris",
     Category: "Keramogranit",
     Size: "60x120",
@@ -974,7 +974,7 @@ const initialCards = [
   {
     id: "72",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Italy_natural",
     Category: "Keramogranit",
     Size: "60x120",
@@ -989,7 +989,7 @@ const initialCards = [
   {
     id: "73",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Juno_dark_grey",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1006,7 +1006,7 @@ const initialCards = [
   {
     id: "74",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Juno_light_grey",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1023,7 +1023,7 @@ const initialCards = [
   {
     id: "75",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Lipe_gris",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1038,7 +1038,7 @@ const initialCards = [
   {
     id: "76",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Marbo_crema",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1053,7 +1053,7 @@ const initialCards = [
   {
     id: "77",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Modena_white",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1070,7 +1070,7 @@ const initialCards = [
   {
     id: "78",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Montana_light_grey",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1088,7 +1088,7 @@ const initialCards = [
   {
     id: "79",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Monte_grey",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1106,7 +1106,7 @@ const initialCards = [
   {
     id: "80",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Narzo_crema",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1121,7 +1121,7 @@ const initialCards = [
   {
     id: "81",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Novaya_kollekciya",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1135,7 +1135,7 @@ const initialCards = [
   {
     id: "82",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Portland",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1152,7 +1152,7 @@ const initialCards = [
   {
     id: "83",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Regal carara",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1169,7 +1169,7 @@ const initialCards = [
   {
     id: "84",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Royal_brown",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1184,7 +1184,7 @@ const initialCards = [
   {
     id: "85",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Sena_grey",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1201,7 +1201,7 @@ const initialCards = [
   {
     id: "86",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Sahara Beige",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1216,7 +1216,7 @@ const initialCards = [
   {
     id: "87",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "Urban_wood",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1231,7 +1231,7 @@ const initialCards = [
   {
     id: "88",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "wenge_cinnamon",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1246,7 +1246,7 @@ const initialCards = [
   {
     id: "89",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "wildwood",
     Category: "Keramogranit",
     Size: "60x120",
@@ -1268,7 +1268,7 @@ const initialCards = [
   {
     id: "90",
     Сountry: "Индия",
-    Name: "Absolut gres",
+    Name: "Absolut Gres",
     Collection: "woodstyle",
     Category: "Keramogranit",
     Size: "60x120",
@@ -7844,7 +7844,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Basalt",
     interiors: [
       require("../images/catalog/eletto_ceramica/basalt/interiors/eletto_ceramica_basalt_14857_200164_0x300.jpg"),
@@ -7866,7 +7866,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Bianco covelano",
     interiors: [
       require("../images/catalog/eletto_ceramica/bianco_covelano/interiors/eletto_ceramica_bianco_covelano_10425_107409_0x300.jpg"),
@@ -7887,7 +7887,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Black gold",
     interiors: [
       require("../images/catalog/eletto_ceramica/black___gold/interiors/eletto_ceramica_black___gold_10426_224672_0x300.jpg"),
@@ -7909,7 +7909,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Calacatta",
     interiors: [
       require("../images/catalog/eletto_ceramica/calacatta/interiors/eletto_ceramica_calacatta_8712_472903_0x300.jpg"),
@@ -7932,7 +7932,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Calacatta fantasy",
     interiors: [
       require("../images/catalog/eletto_ceramica/calacatta_fantasy/interiors/eletto_ceramica_calacatta_fantasy_14858_22789_0x300.jpg"),
@@ -7955,7 +7955,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Calacatta grey",
     interiors: [
       require("../images/catalog/eletto_ceramica/calacatta_grey/interiors/eletto_ceramica_calacatta_grey_14859_781751_0x300.jpg"),
@@ -7976,7 +7976,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Calacatta oro",
     interiors: [
       require("../images/catalog/eletto_ceramica/calacatta_oro/interiors/eletto_ceramica_calacatta_oro_10427_163066_0x300.jpg"),
@@ -8003,7 +8003,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Couture",
     interiors: [
       require("../images/catalog/eletto_ceramica/couture/interiors/eletto_ceramica_couture_18289_169447_0x300.jpg"),
@@ -8029,7 +8029,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Fletto",
     interiors: [
       require("../images/catalog/eletto_ceramica/fletto/interiors/eletto_ceramica_fletto_12211_281227_0x300.jpg"),
@@ -8051,7 +8051,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Foresta",
     interiors: [
       require("../images/catalog/eletto_ceramica/foresta/interiors/eletto_ceramica_foresta_18290_119155_0x300.jpg"),
@@ -8079,7 +8079,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Gala",
     interiors: [
       require("../images/catalog/eletto_ceramica/gala/interiors/eletto_ceramica_gala_10220_170006_0x300.jpg"),
@@ -8105,7 +8105,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Gala ivory",
     interiors: [
       require("../images/catalog/eletto_ceramica/gala_ivory/interiors/eletto_ceramica_gala_ivory_11653_11061_0x300.jpg"),
@@ -8129,7 +8129,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Grey portogallo",
     interiors: [
       require("../images/catalog/eletto_ceramica/grey_portogallo/interiors/eletto_ceramica_grey_portogallo_14860_25149_0x300.jpg"),
@@ -8150,7 +8150,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Insignia",
     interiors: [
       require("../images/catalog/eletto_ceramica/insignia/interiors/eletto_ceramica_insignia_11976_136582_0x300.jpg"),
@@ -8186,7 +8186,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Levanto nero",
     interiors: [
       require("../images/catalog/eletto_ceramica/levanto_nero/interiors/eletto_ceramica_levanto_nero_11654_316585_0x300.jpg"),
@@ -8210,7 +8210,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Limestone",
     interiors: [
       require("../images/catalog/eletto_ceramica/limestone/interiors/eletto_ceramica_limestone_18371_141585_0x300.jpg"),
@@ -8242,7 +8242,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Lunario",
     interiors: [
       require("../images/catalog/eletto_ceramica/lunario/interiors/eletto_ceramica_lunario_18291_175806_0x300.jpg"),
@@ -8267,7 +8267,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Malwiya",
     interiors: [
       require("../images/catalog/eletto_ceramica/malwiya/interiors/eletto_ceramica_malwiya_8716_213511_0x300.jpg"),
@@ -8295,7 +8295,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Odense",
     interiors: [
       require("../images/catalog/eletto_ceramica/odense/interiors/eletto_ceramica_odense_8717_325019_0x300.jpg"),
@@ -8322,7 +8322,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Old tjikko",
     interiors: [
       require("../images/catalog/eletto_ceramica/old_tjikko/interiors/eletto_ceramica_old_tjikko_8718_61328_0x300.jpg"),
@@ -8341,7 +8341,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Rosa portogallo",
     interiors: [
       require("../images/catalog/eletto_ceramica/rosa_portogallo/interiors/eletto_ceramica_rosa_portogallo_11655_723469_0x300.jpg"),
@@ -8367,7 +8367,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Plitka",
     Size: ["20x60"],
-    Name: "Eletto ceramica",
+    Name: "Eletto Ceramica",
     Collection: "Trevi",
     interiors: [
       require("../images/catalog/eletto_ceramica/trevi/interiors/eletto_ceramica_trevi_9627_19875_0x300.jpg"),
@@ -9704,7 +9704,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Art",
     interiors: [
       require("../images/catalog/estima_city/art/interiors/estima_city_art_10584_358330_0x300.jpg"),
@@ -9719,7 +9719,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Brigantina",
     interiors: [
       require("../images/catalog/estima_city/brigantina/interiors/estima_city_brigantina_12780_355347_0x300.jpg"),
@@ -9748,7 +9748,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Dream_wood",
     interiors: [
       require("../images/catalog/estima_city/dream_wood/interiors/estima_city_dream_wood_10813_145559_0x300.jpg"),
@@ -9771,7 +9771,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Jam",
     interiors: [
       require("../images/catalog/estima_city/jam/interiors/estima_city_jam_18709_110909_0x300.jpg"),
@@ -9789,7 +9789,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Jasper",
     interiors: [
       require("../images/catalog/estima_city/jasper/interiors/estima_city_jasper_15830_304147_0x300.jpg"),
@@ -9809,7 +9809,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Melody",
     interiors: [
       require("../images/catalog/estima_city/melody/interiors/estima_city_melody_10585_406858_0x300.jpg"),
@@ -9850,7 +9850,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Modern wood",
     interiors: [
       require("../images/catalog/estima_city/modern_wood/interiors/estima_city_modern_wood_10814_775991_0x300.jpg"),
@@ -9873,7 +9873,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Newport",
     interiors: [
       require("../images/catalog/estima_city/newport/interiors/estima_city_newport_15831_556517_0x300.jpg"),
@@ -9896,7 +9896,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Ragtime",
     interiors: [
       require("../images/catalog/estima_city/ragtime/interiors/estima_city_ragtime_10586_516307_0x300.jpg"),
@@ -9918,7 +9918,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Rock",
     interiors: [
       require("../images/catalog/estima_city/rock/interiors/estima_city_rock_10587_904091_0x300.jpg"),
@@ -9936,7 +9936,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Seed",
     interiors: [
       require("../images/catalog/estima_city/seed/interiors/estima_city_seed_18708_268669_0x300.jpg"),
@@ -9961,7 +9961,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Solo",
     interiors: [
       require("../images/catalog/estima_city/solo/interiors/estima_city_solo_10588_547716_0x300.jpg"),
@@ -9976,7 +9976,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Stride",
     interiors: [
       require("../images/catalog/estima_city/stride/interiors/estima_city_stride_18710_238093_0x300.jpg"),
@@ -10003,7 +10003,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Estima city",
+    Name: "Estima City",
     Collection: "Underground",
     interiors: [
       require("../images/catalog/estima_city/underground/interiors/estima_city_underground_10589_98545_0x300.jpg"),
@@ -14267,6 +14267,20 @@ const initialCards = [
       require("../images/catalog/primavera/gemba/interiors/primavera_gemba_14928_350555_0x300.jpg"),
     ],
     tovars: [require("../images/catalog/noFoto.jpg")],
+  },
+  {
+    id: "885",
+    Сountry: "Индия",
+    Category: "Keramogranit",
+    Size: ["60x120"],
+    Name: "Primavera",
+    Collection: "Golden Black Grit Granula",
+    interiors: [
+      require("../images/catalog/primavera/Golden Black Grit Granula/interiors/primavera_golden_black_grit_granula_17890_829828.jpg"),
+    ],
+    tovars: [
+      require("../images/catalog/primavera/Golden Black Grit Granula/tovars/primavera_golden_black_125276_906772.jpg"),
+    ],
   },
   {
     id: "729",

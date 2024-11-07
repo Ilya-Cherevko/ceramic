@@ -17,13 +17,13 @@ function NavBar() {
           Керамическая плитка
           <div className="dropdown-content">
             <NavLink to="/Plitka/Alma%20Ceramica" className={setActive}>
-              Алма Керамика
+              Alma Ceramica
             </NavLink>
             <NavLink to="/Plitka/Azori" className={setActive}>
-              Азори
+              Azori
             </NavLink>
             <NavLink to="/Plitka/Eletto%20ceramica" className={setActive}>
-              Элетто Керамика
+              Eletto Ceramica
             </NavLink>
             <NavLink to="/Plitka/LB%20Ceramics" className={setActive}>
               LB Ceramics
@@ -40,10 +40,10 @@ function NavBar() {
           Керамогранит
           <div className="dropdown-content">
             <NavLink to="/Keramogranit/Absolut%20gres" className={setActive}>
-              Абсолют Гресс
+              Absolut Gres
             </NavLink>
             <NavLink to="/Keramogranit/Alma%20Ceramica" className={setActive}>
-              Алма Керамика
+              Alma Ceramica
             </NavLink>
             <NavLink
               to="/Keramogranit/Ametis%20by%20Estima"

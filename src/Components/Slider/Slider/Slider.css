@@ -42,7 +42,7 @@
   width: 101%;
   height: 101%;
   object-fit: cover;
-  object-position: bottom;
+  object-position: center;
 }
 
 .slide__info {
