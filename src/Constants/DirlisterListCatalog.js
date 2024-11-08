@@ -3915,7 +3915,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Alavesa",
     interiors: [
       require("../images/catalog/ametis_by_estima/alavesa/interiors/ametis_by_estima_alavesa_18706_116385_0x300.jpg"),
@@ -3955,7 +3955,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Arti",
     interiors: [
       require("../images/catalog/ametis_by_estima/arti/interiors/ametis_by_estima_arti_13617_177155_0x300.jpg"),
@@ -3989,7 +3989,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Daintree",
     interiors: [
       require("../images/catalog/ametis_by_estima/daintree/interiors/ametis_by_estima_daintree_9836_241873_0x300.jpg"),
@@ -4040,7 +4040,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Intense",
     interiors: [
       require("../images/catalog/ametis_by_estima/intense/interiors/ametis_by_estima_intense_18707_358022_0x300.jpg"),
@@ -4065,7 +4065,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Kailas",
     interiors: [
       require("../images/catalog/ametis_by_estima/kailas/interiors/ametis_by_estima_kailas_9858_217066_0x300.jpg"),
@@ -4124,7 +4124,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Magmas",
     interiors: [
       require("../images/catalog/ametis_by_estima/magmas/interiors/ametis_by_estima_magmas_16292_761799_0x300.jpg"),
@@ -4163,7 +4163,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Marmulla",
     interiors: [
       require("../images/catalog/ametis_by_estima/marmulla/interiors/ametis_by_estima_marmulla_9860_183478_0x300.jpg"),
@@ -4252,7 +4252,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Oceanmist",
     interiors: [
       require("../images/catalog/ametis_by_estima/oceanmist/interiors/ametis_by_estima_oceanmist_16293_715344_0x300.jpg"),
@@ -4292,7 +4292,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Selection",
     interiors: [
       require("../images/catalog/ametis_by_estima/selection/interiors/ametis_by_estima_selection_12019_106857_0x300.jpg"),
@@ -4337,7 +4337,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Spectrum",
     interiors: [
       require("../images/catalog/ametis_by_estima/spectrum/interiors/ametis_by_estima_spectrum_12018_179984_0x300.jpg"),
@@ -4439,7 +4439,7 @@ const initialCards = [
     Сountry: "Россия",
     Category: "Keramogranit",
     Size: ["20x60"],
-    Name: "Ametis by Estima",
+    Name: "Ametist by Estima",
     Collection: "Supreme",
     interiors: [
       require("../images/catalog/ametis_by_estima/supreme/interiors/ametis_by_estima_supreme_12020_108991_0x300.jpg"),

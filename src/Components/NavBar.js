@@ -22,7 +22,7 @@ function NavBar() {
             <NavLink to="/Plitka/Azori" className={setActive}>
               Azori
             </NavLink>
-            <NavLink to="/Plitka/Eletto%20ceramica" className={setActive}>
+            <NavLink to="/Plitka/Eletto%20Ceramica" className={setActive}>
               Eletto Ceramica
             </NavLink>
             <NavLink to="/Plitka/LB%20Ceramics" className={setActive}>
@@ -39,14 +39,14 @@ function NavBar() {
         <div className="dropdown">
           Керамогранит
           <div className="dropdown-content">
-            <NavLink to="/Keramogranit/Absolut%20gres" className={setActive}>
+            <NavLink to="/Keramogranit/Absolut%20Gres" className={setActive}>
               Absolut Gres
             </NavLink>
             <NavLink to="/Keramogranit/Alma%20Ceramica" className={setActive}>
               Alma Ceramica
             </NavLink>
             <NavLink
-              to="/Keramogranit/Ametis%20by%20Estima"
+              to="/Keramogranit/Ametist%20by%20Estima"
               className={setActive}
             >
               Аmetist by Estima
@@ -60,7 +60,7 @@ function NavBar() {
             <NavLink to="/Keramogranit/Estima" className={setActive}>
               Estima
             </NavLink>
-            <NavLink to="/Keramogranit/Estima%20city" className={setActive}>
+            <NavLink to="/Keramogranit/Estima%20City" className={setActive}>
               Estima City
             </NavLink>
             <NavLink to="/Keramogranit/Гранитея" className={setActive}>
