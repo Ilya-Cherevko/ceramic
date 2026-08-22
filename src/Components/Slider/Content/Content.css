@@ -1,3 +1,10 @@
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .content__grid {
   display: grid;
   grid-template-columns: 3fr 2fr;
@@ -5,8 +12,35 @@
   max-width: 90vw;
 }
 
-.label{
-  font-size: 60px;
-  text-decoration: none;
-  color: #ffffff;
+/* ===== Медиазапросы ===== */
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 15px;
+  }
+  
+  .content__grid {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 10px;
+  }
+  
+  .content__grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 5px;
+  }
+  
+  .content__grid {
+    gap: 10px;
+  }
 }

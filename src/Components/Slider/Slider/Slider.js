@@ -4,7 +4,6 @@ import "../Slider/Slider.css";
 
 export const Slider = ({ data }) => {
   const [activeId, setActiveId] = useState(0);
-  console.log(data);
 
   const prev = () => {
     setActiveId((activeId) => {
@@ -24,6 +23,10 @@ export const Slider = ({ data }) => {
     });
   };
 
+  const handleSlideClick = (idx) => {
+    setActiveId(idx);
+  };
+
   return (
     <div className="slider-wrap">
       <div className="slider__actions">
@@ -39,6 +42,7 @@ export const Slider = ({ data }) => {
           <div
             key={slide.id}
             className={`slide${idx === activeId ? " active" : ""}`}
+            onClick={() => handleSlideClick(idx)}
           >
             <div className="slide__info">
               <div className="slide__label">{slide.label}</div>

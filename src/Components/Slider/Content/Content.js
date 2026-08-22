@@ -1,4 +1,3 @@
-//import { GradientTitle } from "../GradientTitle/GradientTitle";//
 import { Slider } from "../Slider/Slider";
 import photo_1 from "../../../images/Slider/22651.jpg";
 import photo_2 from "../../../images/primavera_golden_black_grit_granula.jpg";
@@ -7,7 +6,7 @@ import "../Content/Content.css";
 import { NavLink } from "react-router-dom";
 
 const setActive = ({ isActive }) =>
-  `menu__link, label ${isActive ? "menu__link_active" : ""}`;
+  `menu__link ${isActive ? "menu__link_active" : ""}`;
 
 const sliderData = [
   {
@@ -31,7 +30,7 @@ const sliderData = [
   {
     id: 1003,
     label: (
-      <NavLink to="/Keramogranit" className={setActive}>
+      <NavLink to="/GibkyMramor" className={setActive}>
         Гибкий мрамор
       </NavLink>
     ),
@@ -41,7 +40,7 @@ const sliderData = [
 
 const Content = () => (
   <div className="content">
-    <Slider data={sliderData} key={sliderData.id} />
+    <Slider data={sliderData} />
   </div>
 );
 

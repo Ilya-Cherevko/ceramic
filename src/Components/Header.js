@@ -29,7 +29,9 @@ function Header() {
           <p className="header__text">vokceramic@mail.ru</p>
         </div>
       </div>
-      <NavBar />
+      <div className="header__nav">
+          <NavBar />
+      </div>
     </header>
   );
 }

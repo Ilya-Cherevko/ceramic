@@ -1,25 +1,96 @@
-.card__wrapper{
-    display: grid;
-    width: 100%;
-    height: 100%;
-    align-items: flex-start;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-template-rows: auto auto;
-    grid-row-gap: 20px;
-    grid-column-gap: 17px;
-    list-style: none;
-    padding-inline-start: 0px;
+.card__wrapper {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 17px;
+  list-style: none;
+  padding-inline-start: 0px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.card__wrapper-tovars{
-    display: grid;
-    width: 100%;
-    height: 100%;
-    align-items: flex-start;
-    grid-template-columns: repeat(auto-fit, minmax(10vh, 22vh));
-    grid-template-rows: auto auto;
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
-    list-style: none;
-    padding-inline-start: 0px;
+.card__wrapper-tovars {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  grid-template-columns: repeat(auto-fit, minmax(10vh, 22vh));
+  grid-template-rows: auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 20px 0;
+}
+
+/* ===== Планшеты (до 1024px) ===== */
+@media screen and (max-width: 1024px) {
+  .card__wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-row-gap: 18px;
+    grid-column-gap: 15px;
+    padding: 0 15px;
+  }
+
+  .card__wrapper-tovars {
+    grid-template-columns: repeat(auto-fit, minmax(9vh, 20vh));
+    grid-row-gap: 18px;
+    grid-column-gap: 18px;
+    padding: 0 15px;
+  }
+}
+
+/* ===== Телефоны (до 768px) ===== */
+@media screen and (max-width: 768px) {
+  .card__wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-row-gap: 15px;
+    grid-column-gap: 12px;
+    padding: 0 10px;
+  }
+
+  .card__wrapper-tovars {
+    grid-template-columns: repeat(auto-fit, minmax(8vh, 18vh));
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    padding: 0 10px;
+  }
+}
+
+/* ===== Маленькие телефоны (до 480px) ===== */
+@media screen and (max-width: 480px) {
+  .card__wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-row-gap: 12px;
+    grid-column-gap: 10px;
+    padding: 0 8px;
+  }
+
+  .card__wrapper-tovars {
+    grid-template-columns: repeat(auto-fit, minmax(7vh, 16vh));
+    grid-row-gap: 12px;
+    grid-column-gap: 12px;
+    padding: 0 8px;
+  }
+}
+
+/* ===== Очень маленькие экраны (до 360px) ===== */
+@media screen and (max-width: 360px) {
+  .card__wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    grid-row-gap: 10px;
+    grid-column-gap: 8px;
+    padding: 0 5px;
+  }
+
+  .card__wrapper-tovars {
+    grid-template-columns: repeat(auto-fit, minmax(6vh, 14vh));
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding: 0 5px;
+  }
 }

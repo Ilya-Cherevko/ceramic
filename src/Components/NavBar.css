@@ -1,55 +1,239 @@
-.menu__link{
-    color: #d4b503;
-    margin: 1em;
-    text-decoration: none;
-    font-size: small;
-    cursor: pointer;
-    z-index: 1;
+/* ===== Базовые стили (десктоп) ===== */
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.menu__link_active{
-    color: rgb(255, 255, 255);
-   background-color: none;
+.menu__link {
+  color: #d4b503;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
-.menu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    border: auto 20px;
+.menu__link:hover {
+  color: #fff;
+  background: rgba(212, 181, 3, 0.2);
+  border-radius: 4px;
 }
 
-  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
-  .dropdown {
-    position: relative;
-    display: inline-block;
+.menu__link_active {
+  color: #fff;
+  background: rgba(212, 181, 3, 0.3);
+  border-radius: 4px;
+}
+
+/* ===== Dropdown (выпадающие меню) ===== */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1a1a1a;
+  min-width: 220px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  border: 1px solid rgba(212, 181, 3, 0.3);
+  border-radius: 4px;
+  padding: 8px 0;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-content .menu__link {
+  display: block;
+  padding: 10px 20px;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #d4b503;
+}
+
+.dropdown-content .menu__link:hover {
+  background: rgba(212, 181, 3, 0.15);
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ===== Бургер-кнопка (скрыта на десктопе) ===== */
+.menu__burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 20;
+}
+
+.menu__burger-line {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: #d4b503;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* ===== Медиазапрос для планшетов (до 1024px) ===== */
+@media screen and (max-width: 1024px) {
+  .menu {
+    gap: 10px;
   }
-  
-  /* Выпадающее содержимое (скрыто по умолчанию) */
+
+  .menu__link {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
   .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #000000;
-    min-width: 140px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-align: left;
+    min-width: 180px;
   }
-  
-  /* Ссылки внутри выпадающего списка */
-  .dropdown-link {
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    text-decoration: none;
+
+  .dropdown-content .menu__link {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}
+
+/* ===== Медиазапрос для телефонов (до 768px) ===== */
+@media screen and (max-width: 768px) {
+  /* Показываем бургер */
+  .menu__burger {
+    display: flex;
+  }
+
+  /* Скрываем меню на телефонах */
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0a0a0a;
+    padding: 80px 20px 30px;
+    gap: 10px;
+    border-bottom: 3px solid rgba(212, 181, 3, 0.7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+    z-index: 15;
+    overflow-y: auto;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  /* Открытое меню */
+  .menu--open {
+    display: flex;
+  }
+
+  .menu__link {
+    font-size: 18px;
+    padding: 12px 20px;
+    width: 100%;
+    text-align: center;
+    white-space: normal;
+    border-bottom: 1px solid rgba(212, 181, 3, 0.1);
+  }
+
+  .menu__link:last-child {
+    border-bottom: none;
+  }
+
+  /* Dropdown на телефонах */
+  .dropdown {
+    width: 100%;
+  }
+
+  /* Убираем стрелку полностью */
+  .dropdown .menu__link::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  /* Или оставляем только иконку-плюс рядом с текстом */
+  .dropdown .menu__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dropdown-content {
+    position: static;
+    display: none;
+    background: rgba(212, 181, 3, 0.05);
+    min-width: auto;
+    box-shadow: none;
+    border: none;
+    padding: 5px 0;
+    margin-top: 5px;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  /* Открываем dropdown по клику */
+  .dropdown-content--open {
     display: block;
   }
-  
-  /* Изменение цвета выпадающих ссылок при наведении курсора */
-  .dropdown-content a:hover {background-color: #000000;}
-  
-  /* Показать выпадающее меню при наведении курсора */
-  .dropdown:hover .dropdown-content {display: flex; justify-content: space-around; flex-direction: column; justify-content: center}
-  
-  /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
-  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+  .dropdown-content .menu__link {
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    white-space: normal;
+    border-bottom: 1px solid rgba(212, 181, 3, 0.05);
+    width: 100%;
+  }
+
+  .dropdown-content .menu__link:last-child {
+    border-bottom: none;
+  }
+
+  /* Анимация бургера в крестик */
+  .menu__burger--active .menu__burger-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menu__burger--active .menu__burger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu__burger--active .menu__burger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+/* ===== Очень маленькие экраны (до 480px) ===== */
+@media screen and (max-width: 480px) {
+  .menu {
+    padding: 70px 15px 20px;
+    gap: 8px;
+  }
+
+  .menu__link {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .dropdown-content .menu__link {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .menu__burger-line {
+    width: 24px;
+    height: 2.5px;
+  }
+}

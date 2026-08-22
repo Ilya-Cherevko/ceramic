@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 
@@ -6,103 +6,147 @@ const setActive = ({ isActive }) =>
   `menu__link ${isActive ? "menu__link_active" : ""}`;
 
 function NavBar() {
-  return (
-    <nav className="menu">
-      <NavLink to="/" className={setActive}>
-        Главная
-      </NavLink>
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openDropdowns, setOpenDropdowns] = useState({});
 
-      <NavLink to="/Plitka" className={setActive}>
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleDropdown = (name) => {
+    setOpenDropdowns((prev) => ({
+      ...prev,
+      [name]: !prev[name],
+    }));
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  return (
+    <>
+      {/* Бургер-кнопка */}
+      <button 
+        className={`menu__burger ${isMenuOpen ? "menu__burger--active" : ""}`}
+        onClick={toggleMenu}
+        aria-label="Меню"
+      >
+        <span className="menu__burger-line"></span>
+        <span className="menu__burger-line"></span>
+        <span className="menu__burger-line"></span>
+      </button>
+
+      {/* Навигационное меню */}
+      <nav className={`menu ${isMenuOpen ? "menu--open" : ""}`}>
+        <NavLink to="/" className={setActive} onClick={closeMenu}>
+          Главная
+        </NavLink>
+
+        {/* Керамическая плитка */}
         <div className="dropdown">
-          Керамическая плитка
-          <div className="dropdown-content">
-            <NavLink to="/Plitka/Alma%20Ceramica" className={setActive}>
+          <div 
+            className="menu__link" 
+            onClick={() => toggleDropdown("plitka")}
+            style={{ cursor: "pointer" }}
+          >
+            Керамическая плитка
+          </div>
+          <div className={`dropdown-content ${openDropdowns.plitka ? "dropdown-content--open" : ""}`}>
+            <NavLink to="/Plitka/Alma%20Ceramica" className={setActive} onClick={closeMenu}>
               Alma Ceramica
             </NavLink>
-            <NavLink to="/Plitka/Azori" className={setActive}>
+            <NavLink to="/Plitka/Azori" className={setActive} onClick={closeMenu}>
               Azori
             </NavLink>
-            <NavLink to="/Plitka/Eletto%20Ceramica" className={setActive}>
+            <NavLink to="/Plitka/Eletto%20Ceramica" className={setActive} onClick={closeMenu}>
               Eletto Ceramica
             </NavLink>
-            <NavLink to="/Plitka/LB%20Ceramics" className={setActive}>
+            <NavLink to="/Plitka/LB%20Ceramics" className={setActive} onClick={closeMenu}>
               LB Ceramics
             </NavLink>
-            <NavLink to="/Plitka/NewTrend" className={setActive}>
+            <NavLink to="/Plitka/NewTrend" className={setActive} onClick={closeMenu}>
               NewTrend
             </NavLink>
           </div>
         </div>
-      </NavLink>
 
-      <NavLink to="/Keramogranit" className={setActive}>
+        {/* Керамогранит */}
         <div className="dropdown">
-          Керамогранит
-          <div className="dropdown-content">
-            <NavLink to="/Keramogranit/Absolut%20Gres" className={setActive}>
+          <div 
+            className="menu__link" 
+            onClick={() => toggleDropdown("keramogranit")}
+            style={{ cursor: "pointer" }}
+          >
+            Керамогранит
+          </div>
+          <div className={`dropdown-content ${openDropdowns.keramogranit ? "dropdown-content--open" : ""}`}>
+            <NavLink to="/Keramogranit/Absolut%20Gres" className={setActive} onClick={closeMenu}>
               Absolut Gres
             </NavLink>
-            <NavLink to="/Keramogranit/Alma%20Ceramica" className={setActive}>
+            <NavLink to="/Keramogranit/Alma%20Ceramica" className={setActive} onClick={closeMenu}>
               Alma Ceramica
             </NavLink>
-            <NavLink
-              to="/Keramogranit/Ametist%20by%20Estima"
-              className={setActive}
-            >
+            <NavLink to="/Keramogranit/Ametist%20by%20Estima" className={setActive} onClick={closeMenu}>
               Аmetist by Estima
             </NavLink>
-            <NavLink to="/Keramogranit/Bluezone" className={setActive}>
+            <NavLink to="/Keramogranit/Bluezone" className={setActive} onClick={closeMenu}>
               Bluezone
             </NavLink>
-            <NavLink to="/Keramogranit/Delacora" className={setActive}>
+            <NavLink to="/Keramogranit/Delacora" className={setActive} onClick={closeMenu}>
               Delacora
             </NavLink>
-            <NavLink to="/Keramogranit/Estima" className={setActive}>
+            <NavLink to="/Keramogranit/Estima" className={setActive} onClick={closeMenu}>
               Estima
             </NavLink>
-            <NavLink to="/Keramogranit/Estima%20City" className={setActive}>
+            <NavLink to="/Keramogranit/Estima%20City" className={setActive} onClick={closeMenu}>
               Estima City
             </NavLink>
-            <NavLink to="/Keramogranit/Гранитея" className={setActive}>
+            <NavLink to="/Keramogranit/Гранитея" className={setActive} onClick={closeMenu}>
               Гранитея
             </NavLink>
-            <NavLink to="/Keramogranit/Gresse" className={setActive}>
+            <NavLink to="/Keramogranit/Gresse" className={setActive} onClick={closeMenu}>
               Gresse
             </NavLink>
-            <NavLink to="/Keramogranit/Керлайф" className={setActive}>
+            <NavLink to="/Keramogranit/Керлайф" className={setActive} onClick={closeMenu}>
               Керлайф
             </NavLink>
-            <NavLink to="/Keramogranit/LCM" className={setActive}>
+            <NavLink to="/Keramogranit/LCM" className={setActive} onClick={closeMenu}>
               LCM
             </NavLink>
-            <NavLink to="/Keramogranit/Primavera" className={setActive}>
+            <NavLink to="/Keramogranit/Primavera" className={setActive} onClick={closeMenu}>
               Primavera
             </NavLink>
           </div>
         </div>
-      </NavLink>
 
-      <NavLink to="/GibkyMramor" className={setActive}>
+        {/* Гибкий мрамор */}
         <div className="dropdown">
-          Гибкий мрамор
-          <div className="dropdown-content">
-            <NavLink to="/GibkyMramor/Elite" className={setActive}>
+          <div 
+            className="menu__link" 
+            onClick={() => toggleDropdown("mramor")}
+            style={{ cursor: "pointer" }}
+          >
+            Гибкий мрамор
+          </div>
+          <div className={`dropdown-content ${openDropdowns.mramor ? "dropdown-content--open" : ""}`}>
+            <NavLink to="/GibkyMramor/Elite" className={setActive} onClick={closeMenu}>
               Elite
             </NavLink>
-            <NavLink to="/GibkyMramor/Exclusive" className={setActive}>
+            <NavLink to="/GibkyMramor/Exclusive" className={setActive} onClick={closeMenu}>
               Exclusive
             </NavLink>
-            <NavLink to="/GibkyMramor/VIP" className={setActive}>
+            <NavLink to="/GibkyMramor/VIP" className={setActive} onClick={closeMenu}>
               Vip
             </NavLink>
           </div>
         </div>
-      </NavLink>
 
-      <NavLink to="/AboutUs" className={setActive}>
-        Как нас найти
-      </NavLink>
-    </nav>
+        <NavLink to="/AboutUs" className={setActive} onClick={closeMenu}>
+          Как нас найти
+        </NavLink>
+      </nav>
+    </>
   );
 }
 

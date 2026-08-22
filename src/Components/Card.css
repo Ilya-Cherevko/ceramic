@@ -1,123 +1,723 @@
-.card__body{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding-bottom: 8px;
+/* ===== Базовые стили (десктоп) ===== */
+
+/* ===== CardBuild (каталог) ===== */
+.card__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style: none;
 }
 
-.card__body_one{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: #ffffff;
-    width: 100%;
-    height: 100%;
-    
-    padding-bottom: 8px;
+.card__body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding-bottom: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card__body:hover{
-    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3);
-    transform: translateY(-5px);
+.card__body:hover {
+  box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.card__img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+}
+
+.card__collection {
+  font-size: larger;
+  font-weight: bold;
+  margin: 2px 10px 12px;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+}
+
+.card__name {
+  font-size: medium;
+  margin: 2px 10px;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+}
+
+.card__country {
+  font-size: medium;
+  margin: 2px 10px;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+}
+
+.card__size {
+  font-size: small;
+  margin: 2px 10px;
+  text-align: left;
+  color: black;
+}
+
+/* ===== Обёртка главного изображения ===== */
+.card__image-wrapper {
+  position: relative;
+  width: 500px;
+  flex-shrink: 0;
+}
+
+.card__image-counter {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  backdrop-filter: blur(4px);
+}
+
+/* ===== Миниатюры ===== */
+.card__thumbnails-wrapper {
+  margin-top: 15px;
+}
+
+.card__thumbnails-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.card__img_tovars.active {
+  border: 3px solid #d4b503;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(212, 181, 3, 0.3);
+}
+
+/* ===== Товары ===== */
+.card__tovars-wrapper {
+  margin-top: 30px;
+}
+
+.card__tovars-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.card-pit__back-btn {
+  padding: 12px 30px;
+  background: #d4b503;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.card-pit__back-btn:hover {
+  background: #b89b03;
+  transform: translateY(-2px);
+}
+
+/* ===== Страница "Коллекция не найдена" ===== */
+.card-pit__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.card-pit__empty h2 {
+  font-size: 28px;
+  color: #d4b503;
+  margin-bottom: 15px;
+}
+
+.card-pit__empty p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* ===== Медиазапросы ===== */
+@media screen and (max-width: 1024px) {
+  .card__image-wrapper {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card__image-wrapper {
+    width: 100%;
+    max-width: 500px;
   }
 
-.card__country, .card__collection, .card__name, .card__size{
-    margin: 2px 10px 2px;
-    text-align: left;
-    color: black;
+  .card__img_card {
+    width: 100% !important;
+  }
+
+  .card__image-counter {
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 3px 10px;
+  }
 }
 
-.card__img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
-}
-.card__img_card{
-    width: 500px;
-    height: 100%;
-    object-fit: cover;
-    
-}
+@media screen and (max-width: 768px) {
+  .card__thumbnails-title {
+    font-size: 13px;
+    text-align: center;
+  }
 
-.card__collection{
-    font-size: larger;
-    font-weight: bold;
-    margin-bottom: 12px;
-    text-decoration: none;
-    }
+  .card__tovars-title {
+    font-size: 18px;
+    text-align: center;
+  }
 
-.card__name{
-    font-size: medium;
-    text-decoration: none;
-   }
-
-.card__country{
-    font-size: medium;
-    text-decoration: none;
-    }
-
-.card__size{
-    font-size: small;
+  .card__image-counter {
+    font-size: 11px;
+    padding: 2px 8px;
+  }
 }
 
-.card__conteiner{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    max-height: 100%;
-    
-    padding-bottom: 8px;
-    justify-content: space-between
+@media screen and (max-width: 480px) {
+  .card-pit__empty h2 {
+    font-size: 22px;
+  }
+
+  .card-pit__empty p {
+    font-size: 14px;
+  }
+
+  .card__tovars-title {
+    font-size: 16px;
+  }
+
+  .card__image-counter {
+    bottom: 8px;
+    right: 8px;
+    font-size: 10px;
+    padding: 2px 8px;
+  }
 }
 
-.card__page{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    align-content: center;
+/* ===== CardPit (детальная страница) ===== */
+.card__page {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  align-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.card__img_interiors{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
+.card__body_one {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 8px;
+  gap: 20px;
 }
 
-.card__img_tovar{
-    width: auto;
-    height: 14vh;
-    object-fit: contain;
-    
+.card__img_card {
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 
-.card__img-interior{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+.card__img-interior {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  min-width: 0;
 }
 
-.card__img-interiors{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 160px));
-    grid-template-rows: repeat(auto-fit, minmax(80px, 160px));
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
-    list-style: none;
-    margin: 0;
-    width: 700px;
-    height: 100%;
+.card__conteiner {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-height: 100%;
+  padding-bottom: 8px;
+  justify-content: space-between;
+}
+
+.card__img-interiors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 160px));
+  grid-template-rows: repeat(auto-fit, minmax(80px, 160px));
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.card__img_tovars {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card__img_tovars:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__img_interiors {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Товары в CardPit */
+.card__wrapper-tovars {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.card__img_tovar {
+  width: auto;
+  height: 14vh;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card__img_tovar:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Кнопка "Загрузить ещё" ===== */
+.card-build {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 50px;
+}
+
+.load-more__button {
+  padding: 14px 40px;
+  background: #d4b503;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(212, 181, 3, 0.3);
+}
+
+.load-more__button:hover {
+  background: #b89b03;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(212, 181, 3, 0.4);
+}
+
+.load-more__button:active {
+  transform: translateY(0);
+}
+
+.load-more__end {
+  text-align: center;
+  padding: 30px 0 50px;
+  color: #888;
+  font-size: 16px;
+}
+
+.load-more__empty {
+  text-align: center;
+  padding: 50px 0;
+  color: #999;
+  font-size: 18px;
+}
+
+.card-build {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card-build__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #d4b503;
+  text-align: center;
+  margin: 30px 0 20px;
+  padding: 0 20px;
+  text-transform: capitalize; /* Делает первую букву заглавной */
+}
+
+/* ===== Медиазапросы ===== */
+@media screen and (max-width: 1024px) {
+  .card-build {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-build {
     padding: 0 10px;
+  }
+
+  .card-build__title {
+    font-size: 28px;
+    margin: 20px 0 15px;
+  }
 }
 
-.card__img_tovars{
+@media screen and (max-width: 480px) {
+  .card-build {
+    padding: 0 5px;
+  }
+
+  .card-build__title {
+    font-size: 22px;
+    margin: 15px 0 10px;
+  }
+}
+
+/* ===== Медиазапросы ===== */
+@media screen and (max-width: 1024px) {
+  .card-build {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-build {
+    padding: 0 10px;
+  }
+
+  .load-more {
+    padding: 20px 0 30px;
+  }
+
+  .load-more__button {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-build {
+    padding: 0 5px;
+  }
+
+  .load-more__button {
+    padding: 10px 20px;
+    font-size: 14px;
     width: 100%;
-    height: 100%;
+    max-width: 280px;
+  }
+
+  .load-more__end,
+  .load-more__empty {
+    font-size: 14px;
+    padding: 20px 0 30px;
+  }
+}
+
+/* ============================================ */
+/* ===== МЕДИАЗАПРОСЫ ===== */
+/* ============================================ */
+
+/* Планшеты (до 1024px) */
+@media screen and (max-width: 1024px) {
+  /* CardBuild */
+  .card__wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 15px 25px;
+  }
+
+  .card__img {
+    height: 220px;
+  }
+
+  /* CardPit */
+  .card__body_one {
+    gap: 15px;
+  }
+
+  .card__img_card {
+    width: 400px;
+  }
+
+  .card__img-interiors {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 140px));
+    grid-template-rows: repeat(auto-fit, minmax(70px, 140px));
+    gap: 8px;
+  }
+
+  .card__wrapper-tovars {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+  }
+}
+
+/* Планшеты (до 900px) */
+@media screen and (max-width: 900px) {
+  .card__body_one {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card__img_card {
+    width: 100%;
+    max-width: 500px;
+    max-height: 400px;
+  }
+
+  .card__img-interior {
+    width: 100%;
+  }
+
+  .card__img-interiors {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 120px));
+    grid-template-rows: repeat(auto-fit, minmax(80px, 120px));
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+/* Телефоны (до 768px) */
+@media screen and (max-width: 768px) {
+  /* CardBuild */
+  .card__wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 15px;
+    padding: 10px 15px;
+  }
+
+  .card__img {
+    height: 180px;
+  }
+
+  .card__collection {
+    font-size: 16px;
+    margin: 2px 8px 8px;
+  }
+
+  .card__name,
+  .card__country {
+    font-size: 14px;
+    margin: 2px 8px;
+  }
+
+  /* CardPit */
+  .card__page {
+    padding: 0 10px;
+  }
+
+  .card__body_one {
+    padding: 10px;
+  }
+
+  .card__img_card {
+    max-height: 300px;
+    border-radius: 6px;
+  }
+
+  .card__img-interiors {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 100px));
+    grid-template-rows: repeat(auto-fit, minmax(60px, 100px));
+    gap: 8px;
+  }
+
+  .card__wrapper-tovars {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+
+  .card__img_tovar {
+    height: 12vh;
+  }
+
+  /* Убираем ховер-эффекты на телефонах */
+  .card__body:hover,
+  .card__img_tovars:hover,
+  .card__img_tovar:hover {
+    transform: none;
+  }
+
+  .card__img_tovars:hover {
+    box-shadow: none;
+  }
+}
+
+/* Маленькие телефоны (до 480px) */
+@media screen and (max-width: 480px) {
+  /* CardBuild */
+  .card__wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+    padding: 8px 10px;
+  }
+
+  .card__img {
+    height: 140px;
+  }
+
+  .card__collection {
+    font-size: 14px;
+    margin: 2px 6px 6px;
+  }
+
+  .card__name,
+  .card__country {
+    font-size: 12px;
+    margin: 1px 6px;
+  }
+
+  .card__size {
+    font-size: 10px;
+    margin: 1px 6px;
+  }
+
+  /* CardPit */
+  .card__page {
+    padding: 0 5px;
+  }
+
+  .card__body_one {
+    padding: 8px;
+    gap: 10px;
+  }
+
+  .card__img_card {
+    max-height: 220px;
+  }
+
+  .card__collection {
+    font-size: 14px;
+  }
+
+  .card__name,
+  .card__country {
+    font-size: 12px;
+  }
+
+  .card__img-interiors {
+    grid-template-columns: repeat(auto-fit, minmax(50px, 80px));
+    grid-template-rows: repeat(auto-fit, minmax(50px, 80px));
+    gap: 6px;
+  }
+
+  .card__wrapper-tovars {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 10px;
+  }
+
+  .card__img_tovar {
+    height: 10vh;
+  }
+}
+
+/* Очень маленькие экраны (до 360px) */
+@media screen and (max-width: 360px) {
+  /* CardBuild */
+  .card__wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 5px 8px;
+  }
+
+  .card__img {
+    height: 120px;
+  }
+
+  .card__collection {
+    font-size: 12px;
+    margin: 2px 4px 4px;
+  }
+
+  .card__name,
+  .card__country {
+    font-size: 10px;
+    margin: 1px 4px;
+  }
+
+  /* CardPit */
+  .card__body_one {
+    padding: 5px;
+    gap: 8px;
+  }
+
+  .card__img_card {
+    max-height: 180px;
+  }
+
+  .card__collection {
+    font-size: 12px;
+  }
+
+  .card__name,
+  .card__country {
+    font-size: 10px;
+  }
+
+  .card__size {
+    font-size: 9px;
+  }
+
+  .card__img-interiors {
+    grid-template-columns: repeat(auto-fit, minmax(40px, 60px));
+    grid-template-rows: repeat(auto-fit, minmax(40px, 60px));
+    gap: 5px;
+  }
+
+  .card__wrapper-tovars {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 8px;
+  }
+
+  .card__img_tovar {
+    height: 8vh;
+  }
 }

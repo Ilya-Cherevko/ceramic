@@ -1,31 +1,136 @@
-.footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    border-top: solid 3px #000000;
-    padding-top: 30px;
-    margin-top: 1em;
+/* ===== Базовые стили (десктоп) ===== */
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-top: solid 3px #000000;
+  padding-top: 30px;
+  margin-top: 1em;
+  gap: 20px;
 }
 
-.text{
-    text-decoration: none;
-    font-weight: bold;
-    margin: 10px 5px;
-    color: #000000;
+.text {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px 5px;
+  color: #000000;
+  transition: color 0.3s ease;
 }
 
-.link:hover{
-    color: #9c9c9c;
+.link:hover {
+  color: #9c9c9c;
 }
 
-.decor{
-    display: flex;
+.decor {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 5px;
+}
+
+.footer__icon {
+  height: 20px;
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+
+/* ===== Планшеты (до 1024px) ===== */
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-top: 25px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .text {
+    font-size: 14px;
+    margin: 8px 4px;
+  }
+
+  .footer__icon {
+    height: 18px;
+    margin-right: 4px;
+  }
+
+  .decor {
+    gap: 4px;
+  }
+}
+
+/* ===== Телефоны (до 768px) ===== */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
     align-items: center;
-    text-decoration: none;
+    padding-top: 20px;
+    margin-top: 0.8em;
+    gap: 12px;
+    border-top-width: 2px;
+  }
+
+  .decor {
+    width: 100%;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .text {
+    font-size: 13px;
+    margin: 5px 3px;
+    text-align: center;
+  }
+
+  .footer__icon {
+    height: 18px;
+    margin-right: 3px;
+  }
 }
 
-.footer__icon{
-    height: 20px;
-    margin-right: 5px;
+/* ===== Маленькие телефоны (до 480px) ===== */
+@media screen and (max-width: 480px) {
+  .footer {
+    padding-top: 15px;
+    margin-top: 0.5em;
+    gap: 10px;
+    border-top-width: 2px;
+  }
+
+  .decor {
+    gap: 6px;
+  }
+
+  .text {
+    font-size: 11px;
+    margin: 3px 2px;
+  }
+
+  .footer__icon {
+    height: 16px;
+    margin-right: 3px;
+  }
+}
+
+/* ===== Очень маленькие экраны (до 360px) ===== */
+@media screen and (max-width: 360px) {
+  .footer {
+    padding-top: 12px;
+    gap: 8px;
+  }
+
+  .decor {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .text {
+    font-size: 10px;
+    margin: 2px;
+  }
+
+  .footer__icon {
+    height: 14px;
+    margin-right: 2px;
+  }
 }

@@ -1,28 +1,75 @@
-import Popup from "./Popup";
+import React, { useEffect } from "react";
+import "./ImagePopup.css";
 
-function ImagePopup(props) {
-  const { card, onClose } = props;
-  console.log(card);
+function ImagePopup({ card, onClose }) {
+  // Закрытие по Escape
+  useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    };
+
+    if (card.isOpen) {
+      document.addEventListener("keydown", handleEscape);
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+      document.body.style.overflow = "auto";
+    };
+  }, [card.isOpen, onClose]);
+
+  // Закрытие по клику на оверлей
+  const handleOverlayClick = (e) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
+  if (!card.isOpen) return null;
 
   return (
-    <Popup onClose={onClose} isOpen={card.isOpen}>
+    <div 
+      className={`popup ${card.isOpen ? "popup_opened" : ""}`}
+      onClick={handleOverlayClick}
+    >
       <div className="popup__container">
-        <button
-          type="button"
-          className="popup__close-button link"
-          aria-label="Закрыть"
+        <button 
+          className="popup__close" 
           onClick={onClose}
-        ></button>
-        <figure className="popup__content-container">
-          <img
-            className="popup__image-big"
-            src={card && card.interiors}
-            alt={card && card.Name}
-          />
-          <figcaption className="popup__image-caption">{card.Name}</figcaption>
-        </figure>
+          aria-label="Закрыть"
+        >
+          ×
+        </button>
+        
+        {card.image ? (
+          <>
+            <img 
+              className="popup__image" 
+              src={card.image} 
+              alt={card.name || "Изображение"} 
+              onError={(e) => {
+                console.error("Ошибка загрузки изображения:", card.image);
+                e.target.src = "/images/placeholder.jpg";
+                e.target.alt = "Изображение не найдено";
+              }}
+            />
+            {card.name && (
+              <p className="popup__caption">
+                {card.name}
+                {card.collection && ` — ${card.collection}`}
+              </p>
+            )}
+          </>
+        ) : (
+          <div className="popup__error">Изображение не найдено</div>
+        )}
       </div>
-    </Popup>
+    </div>
   );
 }
 

@@ -8,6 +8,8 @@ import AboutUs from "./Pages/AboutUs";
 import CardBuild from "./Pages/CardBuild";
 import CardPit from "./Pages/CardPit";
 import NotPage from "./Pages/404";
+import AdminLogin from "./Pages/AdminLogin";
+import AdminPanel from "./Pages/AdminPanel";
 import "./App.css";
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path="/:id/:Name" element={<CardBuild />} />
         <Route path="/:id/:Name/:Collection" element={<CardPit />} />
         <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/admin/login" element={<AdminLogin />} />
+        <Route path="/admin" element={<AdminPanel />} />
         <Route path="*" element={<NotPage />} />
       </Routes>
       <Footer />
