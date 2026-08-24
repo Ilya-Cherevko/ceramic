@@ -1,92 +1,52 @@
+// src/Pages/CardBuild.jsx
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
+import { getAllCollections, getCollectionsByCategory, getCollectionsByName } from "../api/catalog";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
-import Cards from "../Constants/DirlisterListCatalog";
-
-// Ключ для localStorage
-const STORAGE_KEY = "catalog_data";
 
 export default function CardBuild() {
   const { id, Name } = useParams();
 
-  // ===== Загрузка данных из localStorage =====
   const [catalog, setCatalog] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [visibleCount, setVisibleCount] = useState(8);
+  const loadMoreCount = 8;
 
+  // ===== Загрузка данных из Supabase =====
   useEffect(() => {
-    const loadData = () => {
+    const loadData = async () => {
+      setLoading(true);
+      let data = [];
+      
       try {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        if (saved) {
-          const parsed = JSON.parse(saved);
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            setCatalog(parsed);
-            setLoading(false);
-            return;
-          }
+        if (Name) {
+          data = await getCollectionsByName(Name);
+        } else if (id) {
+          data = await getCollectionsByCategory(id);
+        } else {
+          data = await getAllCollections();
         }
-      } catch (e) {
-        console.error("Ошибка загрузки данных:", e);
+        setCatalog(data);
+      } catch (error) {
+        console.error('Ошибка загрузки:', error);
+        setCatalog([]);
+      } finally {
+        setLoading(false);
       }
-      // Если данных нет — используем исходные
-      setCatalog(Cards);
-      setLoading(false);
     };
 
     loadData();
-  }, []);
+  }, [id, Name]);
 
-  // ===== Ключ для сохранения состояния пагинации =====
-  const storageKey = `cardBuild_visibleCount_${id}_${Name || "all"}`;
+  // ===== Пагинация =====
+  const visibleCards = catalog.slice(0, visibleCount);
+  const hasMore = visibleCount < catalog.length;
 
-  // ===== Загрузка сохранённого состояния пагинации =====
-  const getSavedCount = () => {
-    const saved = localStorage.getItem(storageKey);
-    return saved ? parseInt(saved, 10) : 8;
-  };
-
-  const [visibleCount, setVisibleCount] = useState(getSavedCount);
-  const loadMoreCount = 8;
-
-  // ===== Фильтрация карточек =====
-  let filteredCards = [];
-  
-  if (Name) {
-    // Если есть Name — фильтруем по производителю
-    filteredCards = catalog.filter((card) => card.Name === Name);
-  } else if (id) {
-    // Если есть только id — фильтруем по категории
-    filteredCards = catalog.filter((card) => card.Category === id);
-  } else {
-    // Если ничего нет — показываем все
-    filteredCards = catalog;
-  }
-
-  // Берём только видимые карточки
-  const visibleCards = filteredCards.slice(0, visibleCount);
-  
-  // Проверяем, есть ли ещё карточки
-  const hasMore = visibleCount < filteredCards.length;
-
-  // ===== Функция загрузки ещё =====
   const loadMore = () => {
-    const newCount = visibleCount + loadMoreCount;
-    setVisibleCount(newCount);
-    localStorage.setItem(storageKey, String(newCount));
+    setVisibleCount((prev) => prev + loadMoreCount);
   };
 
-  // ===== Сохраняем состояние при изменении =====
-  useEffect(() => {
-    localStorage.setItem(storageKey, String(visibleCount));
-  }, [visibleCount, storageKey]);
-
-  // ===== Сохраняем состояние при уходе со страницы =====
-  const saveState = () => {
-    localStorage.setItem(storageKey, String(visibleCount));
-  };
-
-  // ===== Безопасное получение изображения =====
   const getImageUrl = (image) => {
     if (Array.isArray(image) && image.length > 0) {
       return image[0];
@@ -97,7 +57,6 @@ export default function CardBuild() {
     return "/images/placeholder.jpg";
   };
 
-  // ===== Заголовок страницы =====
   const categoryNames = {
     "Plitka": "Керамическая плитка",
     "Keramogranit": "Керамогранит",
@@ -113,7 +72,6 @@ export default function CardBuild() {
     pageTitle = id;
   }
 
-  // ===== Загрузка =====
   if (loading) {
     return (
       <div className="load-more__loader">
@@ -123,8 +81,7 @@ export default function CardBuild() {
     );
   }
 
-  // ===== Если карточек нет =====
-  if (filteredCards.length === 0) {
+  if (catalog.length === 0) {
     return (
       <div className="card-pit__empty">
         <h2>Ничего не найдено</h2>
@@ -144,63 +101,50 @@ export default function CardBuild() {
     );
   }
 
-  // ===== Рендеринг =====
   return (
     <div className="card-build">
       <h1 className="card-build__title">{pageTitle}</h1>
       
       <div className="card-build__info">
-        <span>Показано {Math.min(visibleCount, filteredCards.length)} из {filteredCards.length}</span>
+        <span>Показано {Math.min(visibleCount, catalog.length)} из {catalog.length}</span>
       </div>
 
       <ul className="card__wrapper">
         {visibleCards.map((card) => (
           <li key={card.id}>
             <div className="card__body">
-              <Link 
-                to={`/${id}/${card.Name}/${card.Collection}`}
-                onClick={saveState}
-              >
+              <Link to={`/${card.category}/${card.name}/${card.collection}`}>
                 <img
                   className="card__img"
                   src={getImageUrl(card.interiors)}
-                  alt={card.Name}
+                  alt={card.name}
                 />
               </Link>
-              
               <Link
-                to={`/${id}/${card.Name}/${card.Collection}`}
+                to={`/${card.category}/${card.name}/${card.collection}`}
                 className="card__collection"
-                onClick={saveState}
               >
-                {card.Collection}
+                {card.collection}
               </Link>
-              
-              <Link 
-                to={`/${id}/${card.Name}`} 
-                className="card__name"
-                onClick={saveState}
-              >
-                {card.Name}
+              <Link to={`/${card.category}/${card.name}`} className="card__name">
+                {card.name}
               </Link>
-              <p className="card__country">{card.Сountry}</p>
+              <p className="card__country">{card.country}</p>
             </div>
           </li>
         ))}
       </ul>
 
-      {/* Кнопка "Загрузить ещё" */}
       {hasMore && (
         <div className="load-more">
           <button className="load-more__button" onClick={loadMore}>
-            Загрузить ещё ({visibleCount} из {filteredCards.length})
+            Загрузить ещё ({visibleCount} из {catalog.length})
           </button>
         </div>
       )}
 
-      {/* Если все карточки загружены */}
-      {!hasMore && filteredCards.length > 8 && (
-        <p className="load-more__end">Все коллекции загружены ({filteredCards.length})</p>
+      {!hasMore && catalog.length > 8 && (
+        <p className="load-more__end">Все коллекции загружены ({catalog.length})</p>
       )}
     </div>
   );

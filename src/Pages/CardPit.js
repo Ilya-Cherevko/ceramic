@@ -1,75 +1,56 @@
+// src/Pages/CardPit.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
+import { getCollectionByCollection } from "../api/catalog";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
-import Cards from "../Constants/DirlisterListCatalog";
 import ImagePopup from "../Components/ImagePopup";
-
-// Ключ для localStorage
-const STORAGE_KEY = "catalog_data";
 
 export default function CardPit() {
   const { Collection } = useParams();
   const scrollRef = useRef(null);
 
-  // ===== Загрузка данных из localStorage =====
-  const [catalog, setCatalog] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadData = () => {
-      try {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        if (saved) {
-          const parsed = JSON.parse(saved);
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            setCatalog(parsed);
-            setLoading(false);
-            return;
-          }
-        }
-      } catch (e) {
-        console.error("Ошибка загрузки данных:", e);
-      }
-      setCatalog(Cards);
-      setLoading(false);
-    };
-
-    loadData();
-  }, []);
-
   // ===== Состояния =====
+  const [card, setCard] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [selectedCard, setSelectedCard] = useState({
     isOpen: false,
     image: null,
     name: "",
     collection: "",
   });
-
   const [mainImage, setMainImage] = useState(null);
+  const [activeId, setActiveId] = useState(0);
 
   // Ключи для localStorage
   const storageKeyActive = `cardPit_activeSlide_${Collection}`;
   const storageKeyScroll = `cardPit_scrollPosition_${Collection}`;
 
-  // ===== Фильтрация данных =====
-  const filteredItems = catalog.filter((card) => card.Collection === Collection);
-  const card = filteredItems.length > 0 ? filteredItems[0] : null;
-
-  // ===== Загрузка сохранённого состояния =====
-  const [activeId, setActiveId] = useState(0);
-
-  // ===== Устанавливаем главное изображение и активный слайд при загрузке =====
+  // ===== Загрузка данных из Supabase =====
   useEffect(() => {
-    if (card && card.interiors && card.interiors.length > 0) {
-      const saved = localStorage.getItem(storageKeyActive);
-      const savedActive = saved ? parseInt(saved, 10) : 0;
-      const validIndex = Math.min(savedActive, card.interiors.length - 1);
-      
-      setActiveId(validIndex);
-      setMainImage(card.interiors[validIndex]);
-    }
-  }, [card, storageKeyActive]);
+    const loadData = async () => {
+      setLoading(true);
+      try {
+        const data = await getCollectionByCollection(Collection);
+        setCard(data);
+        
+        if (data && data.interiors && data.interiors.length > 0) {
+          const saved = localStorage.getItem(storageKeyActive);
+          const savedActive = saved ? parseInt(saved, 10) : 0;
+          const validIndex = Math.min(savedActive, data.interiors.length - 1);
+          setActiveId(validIndex);
+          setMainImage(data.interiors[validIndex]);
+        }
+      } catch (error) {
+        console.error('Ошибка загрузки:', error);
+        setCard(null);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, [Collection, storageKeyActive]);
 
   // ===== Сохранение активного слайда =====
   useEffect(() => {
@@ -121,7 +102,7 @@ export default function CardPit() {
     localStorage.setItem(storageKeyActive, String(index));
   };
 
-  // ===== Загрузка =====
+  // ===== Если коллекция не найдена =====
   if (loading) {
     return (
       <div className="load-more__loader">
@@ -131,7 +112,6 @@ export default function CardPit() {
     );
   }
 
-  // ===== Если коллекция не найдена =====
   if (!card) {
     return (
       <div className="card-pit__empty">
@@ -163,8 +143,8 @@ export default function CardPit() {
     setSelectedCard({
       isOpen: true,
       image: mainImage,
-      name: card.Name || "Изображение",
-      collection: card.Collection || "",
+      name: card.name || "Изображение",
+      collection: card.collection || "",
     });
     localStorage.setItem(storageKeyActive, String(activeId));
   }
@@ -173,8 +153,8 @@ export default function CardPit() {
     setSelectedCard({
       isOpen: true,
       image: image,
-      name: cardData.Name || "Товар",
-      collection: cardData.Collection || "",
+      name: cardData.name || "Товар",
+      collection: cardData.collection || "",
     });
     localStorage.setItem(storageKeyActive, String(activeId));
   }
@@ -200,12 +180,11 @@ export default function CardPit() {
   return (
     <article className="card__page" ref={scrollRef}>
       <div className="card__body_one">
-        {/* Главное изображение */}
         <div className="card__image-wrapper">
           <img
             className="card__img_card"
             src={mainImage || getImageUrl(card.interiors)}
-            alt={card.Name}
+            alt={card.name}
             onClick={handleMainImageClick}
             style={{ cursor: "pointer" }}
           />
@@ -218,15 +197,13 @@ export default function CardPit() {
         </div>
 
         <div className="card__img-interior">
-          {/* Информация о коллекции */}
           <div className="card__conteiner">
-            <p className="card__collection">Коллекция: {card.Collection}</p>
-            <p className="card__name">Производитель: {card.Name}</p>
-            <p className="card__country">Страна производства: {card.Сountry}</p>
-            <p className="card__country">Размеры: {formatSize(card.Size)}</p>
+            <p className="card__collection">Коллекция: {card.collection}</p>
+            <p className="card__name">Производитель: {card.name}</p>
+            <p className="card__country">Страна производства: {card.country}</p>
+            <p className="card__country">Размеры: {formatSize(card.size)}</p>
           </div>
 
-          {/* Миниатюры interiors */}
           {card.interiors && card.interiors.length > 0 && (
             <div className="card__thumbnails-wrapper">
               <h4 className="card__thumbnails-title">Интерьеры:</h4>
@@ -240,7 +217,7 @@ export default function CardPit() {
                     <img
                       className="card__img_interiors"
                       src={image}
-                      alt={`${card.Name} - ${idx + 1}`}
+                      alt={`${card.name} - ${idx + 1}`}
                       style={{ cursor: "pointer" }}
                     />
                   </li>
@@ -251,7 +228,6 @@ export default function CardPit() {
         </div>
       </div>
 
-      {/* Товары */}
       {card.tovars && card.tovars.length > 0 && (
         <div className="card__tovars-wrapper">
           <h3 className="card__tovars-title">Товары в коллекции:</h3>
@@ -261,20 +237,19 @@ export default function CardPit() {
                 <img
                   className="card__img_tovar"
                   src={tovar}
-                  alt={card.Name}
+                  alt={card.name}
                   onClick={() => handleTovarClick(tovar, card)}
                   style={{ cursor: "pointer" }}
                 />
-                <p className="card__collection">{card.Collection}</p>
-                <p className="card__name">{card.Name}</p>
-                <p className="card__country">{formatSize(card.Size)}</p>
+                <p className="card__collection">{card.collection}</p>
+                <p className="card__name">{card.name}</p>
+                <p className="card__country">{formatSize(card.size)}</p>
               </li>
             ))}
           </ul>
         </div>
       )}
 
-      {/* Попап */}
       <ImagePopup card={selectedCard} onClose={closeAllPopups} />
     </article>
   );

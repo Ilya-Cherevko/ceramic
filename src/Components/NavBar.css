@@ -3,6 +3,7 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  z-index: 100; /* ← Добавить */
 }
 
 .menu__link {
@@ -39,7 +40,7 @@
   background-color: #1a1a1a;
   min-width: 220px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-  z-index: 10;
+  z-index: 200; /* ← Поднять выше (было 10) */
   border: 1px solid rgba(212, 181, 3, 0.3);
   border-radius: 4px;
   padding: 8px 0;
@@ -73,7 +74,8 @@
   border: none;
   cursor: pointer;
   padding: 8px;
-  z-index: 20;
+  z-index: 1000; /* ← Поднять выше (было 20) */
+  position: relative; /* ← Добавить */
 }
 
 .menu__burger-line {
@@ -98,6 +100,7 @@
 
   .dropdown-content {
     min-width: 180px;
+    z-index: 200; /* ← Поднять */
   }
 
   .dropdown-content .menu__link {
@@ -111,6 +114,7 @@
   /* Показываем бургер */
   .menu__burger {
     display: flex;
+    z-index: 1001; /* ← Ещё выше, чем меню */
   }
 
   /* Скрываем меню на телефонах */
@@ -127,7 +131,7 @@
     gap: 10px;
     border-bottom: 3px solid rgba(212, 181, 3, 0.7);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
-    z-index: 15;
+    z-index: 1000; /* ← Поднять выше (было 15) */
     overflow-y: auto;
     width: 100%;
     min-height: 100vh;
@@ -156,13 +160,11 @@
     width: 100%;
   }
 
-  /* Убираем стрелку полностью */
   .dropdown .menu__link::after {
     display: none !important;
     content: none !important;
   }
 
-  /* Или оставляем только иконку-плюс рядом с текстом */
   .dropdown .menu__link {
     display: flex;
     justify-content: center;
@@ -181,9 +183,9 @@
     margin-top: 5px;
     border-radius: 8px;
     width: 100%;
+    z-index: 1001; /* ← Поднять */
   }
 
-  /* Открываем dropdown по клику */
   .dropdown-content--open {
     display: block;
   }
@@ -220,6 +222,7 @@
   .menu {
     padding: 70px 15px 20px;
     gap: 8px;
+    z-index: 1000;
   }
 
   .menu__link {

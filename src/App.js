@@ -1,3 +1,4 @@
+// App.js (исходный)
 import "./App.css";
 import Header from "./Components/Header";
 import { Routes, Route } from "react-router-dom";

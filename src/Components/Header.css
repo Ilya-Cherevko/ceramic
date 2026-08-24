@@ -8,7 +8,11 @@
   margin: 0 auto 1em;
   background-color: rgb(0, 0, 0);
   border-bottom: 0.5em solid rgba(212, 181, 3, 0.7);
-  z-index: 2;
+  z-index: 100; /* ← Добавить */
+  position: relative; /* ← Добавить */
+  box-sizing: border-box;
+  width: 100%;
+  overflow: visible; /* ← Меняем на visible, чтобы меню не обрезалось */
 }
 
 .header__logo {
@@ -17,6 +21,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+  flex-shrink: 0; /* ← Добавить, чтобы логотип не сжимался */
 }
 
 .header__text {
@@ -25,22 +30,27 @@
   font-size: small;
   margin: 5px 5px;
   color: #d4b503;
+  white-space: nowrap; /* ← Добавить, чтобы текст не переносился */
 }
 
 .header__decor {
   display: flex;
   align-items: center;
   text-decoration: none;
+  flex-wrap: wrap; /* ← Добавить, чтобы элементы переносились */
 }
 
 .header__adres {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap; /* ← Добавить */
 }
 
 .header__nav {
   position: relative;
+  flex-shrink: 0; /* ← Добавить */
+  z-index: 101; /* ← Выше header */
 }
 
 /* ===== Планшеты (до 1024px) ===== */
@@ -50,6 +60,7 @@
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
+    box-sizing: border-box;
   }
 
   .header__adres {
@@ -57,11 +68,12 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px 20px;
-    order: 3; /* Переносим контакты вниз */
+    order: 3;
     width: 100%;
     border-top: 1px solid rgba(212, 181, 3, 0.3);
     padding-top: 15px;
     margin-top: 5px;
+    box-sizing: border-box;
   }
 
   .header__text {
@@ -74,13 +86,14 @@
   }
 }
 
-/* ===== Ваш существующий запрос (планшеты/телефоны) ===== */
+/* ===== Планшеты/телефоны (до 900px) ===== */
 @media screen and (max-width: 900px) {
   .header {
     padding: 28px 20px 40px;
     margin: 0 auto 34px;
     flex-direction: column;
     gap: 20px;
+    box-sizing: border-box;
   }
 
   .header__adres {
@@ -90,6 +103,7 @@
     border-top: 1px solid rgba(212, 181, 3, 0.2);
     padding-top: 20px;
     width: 100%;
+    box-sizing: border-box;
   }
 
   .header__decor {
@@ -101,10 +115,11 @@
 /* ===== Телефоны (до 550px) ===== */
 @media screen and (max-width: 550px) {
   .header {
-    padding: 15px 10px 30px;
+    padding: 15px 15px 30px;
     margin: 0 auto 25px;
     gap: 15px;
     border-bottom-width: 0.3em;
+    box-sizing: border-box;
   }
 
   .header__logo {
@@ -117,11 +132,13 @@
     gap: 8px;
     padding-top: 15px;
     border-top: 1px solid rgba(212, 181, 3, 0.2);
+    box-sizing: border-box;
   }
 
   .header__text {
     font-size: 11px;
     margin: 3px 0;
+    white-space: normal; /* ← Разрешаем перенос на телефонах */
   }
 
   .header__decor {
@@ -130,7 +147,6 @@
     gap: 5px;
   }
 
-  /* Иконка VK */
   .footer__icon {
     width: 16px;
     height: 16px;
@@ -140,8 +156,9 @@
 /* ===== Очень маленькие экраны (до 400px) ===== */
 @media screen and (max-width: 400px) {
   .header {
-    padding: 10px 8px 20px;
+    padding: 10px 10px 20px;
     margin: 0 auto 15px;
+    box-sizing: border-box;
   }
 
   .header__logo {

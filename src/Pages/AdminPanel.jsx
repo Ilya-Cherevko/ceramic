@@ -1,15 +1,41 @@
 // src/Pages/AdminPanel.jsx
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import Cards from "../Constants/DirlisterListCatalog";
+import { 
+  getAllCollections, 
+  addCollection, 
+  updateCollection, 
+  deleteCollection 
+} from "../api/catalog";
+import { supabase } from "../utils/supabase";
 import "./Admin.css";
-
-const STORAGE_KEY = "catalog_data";
 
 export default function AdminPanel() {
   const navigate = useNavigate();
   
-  // Проверка авторизации
+  // ===== Состояния =====
+  const [catalog, setCatalog] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [uploading, setUploading] = useState(false);
+  const [editingId, setEditingId] = useState(null);
+  
+  // ===== Состояния для сортировки =====
+  const [sortField, setSortField] = useState("collection");
+  const [sortDirection, setSortDirection] = useState("asc");
+  const [searchQuery, setSearchQuery] = useState("");
+  
+  const [formData, setFormData] = useState({
+    id: "",
+    country: "",
+    name: "",
+    collection: "",
+    category: "",
+    size: "",
+    interiors: [],
+    tovars: [],
+  });
+
+  // ===== Проверка авторизации =====
   useEffect(() => {
     const isAuth = localStorage.getItem("adminAuth");
     if (isAuth !== "true") {
@@ -17,124 +43,261 @@ export default function AdminPanel() {
     }
   }, [navigate]);
 
-  // Состояния
-  const [catalog, setCatalog] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [editingId, setEditingId] = useState(null);
-  const [formData, setFormData] = useState({
-    id: "",
-    Сountry: "",
-    Name: "",
-    Collection: "",
-    Category: "",
-    Size: "",
-    interiors: [],
-    tovars: [],
-  });
-
-  // ===== Загрузка данных (без сохранения в localStorage) =====
+  // ===== Загрузка данных из Supabase =====
   useEffect(() => {
-    const loadData = () => {
+    const loadData = async () => {
+      setLoading(true);
       try {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        
-        if (saved) {
-          const parsed = JSON.parse(saved);
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            setCatalog(parsed);
-            setLoading(false);
-            return;
-          }
-        }
-        
-        // Если в localStorage нет данных — НЕ СОХРАНЯЕМ исходные
-        // Просто показываем пустой список
-        setCatalog([]);
-        setLoading(false);
-        
-      } catch (e) {
-        console.error("Ошибка загрузки данных:", e);
-        localStorage.removeItem(STORAGE_KEY);
-        setCatalog([]);
+        const data = await getAllCollections();
+        setCatalog(data);
+      } catch (error) {
+        console.error("Ошибка загрузки:", error);
+        alert("❌ Ошибка загрузки данных из БД");
+      } finally {
         setLoading(false);
       }
     };
-
     loadData();
   }, []);
 
-  // ===== Проверка размера данных =====
-  const getDataSize = (data) => {
-    const jsonStr = JSON.stringify(data);
-    const sizeInBytes = new Blob([jsonStr]).size;
-    const sizeInMB = sizeInBytes / (1024 * 1024);
-    return { sizeInBytes, sizeInMB };
-  };
+  // ===== Сортировка и фильтрация данных =====
+  const sortedAndFilteredCatalog = useMemo(() => {
+    let result = [...catalog];
+    
+    // Фильтрация по поисковому запросу
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase().trim();
+      result = result.filter(item => 
+        item.collection?.toLowerCase().includes(query) ||
+        item.name?.toLowerCase().includes(query) ||
+        item.country?.toLowerCase().includes(query) ||
+        item.category?.toLowerCase().includes(query) ||
+        item.size?.toLowerCase().includes(query)
+      );
+    }
+    
+    // Сортировка
+    result.sort((a, b) => {
+      let aVal = a[sortField] || "";
+      let bVal = b[sortField] || "";
+      
+      // Для чисел (id)
+      if (sortField === "id") {
+        aVal = Number(aVal);
+        bVal = Number(bVal);
+        return sortDirection === "asc" ? aVal - bVal : bVal - aVal;
+      }
+      
+      // Для строк (с учётом регистра)
+      aVal = String(aVal).toLowerCase();
+      bVal = String(bVal).toLowerCase();
+      
+      if (sortDirection === "asc") {
+        return aVal.localeCompare(bVal, 'ru');
+      } else {
+        return bVal.localeCompare(aVal, 'ru');
+      }
+    });
+    
+    return result;
+  }, [catalog, sortField, sortDirection, searchQuery]);
 
-  // ===== Сохранение данных с проверкой размера =====
-  const saveData = (data) => {
+  // ===== Удаление изображения из Supabase Storage =====
+  const deleteImageFromStorage = async (imageUrl) => {
+    if (!imageUrl) return false;
+    
     try {
-      const jsonStr = JSON.stringify(data);
-      const sizeInMB = new Blob([jsonStr]).size / (1024 * 1024);
+      if (!imageUrl.includes('supabase.co/storage/v1/object/public/catalog-images')) {
+        console.log('⏭️ Пропускаем (не в Storage):', imageUrl);
+        return true;
+      }
       
-      console.log(`Размер данных: ${sizeInMB.toFixed(2)} MB`);
+      const urlParts = imageUrl.split('/');
+      const publicIndex = urlParts.indexOf('public');
       
-      // Максимальный размер — 4 MB
-      if (sizeInMB > 4) {
-        alert(`❌ Данные слишком большие (${sizeInMB.toFixed(2)} MB). 
-               Максимальный размер: 4 MB.
-               Пожалуйста, удалите часть данных (особенно изображения).`);
+      if (publicIndex === -1) {
+        console.warn('Не удалось извлечь путь из URL:', imageUrl);
         return false;
       }
       
-      setCatalog(data);
-      localStorage.setItem(STORAGE_KEY, jsonStr);
-      console.log(`✅ Данные сохранены: ${sizeInMB.toFixed(2)} MB`);
-      return true;
+      const filePath = urlParts.slice(publicIndex + 2).join('/');
       
-    } catch (e) {
-      if (e.name === 'QuotaExceededError') {
-        alert("❌ Недостаточно места в localStorage. Пожалуйста, удалите часть данных.");
-      } else {
-        console.error("Ошибка сохранения:", e);
-        alert("❌ Ошибка при сохранении данных.");
+      console.log('🗑️ Удаляем файл:', filePath);
+      
+      const { error } = await supabase.storage
+        .from('catalog-images')
+        .remove([filePath]);
+      
+      if (error) {
+        console.error('❌ Ошибка удаления файла из Storage:', error);
+        return false;
       }
+      
+      console.log('✅ Файл удалён из Storage:', filePath);
+      return true;
+    } catch (error) {
+      console.error('❌ Ошибка при удалении файла:', error);
       return false;
     }
   };
 
-  // ===== Загрузка данных из исходного файла (только для импорта) =====
-  const importDefaultData = () => {
-    if (window.confirm("⚠️ Это заменит все текущие данные на исходные из файла. Продолжить?")) {
-      const data = Cards;
-      const { sizeInMB } = getDataSize(data);
+  // ===== Удаление всех изображений коллекции =====
+  const deleteAllImagesFromCollection = async (item) => {
+    if (!item) return;
+    
+    const allImages = [...(item.interiors || []), ...(item.tovars || [])];
+    for (const url of allImages) {
+      await deleteImageFromStorage(url);
+    }
+  };
+
+  // ===== Загрузка изображений в Supabase Storage =====
+  const uploadImage = async (file, folder) => {
+    try {
+      const fileExt = file.name.split('.').pop();
+      const fileName = `${Date.now()}-${Math.random().toString(36).substring(2, 15)}.${fileExt}`;
+      const filePath = `${folder}/${fileName}`;
       
-      if (sizeInMB > 4) {
-        alert(`❌ Исходные данные слишком большие (${sizeInMB.toFixed(2)} MB). 
-               Невозможно импортировать.`);
-        return;
+      const { error } = await supabase.storage
+        .from('catalog-images')
+        .upload(filePath, file, {
+          cacheControl: '3600',
+          upsert: false,
+        });
+      
+      if (error) {
+        console.error('❌ Ошибка загрузки в Storage:', error);
+        return null;
       }
       
-      if (saveData(data)) {
-        alert("✅ Данные импортированы из файла!");
+      const { data } = supabase.storage
+        .from('catalog-images')
+        .getPublicUrl(filePath);
+      
+      return data.publicUrl;
+    } catch (error) {
+      console.error('❌ Ошибка загрузки изображения:', error);
+      return null;
+    }
+  };
+
+  // ===== Обработка загрузки файлов (Drag-and-Drop) =====
+  const handleImageUpload = async (files, fieldName) => {
+    if (!files || files.length === 0) return;
+    
+    setUploading(true);
+    const uploadedUrls = [];
+    
+    for (const file of files) {
+      if (!file.type.startsWith('image/')) {
+        alert(`❌ Файл ${file.name} не является изображением`);
+        continue;
       }
+      
+      if (file.size > 50 * 1024 * 1024) {
+        alert(`❌ Файл ${file.name} слишком большой (макс. 50MB)`);
+        continue;
+      }
+      
+      const url = await uploadImage(file, 'catalog');
+      if (url) {
+        uploadedUrls.push(url);
+      }
+    }
+    
+    if (uploadedUrls.length > 0) {
+      setFormData(prev => ({
+        ...prev,
+        [fieldName]: [...prev[fieldName], ...uploadedUrls]
+      }));
+    }
+    
+    setUploading(false);
+  };
+
+  // ===== Обработка Drag-and-Drop =====
+  const handleDrop = (e, fieldName) => {
+    e.preventDefault();
+    const files = Array.from(e.dataTransfer.files);
+    handleImageUpload(files, fieldName);
+  };
+
+  const handleDragOver = (e) => {
+    e.preventDefault();
+  };
+
+  // ===== Рендер превью изображений =====
+  const renderImagePreviews = (imageUrls, fieldName) => {
+    if (!imageUrls || imageUrls.length === 0) {
+      return <p className="admin-form__no-images">Нет изображений</p>;
+    }
+
+    return (
+      <div className="admin-form__previews">
+        {imageUrls.map((url, index) => (
+          <div key={index} className="admin-form__preview-item">
+            <img 
+              src={url} 
+              alt={`Превью ${index + 1}`} 
+              className="admin-form__preview-img"
+              onError={(e) => {
+                e.target.src = '/images/placeholder.jpg';
+                e.target.alt = 'Не загрузилось';
+              }}
+            />
+            <button
+              type="button"
+              className="admin-form__preview-remove"
+              onClick={async () => {
+                await deleteImageFromStorage(url);
+                const newUrls = imageUrls.filter((_, i) => i !== index);
+                setFormData(prev => ({ ...prev, [fieldName]: newUrls }));
+              }}
+              title="Удалить изображение"
+            >
+              ×
+            </button>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
+  // ===== Сортировка =====
+  const handleSort = (field) => {
+    if (sortField === field) {
+      setSortDirection(prev => prev === "asc" ? "desc" : "asc");
+    } else {
+      setSortField(field);
+      setSortDirection("asc");
     }
   };
 
   // ===== Добавление =====
-  const handleAdd = () => {
-    const newId = Date.now().toString();
+  const handleAdd = async () => {
+    if (!formData.name || !formData.collection || !formData.category) {
+      alert("❌ Заполните обязательные поля: Name, Collection, Category");
+      return;
+    }
+
     const newItem = {
-      ...formData,
-      id: newId,
+      country: formData.country || "",
+      name: formData.name,
+      collection: formData.collection,
+      category: formData.category,
+      size: formData.size || "",
       interiors: formData.interiors.filter((url) => url.trim() !== ""),
       tovars: formData.tovars.filter((url) => url.trim() !== ""),
     };
-    const updated = [...catalog, newItem];
     
-    if (saveData(updated)) {
+    const result = await addCollection(newItem);
+    if (result) {
+      const updated = await getAllCollections();
+      setCatalog(updated);
       resetForm();
       alert("✅ Коллекция успешно добавлена!");
+    } else {
+      alert("❌ Ошибка при добавлении коллекции");
     }
   };
 
@@ -142,51 +305,130 @@ export default function AdminPanel() {
   const handleEdit = (item) => {
     setEditingId(item.id);
     setFormData({
-      ...item,
+      id: item.id,
+      country: item.country || "",
+      name: item.name || "",
+      collection: item.collection || "",
+      category: item.category || "",
+      size: item.size || "",
       interiors: item.interiors || [],
       tovars: item.tovars || [],
     });
   };
 
-  const handleUpdate = () => {
+  const handleUpdate = async () => {
+    if (!formData.name || !formData.collection || !formData.category) {
+      alert("❌ Заполните обязательные поля: Name, Collection, Category");
+      return;
+    }
+
+    const oldItem = catalog.find(c => c.id === editingId);
+    
+    if (oldItem) {
+      const oldInteriors = oldItem.interiors || [];
+      const newInteriors = formData.interiors || [];
+      const oldTovars = oldItem.tovars || [];
+      const newTovars = formData.tovars || [];
+      
+      const removedInteriors = oldInteriors.filter(url => !newInteriors.includes(url));
+      const removedTovars = oldTovars.filter(url => !newTovars.includes(url));
+      const allRemoved = [...removedInteriors, ...removedTovars];
+      
+      for (const url of allRemoved) {
+        await deleteImageFromStorage(url);
+      }
+    }
+
     const updatedItem = {
-      ...formData,
+      country: formData.country || "",
+      name: formData.name,
+      collection: formData.collection,
+      category: formData.category,
+      size: formData.size || "",
       interiors: formData.interiors.filter((url) => url.trim() !== ""),
       tovars: formData.tovars.filter((url) => url.trim() !== ""),
     };
-    const updated = catalog.map((item) =>
-      item.id === editingId ? updatedItem : item
-    );
     
-    if (saveData(updated)) {
+    const result = await updateCollection(editingId, updatedItem);
+    if (result) {
+      const updated = await getAllCollections();
+      setCatalog(updated);
       resetForm();
       alert("✅ Коллекция успешно обновлена!");
+    } else {
+      alert("❌ Ошибка при обновлении коллекции");
     }
   };
 
-  // ===== Удаление =====
-  const handleDelete = (id) => {
-    if (window.confirm("Вы уверены, что хотите удалить эту коллекцию?")) {
-      const updated = catalog.filter((item) => item.id !== id);
-      if (saveData(updated)) {
-        alert("✅ Коллекция удалена!");
+  // ===== Удаление коллекции =====
+  const handleDelete = async (id) => {
+    if (!window.confirm("⚠️ Вы уверены, что хотите удалить эту коллекцию?")) return;
+    
+    const item = catalog.find(c => c.id === id);
+    await deleteAllImagesFromCollection(item);
+    
+    const result = await deleteCollection(id);
+    if (result) {
+      const updated = await getAllCollections();
+      setCatalog(updated);
+      alert("✅ Коллекция удалена!");
+    } else {
+      alert("❌ Ошибка при удалении коллекции");
+    }
+  };
+
+  // ===== Импорт из файла =====
+  const importDefaultData = async () => {
+    if (window.confirm("⚠️ Это заменит все текущие данные на исходные из файла. Продолжить?")) {
+      const Cards = await import("../Constants/DirlisterListCatalog").then(m => m.default);
+      
+      let success = 0;
+      let errors = 0;
+
+      for (const item of Cards) {
+        try {
+          const result = await addCollection({
+            country: item.Сountry || "",
+            name: item.Name,
+            collection: item.Collection,
+            category: item.Category,
+            size: Array.isArray(item.Size) ? item.Size.join(", ") : item.Size || "",
+            interiors: item.interiors || [],
+            tovars: item.tovars || [],
+          });
+          if (result) success++;
+          else errors++;
+        } catch (e) {
+          errors++;
+          console.error("Ошибка импорта:", e);
+        }
       }
+
+      const updated = await getAllCollections();
+      setCatalog(updated);
+      alert(`✅ Импорт завершён! Успешно: ${success}, Ошибок: ${errors}`);
     }
   };
 
   // ===== Очистка всех данных =====
-  const handleClearAll = () => {
-    if (window.confirm("⚠️ Вы уверены, что хотите удалить ВСЕ данные? Это действие необратимо!")) {
-      try {
-        localStorage.removeItem(STORAGE_KEY);
-        setCatalog([]);
-        alert("✅ Все данные очищены.");
-        resetForm();
-      } catch (e) {
-        console.error("Ошибка очистки:", e);
-        alert("❌ Ошибка при очистке данных.");
-      }
+  const handleClearAll = async () => {
+    if (!window.confirm("⚠️ Вы уверены, что хотите удалить ВСЕ данные? Это действие необратимо!")) return;
+    
+    let success = 0;
+    let errors = 0;
+
+    for (const item of catalog) {
+      await deleteAllImagesFromCollection(item);
     }
+
+    for (const item of catalog) {
+      const result = await deleteCollection(item.id);
+      if (result) success++;
+      else errors++;
+    }
+
+    setCatalog([]);
+    alert(`✅ Удалено: ${success}, Ошибок: ${errors}`);
   };
 
   // ===== Вспомогательные функции =====
@@ -194,11 +436,11 @@ export default function AdminPanel() {
     setEditingId(null);
     setFormData({
       id: "",
-      Сountry: "",
-      Name: "",
-      Collection: "",
-      Category: "",
-      Size: "",
+      country: "",
+      name: "",
+      collection: "",
+      category: "",
+      size: "",
       interiors: [],
       tovars: [],
     });
@@ -220,19 +462,19 @@ export default function AdminPanel() {
     navigate("/admin/login");
   };
 
-  // Категории для выбора
   const categories = ["Plitka", "Keramogranit", "GibkyMramor"];
 
-  // Получаем информацию о размере данных
-  const { sizeInMB } = getDataSize(catalog);
-  const isNearLimit = sizeInMB > 3;
-  const hasData = catalog.length > 0;
+  // ===== Индикатор сортировки =====
+  const getSortIcon = (field) => {
+    if (sortField !== field) return "↕";
+    return sortDirection === "asc" ? "↑" : "↓";
+  };
 
   if (loading) {
     return (
       <div className="load-more__loader">
         <div className="load-more__spinner"></div>
-        <p>Загрузка...</p>
+        <p>Загрузка данных...</p>
       </div>
     );
   }
@@ -242,13 +484,15 @@ export default function AdminPanel() {
       <div className="admin-panel__header">
         <h1 className="admin-panel__title">Админ-панель каталога</h1>
         <div className="admin-panel__header-right">
-          <span className={`admin-panel__size ${isNearLimit ? "admin-panel__size--warning" : ""}`}>
-            📊 {catalog.length} записей, {sizeInMB.toFixed(2)} MB / 4 MB
+          <span className="admin-panel__size">
+            📊 {sortedAndFilteredCatalog.length} записей
+            {catalog.length !== sortedAndFilteredCatalog.length && 
+              ` (из ${catalog.length})`}
           </span>
           <button className="admin-panel__import" onClick={importDefaultData}>
             📥 Импорт из файла
           </button>
-          {hasData && (
+          {catalog.length > 0 && (
             <button className="admin-panel__clear" onClick={handleClearAll}>
               🗑️ Очистить всё
             </button>
@@ -259,14 +503,7 @@ export default function AdminPanel() {
         </div>
       </div>
 
-      {isNearLimit && (
-        <div className="admin-panel__warning">
-          ⚠️ Внимание! Вы приближаетесь к лимиту памяти ({sizeInMB.toFixed(2)} MB / 4 MB). 
-          Рекомендуется удалить часть данных.
-        </div>
-      )}
-
-      {!hasData && (
+      {catalog.length === 0 && (
         <div className="admin-panel__empty">
           <p>📭 В каталоге пока нет данных.</p>
           <p>Вы можете добавить новую коллекцию или импортировать данные из файла.</p>
@@ -281,8 +518,8 @@ export default function AdminPanel() {
             <label>Производитель (Name) *</label>
             <input
               type="text"
-              name="Name"
-              value={formData.Name}
+              name="name"
+              value={formData.name}
               onChange={handleInputChange}
               placeholder="Например: Alma Ceramica"
               required
@@ -292,8 +529,8 @@ export default function AdminPanel() {
             <label>Коллекция (Collection) *</label>
             <input
               type="text"
-              name="Collection"
-              value={formData.Collection}
+              name="collection"
+              value={formData.collection}
               onChange={handleInputChange}
               placeholder="Например: Adelia"
               required
@@ -303,8 +540,8 @@ export default function AdminPanel() {
             <label>Страна</label>
             <input
               type="text"
-              name="Сountry"
-              value={formData.Сountry}
+              name="country"
+              value={formData.country}
               onChange={handleInputChange}
               placeholder="Например: Россия"
             />
@@ -312,8 +549,8 @@ export default function AdminPanel() {
           <div className="admin-form__group">
             <label>Категория *</label>
             <select
-              name="Category"
-              value={formData.Category}
+              name="category"
+              value={formData.category}
               onChange={handleInputChange}
               required
             >
@@ -327,34 +564,96 @@ export default function AdminPanel() {
             <label>Размеры</label>
             <input
               type="text"
-              name="Size"
-              value={formData.Size}
+              name="size"
+              value={formData.size}
               onChange={handleInputChange}
               placeholder='Например: 20x60 или 20x60, 60x60'
             />
           </div>
+          
+          {/* Интерьеры */}
           <div className="admin-form__group admin-form__group--full">
             <label>Ссылки на интерьеры (через запятую)</label>
-            <textarea
-              name="interiors"
-              value={formData.interiors.join(", ")}
-              onChange={(e) => handleArrayInputChange(e, "interiors")}
-              placeholder="../images/catalog/alma_ceramica/adelia/interiors/photo1.jpg, ../images/catalog/alma_ceramica/adelia/interiors/photo2.jpg"
-              rows="3"
-            />
+            <div className="admin-form__field-with-preview">
+              <textarea
+                name="interiors"
+                value={formData.interiors.join(", ")}
+                onChange={(e) => handleArrayInputChange(e, "interiors")}
+                placeholder="../images/catalog/alma_ceramica/adelia/interiors/photo1.jpg, ../images/catalog/alma_ceramica/adelia/interiors/photo2.jpg"
+                rows="3"
+              />
+              
+              <div 
+                className="admin-form__drop-zone"
+                onDrop={(e) => handleDrop(e, "interiors")}
+                onDragOver={handleDragOver}
+              >
+                {uploading ? (
+                  <p>⏳ Загрузка...</p>
+                ) : (
+                  <>
+                    <p>📤 Перетащите изображения сюда</p>
+                    <p className="admin-form__drop-hint">или</p>
+                    <label className="admin-form__upload-btn">
+                      Выберите файлы
+                      <input
+                        type="file"
+                        accept="image/*"
+                        multiple
+                        onChange={(e) => handleImageUpload(e.target.files, "interiors")}
+                        style={{ display: 'none' }}
+                      />
+                    </label>
+                  </>
+                )}
+              </div>
+              
+              {renderImagePreviews(formData.interiors, "interiors")}
+            </div>
             <small className="admin-form__hint">
               Количество: {formData.interiors.length} изображений
             </small>
           </div>
+
+          {/* Товары */}
           <div className="admin-form__group admin-form__group--full">
             <label>Ссылки на товары (через запятую)</label>
-            <textarea
-              name="tovars"
-              value={formData.tovars.join(", ")}
-              onChange={(e) => handleArrayInputChange(e, "tovars")}
-              placeholder="../images/catalog/alma_ceramica/adelia/tovars/product1.jpg, ../images/catalog/alma_ceramica/adelia/tovars/product2.jpg"
-              rows="3"
-            />
+            <div className="admin-form__field-with-preview">
+              <textarea
+                name="tovars"
+                value={formData.tovars.join(", ")}
+                onChange={(e) => handleArrayInputChange(e, "tovars")}
+                placeholder="../images/catalog/alma_ceramica/adelia/tovars/product1.jpg, ../images/catalog/alma_ceramica/adelia/tovars/product2.jpg"
+                rows="3"
+              />
+              
+              <div 
+                className="admin-form__drop-zone"
+                onDrop={(e) => handleDrop(e, "tovars")}
+                onDragOver={handleDragOver}
+              >
+                {uploading ? (
+                  <p>⏳ Загрузка...</p>
+                ) : (
+                  <>
+                    <p>📤 Перетащите изображения сюда</p>
+                    <p className="admin-form__drop-hint">или</p>
+                    <label className="admin-form__upload-btn">
+                      Выберите файлы
+                      <input
+                        type="file"
+                        accept="image/*"
+                        multiple
+                        onChange={(e) => handleImageUpload(e.target.files, "tovars")}
+                        style={{ display: 'none' }}
+                      />
+                    </label>
+                  </>
+                )}
+              </div>
+              
+              {renderImagePreviews(formData.tovars, "tovars")}
+            </div>
             <small className="admin-form__hint">
               Количество: {formData.tovars.length} товаров
             </small>
@@ -378,25 +677,91 @@ export default function AdminPanel() {
         </div>
       </div>
 
-      {/* Список коллекций */}
-      {hasData && (
+      {/* Список коллекций с сортировкой */}
+      {catalog.length > 0 && (
         <div className="admin-panel__list">
+          <div className="admin-list__toolbar">
+            <div className="admin-list__search">
+              <input
+                type="text"
+                placeholder="🔍 Поиск по коллекциям..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="admin-list__search-input"
+              />
+              {searchQuery && (
+                <button 
+                  className="admin-list__search-clear"
+                  onClick={() => setSearchQuery("")}
+                >
+                  ×
+                </button>
+              )}
+            </div>
+            <div className="admin-list__sort-info">
+              {searchQuery && `Найдено: ${sortedAndFilteredCatalog.length}`}
+            </div>
+          </div>
+
           <h2>
-            Все коллекции ({catalog.length})
-            <span className="admin-panel__count">
-              ({sizeInMB.toFixed(2)} MB)
-            </span>
+            Все коллекции ({sortedAndFilteredCatalog.length})
+            {catalog.length !== sortedAndFilteredCatalog.length && 
+              ` из ${catalog.length}`}
           </h2>
+          
+          <div className="admin-list__headers">
+            <button 
+              className={`admin-list__header ${sortField === "id" ? "active" : ""}`}
+              onClick={() => handleSort("id")}
+            >
+              ID {getSortIcon("id")}
+            </button>
+            <button 
+              className={`admin-list__header ${sortField === "collection" ? "active" : ""}`}
+              onClick={() => handleSort("collection")}
+            >
+              Коллекция {getSortIcon("collection")}
+            </button>
+            <button 
+              className={`admin-list__header ${sortField === "name" ? "active" : ""}`}
+              onClick={() => handleSort("name")}
+            >
+              Производитель {getSortIcon("name")}
+            </button>
+            <button 
+              className={`admin-list__header ${sortField === "country" ? "active" : ""}`}
+              onClick={() => handleSort("country")}
+            >
+              Страна {getSortIcon("country")}
+            </button>
+            <button 
+              className={`admin-list__header ${sortField === "category" ? "active" : ""}`}
+              onClick={() => handleSort("category")}
+            >
+              Категория {getSortIcon("category")}
+            </button>
+            <button 
+              className={`admin-list__header ${sortField === "size" ? "active" : ""}`}
+              onClick={() => handleSort("size")}
+            >
+              Размер {getSortIcon("size")}
+            </button>
+            <button className="admin-list__header admin-list__header--actions">
+              Действия
+            </button>
+          </div>
+
           <div className="admin-list">
-            {catalog.map((item) => (
+            {sortedAndFilteredCatalog.map((item) => (
               <div key={item.id} className="admin-list__item">
                 <div className="admin-list__info">
-                  <span className="admin-list__name">{item.Collection}</span>
-                  <span className="admin-list__detail">{item.Name}</span>
-                  <span className="admin-list__detail">{item.Сountry}</span>
-                  <span className="admin-list__detail">{item.Category}</span>
-                  <span className="admin-list__detail">{item.Size}</span>
-                  <span className="admin-list__detail">
+                  <span className="admin-list__cell admin-list__cell--id">{item.id}</span>
+                  <span className="admin-list__cell admin-list__cell--collection">{item.collection}</span>
+                  <span className="admin-list__cell admin-list__cell--name">{item.name}</span>
+                  <span className="admin-list__cell admin-list__cell--country">{item.country}</span>
+                  <span className="admin-list__cell admin-list__cell--category">{item.category}</span>
+                  <span className="admin-list__cell admin-list__cell--size">{item.size}</span>
+                  <span className="admin-list__cell admin-list__cell--images">
                     🖼️ {item.interiors?.length || 0}
                   </span>
                 </div>
