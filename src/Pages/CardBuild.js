@@ -1,12 +1,15 @@
 // src/Pages/CardBuild.jsx
-import React, { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import React, { useState, useEffect, useMemo } from "react";
+import { Link, useParams, useLocation } from "react-router-dom";
 import { getAllCollections, getCollectionsByCategory, getCollectionsByName } from "../api/catalog";
+import Breadcrumbs from "../Components/Breadcrumbs";
+import { CardSkeleton } from "../Components/Skeletons";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
 
 export default function CardBuild() {
   const { id, Name } = useParams();
+  const location = useLocation();
 
   const [catalog, setCatalog] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -39,9 +42,67 @@ export default function CardBuild() {
     loadData();
   }, [id, Name]);
 
+  // ===== Скролл к коллекции из URL =====
+  useEffect(() => {
+    if (loading || catalog.length === 0) return;
+
+    const params = new URLSearchParams(location.search);
+    const scrollTo = params.get("scrollTo");
+
+    if (scrollTo) {
+      const index = catalog.findIndex(
+        (item) => item.collection === decodeURIComponent(scrollTo)
+      );
+
+      if (index !== -1) {
+        if (index >= visibleCount) {
+          const newCount = Math.ceil((index + 1) / loadMoreCount) * loadMoreCount;
+          setVisibleCount(Math.min(newCount, catalog.length));
+        }
+
+        setTimeout(() => {
+          const targetId = `card-${catalog[index].id}`;
+          const element = document.getElementById(targetId);
+          if (element) {
+            element.scrollIntoView({ behavior: "smooth", block: "center" });
+            element.style.transition = "background 0.5s ease";
+            element.style.background = "rgba(212, 181, 3, 0.15)";
+            element.style.borderRadius = "12px";
+            element.style.padding = "2px";
+            
+            setTimeout(() => {
+              element.style.background = "transparent";
+              element.style.padding = "0";
+            }, 5000);
+          }
+        }, 300);
+      }
+    }
+  }, [loading, catalog, location.search, visibleCount, loadMoreCount]);
+
+  // ===== Сортировка =====
+  const processedCatalog = useMemo(() => {
+    if (catalog.length === 0) return [];
+
+    // Если есть Name — это страница производителя → алфавит
+    if (Name && Name.trim() !== "") {
+      return [...catalog].sort((a, b) =>
+        (a.collection || "").localeCompare(b.collection || "", "ru")
+      );
+    }
+
+    // Иначе — рандом
+    const shuffled = [...catalog];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }, [catalog, Name]);
+
   // ===== Пагинация =====
-  const visibleCards = catalog.slice(0, visibleCount);
-  const hasMore = visibleCount < catalog.length;
+  const visibleCards = processedCatalog.slice(0, visibleCount);
+  const hasMore = visibleCount < processedCatalog.length;
 
   const loadMore = () => {
     setVisibleCount((prev) => prev + loadMoreCount);
@@ -58,25 +119,26 @@ export default function CardBuild() {
   };
 
   const categoryNames = {
-    "Plitka": "Керамическая плитка",
-    "Keramogranit": "Керамогранит",
-    "GibkyMramor": "Гибкий мрамор",
+    Plitka: "Керамическая плитка",
+    Keramogranit: "Керамогранит",
+    GibkyMramor: "Гибкий мрамор",
   };
   
   let pageTitle = "Каталог";
   if (Name) {
-    pageTitle = Name;
+    pageTitle = `Коллекции ${Name}`;
   } else if (id && categoryNames[id]) {
     pageTitle = categoryNames[id];
   } else if (id) {
     pageTitle = id;
   }
 
-  if (loading) {
+   if (loading) {
     return (
-      <div className="load-more__loader">
-        <div className="load-more__spinner"></div>
-        <p>Загрузка каталога...</p>
+      <div className="card-build">
+        <Breadcrumbs />
+        <h1 className="card-build__title">{pageTitle}</h1>
+        <CardSkeleton count={8} />
       </div>
     );
   }
@@ -103,15 +165,16 @@ export default function CardBuild() {
 
   return (
     <div className="card-build">
+      <Breadcrumbs />
       <h1 className="card-build__title">{pageTitle}</h1>
       
       <div className="card-build__info">
-        <span>Показано {Math.min(visibleCount, catalog.length)} из {catalog.length}</span>
+        <span>Показано {Math.min(visibleCount, processedCatalog.length)} из {processedCatalog.length}</span>
       </div>
 
       <ul className="card__wrapper">
         {visibleCards.map((card) => (
-          <li key={card.id}>
+          <li key={card.id} id={`card-${card.id}`} className="card-list-item">
             <div className="card__body">
               <Link to={`/${card.category}/${card.name}/${card.collection}`}>
                 <img
@@ -138,13 +201,13 @@ export default function CardBuild() {
       {hasMore && (
         <div className="load-more">
           <button className="load-more__button" onClick={loadMore}>
-            Загрузить ещё ({visibleCount} из {catalog.length})
+            Загрузить ещё ({visibleCount} из {processedCatalog.length})
           </button>
         </div>
       )}
 
-      {!hasMore && catalog.length > 8 && (
-        <p className="load-more__end">Все коллекции загружены ({catalog.length})</p>
+      {!hasMore && processedCatalog.length > 8 && (
+        <p className="load-more__end">Все коллекции загружены ({processedCatalog.length})</p>
       )}
     </div>
   );

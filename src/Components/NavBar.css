@@ -1,9 +1,9 @@
-/* ===== Базовые стили (десктоп) ===== */
+/* ===== Базовые стили ===== */
 .menu {
   display: flex;
   gap: 20px;
   align-items: center;
-  z-index: 100; /* ← Добавить */
+  z-index: 100;
 }
 
 .menu__link {
@@ -27,7 +27,7 @@
   border-radius: 4px;
 }
 
-/* ===== Dropdown (выпадающие меню) ===== */
+/* ===== Dropdown ===== */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -40,12 +40,16 @@
   background-color: #1a1a1a;
   min-width: 220px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-  z-index: 200; /* ← Поднять выше (было 10) */
+  z-index: 200;
   border: 1px solid rgba(212, 181, 3, 0.3);
   border-radius: 4px;
   padding: 8px 0;
   top: 100%;
   left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .dropdown-content .menu__link {
@@ -54,6 +58,7 @@
   white-space: nowrap;
   font-size: 14px;
   color: #d4b503;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-content .menu__link:hover {
@@ -61,11 +66,12 @@
   color: #fff;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.dropdown-content .menu__link_active {
+  color: #fff;
+  background: rgba(212, 181, 3, 0.2);
 }
 
-/* ===== Бургер-кнопка (скрыта на десктопе) ===== */
+/* ===== Бургер-кнопка ===== */
 .menu__burger {
   display: none;
   flex-direction: column;
@@ -74,8 +80,8 @@
   border: none;
   cursor: pointer;
   padding: 8px;
-  z-index: 1000; /* ← Поднять выше (было 20) */
-  position: relative; /* ← Добавить */
+  z-index: 1001;
+  position: relative;
 }
 
 .menu__burger-line {
@@ -87,37 +93,12 @@
   transition: all 0.3s ease;
 }
 
-/* ===== Медиазапрос для планшетов (до 1024px) ===== */
-@media screen and (max-width: 1024px) {
-  .menu {
-    gap: 10px;
-  }
-
-  .menu__link {
-    font-size: 14px;
-    padding: 6px 10px;
-  }
-
-  .dropdown-content {
-    min-width: 180px;
-    z-index: 200; /* ← Поднять */
-  }
-
-  .dropdown-content .menu__link {
-    font-size: 13px;
-    padding: 8px 16px;
-  }
-}
-
-/* ===== Медиазапрос для телефонов (до 768px) ===== */
+/* ===== Мобильная адаптация ===== */
 @media screen and (max-width: 768px) {
-  /* Показываем бургер */
   .menu__burger {
     display: flex;
-    z-index: 1001; /* ← Ещё выше, чем меню */
   }
 
-  /* Скрываем меню на телефонах */
   .menu {
     display: none;
     flex-direction: column;
@@ -129,15 +110,12 @@
     background: #0a0a0a;
     padding: 80px 20px 30px;
     gap: 10px;
-    border-bottom: 3px solid rgba(212, 181, 3, 0.7);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
-    z-index: 1000; /* ← Поднять выше (было 15) */
+    z-index: 1000;
     overflow-y: auto;
     width: 100%;
     min-height: 100vh;
   }
 
-  /* Открытое меню */
   .menu--open {
     display: flex;
   }
@@ -155,21 +133,8 @@
     border-bottom: none;
   }
 
-  /* Dropdown на телефонах */
   .dropdown {
     width: 100%;
-  }
-
-  .dropdown .menu__link::after {
-    display: none !important;
-    content: none !important;
-  }
-
-  .dropdown .menu__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
   }
 
   .dropdown-content {
@@ -183,7 +148,7 @@
     margin-top: 5px;
     border-radius: 8px;
     width: 100%;
-    z-index: 1001; /* ← Поднять */
+    z-index: 1001;
   }
 
   .dropdown-content--open {
@@ -203,7 +168,7 @@
     border-bottom: none;
   }
 
-  /* Анимация бургера в крестик */
+  /* Анимация бургера */
   .menu__burger--active .menu__burger-line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
   }
@@ -217,12 +182,32 @@
   }
 }
 
-/* ===== Очень маленькие экраны (до 480px) ===== */
+/* ===== Планшеты ===== */
+@media screen and (max-width: 1024px) {
+  .menu {
+    gap: 10px;
+  }
+
+  .menu__link {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .dropdown-content {
+    min-width: 180px;
+  }
+
+  .dropdown-content .menu__link {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}
+
+/* ===== Маленькие экраны ===== */
 @media screen and (max-width: 480px) {
   .menu {
     padding: 70px 15px 20px;
     gap: 8px;
-    z-index: 1000;
   }
 
   .menu__link {
@@ -239,4 +224,23 @@
     width: 24px;
     height: 2.5px;
   }
+}
+
+/* ===== Состояние загрузки ===== */
+.menu--loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+}
+
+.menu__loader {
+  color: #d4b503;
+  font-size: 14px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
 }

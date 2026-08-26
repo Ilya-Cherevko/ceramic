@@ -2,6 +2,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
 import { getCollectionByCollection } from "../api/catalog";
+import Breadcrumbs from "../Components/Breadcrumbs";
+import { CardPitSkeleton } from "../Components/Skeletons";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
 import ImagePopup from "../Components/ImagePopup";
@@ -105,10 +107,10 @@ export default function CardPit() {
   // ===== Если коллекция не найдена =====
   if (loading) {
     return (
-      <div className="load-more__loader">
-        <div className="load-more__spinner"></div>
-        <p>Загрузка данных...</p>
-      </div>
+      <article className="card__page">
+        <Breadcrumbs />
+        <CardPitSkeleton />
+      </article>
     );
   }
 
@@ -179,7 +181,9 @@ export default function CardPit() {
   // ===== Рендеринг =====
   return (
     <article className="card__page" ref={scrollRef}>
+      <Breadcrumbs />
       <div className="card__body_one">
+        {/* Главное изображение */}
         <div className="card__image-wrapper">
           <img
             className="card__img_card"
@@ -197,6 +201,7 @@ export default function CardPit() {
         </div>
 
         <div className="card__img-interior">
+          {/* Информация о коллекции */}
           <div className="card__conteiner">
             <p className="card__collection">Коллекция: {card.collection}</p>
             <p className="card__name">Производитель: {card.name}</p>
@@ -204,6 +209,7 @@ export default function CardPit() {
             <p className="card__country">Размеры: {formatSize(card.size)}</p>
           </div>
 
+          {/* Миниатюры interiors */}
           {card.interiors && card.interiors.length > 0 && (
             <div className="card__thumbnails-wrapper">
               <h4 className="card__thumbnails-title">Интерьеры:</h4>
@@ -228,6 +234,7 @@ export default function CardPit() {
         </div>
       </div>
 
+      {/* Товары */}
       {card.tovars && card.tovars.length > 0 && (
         <div className="card__tovars-wrapper">
           <h3 className="card__tovars-title">Товары в коллекции:</h3>
@@ -250,6 +257,7 @@ export default function CardPit() {
         </div>
       )}
 
+      {/* Попап */}
       <ImagePopup card={selectedCard} onClose={closeAllPopups} />
     </article>
   );

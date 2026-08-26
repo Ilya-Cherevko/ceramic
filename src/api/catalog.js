@@ -148,3 +148,32 @@ export const searchCollections = async (query) => {
     return [];
   }
 };
+
+// ===== Получение всех производителей с группировкой по категориям =====
+export const getMenuStructure = async () => {
+  try {
+    const { data, error } = await supabase
+      .from('catalog')
+      .select('name, category')
+      .order('category', { ascending: true })
+      .order('name', { ascending: true });
+
+    if (error) throw error;
+
+    // Группируем по категориям
+    const menuMap = {};
+    data.forEach(item => {
+      if (!menuMap[item.category]) {
+        menuMap[item.category] = [];
+      }
+      if (!menuMap[item.category].includes(item.name)) {
+        menuMap[item.category].push(item.name);
+      }
+    });
+
+    return menuMap;
+  } catch (error) {
+    console.error('Ошибка получения структуры меню:', error);
+    return {};
+  }
+};

@@ -1,0 +1,232 @@
+/* src/Components/Skeletons.css */
+
+/* ===== Общая анимация ===== */
+.skeleton-card,
+.skeleton-detail__image,
+.skeleton-detail__title,
+.skeleton-detail__text,
+.skeleton-detail__thumbnail,
+.skeleton-category__item,
+.skeleton-card__image,
+.skeleton-card__title,
+.skeleton-card__text {
+  animation: shimmer 1.8s ease-in-out infinite;
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+@keyframes shimmer {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* ===== Скелетон для карточек (CardBuild / Category) ===== */
+.skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding-bottom: 12px;
+}
+
+.skeleton-card__image {
+  width: 100%;
+  height: 250px;
+  background: #e8e8e8;
+  border-radius: 8px 8px 0 0;
+}
+
+.skeleton-card__title {
+  height: 20px;
+  margin: 12px 14px 8px;
+  background: #e8e8e8;
+  border-radius: 4px;
+  width: 70%;
+}
+
+.skeleton-card__text {
+  height: 14px;
+  margin: 6px 14px;
+  background: #e8e8e8;
+  border-radius: 4px;
+  width: 50%;
+}
+
+.skeleton-card__text.short {
+  width: 30%;
+}
+
+/* ===== Скелетон для детальной страницы (CardPit) ===== */
+.skeleton-detail {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.skeleton-detail__image {
+  width: 500px;
+  height: 400px;
+  background: #e8e8e8;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.skeleton-detail__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skeleton-detail__title {
+  height: 32px;
+  width: 60%;
+  background: #e8e8e8;
+  border-radius: 4px;
+}
+
+.skeleton-detail__text {
+  height: 18px;
+  width: 80%;
+  background: #e8e8e8;
+  border-radius: 4px;
+}
+
+.skeleton-detail__text:last-of-type {
+  width: 40%;
+}
+
+.skeleton-detail__thumbnails {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.skeleton-detail__thumbnail {
+  width: 80px;
+  height: 80px;
+  background: #e8e8e8;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+/* ===== Скелетон для списка производителей (Category) ===== */
+.skeleton-category {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skeleton-category__item {
+  height: 64px;
+  background: #e8e8e8;
+  border-radius: 8px;
+}
+
+.skeleton-category__link {
+  width: 60%;
+  height: 20px;
+  margin: 22px auto;
+  background: #d8d8d8;
+  border-radius: 4px;
+}
+
+/* ===== Адаптация ===== */
+@media screen and (max-width: 1024px) {
+  .skeleton-detail__image {
+    width: 400px;
+    height: 350px;
+  }
+
+  .skeleton-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .skeleton-detail {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skeleton-detail__image {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+  }
+
+  .skeleton-detail__info {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skeleton-grid {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 15px;
+    padding: 10px 15px;
+  }
+
+  .skeleton-card__image {
+    height: 180px;
+  }
+
+  .skeleton-detail__image {
+    height: 250px;
+  }
+
+  .skeleton-category {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skeleton-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+    padding: 8px 10px;
+  }
+
+  .skeleton-card__image {
+    height: 140px;
+  }
+
+  .skeleton-detail__image {
+    height: 200px;
+  }
+
+  .skeleton-detail__thumbnail {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skeleton-category {
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .skeleton-category__item {
+    height: 50px;
+  }
+}
