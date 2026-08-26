@@ -1,10 +1,19 @@
 import React from "react";
 import Fasad from "../images/Fasad.jpg";
 import "./AboutUs.css";
+import SEO from "../Components/SEO";
+import { SEO as SEOMeta } from "../utils/seo";
+import { SITE_URL } from "../config";
 
 function AboutUs() {
   return (
     <div className="about-us">
+    <SEO
+      title={SEOMeta.about.title}
+      description={SEOMeta.about.description}
+      keywords={SEOMeta.about.keywords}
+      url="${SITE_URL}/AboutUs"
+    />
       <h1 className="about-us__title">О нас</h1>
       <div className="adres">
         <img 

@@ -1,6 +1,18 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import SEO from "../Components/SEO";
+import { SEO as SEOMeta } from "../utils/seo";
 
 export default function NotPage() {
-  return <NavLink to="/">Такой страницы нет, вернитесь в начало</NavLink>;
+  return (
+    <div className="not-page">
+      <SEO
+        title={SEOMeta.notFound.title}
+        description={SEOMeta.notFound.description}
+        keywords={SEOMeta.notFound.keywords}
+        noindex={true}
+      />
+      <h1>404</h1>
+      <p>Страница не найдена</p>
+    </div>
+  );
 }

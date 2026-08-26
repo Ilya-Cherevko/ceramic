@@ -9,6 +9,8 @@ import {
 } from "../api/catalog";
 import { supabase } from "../utils/supabase";
 import "./Admin.css";
+import SEO from "../Components/SEO";
+import { SEO as SEOMeta } from "../utils/seo";
 
 export default function AdminPanel() {
   const navigate = useNavigate();
@@ -481,6 +483,11 @@ export default function AdminPanel() {
 
   return (
     <div className="admin-panel">
+    <SEO
+      title={SEOMeta.admin.title}
+      description={SEOMeta.admin.description}
+      noindex={true}
+    />
       <div className="admin-panel__header">
         <h1 className="admin-panel__title">Админ-панель каталога</h1>
         <div className="admin-panel__header-right">

@@ -6,6 +6,10 @@ import Breadcrumbs from "../Components/Breadcrumbs";
 import { CardSkeleton } from "../Components/Skeletons";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
+import SEO from "../Components/SEO";
+import { SEO as SEOMeta } from "../utils/seo";
+import { SITE_URL } from "../config";
+
 
 export default function Category() {
   const { id } = useParams();
@@ -96,6 +100,13 @@ export default function Category() {
 
   return (
     <div className="card-build">
+    <SEO
+      title={SEOMeta.categories[id]?.title}
+      description={SEOMeta.categories[id]?.description}
+      keywords={SEOMeta.categories[id]?.keywords}
+      url={`${SITE_URL}${id}`}
+    />
+    <Breadcrumbs />
       <h1 className="card-build__title">{pageTitle}</h1>
 
       <div className="card-build__info">

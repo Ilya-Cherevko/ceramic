@@ -12,10 +12,21 @@ import NotPage from "./Pages/404";
 import AdminLogin from "./Pages/AdminLogin";
 import AdminPanel from "./Pages/AdminPanel";
 import "./App.css";
+import SEO from "./Components/SEO";
+import { SEO as SEOMeta } from "./utils/seo";
+import { SITE_URL } from "./config";
 
 function App() {
   return (
     <div className="App">
+      <SEO
+        title={SEOMeta.home.title}
+        description={SEOMeta.home.description}
+        keywords={SEOMeta.home.keywords}
+        image={SEOMeta.home.image}
+        url={`${SITE_URL}`}
+        type="website"
+      />
       <Header />
       <Routes>
         <Route path="/" element={<Content />} />

@@ -1,15 +1,18 @@
 // src/Pages/CardPit.jsx
 import React, { useState, useEffect, useRef } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import { getCollectionByCollection } from "../api/catalog";
 import Breadcrumbs from "../Components/Breadcrumbs";
 import { CardPitSkeleton } from "../Components/Skeletons";
+import SEO from "../Components/SEO";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
 import ImagePopup from "../Components/ImagePopup";
+import { SITE_URL } from "../config";
 
 export default function CardPit() {
   const { Collection } = useParams();
+  const location = useLocation();
   const scrollRef = useRef(null);
 
   // ===== Состояния =====
@@ -35,7 +38,7 @@ export default function CardPit() {
       try {
         const data = await getCollectionByCollection(Collection);
         setCard(data);
-        
+
         if (data && data.interiors && data.interiors.length > 0) {
           const saved = localStorage.getItem(storageKeyActive);
           const savedActive = saved ? parseInt(saved, 10) : 0;
@@ -44,7 +47,7 @@ export default function CardPit() {
           setMainImage(data.interiors[validIndex]);
         }
       } catch (error) {
-        console.error('Ошибка загрузки:', error);
+        console.error("Ошибка загрузки:", error);
         setCard(null);
       } finally {
         setLoading(false);
@@ -119,7 +122,7 @@ export default function CardPit() {
       <div className="card-pit__empty">
         <h2>Коллекция не найдена</h2>
         <p>Извините, но коллекция "{Collection}" не найдена в каталоге.</p>
-        <button 
+        <button
           className="card-pit__back-btn"
           onClick={() => window.history.back()}
         >
@@ -181,6 +184,12 @@ export default function CardPit() {
   // ===== Рендеринг =====
   return (
     <article className="card__page" ref={scrollRef}>
+      <SEO
+        title={`${card.collection} — ${card.name} | VOK Ceramic`}
+        description={`Коллекция ${card.collection} от ${card.name}. Размеры: ${formatSize(card.size)}. Страна производства: ${card.country}.`}
+        image={mainImage || getImageUrl(card.interiors)}
+        url={`${SITE_URL}${location.pathname}`}
+      />
       <Breadcrumbs />
       <div className="card__body_one">
         {/* Главное изображение */}
@@ -192,7 +201,7 @@ export default function CardPit() {
             onClick={handleMainImageClick}
             style={{ cursor: "pointer" }}
           />
-          
+
           {card.interiors && card.interiors.length > 1 && (
             <div className="card__image-counter">
               {activeId + 1} / {card.interiors.length}

@@ -6,6 +6,8 @@ import Breadcrumbs from "../Components/Breadcrumbs";
 import { CardSkeleton } from "../Components/Skeletons";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
+import SEO from "../Components/SEO";
+import { SITE_URL } from "../config";
 
 export default function CardBuild() {
   const { id, Name } = useParams();
@@ -165,7 +167,12 @@ export default function CardBuild() {
 
   return (
     <div className="card-build">
-      <Breadcrumbs />
+    <SEO
+      title={`${pageTitle} — VOK Ceramic`}
+      description={`Коллекции ${pageTitle} в каталоге VOK Ceramic. Широкий выбор, доставка по России.`}
+      url={`${SITE_URL}${location.pathname}`}
+    />
+    <Breadcrumbs />
       <h1 className="card-build__title">{pageTitle}</h1>
       
       <div className="card-build__info">
