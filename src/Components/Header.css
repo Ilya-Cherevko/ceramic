@@ -181,3 +181,32 @@
     height: 14px;
   }
 }
+
+.header__favorites-link {
+  position: relative;
+  color: #d4b503;
+  font-size: 24px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.header__favorites-link:hover {
+  transform: scale(1.1);
+}
+
+.header__favorites-count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background: #d4b503;
+  color: #000;
+  font-size: 11px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

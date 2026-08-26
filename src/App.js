@@ -15,6 +15,7 @@ import "./App.css";
 import SEO from "./Components/SEO";
 import { SEO as SEOMeta } from "./utils/seo";
 import { SITE_URL } from "./config";
+import Favorites from './Pages/Favorites';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin" element={<AdminPanel />} />
         <Route path="*" element={<NotPage />} />
+        <Route path="/favorites" element={<Favorites />} />
       </Routes>
       <Footer />
     </div>

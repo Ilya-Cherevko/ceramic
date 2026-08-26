@@ -9,7 +9,7 @@ import "../Components/Card.css";
 import SEO from "../Components/SEO";
 import { SEO as SEOMeta } from "../utils/seo";
 import { SITE_URL } from "../config";
-
+import FavoriteButton from '../Components/FavoriteButton';
 
 export default function Category() {
   const { id } = useParams();
@@ -122,6 +122,7 @@ export default function Category() {
         {visibleCards.map((card) => (
           <li key={card.id}>
             <div className="card__body">
+              <FavoriteButton item={card} />
               {/* Ссылка на страницу производителя с параметром scrollTo */}
               <Link
                 to={`/${card.category}/${card.name}?scrollTo=${encodeURIComponent(

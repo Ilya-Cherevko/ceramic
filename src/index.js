@@ -3,6 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { HelmetProvider } from "react-helmet-async";
 import { BrowserRouter } from "react-router-dom";
+import { FavoritesProvider } from "./context/FavoritesContext";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -12,7 +13,9 @@ root.render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
-        <App />
+        <FavoritesProvider>
+          <App />
+        </FavoritesProvider>
       </BrowserRouter>
     </HelmetProvider>
   </React.StrictMode>

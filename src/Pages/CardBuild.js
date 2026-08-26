@@ -8,6 +8,7 @@ import "../Components/card__wrapper.css";
 import "../Components/Card.css";
 import SEO from "../Components/SEO";
 import { SITE_URL } from "../config";
+import FavoriteButton from '../Components/FavoriteButton';
 
 export default function CardBuild() {
   const { id, Name } = useParams();
@@ -183,6 +184,7 @@ export default function CardBuild() {
         {visibleCards.map((card) => (
           <li key={card.id} id={`card-${card.id}`} className="card-list-item">
             <div className="card__body">
+              <FavoriteButton item={card} />
               <Link to={`/${card.category}/${card.name}/${card.collection}`}>
                 <img
                   className="card__img"
