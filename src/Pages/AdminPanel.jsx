@@ -9,8 +9,6 @@ import {
 } from "../api/catalog";
 import { supabase } from "../utils/supabase";
 import "./Admin.css";
-import SEO from "../Components/SEO";
-import { SEO as SEOMeta } from "../utils/seo";
 
 export default function AdminPanel() {
   const navigate = useNavigate();
@@ -20,12 +18,9 @@ export default function AdminPanel() {
   const [loading, setLoading] = useState(true);
   const [uploading, setUploading] = useState(false);
   const [editingId, setEditingId] = useState(null);
-  
-  // ===== Состояния для сортировки =====
   const [sortField, setSortField] = useState("collection");
   const [sortDirection, setSortDirection] = useState("asc");
   const [searchQuery, setSearchQuery] = useState("");
-  
   const [formData, setFormData] = useState({
     id: "",
     country: "",
@@ -45,7 +40,7 @@ export default function AdminPanel() {
     }
   }, [navigate]);
 
-  // ===== Загрузка данных из Supabase =====
+  // ===== Загрузка данных =====
   useEffect(() => {
     const loadData = async () => {
       setLoading(true);
@@ -62,35 +57,30 @@ export default function AdminPanel() {
     loadData();
   }, []);
 
-  // ===== Сортировка и фильтрация данных =====
+  // ===== Сортировка и фильтрация =====
   const sortedAndFilteredCatalog = useMemo(() => {
     let result = [...catalog];
     
-    // Фильтрация по поисковому запросу
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase().trim();
       result = result.filter(item => 
         item.collection?.toLowerCase().includes(query) ||
         item.name?.toLowerCase().includes(query) ||
         item.country?.toLowerCase().includes(query) ||
-        item.category?.toLowerCase().includes(query) ||
-        item.size?.toLowerCase().includes(query)
+        item.category?.toLowerCase().includes(query)
       );
     }
     
-    // Сортировка
     result.sort((a, b) => {
       let aVal = a[sortField] || "";
       let bVal = b[sortField] || "";
       
-      // Для чисел (id)
       if (sortField === "id") {
         aVal = Number(aVal);
         bVal = Number(bVal);
         return sortDirection === "asc" ? aVal - bVal : bVal - aVal;
       }
       
-      // Для строк (с учётом регистра)
       aVal = String(aVal).toLowerCase();
       bVal = String(bVal).toLowerCase();
       
@@ -104,38 +94,31 @@ export default function AdminPanel() {
     return result;
   }, [catalog, sortField, sortDirection, searchQuery]);
 
-  // ===== Удаление изображения из Supabase Storage =====
+  // ===== Удаление изображения из Storage =====
   const deleteImageFromStorage = async (imageUrl) => {
     if (!imageUrl) return false;
     
     try {
       if (!imageUrl.includes('supabase.co/storage/v1/object/public/catalog-images')) {
-        console.log('⏭️ Пропускаем (не в Storage):', imageUrl);
         return true;
       }
       
       const urlParts = imageUrl.split('/');
       const publicIndex = urlParts.indexOf('public');
       
-      if (publicIndex === -1) {
-        console.warn('Не удалось извлечь путь из URL:', imageUrl);
-        return false;
-      }
+      if (publicIndex === -1) return false;
       
       const filePath = urlParts.slice(publicIndex + 2).join('/');
-      
-      console.log('🗑️ Удаляем файл:', filePath);
       
       const { error } = await supabase.storage
         .from('catalog-images')
         .remove([filePath]);
       
       if (error) {
-        console.error('❌ Ошибка удаления файла из Storage:', error);
+        console.error('❌ Ошибка удаления файла:', error);
         return false;
       }
       
-      console.log('✅ Файл удалён из Storage:', filePath);
       return true;
     } catch (error) {
       console.error('❌ Ошибка при удалении файла:', error);
@@ -146,14 +129,13 @@ export default function AdminPanel() {
   // ===== Удаление всех изображений коллекции =====
   const deleteAllImagesFromCollection = async (item) => {
     if (!item) return;
-    
     const allImages = [...(item.interiors || []), ...(item.tovars || [])];
     for (const url of allImages) {
       await deleteImageFromStorage(url);
     }
   };
 
-  // ===== Загрузка изображений в Supabase Storage =====
+  // ===== Загрузка изображений в Storage =====
   const uploadImage = async (file, folder) => {
     try {
       const fileExt = file.name.split('.').pop();
@@ -183,7 +165,7 @@ export default function AdminPanel() {
     }
   };
 
-  // ===== Обработка загрузки файлов (Drag-and-Drop) =====
+  // ===== Обработка загрузки файлов =====
   const handleImageUpload = async (files, fieldName) => {
     if (!files || files.length === 0) return;
     
@@ -217,7 +199,7 @@ export default function AdminPanel() {
     setUploading(false);
   };
 
-  // ===== Обработка Drag-and-Drop =====
+  // ===== Drag-and-Drop =====
   const handleDrop = (e, fieldName) => {
     e.preventDefault();
     const files = Array.from(e.dataTransfer.files);
@@ -228,7 +210,7 @@ export default function AdminPanel() {
     e.preventDefault();
   };
 
-  // ===== Рендер превью изображений =====
+  // ===== Рендер превью =====
   const renderImagePreviews = (imageUrls, fieldName) => {
     if (!imageUrls || imageUrls.length === 0) {
       return <p className="admin-form__no-images">Нет изображений</p>;
@@ -244,7 +226,6 @@ export default function AdminPanel() {
               className="admin-form__preview-img"
               onError={(e) => {
                 e.target.src = '/images/placeholder.jpg';
-                e.target.alt = 'Не загрузилось';
               }}
             />
             <button
@@ -265,16 +246,6 @@ export default function AdminPanel() {
     );
   };
 
-  // ===== Сортировка =====
-  const handleSort = (field) => {
-    if (sortField === field) {
-      setSortDirection(prev => prev === "asc" ? "desc" : "asc");
-    } else {
-      setSortField(field);
-      setSortDirection("asc");
-    }
-  };
-
   // ===== Добавление =====
   const handleAdd = async () => {
     if (!formData.name || !formData.collection || !formData.category) {
@@ -288,8 +259,8 @@ export default function AdminPanel() {
       collection: formData.collection,
       category: formData.category,
       size: formData.size || "",
-      interiors: formData.interiors.filter((url) => url.trim() !== ""),
-      tovars: formData.tovars.filter((url) => url.trim() !== ""),
+      interiors: formData.interiors,
+      tovars: formData.tovars,
     };
     
     const result = await addCollection(newItem);
@@ -316,6 +287,8 @@ export default function AdminPanel() {
       interiors: item.interiors || [],
       tovars: item.tovars || [],
     });
+    // Скроллим к форме
+    document.querySelector('.admin-panel__form')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   const handleUpdate = async () => {
@@ -347,8 +320,8 @@ export default function AdminPanel() {
       collection: formData.collection,
       category: formData.category,
       size: formData.size || "",
-      interiors: formData.interiors.filter((url) => url.trim() !== ""),
-      tovars: formData.tovars.filter((url) => url.trim() !== ""),
+      interiors: formData.interiors,
+      tovars: formData.tovars,
     };
     
     const result = await updateCollection(editingId, updatedItem);
@@ -362,7 +335,7 @@ export default function AdminPanel() {
     }
   };
 
-  // ===== Удаление коллекции =====
+  // ===== Удаление =====
   const handleDelete = async (id) => {
     if (!window.confirm("⚠️ Вы уверены, что хотите удалить эту коллекцию?")) return;
     
@@ -412,9 +385,9 @@ export default function AdminPanel() {
     }
   };
 
-  // ===== Очистка всех данных =====
+  // ===== Очистка =====
   const handleClearAll = async () => {
-    if (!window.confirm("⚠️ Вы уверены, что хотите удалить ВСЕ данные? Это действие необратимо!")) return;
+    if (!window.confirm("⚠️ Вы уверены, что хотите удалить ВСЕ данные?")) return;
     
     let success = 0;
     let errors = 0;
@@ -453,24 +426,26 @@ export default function AdminPanel() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleArrayInputChange = (e, field) => {
-    const value = e.target.value;
-    const urls = value.split(",").map((url) => url.trim()).filter((url) => url !== "");
-    setFormData((prev) => ({ ...prev, [field]: urls }));
-  };
-
   const handleLogout = () => {
     localStorage.removeItem("adminAuth");
     navigate("/admin/login");
   };
 
-  const categories = ["Plitka", "Keramogranit", "GibkyMramor"];
+  const handleSort = (field) => {
+    if (sortField === field) {
+      setSortDirection(prev => prev === "asc" ? "desc" : "asc");
+    } else {
+      setSortField(field);
+      setSortDirection("asc");
+    }
+  };
 
-  // ===== Индикатор сортировки =====
   const getSortIcon = (field) => {
     if (sortField !== field) return "↕";
     return sortDirection === "asc" ? "↑" : "↓";
   };
+
+  const categories = ["Plitka", "Keramogranit", "GibkyMramor"];
 
   if (loading) {
     return (
@@ -483,316 +458,205 @@ export default function AdminPanel() {
 
   return (
     <div className="admin-panel">
-    <SEO
-      title={SEOMeta.admin.title}
-      description={SEOMeta.admin.description}
-      noindex={true}
-    />
+      {/* Шапка */}
       <div className="admin-panel__header">
         <h1 className="admin-panel__title">Админ-панель каталога</h1>
         <div className="admin-panel__header-right">
-          <span className="admin-panel__size">
-            📊 {sortedAndFilteredCatalog.length} записей
-            {catalog.length !== sortedAndFilteredCatalog.length && 
-              ` (из ${catalog.length})`}
-          </span>
-          <button className="admin-panel__import" onClick={importDefaultData}>
-            📥 Импорт из файла
-          </button>
+          <span className="admin-panel__size">📊 {sortedAndFilteredCatalog.length} записей</span>
+          <button className="admin-panel__import" onClick={importDefaultData}>📥 Импорт</button>
           {catalog.length > 0 && (
-            <button className="admin-panel__clear" onClick={handleClearAll}>
-              🗑️ Очистить всё
-            </button>
+            <button className="admin-panel__clear" onClick={handleClearAll}>🗑️ Очистить всё</button>
           )}
-          <button className="admin-panel__logout" onClick={handleLogout}>
-            Выйти
-          </button>
+          <button className="admin-panel__logout" onClick={handleLogout}>Выйти</button>
         </div>
       </div>
 
-      {catalog.length === 0 && (
-        <div className="admin-panel__empty">
-          <p>📭 В каталоге пока нет данных.</p>
-          <p>Вы можете добавить новую коллекцию или импортировать данные из файла.</p>
-        </div>
-      )}
+      {/* ДВЕ КОЛОНКИ */}
+      <div className="admin-panel__columns">
 
-      {/* Форма */}
-      <div className="admin-panel__form">
-        <h2>{editingId ? "✏️ Редактирование" : "➕ Добавление"} коллекции</h2>
-        <div className="admin-form__grid">
-          <div className="admin-form__group">
-            <label>Производитель (Name) *</label>
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleInputChange}
-              placeholder="Например: Alma Ceramica"
-              required
-            />
-          </div>
-          <div className="admin-form__group">
-            <label>Коллекция (Collection) *</label>
-            <input
-              type="text"
-              name="collection"
-              value={formData.collection}
-              onChange={handleInputChange}
-              placeholder="Например: Adelia"
-              required
-            />
-          </div>
-          <div className="admin-form__group">
-            <label>Страна</label>
-            <input
-              type="text"
-              name="country"
-              value={formData.country}
-              onChange={handleInputChange}
-              placeholder="Например: Россия"
-            />
-          </div>
-          <div className="admin-form__group">
-            <label>Категория *</label>
-            <select
-              name="category"
-              value={formData.category}
-              onChange={handleInputChange}
-              required
-            >
-              <option value="">Выберите категорию</option>
-              {categories.map((cat) => (
-                <option key={cat} value={cat}>{cat}</option>
-              ))}
-            </select>
-          </div>
-          <div className="admin-form__group">
-            <label>Размеры</label>
-            <input
-              type="text"
-              name="size"
-              value={formData.size}
-              onChange={handleInputChange}
-              placeholder='Например: 20x60 или 20x60, 60x60'
-            />
-          </div>
-          
-          {/* Интерьеры */}
-          <div className="admin-form__group admin-form__group--full">
-            <label>Ссылки на интерьеры (через запятую)</label>
-            <div className="admin-form__field-with-preview">
-              <textarea
-                name="interiors"
-                value={formData.interiors.join(", ")}
-                onChange={(e) => handleArrayInputChange(e, "interiors")}
-                placeholder="../images/catalog/alma_ceramica/adelia/interiors/photo1.jpg, ../images/catalog/alma_ceramica/adelia/interiors/photo2.jpg"
-                rows="3"
-              />
-              
-              <div 
-                className="admin-form__drop-zone"
-                onDrop={(e) => handleDrop(e, "interiors")}
-                onDragOver={handleDragOver}
-              >
-                {uploading ? (
-                  <p>⏳ Загрузка...</p>
-                ) : (
-                  <>
-                    <p>📤 Перетащите изображения сюда</p>
-                    <p className="admin-form__drop-hint">или</p>
-                    <label className="admin-form__upload-btn">
-                      Выберите файлы
-                      <input
-                        type="file"
-                        accept="image/*"
-                        multiple
-                        onChange={(e) => handleImageUpload(e.target.files, "interiors")}
-                        style={{ display: 'none' }}
-                      />
-                    </label>
-                  </>
-                )}
+        {/* ЛЕВАЯ КОЛОНКА — ФОРМА */}
+        <div className="admin-panel__column admin-panel__column--left">
+          <div className="admin-panel__form">
+            <h2>
+              {editingId ? "✏️ Редактирование" : "➕ Добавление"}
+              {editingId && (
+                <button className="admin-form__cancel-small" onClick={resetForm}>
+                  ✕
+                </button>
+              )}
+            </h2>
+            <div className="admin-form__grid">
+              <div className="admin-form__group">
+                <label>Производитель *</label>
+                <input
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleInputChange}
+                  placeholder="Например: Alma Ceramica"
+                />
               </div>
-              
-              {renderImagePreviews(formData.interiors, "interiors")}
-            </div>
-            <small className="admin-form__hint">
-              Количество: {formData.interiors.length} изображений
-            </small>
-          </div>
-
-          {/* Товары */}
-          <div className="admin-form__group admin-form__group--full">
-            <label>Ссылки на товары (через запятую)</label>
-            <div className="admin-form__field-with-preview">
-              <textarea
-                name="tovars"
-                value={formData.tovars.join(", ")}
-                onChange={(e) => handleArrayInputChange(e, "tovars")}
-                placeholder="../images/catalog/alma_ceramica/adelia/tovars/product1.jpg, ../images/catalog/alma_ceramica/adelia/tovars/product2.jpg"
-                rows="3"
-              />
-              
-              <div 
-                className="admin-form__drop-zone"
-                onDrop={(e) => handleDrop(e, "tovars")}
-                onDragOver={handleDragOver}
-              >
-                {uploading ? (
-                  <p>⏳ Загрузка...</p>
-                ) : (
-                  <>
-                    <p>📤 Перетащите изображения сюда</p>
-                    <p className="admin-form__drop-hint">или</p>
-                    <label className="admin-form__upload-btn">
-                      Выберите файлы
-                      <input
-                        type="file"
-                        accept="image/*"
-                        multiple
-                        onChange={(e) => handleImageUpload(e.target.files, "tovars")}
-                        style={{ display: 'none' }}
-                      />
-                    </label>
-                  </>
-                )}
+              <div className="admin-form__group">
+                <label>Коллекция *</label>
+                <input
+                  type="text"
+                  name="collection"
+                  value={formData.collection}
+                  onChange={handleInputChange}
+                  placeholder="Например: Adelia"
+                />
               </div>
-              
-              {renderImagePreviews(formData.tovars, "tovars")}
+              <div className="admin-form__group">
+                <label>Страна</label>
+                <input
+                  type="text"
+                  name="country"
+                  value={formData.country}
+                  onChange={handleInputChange}
+                  placeholder="Например: Россия"
+                />
+              </div>
+              <div className="admin-form__group">
+                <label>Категория *</label>
+                <select
+                  name="category"
+                  value={formData.category}
+                  onChange={handleInputChange}
+                >
+                  <option value="">Выберите категорию</option>
+                  {categories.map((cat) => (
+                    <option key={cat} value={cat}>{cat}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="admin-form__group admin-form__group--full">
+                <label>Размеры</label>
+                <input
+                  type="text"
+                  name="size"
+                  value={formData.size}
+                  onChange={handleInputChange}
+                  placeholder='Например: 20x60 или 20x60, 60x60'
+                />
+              </div>
+              <div className="admin-form__group admin-form__group--full">
+                <label>Интерьеры</label>
+                <div className="admin-form__drop-zone" onDrop={(e) => handleDrop(e, "interiors")} onDragOver={handleDragOver}>
+                  {uploading ? (
+                    <p>⏳ Загрузка...</p>
+                  ) : (
+                    <>
+                      <p>📤 Перетащите изображения сюда</p>
+                      <p className="admin-form__drop-hint">или</p>
+                      <label className="admin-form__upload-btn">
+                        Выберите файлы
+                        <input
+                          type="file"
+                          accept="image/*"
+                          multiple
+                          onChange={(e) => handleImageUpload(e.target.files, "interiors")}
+                          style={{ display: 'none' }}
+                        />
+                      </label>
+                    </>
+                  )}
+                </div>
+                {renderImagePreviews(formData.interiors, "interiors")}
+              </div>
+              <div className="admin-form__group admin-form__group--full">
+                <label>Товары</label>
+                <div className="admin-form__drop-zone" onDrop={(e) => handleDrop(e, "tovars")} onDragOver={handleDragOver}>
+                  {uploading ? (
+                    <p>⏳ Загрузка...</p>
+                  ) : (
+                    <>
+                      <p>📤 Перетащите изображения сюда</p>
+                      <p className="admin-form__drop-hint">или</p>
+                      <label className="admin-form__upload-btn">
+                        Выберите файлы
+                        <input
+                          type="file"
+                          accept="image/*"
+                          multiple
+                          onChange={(e) => handleImageUpload(e.target.files, "tovars")}
+                          style={{ display: 'none' }}
+                        />
+                      </label>
+                    </>
+                  )}
+                </div>
+                {renderImagePreviews(formData.tovars, "tovars")}
+              </div>
             </div>
-            <small className="admin-form__hint">
-              Количество: {formData.tovars.length} товаров
-            </small>
+            <div className="admin-form__actions">
+              {editingId ? (
+                <>
+                  <button className="admin-form__save" onClick={handleUpdate}>💾 Сохранить</button>
+                  <button className="admin-form__cancel" onClick={resetForm}>❌ Отмена</button>
+                </>
+              ) : (
+                <button className="admin-form__add" onClick={handleAdd}>➕ Добавить</button>
+              )}
+            </div>
           </div>
         </div>
-        <div className="admin-form__actions">
-          {editingId ? (
-            <>
-              <button className="admin-form__save" onClick={handleUpdate}>
-                💾 Сохранить изменения
-              </button>
-              <button className="admin-form__cancel" onClick={resetForm}>
-                ❌ Отмена
-              </button>
-            </>
-          ) : (
-            <button className="admin-form__add" onClick={handleAdd}>
-              ➕ Добавить коллекцию
-            </button>
-          )}
-        </div>
-      </div>
 
-      {/* Список коллекций с сортировкой */}
-      {catalog.length > 0 && (
-        <div className="admin-panel__list">
-          <div className="admin-list__toolbar">
-            <div className="admin-list__search">
+        {/* ПРАВАЯ КОЛОНКА — СПИСОК */}
+        <div className="admin-panel__column admin-panel__column--right">
+          <div className="admin-panel__list-wrapper">
+            <div className="admin-list__toolbar">
               <input
                 type="text"
+                className="admin-list__search"
                 placeholder="🔍 Поиск по коллекциям..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="admin-list__search-input"
               />
-              {searchQuery && (
-                <button 
-                  className="admin-list__search-clear"
-                  onClick={() => setSearchQuery("")}
-                >
-                  ×
-                </button>
+            </div>
+            <div className="admin-list__headers">
+              <button
+                className={`admin-list__header ${sortField === "collection" ? "active" : ""}`}
+                onClick={() => handleSort("collection")}
+              >
+                Коллекция {getSortIcon("collection")}
+              </button>
+              <button
+                className={`admin-list__header ${sortField === "name" ? "active" : ""}`}
+                onClick={() => handleSort("name")}
+              >
+                Производитель {getSortIcon("name")}
+              </button>
+              <button
+                className={`admin-list__header ${sortField === "category" ? "active" : ""}`}
+                onClick={() => handleSort("category")}
+              >
+                Категория {getSortIcon("category")}
+              </button>
+              <button className="admin-list__header admin-list__header--actions">Действия</button>
+            </div>
+            <div className="admin-list">
+              {sortedAndFilteredCatalog.map((item) => (
+                <div key={item.id} className="admin-list__item">
+                  <div className="admin-list__info">
+                    <span className="admin-list__cell admin-list__cell--collection">{item.collection}</span>
+                    <span className="admin-list__cell admin-list__cell--name">{item.name}</span>
+                    <span className="admin-list__cell admin-list__cell--category">{item.category}</span>
+                    <span className="admin-list__cell admin-list__cell--images">🖼️ {item.interiors?.length || 0}</span>
+                  </div>
+                  <div className="admin-list__actions">
+                    <button className="admin-list__edit" onClick={() => handleEdit(item)} title="Редактировать">✏️</button>
+                    <button className="admin-list__delete" onClick={() => handleDelete(item.id)} title="Удалить">🗑️</button>
+                  </div>
+                </div>
+              ))}
+              {sortedAndFilteredCatalog.length === 0 && (
+                <div className="admin-list__empty">Нет коллекций</div>
               )}
             </div>
-            <div className="admin-list__sort-info">
-              {searchQuery && `Найдено: ${sortedAndFilteredCatalog.length}`}
-            </div>
-          </div>
-
-          <h2>
-            Все коллекции ({sortedAndFilteredCatalog.length})
-            {catalog.length !== sortedAndFilteredCatalog.length && 
-              ` из ${catalog.length}`}
-          </h2>
-          
-          <div className="admin-list__headers">
-            <button 
-              className={`admin-list__header ${sortField === "id" ? "active" : ""}`}
-              onClick={() => handleSort("id")}
-            >
-              ID {getSortIcon("id")}
-            </button>
-            <button 
-              className={`admin-list__header ${sortField === "collection" ? "active" : ""}`}
-              onClick={() => handleSort("collection")}
-            >
-              Коллекция {getSortIcon("collection")}
-            </button>
-            <button 
-              className={`admin-list__header ${sortField === "name" ? "active" : ""}`}
-              onClick={() => handleSort("name")}
-            >
-              Производитель {getSortIcon("name")}
-            </button>
-            <button 
-              className={`admin-list__header ${sortField === "country" ? "active" : ""}`}
-              onClick={() => handleSort("country")}
-            >
-              Страна {getSortIcon("country")}
-            </button>
-            <button 
-              className={`admin-list__header ${sortField === "category" ? "active" : ""}`}
-              onClick={() => handleSort("category")}
-            >
-              Категория {getSortIcon("category")}
-            </button>
-            <button 
-              className={`admin-list__header ${sortField === "size" ? "active" : ""}`}
-              onClick={() => handleSort("size")}
-            >
-              Размер {getSortIcon("size")}
-            </button>
-            <button className="admin-list__header admin-list__header--actions">
-              Действия
-            </button>
-          </div>
-
-          <div className="admin-list">
-            {sortedAndFilteredCatalog.map((item) => (
-              <div key={item.id} className="admin-list__item">
-                <div className="admin-list__info">
-                  <span className="admin-list__cell admin-list__cell--id">{item.id}</span>
-                  <span className="admin-list__cell admin-list__cell--collection">{item.collection}</span>
-                  <span className="admin-list__cell admin-list__cell--name">{item.name}</span>
-                  <span className="admin-list__cell admin-list__cell--country">{item.country}</span>
-                  <span className="admin-list__cell admin-list__cell--category">{item.category}</span>
-                  <span className="admin-list__cell admin-list__cell--size">{item.size}</span>
-                  <span className="admin-list__cell admin-list__cell--images">
-                    🖼️ {item.interiors?.length || 0}
-                  </span>
-                </div>
-                <div className="admin-list__actions">
-                  <button 
-                    className="admin-list__edit" 
-                    onClick={() => handleEdit(item)}
-                    title="Редактировать"
-                  >
-                    ✏️
-                  </button>
-                  <button 
-                    className="admin-list__delete" 
-                    onClick={() => handleDelete(item.id)}
-                    title="Удалить"
-                  >
-                    🗑️
-                  </button>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
-      )}
+
+      </div>
     </div>
   );
 }

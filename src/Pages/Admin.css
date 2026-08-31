@@ -1,130 +1,123 @@
-/* ===== AdminLogin ===== */
-.admin-login {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 60vh;
-  padding: 20px;
-}
-
-.admin-login__container {
-  background: #fff;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
-  max-width: 400px;
-  width: 100%;
-}
-
-.admin-login__title {
-  text-align: center;
-  font-size: 28px;
-  color: #d4b503;
-  margin-bottom: 30px;
-}
-
-.admin-login__form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.admin-login__input {
-  padding: 14px 16px;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  font-size: 16px;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-
-.admin-login__input:focus {
-  border-color: #d4b503;
-}
-
-.admin-login__error {
-  color: #e74c3c;
-  font-size: 14px;
-  margin: 0;
-}
-
-.admin-login__button {
-  padding: 14px;
-  background: #d4b503;
-  color: #000;
-  border: none;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.admin-login__button:hover {
-  background: #b89b03;
-}
-
-/* ===== AdminPanel ===== */
+/* ===== АДМИН-ПАНЕЛЬ ===== */
 .admin-panel {
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
 }
 
+/* ===== ШАПКА ===== */
 .admin-panel__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 3px solid #d4b503;
-  padding-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 15px;
   margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #d4b503;
 }
 
 .admin-panel__title {
-  font-size: 32px;
-  color: #333;
+  font-size: 28px;
   margin: 0;
+  color: #333;
 }
 
+.admin-panel__header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-panel__size {
+  font-size: 14px;
+  color: #888;
+  background: #f0f0f0;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+.admin-panel__import,
+.admin-panel__clear,
 .admin-panel__logout {
-  padding: 10px 24px;
-  background: #e74c3c;
-  color: #fff;
+  padding: 8px 16px;
   border: none;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
-.admin-panel__logout:hover {
+.admin-panel__import {
+  background: #3498db;
+  color: #fff;
+}
+.admin-panel__import:hover {
+  background: #2980b9;
+}
+
+.admin-panel__clear {
+  background: #e74c3c;
+  color: #fff;
+}
+.admin-panel__clear:hover {
   background: #c0392b;
 }
 
-/* ===== Форма ===== */
+.admin-panel__logout {
+  background: #999;
+  color: #fff;
+}
+.admin-panel__logout:hover {
+  background: #777;
+}
+
+/* ===== ДВЕ КОЛОНКИ ===== */
+.admin-panel__columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.admin-panel__column {
+  min-width: 0;
+}
+
+.admin-panel__column--left {
+  position: sticky;
+  top: 20px;
+}
+
+/* ===== ФОРМА ===== */
 .admin-panel__form {
   background: #f8f8f8;
-  padding: 25px;
+  padding: 24px;
   border-radius: 12px;
-  margin-bottom: 30px;
+  border: 1px solid #eee;
 }
 
 .admin-panel__form h2 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: #333;
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .admin-form__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15px;
+  gap: 14px;
 }
 
 .admin-form__group {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 4px;
 }
 
 .admin-form__group--full {
@@ -132,14 +125,13 @@
 }
 
 .admin-form__group label {
+  font-size: 13px;
   font-weight: 500;
-  font-size: 14px;
   color: #555;
 }
 
 .admin-form__group input,
-.admin-form__group select,
-.admin-form__group textarea {
+.admin-form__group select {
   padding: 10px 12px;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -148,499 +140,40 @@
 }
 
 .admin-form__group input:focus,
-.admin-form__group select:focus,
-.admin-form__group textarea:focus {
+.admin-form__group select:focus {
   border-color: #d4b503;
   outline: none;
 }
 
-.admin-form__group textarea {
-  resize: vertical;
-  font-family: inherit;
-}
-
-.admin-form__actions {
-  display: flex;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.admin-form__add,
-.admin-form__save {
-  padding: 12px 30px;
-  background: #d4b503;
-  color: #000;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.admin-form__add:hover,
-.admin-form__save:hover {
-  background: #b89b03;
-}
-
-.admin-form__cancel {
-  padding: 12px 30px;
-  background: #999;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.admin-form__cancel:hover {
-  background: #777;
-}
-
-/* ===== Список ===== */
-.admin-panel__list {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.admin-panel__list h2 {
-  padding: 20px 25px;
-  margin: 0;
-  background: #f8f8f8;
-  border-bottom: 1px solid #eee;
-}
-
-.admin-list {
-  max-height: 500px;
-  overflow-y: auto;
-}
-
-.admin-list__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 20px;
-  border-bottom: 1px solid #eee;
-  transition: background 0.3s ease;
-}
-
-.admin-list__item:hover {
-  background: #f8f8f8;
-}
-
-.admin-list__info {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.admin-list__name {
-  font-weight: bold;
-  font-size: 16px;
-  color: #d4b503;
-  min-width: 150px;
-}
-
-.admin-list__detail {
-  font-size: 14px;
-  color: #555;
-}
-
-.admin-list__actions {
-  display: flex;
-  gap: 8px;
-}
-
-.admin-list__edit,
-.admin-list__delete {
-  padding: 6px 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background 0.3s ease;
-}
-
-.admin-list__edit {
-  background: #3498db;
-  color: #fff;
-}
-
-.admin-list__edit:hover {
-  background: #2980b9;
-}
-
-.admin-list__delete {
-  background: #e74c3c;
-  color: #fff;
-}
-
-.admin-list__delete:hover {
-  background: #c0392b;
-}
-
-/* ===== Медиазапросы ===== */
-@media screen and (max-width: 768px) {
-  .admin-form__grid {
-    grid-template-columns: 1fr;
-  }
-
-  .admin-list__info {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-  }
-
-  .admin-list__name {
-    min-width: auto;
-  }
-
-  .admin-list__item {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .admin-panel__header {
-    flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
-  }
-
-  .admin-panel__title {
-    font-size: 24px;
-  }
-}
-
-/* ===== Дополнительные стили ===== */
-.admin-panel__header-right {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.admin-panel__size {
-  font-size: 14px;
-  color: #555;
-  padding: 6px 12px;
-  background: #f0f0f0;
-  border-radius: 20px;
-  font-weight: 500;
-}
-
-.admin-panel__size--warning {
-  color: #e74c3c;
-  background: #fde8e8;
-  animation: pulse 1.5s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.6; }
-}
-
-.admin-panel__clear {
-  padding: 8px 16px;
-  background: #e74c3c;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.admin-panel__clear:hover {
-  background: #c0392b;
-}
-
-.admin-panel__warning {
-  background: #fde8e8;
-  color: #e74c3c;
-  padding: 12px 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  border-left: 4px solid #e74c3c;
-  font-weight: 500;
-}
-
-.admin-form__hint {
-  font-size: 12px;
-  color: #888;
-  margin-top: 4px;
-}
-
-.admin-panel__count {
-  font-size: 14px;
-  color: #888;
-  font-weight: normal;
-  margin-left: 10px;
-}
-
-/* ===== Адаптация ===== */
-@media screen and (max-width: 768px) {
-  .admin-panel__header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-  }
-
-  .admin-panel__header-right {
-    width: 100%;
-    justify-content: flex-start;
-  }
-
-  .admin-panel__size {
-    font-size: 12px;
-    padding: 4px 10px;
-  }
-
-  .admin-panel__clear {
-    font-size: 12px;
-    padding: 6px 12px;
-  }
-}
-
-/* ===== Дополнительные стили ===== */
-.admin-panel__header-right {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.admin-panel__size {
-  font-size: 14px;
-  color: #555;
-  padding: 6px 12px;
-  background: #f0f0f0;
-  border-radius: 20px;
-  font-weight: 500;
-}
-
-.admin-panel__size--warning {
-  color: #e74c3c;
-  background: #fde8e8;
-  animation: pulse 1.5s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.6; }
-}
-
-.admin-panel__import {
-  padding: 8px 16px;
-  background: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.admin-panel__import:hover {
-  background: #2980b9;
-}
-
-.admin-panel__clear {
-  padding: 8px 16px;
-  background: #e74c3c;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.admin-panel__clear:hover {
-  background: #c0392b;
-}
-
-.admin-panel__empty {
-  background: #f8f8f8;
-  padding: 40px 20px;
-  text-align: center;
-  border-radius: 12px;
-  margin-bottom: 30px;
-}
-
-.admin-panel__empty p {
-  font-size: 16px;
-  color: #888;
-  margin: 5px 0;
-}
-
-.admin-panel__warning {
-  background: #fde8e8;
-  color: #e74c3c;
-  padding: 12px 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  border-left: 4px solid #e74c3c;
-  font-weight: 500;
-}
-
-.admin-form__hint {
-  font-size: 12px;
-  color: #888;
-  margin-top: 4px;
-}
-
-.admin-panel__count {
-  font-size: 14px;
-  color: #888;
-  font-weight: normal;
-  margin-left: 10px;
-}
-
-/* ===== Адаптация ===== */
-@media screen and (max-width: 768px) {
-  .admin-panel__header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-  }
-
-  .admin-panel__header-right {
-    width: 100%;
-    justify-content: flex-start;
-  }
-
-  .admin-panel__size {
-    font-size: 12px;
-    padding: 4px 10px;
-  }
-
-  .admin-panel__import,
-  .admin-panel__clear {
-    font-size: 12px;
-    padding: 6px 12px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .admin-panel {
-    padding: 10px;
-  }
-
-  .admin-panel__form {
-    padding: 15px;
-  }
-
-  .admin-login__container {
-    padding: 25px;
-  }
-
-  .admin-login__title {
-    font-size: 22px;
-  }
-}
-
-/* ===== Превью изображений ===== */
-.admin-form__field-with-preview {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.admin-form__previews {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 10px;
-  background: #f8f8f8;
-  border-radius: 8px;
-  min-height: 60px;
-}
-
-.admin-form__preview-item {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  border-radius: 6px;
-  overflow: hidden;
-  border: 2px solid #ddd;
-}
-
-.admin-form__preview-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.admin-form__preview-remove {
-  position: absolute;
-  top: -6px;
-  right: -6px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #e74c3c;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.3s ease;
-}
-
-.admin-form__preview-remove:hover {
-  background: #c0392b;
-}
-
-.admin-form__no-images {
-  color: #999;
-  font-size: 14px;
-  padding: 10px;
-}
-
-/* ===== Drag-and-Drop зона ===== */
 .admin-form__drop-zone {
-  border: 2px dashed #ccc;
+  border: 2px dashed #ddd;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
   background: #fafafa;
-  transition: border-color 0.3s ease, background 0.3s ease;
+  transition: border-color 0.3s ease;
   cursor: pointer;
-  margin: 5px 0;
 }
 
 .admin-form__drop-zone:hover {
   border-color: #d4b503;
-  background: #fcf8e8;
 }
 
 .admin-form__drop-zone p {
-  margin: 5px 0;
+  margin: 4px 0;
   color: #888;
   font-size: 14px;
 }
 
-.admin-form__drop-hint {
-  font-size: 12px !important;
-  color: #aaa !important;
-}
-
 .admin-form__upload-btn {
   display: inline-block;
-  padding: 8px 20px;
+  padding: 6px 18px;
   background: #d4b503;
   color: #000;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   transition: background 0.3s ease;
 }
 
@@ -648,28 +181,17 @@
   background: #b89b03;
 }
 
-/* ===== Превью изображений ===== */
-.admin-form__field-with-preview {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .admin-form__previews {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  padding: 10px;
-  background: #f8f8f8;
-  border-radius: 8px;
-  min-height: 60px;
-  border: 1px solid #eee;
+  gap: 8px;
+  padding: 10px 0;
 }
 
 .admin-form__preview-item {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 6px;
   overflow: hidden;
   border: 2px solid #ddd;
@@ -686,19 +208,18 @@
   position: absolute;
   top: -6px;
   right: -6px;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   background: #e74c3c;
   color: #fff;
   border: none;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.3s ease;
 }
 
 .admin-form__preview-remove:hover {
@@ -707,72 +228,91 @@
 
 .admin-form__no-images {
   color: #999;
-  font-size: 14px;
-  padding: 10px;
+  font-size: 13px;
+  padding: 6px 0;
   margin: 0;
 }
 
-/* ===== Сортировка и поиск ===== */
-.admin-list__toolbar {
+.admin-form__actions {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
-  background: #f8f8f8;
-  border-bottom: 1px solid #eee;
+  gap: 12px;
+  margin-top: 18px;
   flex-wrap: wrap;
-  gap: 10px;
+}
+
+.admin-form__add,
+.admin-form__save {
+  padding: 12px 28px;
+  background: #d4b503;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  flex: 1;
+  min-width: 120px;
+}
+
+.admin-form__add:hover,
+.admin-form__save:hover {
+  background: #b89b03;
+}
+
+.admin-form__cancel {
+  padding: 12px 28px;
+  background: #999;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  flex: 1;
+  min-width: 120px;
+}
+
+.admin-form__cancel:hover {
+  background: #777;
+}
+
+/* ===== СПИСОК ===== */
+.admin-panel__list-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.admin-list__toolbar {
+  padding: 12px 16px;
+  background: #fafafa;
+  border-bottom: 1px solid #eee;
 }
 
 .admin-list__search {
-  position: relative;
-  flex: 1;
-  max-width: 350px;
-}
-
-.admin-list__search-input {
   width: 100%;
-  padding: 8px 35px 8px 15px;
+  padding: 10px 14px;
   border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 14px;
   outline: none;
   transition: border-color 0.3s ease;
+  box-sizing: border-box;
 }
 
-.admin-list__search-input:focus {
+.admin-list__search:focus {
   border-color: #d4b503;
 }
 
-.admin-list__search-clear {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  font-size: 18px;
-  color: #999;
-  cursor: pointer;
-}
-
-.admin-list__search-clear:hover {
-  color: #333;
-}
-
-.admin-list__sort-info {
-  font-size: 14px;
-  color: #888;
-}
-
-/* ===== Заголовки сортировки ===== */
 .admin-list__headers {
   display: grid;
-  grid-template-columns: 60px 2fr 1.5fr 1fr 1fr 0.8fr 60px 100px;
+  grid-template-columns: 2fr 1.5fr 1fr 100px;
   gap: 10px;
-  padding: 10px 20px;
+  padding: 10px 16px;
   background: #f0f0f0;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 1px solid #ddd;
   font-weight: 600;
   font-size: 13px;
   color: #555;
@@ -787,8 +327,8 @@
   color: #555;
   text-align: left;
   padding: 0;
-  transition: color 0.3s ease;
   font-family: inherit;
+  transition: color 0.3s ease;
 }
 
 .admin-list__header:hover {
@@ -803,18 +343,34 @@
   text-align: center;
   cursor: default;
 }
-
 .admin-list__header--actions:hover {
   color: #555;
 }
 
-/* ===== Строки списка ===== */
+.admin-list {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.admin-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #f5f5f5;
+  transition: background 0.2s ease;
+}
+
+.admin-list__item:hover {
+  background: #fafafa;
+}
+
 .admin-list__info {
   display: grid;
-  grid-template-columns: 60px 2fr 1.5fr 1fr 1fr 0.8fr 60px;
+  grid-template-columns: 2fr 1.5fr 1fr 60px;
   gap: 10px;
-  padding: 10px 20px;
   align-items: center;
+  flex: 1;
   width: 100%;
 }
 
@@ -826,12 +382,6 @@
   white-space: nowrap;
 }
 
-.admin-list__cell--id {
-  font-weight: 500;
-  color: #888;
-  font-size: 12px;
-}
-
 .admin-list__cell--collection {
   font-weight: 500;
 }
@@ -840,54 +390,91 @@
   text-align: center;
 }
 
-.admin-list__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-  transition: background 0.3s ease;
-}
-
-.admin-list__item:hover {
-  background: #fafafa;
-}
-
 .admin-list__actions {
   display: flex;
-  gap: 8px;
-  padding-right: 20px;
+  gap: 6px;
+  flex-shrink: 0;
 }
 
-/* ===== Адаптация для мобильных ===== */
+.admin-list__edit,
+.admin-list__delete {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+  background: none;
+}
+
+.admin-list__edit:hover {
+  background: #e8f0fe;
+}
+
+.admin-list__delete:hover {
+  background: #fde8e8;
+}
+
+.admin-list__empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+}
+
+/* ===== АДАПТАЦИЯ ===== */
 @media screen and (max-width: 1024px) {
+  .admin-panel__columns {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .admin-panel__column--left {
+    position: static;
+  }
+
   .admin-list__headers {
-    grid-template-columns: 50px 1.5fr 1.2fr 0.8fr 0.8fr 0.6fr 50px 80px;
+    grid-template-columns: 2fr 1.5fr 1fr 80px;
     font-size: 12px;
-    gap: 8px;
-    padding: 8px 15px;
   }
 
   .admin-list__info {
-    grid-template-columns: 50px 1.5fr 1.2fr 0.8fr 0.8fr 0.6fr 50px;
-    gap: 8px;
-    padding: 8px 15px;
+    grid-template-columns: 2fr 1.5fr 1fr 80px;
   }
 
-  .admin-list__cell {
-    font-size: 12px;
-  }
-
-  .admin-list__toolbar {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .admin-list__search {
-    max-width: 100%;
+  .admin-list {
+    max-height: 400px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .admin-panel {
+    padding: 12px;
+  }
+
+  .admin-panel__header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .admin-panel__header-right {
+    flex-wrap: wrap;
+  }
+
+  .admin-panel__header-right button {
+    flex: 1;
+    min-width: 80px;
+  }
+
+  .admin-panel__title {
+    font-size: 22px;
+  }
+
+  .admin-form__grid {
+    grid-template-columns: 1fr;
+  }
+
   .admin-list__headers {
     display: none;
   }
@@ -895,58 +482,67 @@
   .admin-list__info {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px 12px;
-    padding: 10px 15px;
-  }
-
-  .admin-list__cell--id {
-    width: 100%;
-    font-size: 11px;
-    color: #aaa;
-  }
-
-  .admin-list__cell--collection {
-    font-size: 15px;
-    font-weight: 600;
-    width: 100%;
-  }
-
-  .admin-list__cell--name {
-    font-size: 13px;
-    color: #666;
-  }
-
-  .admin-list__cell--country {
-    font-size: 12px;
-    color: #888;
-  }
-
-  .admin-list__cell--category {
-    font-size: 12px;
-    color: #888;
-    background: #f0f0f0;
-    padding: 0 8px;
-    border-radius: 4px;
-  }
-
-  .admin-list__cell--size {
-    font-size: 12px;
-    color: #888;
-  }
-
-  .admin-list__cell--images {
-    font-size: 12px;
+    gap: 2px 12px;
+    padding: 0;
   }
 
   .admin-list__item {
     flex-wrap: wrap;
-    padding: 5px 0;
+    padding: 10px 14px;
   }
 
   .admin-list__actions {
-    padding: 5px 15px 10px;
+    padding-top: 8px;
     width: 100%;
     justify-content: flex-end;
     border-top: 1px solid #f0f0f0;
   }
+
+  .admin-list {
+    max-height: 300px;
+  }
+
+  .admin-form__add,
+  .admin-form__save,
+  .admin-form__cancel {
+    flex: 1 1 100%;
+    min-width: auto;
+  }
+
+  .admin-form__preview-item {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.admin-form__cancel-small {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: color 0.3s ease;
+}
+
+.admin-form__cancel-small:hover {
+  color: #e74c3c;
+}
+
+.admin-form__drop-hint {
+  font-size: 12px;
+  color: #aaa;
+  margin: 2px 0;
+}
+
+.admin-list__headers {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 100px;
+  gap: 10px;
+  padding: 10px 16px;
+  background: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  font-weight: 600;
+  font-size: 13px;
+  color: #555;
 }

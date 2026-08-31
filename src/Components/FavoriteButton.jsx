@@ -5,16 +5,27 @@ import './FavoriteButton.css';
 
 const FavoriteButton = ({ item }) => {
   const { toggleFavorite, isFavorite } = useFavorites();
-  const liked = isFavorite(item.id);
+
+  // Для отладки
+  console.log('🔍 FavoriteButton рендерится, favorites:', useFavorites().favorites.map(f => f.id));
+  console.log('🔍 Проверяем id:', item?.id, 'isFavorite:', isFavorite(item?.id));
+
+  const liked = isFavorite(item?.id);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    console.log('🖱️ КЛИК ПО КНОПКЕ!');
+    console.log('🖱️ item.id:', item?.id);
+    console.log('🖱️ item.collection:', item?.collection);
+    console.log('🖱️ toggleFavorite вызывается с item:', item);
+    toggleFavorite(item);
+  };
 
   return (
     <button
       className={`favorite-button ${liked ? 'favorite-button--active' : ''}`}
-      onClick={(e) => {
-        e.preventDefault(); // Чтобы не переходить по ссылке
-        e.stopPropagation();
-        toggleFavorite(item);
-      }}
+      onClick={handleClick}
       aria-label={liked ? 'Удалить из избранного' : 'Добавить в избранное'}
     >
       {liked ? '❤️' : '🤍'}

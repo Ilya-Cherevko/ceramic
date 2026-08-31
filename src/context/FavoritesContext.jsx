@@ -8,46 +8,79 @@ export const useFavorites = () => useContext(FavoritesContext);
 export const FavoritesProvider = ({ children }) => {
   const [favorites, setFavorites] = useState([]);
 
-  // Загружаем из localStorage при монтировании
-  useEffect(() => {
+  // ===== Загрузка из localStorage =====
+  const loadFavorites = () => {
     const saved = localStorage.getItem('favorites');
     if (saved) {
       try {
-        setFavorites(JSON.parse(saved));
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          setFavorites(parsed);
+          return;
+        }
       } catch (e) {
-        setFavorites([]);
+        console.warn('Ошибка парсинга избранного:', e);
       }
     }
+    setFavorites([]);
+  };
+
+  // Загружаем при монтировании
+  useEffect(() => {
+    loadFavorites();
   }, []);
 
-  // Сохраняем в localStorage при изменении
+  // ===== Синхронизация между вкладками =====
   useEffect(() => {
-    localStorage.setItem('favorites', JSON.stringify(favorites));
-  }, [favorites]);
+    const handleStorageChange = (e) => {
+      if (e.key === 'favorites') {
+        console.log('🔄 Синхронизация избранного из другой вкладки');
+        loadFavorites();
+      }
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+    };
+  }, []);
 
   const addFavorite = (item) => {
+    if (!item || !item.id) return;
     setFavorites(prev => {
-      // Проверяем, не добавлен ли уже
-      if (prev.some(fav => fav.id === item.id)) {
-        return prev;
-      }
-      return [...prev, item];
+      if (prev.some(fav => fav.id === item.id)) return prev;
+      const newFavorites = [...prev, item];
+      localStorage.setItem('favorites', JSON.stringify(newFavorites));
+      return newFavorites;
     });
   };
 
   const removeFavorite = (id) => {
-    setFavorites(prev => prev.filter(item => item.id !== id));
+    setFavorites(prev => {
+      const newFavorites = prev.filter(item => item.id !== id);
+      localStorage.setItem('favorites', JSON.stringify(newFavorites));
+      return newFavorites;
+    });
   };
 
   const toggleFavorite = (item) => {
-    if (favorites.some(fav => fav.id === item.id)) {
-      removeFavorite(item.id);
-    } else {
-      addFavorite(item);
-    }
+    if (!item || !item.id) return;
+    setFavorites(prev => {
+      const exists = prev.some(fav => fav.id === item.id);
+      let newFavorites;
+      if (exists) {
+        newFavorites = prev.filter(fav => fav.id !== item.id);
+      } else {
+        newFavorites = [...prev, item];
+      }
+      localStorage.setItem('favorites', JSON.stringify(newFavorites));
+      return newFavorites;
+    });
   };
 
   const isFavorite = (id) => {
+    if (!id) return false;
     return favorites.some(item => item.id === id);
   };
 
@@ -59,6 +92,7 @@ export const FavoritesProvider = ({ children }) => {
       toggleFavorite,
       isFavorite,
       count: favorites.length,
+      refreshFavorites: loadFavorites,
     }}>
       {children}
     </FavoritesContext.Provider>

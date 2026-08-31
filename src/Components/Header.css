@@ -210,3 +210,26 @@
   align-items: center;
   justify-content: center;
 }
+
+.header__search {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.header__search-link {
+  color: #d4b503;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.header__search-link:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .header__search-link {
+    font-size: 20px;
+  }
+}

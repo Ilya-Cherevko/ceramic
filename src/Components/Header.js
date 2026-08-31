@@ -38,6 +38,11 @@ function Header() {
           ⭐ {count > 0 && <span className="header__favorites-count">{count}</span>}
         </Link>
       </div>
+      <div className="header__search">
+  <Link to="/search" className="header__search-link">
+    🔍
+  </Link>
+</div>
       <NavBar />
     </header>
   );
