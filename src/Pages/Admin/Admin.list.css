@@ -1,0 +1,255 @@
+/* Admin.list.css */
+.admin-panel__list-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.admin-list__toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: #fafafa;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+}
+
+.admin-list__bulk-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-list__delete-selected {
+  padding: 6px 16px;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.admin-list__delete-selected:hover {
+  background: #c0392b;
+}
+
+.admin-list__search {
+  flex: 1;
+  min-width: 200px;
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.admin-list__search:focus {
+  border-color: #d4b503;
+}
+
+/* ===== ЗАГОЛОВКИ ===== */
+.admin-list__headers {
+  display: grid;
+  grid-template-columns: 40px 2fr 1.5fr 1fr 1fr 60px 80px;
+  gap: 8px;
+  padding: 10px 16px;
+  background: #f0f0f0;
+  border-bottom: 2px solid #ddd;
+  font-weight: 600;
+  font-size: 13px;
+  color: #555;
+}
+
+.admin-list__header {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  color: #555;
+  text-align: left;
+  padding: 0;
+  font-family: inherit;
+  transition: color 0.3s ease;
+}
+
+.admin-list__header:hover {
+  color: #d4b503;
+}
+
+.admin-list__header.active {
+  color: #d4b503;
+}
+
+.admin-list__header--checkbox {
+  width: 40px;
+  min-width: 40px;
+  text-align: center;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-list__header--checkbox:hover {
+  color: #555;
+}
+
+.admin-list__header--checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #d4b503;
+}
+
+.admin-list__header--images {
+  text-align: center;
+  cursor: default;
+}
+
+.admin-list__header--images:hover {
+  color: #555;
+}
+
+.admin-list__header--actions {
+  text-align: center;
+  cursor: default;
+}
+
+.admin-list__header--actions:hover {
+  color: #555;
+}
+
+/* ===== СТРОКИ ===== */
+.admin-list {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.admin-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #f5f5f5;
+  transition: background 0.2s ease;
+}
+
+.admin-list__item:hover {
+  background: #fafafa;
+}
+
+.admin-list__item--selected {
+  background: #fcf8e8;
+}
+
+.admin-list__item--selected:hover {
+  background: #f8f0d0;
+}
+
+.admin-list__info {
+  display: grid;
+  grid-template-columns: 40px 2fr 1.5fr 1fr 1fr 60px;
+  gap: 8px;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+
+.admin-list__cell {
+  font-size: 13px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.admin-list__cell--checkbox {
+  width: 40px;
+  min-width: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-list__cell--checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #d4b503;
+}
+
+.admin-list__cell--collection {
+  font-weight: 500;
+}
+
+.admin-list__cell--country {
+  color: #666;
+}
+
+.admin-list__cell--category {
+  font-size: 12px;
+  color: #888;
+  background: #f0f0f0;
+  padding: 2px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  width: fit-content;
+  text-align: center;
+}
+
+.admin-list__cell--images {
+  text-align: center;
+  font-size: 14px;
+}
+
+.admin-list__actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.admin-list__edit,
+.admin-list__delete {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+  background: none;
+}
+
+.admin-list__edit:hover {
+  background: #e8f0fe;
+}
+
+.admin-list__delete:hover {
+  background: #fde8e8;
+}
+
+.admin-list__empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+}
+
+.admin-list__count {
+  font-size: 13px;
+  color: #888;
+  padding: 0 8px;
+}
+
+/* ===== ВЫДЕЛЕНИЕ ВЫБРАННЫХ СТРОК ===== */
+.admin-list__item--selected .admin-list__cell--collection {
+  color: #d4b503;
+}

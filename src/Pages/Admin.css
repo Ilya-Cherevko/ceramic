@@ -286,14 +286,48 @@
 }
 
 .admin-list__toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   padding: 12px 16px;
   background: #fafafa;
   border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+}
+
+.admin-list__bulk-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-list__bulk-actions input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #d4b503;
+}
+
+.admin-list__delete-selected {
+  padding: 6px 16px;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.admin-list__delete-selected:hover {
+  background: #c0392b;
 }
 
 .admin-list__search {
-  width: 100%;
-  padding: 10px 14px;
+  flex: 1;
+  min-width: 200px;
+  padding: 8px 14px;
   border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 14px;
@@ -306,13 +340,14 @@
   border-color: #d4b503;
 }
 
+/* ===== ЗАГОЛОВКИ СПИСКА ===== */
 .admin-list__headers {
   display: grid;
-  grid-template-columns: 2fr 1.5fr 1fr 100px;
-  gap: 10px;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 60px 100px;
+  gap: 8px;
   padding: 10px 16px;
   background: #f0f0f0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
   font-weight: 600;
   font-size: 13px;
   color: #555;
@@ -339,6 +374,14 @@
   color: #d4b503;
 }
 
+.admin-list__header--images {
+  text-align: center;
+  cursor: default;
+}
+.admin-list__header--images:hover {
+  color: #555;
+}
+
 .admin-list__header--actions {
   text-align: center;
   cursor: default;
@@ -347,6 +390,7 @@
   color: #555;
 }
 
+/* ===== СТРОКИ СПИСКА ===== */
 .admin-list {
   max-height: 500px;
   overflow-y: auto;
@@ -367,8 +411,8 @@
 
 .admin-list__info {
   display: grid;
-  grid-template-columns: 2fr 1.5fr 1fr 60px;
-  gap: 10px;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 60px;
+  gap: 8px;
   align-items: center;
   flex: 1;
   width: 100%;
@@ -386,8 +430,24 @@
   font-weight: 500;
 }
 
+.admin-list__cell--country {
+  color: #666;
+}
+
+.admin-list__cell--category {
+  font-size: 12px;
+  color: #888;
+  background: #f0f0f0;
+  padding: 2px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  width: fit-content;
+  text-align: center;
+}
+
 .admin-list__cell--images {
   text-align: center;
+  font-size: 14px;
 }
 
 .admin-list__actions {
@@ -422,6 +482,26 @@
   font-size: 16px;
 }
 
+.admin-form__cancel-small {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: color 0.3s ease;
+}
+
+.admin-form__cancel-small:hover {
+  color: #e74c3c;
+}
+
+.admin-form__drop-hint {
+  font-size: 12px;
+  color: #aaa;
+  margin: 2px 0;
+}
+
 /* ===== АДАПТАЦИЯ ===== */
 @media screen and (max-width: 1024px) {
   .admin-panel__columns {
@@ -434,12 +514,18 @@
   }
 
   .admin-list__headers {
-    grid-template-columns: 2fr 1.5fr 1fr 80px;
+    grid-template-columns: 1.5fr 1fr 1fr 50px 80px;
     font-size: 12px;
+    gap: 6px;
   }
 
   .admin-list__info {
-    grid-template-columns: 2fr 1.5fr 1fr 80px;
+    grid-template-columns: 1.5fr 1fr 1fr 50px;
+    gap: 6px;
+  }
+
+  .admin-list__cell {
+    font-size: 12px;
   }
 
   .admin-list {
@@ -475,6 +561,21 @@
     grid-template-columns: 1fr;
   }
 
+  .admin-list__toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .admin-list__bulk-actions {
+    justify-content: flex-start;
+  }
+
+  .admin-list__search {
+    min-width: auto;
+    width: 100%;
+  }
+
   .admin-list__headers {
     display: none;
   }
@@ -484,6 +585,31 @@
     flex-wrap: wrap;
     gap: 2px 12px;
     padding: 0;
+  }
+
+  .admin-list__cell--collection {
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+  }
+
+  .admin-list__cell--name {
+    font-size: 13px;
+    color: #666;
+  }
+
+  .admin-list__cell--country {
+    font-size: 12px;
+    color: #888;
+  }
+
+  .admin-list__cell--category {
+    font-size: 11px;
+    padding: 1px 8px;
+  }
+
+  .admin-list__cell--images {
+    font-size: 13px;
   }
 
   .admin-list__item {
@@ -513,36 +639,4 @@
     width: 50px;
     height: 50px;
   }
-}
-
-.admin-form__cancel-small {
-  background: none;
-  border: none;
-  font-size: 20px;
-  color: #999;
-  cursor: pointer;
-  padding: 4px 8px;
-  transition: color 0.3s ease;
-}
-
-.admin-form__cancel-small:hover {
-  color: #e74c3c;
-}
-
-.admin-form__drop-hint {
-  font-size: 12px;
-  color: #aaa;
-  margin: 2px 0;
-}
-
-.admin-list__headers {
-  display: grid;
-  grid-template-columns: 2fr 1.5fr 1fr 100px;
-  gap: 10px;
-  padding: 10px 16px;
-  background: #f0f0f0;
-  border-bottom: 1px solid #ddd;
-  font-weight: 600;
-  font-size: 13px;
-  color: #555;
 }

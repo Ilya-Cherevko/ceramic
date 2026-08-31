@@ -8,10 +8,13 @@ import {
   deleteCollection 
 } from "../api/catalog";
 import { supabase } from "../utils/supabase";
-import "./Admin.css";
+import "./Admin/Admin.css";
+import { useQueryClient } from "@tanstack/react-query";
+import { catalogKeys } from "../hooks/useCatalog";
 
 export default function AdminPanel() {
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
   
   // ===== Состояния =====
   const [catalog, setCatalog] = useState([]);
@@ -21,6 +24,7 @@ export default function AdminPanel() {
   const [sortField, setSortField] = useState("collection");
   const [sortDirection, setSortDirection] = useState("asc");
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedIds, setSelectedIds] = useState([]);
   const [formData, setFormData] = useState({
     id: "",
     country: "",
@@ -93,6 +97,55 @@ export default function AdminPanel() {
     
     return result;
   }, [catalog, sortField, sortDirection, searchQuery]);
+
+// ===== Выбор/снятие одной строки =====
+const toggleSelect = (id) => {
+  setSelectedIds(prev => {
+    if (prev.includes(id)) {
+      return prev.filter(itemId => itemId !== id);
+    } else {
+      return [...prev, id];
+    }
+  });
+};
+
+// ===== Выбор всех =====
+const selectAll = () => {
+  if (selectedIds.length === sortedAndFilteredCatalog.length) {
+    setSelectedIds([]);
+  } else {
+    setSelectedIds(sortedAndFilteredCatalog.map(item => item.id));
+  }
+};
+
+  // ===== Удаление выбранных =====
+  const deleteSelected = async () => {
+    if (selectedIds.length === 0) {
+      alert("❌ Выберите хотя бы одну коллекцию");
+      return;
+    }
+    
+    if (!window.confirm(`⚠️ Вы уверены, что хотите удалить ${selectedIds.length} коллекций?`)) return;
+    
+    let success = 0;
+    let errors = 0;
+
+    for (const id of selectedIds) {
+      const item = catalog.find(c => c.id === id);
+      if (item) {
+        await deleteAllImagesFromCollection(item);
+      }
+      const result = await deleteCollection(id);
+      if (result) success++;
+      else errors++;
+    }
+
+    queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
+    const updated = await getAllCollections();
+    setCatalog(updated);
+    setSelectedIds([]);
+    alert(`✅ Удалено: ${success}, Ошибок: ${errors}`);
+  };
 
   // ===== Удаление изображения из Storage =====
   const deleteImageFromStorage = async (imageUrl) => {
@@ -265,6 +318,7 @@ export default function AdminPanel() {
     
     const result = await addCollection(newItem);
     if (result) {
+      queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
       const updated = await getAllCollections();
       setCatalog(updated);
       resetForm();
@@ -326,6 +380,10 @@ export default function AdminPanel() {
     
     const result = await updateCollection(editingId, updatedItem);
     if (result) {
+      queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
+      queryClient.invalidateQueries({ 
+        queryKey: catalogKeys.detail(formData.collection) 
+      });
       const updated = await getAllCollections();
       setCatalog(updated);
       resetForm();
@@ -344,6 +402,7 @@ export default function AdminPanel() {
     
     const result = await deleteCollection(id);
     if (result) {
+      queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
       const updated = await getAllCollections();
       setCatalog(updated);
       alert("✅ Коллекция удалена!");
@@ -605,6 +664,19 @@ export default function AdminPanel() {
         <div className="admin-panel__column admin-panel__column--right">
           <div className="admin-panel__list-wrapper">
             <div className="admin-list__toolbar">
+              <div className="admin-list__bulk-actions">
+                <input
+                  type="checkbox"
+                  checked={selectedIds.length === sortedAndFilteredCatalog.length && sortedAndFilteredCatalog.length > 0}
+                  onChange={selectAll}
+                  title="Выбрать все"
+                />
+                {selectedIds.length > 0 && (
+                  <button className="admin-list__delete-selected" onClick={deleteSelected}>
+                    🗑️ Удалить выбранные ({selectedIds.length})
+                  </button>
+                )}
+              </div>
               <input
                 type="text"
                 className="admin-list__search"
@@ -613,42 +685,74 @@ export default function AdminPanel() {
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
-            <div className="admin-list__headers">
-              <button
-                className={`admin-list__header ${sortField === "collection" ? "active" : ""}`}
-                onClick={() => handleSort("collection")}
-              >
-                Коллекция {getSortIcon("collection")}
-              </button>
-              <button
-                className={`admin-list__header ${sortField === "name" ? "active" : ""}`}
-                onClick={() => handleSort("name")}
-              >
-                Производитель {getSortIcon("name")}
-              </button>
-              <button
-                className={`admin-list__header ${sortField === "category" ? "active" : ""}`}
-                onClick={() => handleSort("category")}
-              >
-                Категория {getSortIcon("category")}
-              </button>
-              <button className="admin-list__header admin-list__header--actions">Действия</button>
-            </div>
-            <div className="admin-list">
-              {sortedAndFilteredCatalog.map((item) => (
-                <div key={item.id} className="admin-list__item">
-                  <div className="admin-list__info">
-                    <span className="admin-list__cell admin-list__cell--collection">{item.collection}</span>
-                    <span className="admin-list__cell admin-list__cell--name">{item.name}</span>
-                    <span className="admin-list__cell admin-list__cell--category">{item.category}</span>
-                    <span className="admin-list__cell admin-list__cell--images">🖼️ {item.interiors?.length || 0}</span>
-                  </div>
-                  <div className="admin-list__actions">
-                    <button className="admin-list__edit" onClick={() => handleEdit(item)} title="Редактировать">✏️</button>
-                    <button className="admin-list__delete" onClick={() => handleDelete(item.id)} title="Удалить">🗑️</button>
-                  </div>
-                </div>
-              ))}
+            {/* ===== СПИСОК ===== */}
+<div className="admin-list__headers">
+  <div className="admin-list__header admin-list__header--checkbox">
+    <input
+      type="checkbox"
+      checked={selectedIds.length === sortedAndFilteredCatalog.length && sortedAndFilteredCatalog.length > 0}
+      onChange={selectAll}
+      title="Выбрать все"
+    />
+  </div>
+  <button className={`admin-list__header ${sortField === "collection" ? "active" : ""}`} onClick={() => handleSort("collection")}>
+    Коллекция {getSortIcon("collection")}
+  </button>
+  <button className={`admin-list__header ${sortField === "name" ? "active" : ""}`} onClick={() => handleSort("name")}>
+    Производитель {getSortIcon("name")}
+  </button>
+  <button className={`admin-list__header ${sortField === "country" ? "active" : ""}`} onClick={() => handleSort("country")}>
+    Страна {getSortIcon("country")}
+  </button>
+  <button className={`admin-list__header ${sortField === "category" ? "active" : ""}`} onClick={() => handleSort("category")}>
+    Категория {getSortIcon("category")}
+  </button>
+  <button className="admin-list__header admin-list__header--images">
+    🖼️
+  </button>
+  <button className="admin-list__header admin-list__header--actions">
+    Действия
+  </button>
+</div>
+
+<div className="admin-list">
+  {sortedAndFilteredCatalog.map((item) => (
+    <div key={item.id} className="admin-list__item">
+      <div className="admin-list__info">
+        <div className="admin-list__cell admin-list__cell--checkbox">
+          <input
+            type="checkbox"
+            checked={selectedIds.includes(item.id)}
+            onChange={() => toggleSelect(item.id)}
+          />
+        </div>
+        <span className="admin-list__cell admin-list__cell--collection" title={item.collection}>
+          {item.collection}
+        </span>
+        <span className="admin-list__cell admin-list__cell--name" title={item.name}>
+          {item.name}
+        </span>
+        <span className="admin-list__cell admin-list__cell--country" title={item.country}>
+          {item.country || "—"}
+        </span>
+        <span className="admin-list__cell admin-list__cell--category" title={item.category}>
+          {item.category}
+        </span>
+        <span className="admin-list__cell admin-list__cell--images">
+          🖼️ {item.interiors?.length || 0}
+        </span>
+      </div>
+      <div className="admin-list__actions">
+        <button className="admin-list__edit" onClick={() => handleEdit(item)} title="Редактировать">
+          ✏️
+        </button>
+        <button className="admin-list__delete" onClick={() => handleDelete(item.id)} title="Удалить">
+          🗑️
+        </button>
+      </div>
+    </div>
+  ))}
+</div>
               {sortedAndFilteredCatalog.length === 0 && (
                 <div className="admin-list__empty">Нет коллекций</div>
               )}
@@ -657,6 +761,5 @@ export default function AdminPanel() {
         </div>
 
       </div>
-    </div>
   );
 }

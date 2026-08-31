@@ -1,39 +1,24 @@
 // src/Pages/Category.jsx
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getCollectionsByCategory } from "../api/catalog";
+import { useCollectionsByCategory } from "../hooks/useCatalog";
 import Breadcrumbs from "../Components/Breadcrumbs";
 import { CardSkeleton } from "../Components/Skeletons";
-import "../Components/card__wrapper.css";
-import "../Components/Card.css";
 import SEO from "../Components/SEO";
 import { SEO as SEOMeta } from "../utils/seo";
 import { SITE_URL } from "../config";
 import FavoriteButton from '../Components/FavoriteButton';
+import "../Components/card__wrapper.css";
+import "../Components/Card.css";
 
 export default function Category() {
   const { id } = useParams();
-  const [catalog, setCatalog] = useState([]);
-  const [loading, setLoading] = useState(true);
   const [visibleCount, setVisibleCount] = useState(8);
   const [sortMode, setSortMode] = useState("random");
   const loadMoreCount = 8;
 
-  useEffect(() => {
-    const loadData = async () => {
-      setLoading(true);
-      try {
-        const data = await getCollectionsByCategory(id);
-        setCatalog(data);
-      } catch (error) {
-        console.error("Ошибка загрузки:", error);
-        setCatalog([]);
-      } finally {
-        setLoading(false);
-      }
-    };
-    loadData();
-  }, [id]);
+  // ===== Используем React Query =====
+  const { data: catalog = [], isLoading } = useCollectionsByCategory(id);
 
   const processedCatalog = useMemo(() => {
     if (catalog.length === 0) return [];
@@ -76,7 +61,7 @@ export default function Category() {
   };
   const pageTitle = categoryNames[id] || id || "Каталог";
 
-  if (loading) {
+  if (isLoading) {
     return (
       <div className="card-build">
         <Breadcrumbs />
@@ -100,13 +85,13 @@ export default function Category() {
 
   return (
     <div className="card-build">
-    <SEO
-      title={SEOMeta.categories[id]?.title}
-      description={SEOMeta.categories[id]?.description}
-      keywords={SEOMeta.categories[id]?.keywords}
-      url={`${SITE_URL}${id}`}
-    />
-    <Breadcrumbs />
+      <SEO
+        title={SEOMeta.categories[id]?.title}
+        description={SEOMeta.categories[id]?.description}
+        keywords={SEOMeta.categories[id]?.keywords}
+        url={`${SITE_URL}${id}`}
+      />
+      <Breadcrumbs />
       <h1 className="card-build__title">{pageTitle}</h1>
 
       <div className="card-build__info">
@@ -123,11 +108,8 @@ export default function Category() {
           <li key={card.id}>
             <div className="card__body">
               <FavoriteButton item={card} />
-              {/* Ссылка на страницу производителя с параметром scrollTo */}
               <Link
-                to={`/${card.category}/${card.name}?scrollTo=${encodeURIComponent(
-                  card.collection
-                )}`}
+                to={`/${card.category}/${card.name}?scrollTo=${encodeURIComponent(card.collection)}`}
               >
                 <img
                   className="card__img"
@@ -136,9 +118,7 @@ export default function Category() {
                 />
               </Link>
               <Link
-                to={`/${card.category}/${card.name}?scrollTo=${encodeURIComponent(
-                  card.collection
-                )}`}
+                to={`/${card.category}/${card.name}?scrollTo=${encodeURIComponent(card.collection)}`}
                 className="card__collection"
               >
                 {card.collection}

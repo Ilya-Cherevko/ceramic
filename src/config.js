@@ -1,2 +1,2 @@
 // src/config.js
-export const SITE_URL = "${SITE_URL}";
+export const SITE_URL = "https://vokceramic.ru";

@@ -1,0 +1,59 @@
+/* Admin.header.css */
+.admin-panel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #d4b503;
+}
+
+.admin-panel__title {
+  font-size: 28px;
+  margin: 0;
+  color: #333;
+}
+
+.admin-panel__header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-panel__import,
+.admin-panel__clear,
+.admin-panel__logout {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-panel__import {
+  background: #3498db;
+  color: #fff;
+}
+.admin-panel__import:hover {
+  background: #2980b9;
+}
+
+.admin-panel__clear {
+  background: #e74c3c;
+  color: #fff;
+}
+.admin-panel__clear:hover {
+  background: #c0392b;
+}
+
+.admin-panel__logout {
+  background: #999;
+  color: #fff;
+}
+.admin-panel__logout:hover {
+  background: #777;
+}

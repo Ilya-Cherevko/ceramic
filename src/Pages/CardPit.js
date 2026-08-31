@@ -1,23 +1,22 @@
 // src/Pages/CardPit.jsx
 import React, { useState, useEffect, useRef } from "react";
-import { useParams, useLocation } from "react-router-dom";
-import { getCollectionByCollection } from "../api/catalog";
+import { useParams } from "react-router-dom";
+import { useCollection } from "../hooks/useCatalog";
 import Breadcrumbs from "../Components/Breadcrumbs";
 import { CardPitSkeleton } from "../Components/Skeletons";
 import SEO from "../Components/SEO";
+import ImagePopup from "../Components/ImagePopup";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
-import ImagePopup from "../Components/ImagePopup";
-import { SITE_URL } from "../config";
 
 export default function CardPit() {
   const { Collection } = useParams();
-  const location = useLocation();
   const scrollRef = useRef(null);
 
+  // ===== Используем React Query =====
+  const { data: card, isLoading } = useCollection(Collection);
+
   // ===== Состояния =====
-  const [card, setCard] = useState(null);
-  const [loading, setLoading] = useState(true);
   const [selectedCard, setSelectedCard] = useState({
     isOpen: false,
     image: null,
@@ -31,31 +30,16 @@ export default function CardPit() {
   const storageKeyActive = `cardPit_activeSlide_${Collection}`;
   const storageKeyScroll = `cardPit_scrollPosition_${Collection}`;
 
-  // ===== Загрузка данных из Supabase =====
+  // ===== Устанавливаем главное изображение =====
   useEffect(() => {
-    const loadData = async () => {
-      setLoading(true);
-      try {
-        const data = await getCollectionByCollection(Collection);
-        setCard(data);
-
-        if (data && data.interiors && data.interiors.length > 0) {
-          const saved = localStorage.getItem(storageKeyActive);
-          const savedActive = saved ? parseInt(saved, 10) : 0;
-          const validIndex = Math.min(savedActive, data.interiors.length - 1);
-          setActiveId(validIndex);
-          setMainImage(data.interiors[validIndex]);
-        }
-      } catch (error) {
-        console.error("Ошибка загрузки:", error);
-        setCard(null);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadData();
-  }, [Collection, storageKeyActive]);
+    if (card && card.interiors && card.interiors.length > 0) {
+      const saved = localStorage.getItem(storageKeyActive);
+      const savedActive = saved ? parseInt(saved, 10) : 0;
+      const validIndex = Math.min(savedActive, card.interiors.length - 1);
+      setActiveId(validIndex);
+      setMainImage(card.interiors[validIndex]);
+    }
+  }, [card, storageKeyActive]);
 
   // ===== Сохранение активного слайда =====
   useEffect(() => {
@@ -107,8 +91,8 @@ export default function CardPit() {
     localStorage.setItem(storageKeyActive, String(index));
   };
 
-  // ===== Если коллекция не найдена =====
-  if (loading) {
+  // ===== Загрузка =====
+  if (isLoading) {
     return (
       <article className="card__page">
         <Breadcrumbs />
@@ -122,10 +106,7 @@ export default function CardPit() {
       <div className="card-pit__empty">
         <h2>Коллекция не найдена</h2>
         <p>Извините, но коллекция "{Collection}" не найдена в каталоге.</p>
-        <button
-          className="card-pit__back-btn"
-          onClick={() => window.history.back()}
-        >
+        <button className="card-pit__back-btn" onClick={() => window.history.back()}>
           ← Вернуться назад
         </button>
       </div>
@@ -165,34 +146,26 @@ export default function CardPit() {
   }
 
   const getImageUrl = (image) => {
-    if (Array.isArray(image) && image.length > 0) {
-      return image[0];
-    }
-    if (typeof image === "string") {
-      return image;
-    }
+    if (Array.isArray(image) && image.length > 0) return image[0];
+    if (typeof image === "string") return image;
     return "/images/placeholder.jpg";
   };
 
   const formatSize = (size) => {
-    if (Array.isArray(size)) {
-      return size.join(", ");
-    }
+    if (Array.isArray(size)) return size.join(", ");
     return size || "Не указан";
   };
 
-  // ===== Рендеринг =====
   return (
     <article className="card__page" ref={scrollRef}>
       <SEO
         title={`${card.collection} — ${card.name} | VOK Ceramic`}
         description={`Коллекция ${card.collection} от ${card.name}. Размеры: ${formatSize(card.size)}. Страна производства: ${card.country}.`}
         image={mainImage || getImageUrl(card.interiors)}
-        url={`${SITE_URL}${location.pathname}`}
+        url={`https://vokceramic.ru/${card.category}/${card.name}/${card.collection}`}
       />
       <Breadcrumbs />
       <div className="card__body_one">
-        {/* Главное изображение */}
         <div className="card__image-wrapper">
           <img
             className="card__img_card"
@@ -201,7 +174,6 @@ export default function CardPit() {
             onClick={handleMainImageClick}
             style={{ cursor: "pointer" }}
           />
-
           {card.interiors && card.interiors.length > 1 && (
             <div className="card__image-counter">
               {activeId + 1} / {card.interiors.length}
@@ -210,7 +182,6 @@ export default function CardPit() {
         </div>
 
         <div className="card__img-interior">
-          {/* Информация о коллекции */}
           <div className="card__conteiner">
             <p className="card__collection">Коллекция: {card.collection}</p>
             <p className="card__name">Производитель: {card.name}</p>
@@ -218,7 +189,6 @@ export default function CardPit() {
             <p className="card__country">Размеры: {formatSize(card.size)}</p>
           </div>
 
-          {/* Миниатюры interiors */}
           {card.interiors && card.interiors.length > 0 && (
             <div className="card__thumbnails-wrapper">
               <h4 className="card__thumbnails-title">Интерьеры:</h4>
@@ -243,7 +213,6 @@ export default function CardPit() {
         </div>
       </div>
 
-      {/* Товары */}
       {card.tovars && card.tovars.length > 0 && (
         <div className="card__tovars-wrapper">
           <h3 className="card__tovars-title">Товары в коллекции:</h3>
@@ -266,7 +235,6 @@ export default function CardPit() {
         </div>
       )}
 
-      {/* Попап */}
       <ImagePopup card={selectedCard} onClose={closeAllPopups} />
     </article>
   );

@@ -1,7 +1,7 @@
 // src/Pages/AdminLogin.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Admin.css";
+import "./Admin/Admin.css";
 
 const ADMIN_PASSWORD = "admin123"; // Пароль для входа (потом можно изменить)
 
