@@ -5,6 +5,7 @@ import {
   getCollectionsByCategory, 
   getCollectionsByName,
   getCollectionByCollection,
+  getFeaturedCollections,
   addCollection,
   updateCollection,
   deleteCollection,
@@ -127,5 +128,14 @@ export const useDeleteCollection = () => {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
     },
+  });
+};
+
+// ===== ХУК: Коллекции для слайдера =====
+export const useFeaturedCollections = () => {
+  return useQuery({
+    queryKey: ['catalog', 'featured'],
+    queryFn: getFeaturedCollections,
+    staleTime: 5 * 60 * 1000, // 5 минут
   });
 };

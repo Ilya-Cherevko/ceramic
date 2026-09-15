@@ -32,6 +32,8 @@ export default function AdminPanel() {
     collection: "",
     category: "",
     size: "",
+     price: "",           // ← добавить
+  is_featured: false,  // ← добавить
     interiors: [],
     tovars: [],
   });
@@ -312,6 +314,8 @@ const selectAll = () => {
       collection: formData.collection,
       category: formData.category,
       size: formData.size || "",
+      price: formData.price ? Number(formData.price) : null,  // ← добавить
+    is_featured: formData.is_featured,                       // ← добавить
       interiors: formData.interiors,
       tovars: formData.tovars,
     };
@@ -330,20 +334,22 @@ const selectAll = () => {
 
   // ===== Редактирование =====
   const handleEdit = (item) => {
-    setEditingId(item.id);
-    setFormData({
-      id: item.id,
-      country: item.country || "",
-      name: item.name || "",
-      collection: item.collection || "",
-      category: item.category || "",
-      size: item.size || "",
-      interiors: item.interiors || [],
-      tovars: item.tovars || [],
-    });
-    // Скроллим к форме
-    document.querySelector('.admin-panel__form')?.scrollIntoView({ behavior: 'smooth' });
-  };
+  setEditingId(item.id);
+  setFormData({
+    id: item.id,
+    country: item.country || "",
+    name: item.name || "",
+    collection: item.collection || "",
+    category: item.category || "",
+    size: item.size || "",
+    price: item.price || "",
+    is_featured: item.is_featured || false,
+    interiors: item.interiors || [],
+    tovars: item.tovars || [],
+  });
+  // Скроллим к форме
+  document.querySelector('.admin-panel__form')?.scrollIntoView({ behavior: 'smooth' });
+};
 
   const handleUpdate = async () => {
     if (!formData.name || !formData.collection || !formData.category) {
@@ -374,6 +380,8 @@ const selectAll = () => {
       collection: formData.collection,
       category: formData.category,
       size: formData.size || "",
+      price: formData.price ? Number(formData.price) : null,  // ← добавить
+    is_featured: formData.is_featured,                       // ← добавить
       interiors: formData.interiors,
       tovars: formData.tovars,
     };
@@ -467,16 +475,18 @@ const selectAll = () => {
 
   // ===== Вспомогательные функции =====
   const resetForm = () => {
-    setEditingId(null);
-    setFormData({
-      id: "",
-      country: "",
-      name: "",
-      collection: "",
-      category: "",
-      size: "",
-      interiors: [],
-      tovars: [],
+  setEditingId(null);
+  setFormData({
+    id: "",
+    country: "",
+    name: "",
+    collection: "",
+    category: "",
+    size: "",
+    price: "",
+    is_featured: false,
+    interiors: [],
+    tovars: [],
     });
   };
 
@@ -588,16 +598,46 @@ const selectAll = () => {
                   ))}
                 </select>
               </div>
-              <div className="admin-form__group admin-form__group--full">
-                <label>Размеры</label>
-                <input
-                  type="text"
-                  name="size"
-                  value={formData.size}
-                  onChange={handleInputChange}
-                  placeholder='Например: 20x60 или 20x60, 60x60'
-                />
-              </div>
+              {/* Размеры */}
+<div className="admin-form__group admin-form__group--full">
+  <label>Размеры</label>
+  <input
+    type="text"
+    name="size"
+    value={formData.size}
+    onChange={handleInputChange}
+    placeholder='Например: 20x60 или 20x60, 60x60'
+  />
+</div>
+
+{/* ===== ЦЕНА (новое) ===== */}
+<div className="admin-form__group">
+  <label>Цена (₽)</label>
+  <input
+    type="number"
+    name="price"
+    value={formData.price || ""}
+    onChange={handleInputChange}
+    placeholder="Например: 1500"
+    min="0"
+    step="0.01"
+  />
+</div>
+
+{/* ===== Показывать в слайдере (новое) ===== */}
+<div className="admin-form__group admin-form__group--checkbox">
+  <label className="admin-form__checkbox-label">
+    <input
+      type="checkbox"
+      name="is_featured"
+      checked={formData.is_featured}
+      onChange={(e) =>
+        setFormData((prev) => ({ ...prev, is_featured: e.target.checked }))
+      }
+    />
+    <span>⭐ Показывать в слайдере</span>
+  </label>
+</div>
               <div className="admin-form__group admin-form__group--full">
                 <label>Интерьеры</label>
                 <div className="admin-form__drop-zone" onDrop={(e) => handleDrop(e, "interiors")} onDragOver={handleDragOver}>
@@ -701,11 +741,14 @@ const selectAll = () => {
   <button className={`admin-list__header ${sortField === "name" ? "active" : ""}`} onClick={() => handleSort("name")}>
     Производитель {getSortIcon("name")}
   </button>
-  <button className={`admin-list__header ${sortField === "country" ? "active" : ""}`} onClick={() => handleSort("country")}>
-    Страна {getSortIcon("country")}
-  </button>
   <button className={`admin-list__header ${sortField === "category" ? "active" : ""}`} onClick={() => handleSort("category")}>
     Категория {getSortIcon("category")}
+  </button>
+  <button className={`admin-list__header ${sortField === "price" ? "active" : ""}`} onClick={() => handleSort("price")}>
+    Цена {getSortIcon("price")}
+  </button>
+  <button className="admin-list__header admin-list__header--featured">
+    ⭐
   </button>
   <button className="admin-list__header admin-list__header--images">
     🖼️
@@ -719,29 +762,32 @@ const selectAll = () => {
   {sortedAndFilteredCatalog.map((item) => (
     <div key={item.id} className="admin-list__item">
       <div className="admin-list__info">
-        <div className="admin-list__cell admin-list__cell--checkbox">
-          <input
-            type="checkbox"
-            checked={selectedIds.includes(item.id)}
-            onChange={() => toggleSelect(item.id)}
-          />
-        </div>
-        <span className="admin-list__cell admin-list__cell--collection" title={item.collection}>
-          {item.collection}
-        </span>
-        <span className="admin-list__cell admin-list__cell--name" title={item.name}>
-          {item.name}
-        </span>
-        <span className="admin-list__cell admin-list__cell--country" title={item.country}>
-          {item.country || "—"}
-        </span>
-        <span className="admin-list__cell admin-list__cell--category" title={item.category}>
-          {item.category}
-        </span>
-        <span className="admin-list__cell admin-list__cell--images">
-          🖼️ {item.interiors?.length || 0}
-        </span>
-      </div>
+  <div className="admin-list__cell admin-list__cell--checkbox">
+    <input
+      type="checkbox"
+      checked={selectedIds.includes(item.id)}
+      onChange={() => toggleSelect(item.id)}
+    />
+  </div>
+  <span className="admin-list__cell admin-list__cell--collection" title={item.collection}>
+    {item.collection}
+  </span>
+  <span className="admin-list__cell admin-list__cell--name" title={item.name}>
+    {item.name}
+  </span>
+  <span className="admin-list__cell admin-list__cell--category" title={item.category}>
+    {item.category}
+  </span>
+  <span className="admin-list__cell admin-list__cell--price">
+    {item.price ? `${item.price} ₽` : "—"}
+  </span>
+  <span className="admin-list__cell admin-list__cell--featured">
+    {item.is_featured ? "⭐" : ""}
+  </span>
+  <span className="admin-list__cell admin-list__cell--images">
+    🖼️ {item.interiors?.length || 0}
+  </span>
+</div>
       <div className="admin-list__actions">
         <button className="admin-list__edit" onClick={() => handleEdit(item)} title="Редактировать">
           ✏️

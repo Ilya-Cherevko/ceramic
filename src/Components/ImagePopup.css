@@ -199,3 +199,80 @@
     margin-top: 8px;
   }
 }
+
+/* ===== Стрелки навигации ===== */
+.popup__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 2px solid rgba(212, 181, 3, 0.5);
+  font-size: 28px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+}
+
+.popup__nav:hover {
+  background: rgba(212, 181, 3, 0.3);
+  border-color: #d4b503;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.popup__nav--prev {
+  left: -70px;
+}
+
+.popup__nav--next {
+  right: -70px;
+}
+
+/* ===== Счётчик ===== */
+.popup__counter {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* ===== Адаптация ===== */
+@media screen and (max-width: 768px) {
+  .popup__nav {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .popup__nav--prev {
+    left: 10px;
+  }
+
+  .popup__nav--next {
+    right: 10px;
+  }
+
+  .popup__counter {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popup__nav {
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+  }
+
+  .popup__counter {
+    font-size: 11px;
+  }
+}

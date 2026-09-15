@@ -12,14 +12,14 @@
   }
 
   .admin-list__headers {
-    grid-template-columns: 40px 1.5fr 1fr 1fr 50px 70px;
-    font-size: 12px;
-    gap: 6px;
+    grid-template-columns: 40px 1.5fr 1fr 1fr 70px 35px 50px 70px;
+  font-size: 12px;
+  gap: 6px;
   }
 
   .admin-list__info {
-    grid-template-columns: 40px 1.5fr 1fr 1fr 50px;
-    gap: 6px;
+    grid-template-columns: 40px 1.5fr 1fr 1fr 70px 35px 50px;
+  gap: 6px;
   }
 
   .admin-list__cell {
@@ -131,6 +131,15 @@
   .admin-list__cell--images {
     font-size: 13px;
   }
+
+  .admin-list__cell--price {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.admin-list__cell--featured {
+  font-size: 14px;
+}
 
   .admin-list__item {
     flex-wrap: wrap;

@@ -34,7 +34,6 @@ export const FavoritesProvider = ({ children }) => {
   useEffect(() => {
     const handleStorageChange = (e) => {
       if (e.key === 'favorites') {
-        console.log('🔄 Синхронизация избранного из другой вкладки');
         loadFavorites();
       }
     };

@@ -9,14 +9,15 @@ import ImagePopup from "../Components/ImagePopup";
 import "../Components/card__wrapper.css";
 import "../Components/Card.css";
 
+const MAX_VISIBLE_THUMBNAILS = 6;
+
 export default function CardPit() {
   const { Collection } = useParams();
   const scrollRef = useRef(null);
 
-  // ===== Используем React Query =====
   const { data: card, isLoading } = useCollection(Collection);
 
-  // ===== Состояния =====
+  // ===== Состояния (все внутри компонента!) =====
   const [selectedCard, setSelectedCard] = useState({
     isOpen: false,
     image: null,
@@ -25,6 +26,9 @@ export default function CardPit() {
   });
   const [mainImage, setMainImage] = useState(null);
   const [activeId, setActiveId] = useState(0);
+  const [showAllThumbnails, setShowAllThumbnails] = useState(false);
+  const [popupImages, setPopupImages] = useState([]);
+  const [popupIndex, setPopupIndex] = useState(0);
 
   // Ключи для localStorage
   const storageKeyActive = `cardPit_activeSlide_${Collection}`;
@@ -70,7 +74,6 @@ export default function CardPit() {
     const handleBeforeUnload = () => {
       localStorage.setItem(storageKeyScroll, String(window.scrollY));
     };
-
     const handleScroll = () => {
       localStorage.setItem(storageKeyScroll, String(window.scrollY));
     };
@@ -113,6 +116,13 @@ export default function CardPit() {
     );
   }
 
+  // ===== Логика миниатюр =====
+  const allInteriors = card.interiors || [];
+  const visibleThumbnails = showAllThumbnails
+    ? allInteriors
+    : allInteriors.slice(0, MAX_VISIBLE_THUMBNAILS);
+  const remainingCount = allInteriors.length - MAX_VISIBLE_THUMBNAILS;
+
   // ===== Функции для поп-апа =====
   function closeAllPopups() {
     setSelectedCard({
@@ -126,24 +136,54 @@ export default function CardPit() {
 
   function handleMainImageClick() {
     if (!mainImage) return;
+    
+    const images = card.interiors || [mainImage];
+    setPopupImages(images);
+    setPopupIndex(activeId);
+    
     setSelectedCard({
       isOpen: true,
       image: mainImage,
       name: card.name || "Изображение",
       collection: card.collection || "",
+      currentIndex: activeId,
+      totalCount: images.length,
     });
-    localStorage.setItem(storageKeyActive, String(activeId));
   }
 
   function handleTovarClick(image, cardData) {
+    setPopupImages([image]);
+    setPopupIndex(0);
+    
     setSelectedCard({
       isOpen: true,
       image: image,
       name: cardData.name || "Товар",
       collection: cardData.collection || "",
+      currentIndex: 0,
+      totalCount: 1,
     });
-    localStorage.setItem(storageKeyActive, String(activeId));
   }
+
+  // ===== Навигация в попапе =====
+  const handlePopupNavigate = (direction) => {
+    if (popupImages.length <= 1) return;
+    
+    let newIndex;
+    if (direction === "next") {
+      newIndex = (popupIndex + 1) % popupImages.length;
+    } else {
+      newIndex = (popupIndex - 1 + popupImages.length) % popupImages.length;
+    }
+    
+    setPopupIndex(newIndex);
+    setSelectedCard(prev => ({
+      ...prev,
+      image: popupImages[newIndex],
+      currentIndex: newIndex,
+      totalCount: popupImages.length,
+    }));
+  };
 
   const getImageUrl = (image) => {
     if (Array.isArray(image) && image.length > 0) return image[0];
@@ -156,6 +196,7 @@ export default function CardPit() {
     return size || "Не указан";
   };
 
+  // ===== Рендеринг =====
   return (
     <article className="card__page" ref={scrollRef}>
       <SEO
@@ -165,7 +206,9 @@ export default function CardPit() {
         url={`https://vokceramic.ru/${card.category}/${card.name}/${card.collection}`}
       />
       <Breadcrumbs />
+
       <div className="card__body_one">
+        {/* Главное изображение */}
         <div className="card__image-wrapper">
           <img
             className="card__img_card"
@@ -182,6 +225,7 @@ export default function CardPit() {
         </div>
 
         <div className="card__img-interior">
+          {/* Информация о коллекции */}
           <div className="card__conteiner">
             <p className="card__collection">Коллекция: {card.collection}</p>
             <p className="card__name">Производитель: {card.name}</p>
@@ -189,11 +233,14 @@ export default function CardPit() {
             <p className="card__country">Размеры: {formatSize(card.size)}</p>
           </div>
 
-          {card.interiors && card.interiors.length > 0 && (
+          {/* ===== Миниатюры ===== */}
+          {allInteriors.length > 0 && (
             <div className="card__thumbnails-wrapper">
-              <h4 className="card__thumbnails-title">Интерьеры:</h4>
+              <h4 className="card__thumbnails-title">
+                Интерьеры: {allInteriors.length}
+              </h4>
               <ul className="card__img-interiors">
-                {card.interiors.map((image, idx) => (
+                {visibleThumbnails.map((image, idx) => (
                   <li
                     key={idx}
                     className={`card__img_tovars ${idx === activeId ? "active" : ""}`}
@@ -207,12 +254,34 @@ export default function CardPit() {
                     />
                   </li>
                 ))}
+
+                {/* Кнопка "+N ещё" */}
+                {!showAllThumbnails && remainingCount > 0 && (
+                  <li
+                    className="card__img_tovars card__img_tovars--more"
+                    onClick={() => setShowAllThumbnails(true)}
+                    title="Показать все интерьеры"
+                  >
+                    <span className="card__more-btn">+{remainingCount}</span>
+                  </li>
+                )}
               </ul>
+
+              {/* Кнопка "Свернуть" */}
+              {showAllThumbnails && allInteriors.length > MAX_VISIBLE_THUMBNAILS && (
+                <button
+                  className="card__thumbnails-toggle"
+                  onClick={() => setShowAllThumbnails(false)}
+                >
+                  ↑ Свернуть
+                </button>
+              )}
             </div>
           )}
         </div>
       </div>
 
+      {/* Товары */}
       {card.tovars && card.tovars.length > 0 && (
         <div className="card__tovars-wrapper">
           <h3 className="card__tovars-title">Товары в коллекции:</h3>
@@ -235,7 +304,13 @@ export default function CardPit() {
         </div>
       )}
 
-      <ImagePopup card={selectedCard} onClose={closeAllPopups} />
+      {/* Попап */}
+      <ImagePopup
+        card={selectedCard}
+        onClose={closeAllPopups}
+        onNavigate={handlePopupNavigate}
+        hasMultiple={popupImages.length > 1}
+      />
     </article>
   );
 }

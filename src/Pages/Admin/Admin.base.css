@@ -7,13 +7,14 @@
 
 .admin-panel__columns {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
   gap: 30px;
   align-items: flex-start;
 }
 
 .admin-panel__column {
   min-width: 0;
+  overflow: hidden;
 }
 
 .admin-panel__column--left {
@@ -31,4 +32,14 @@
   background: #f0f0f0;
   padding: 6px 14px;
   border-radius: 20px;
+}
+
+
+.admin-panel__form {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-form__grid {
+  min-width: 0;  /* ← важно */
 }

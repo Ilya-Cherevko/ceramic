@@ -1013,3 +1013,29 @@
     font-size: 11px;
   }
 }
+
+.card__img-interiors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 260px; /* ← ограничиваем высоту */
+  overflow-y: auto;  /* ← скролл, если не влезло */
+}
+
+/* Скроллбар */
+.card__img-interiors::-webkit-scrollbar {
+  width: 6px;
+}
+
+.card__img-interiors::-webkit-scrollbar-thumb {
+  background: #d4b503;
+  border-radius: 3px;
+}
+
+.card__img-interiors::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 3px;
+}

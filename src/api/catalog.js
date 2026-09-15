@@ -102,6 +102,8 @@ export const updateCollection = async (id, item) => {
         collection: item.collection,
         category: item.category,
         size: item.size || '',
+        price: item.price ?? null,              // ← должно быть
+        is_featured: item.is_featured ?? false, // ← должно быть
         interiors: item.interiors || [],
         tovars: item.tovars || [],
       })
@@ -175,5 +177,24 @@ export const getMenuStructure = async () => {
   } catch (error) {
     console.error('Ошибка получения структуры меню:', error);
     return {};
+  }
+};
+
+// src/api/catalog.js
+
+// ===== Получение коллекций для слайдера =====
+export const getFeaturedCollections = async () => {
+  try {
+    const { data, error } = await supabase
+      .from('catalog')
+      .select('id, name, collection, category, interiors')
+      .eq('is_featured', true)
+      .order('created_at', { ascending: false });
+
+    if (error) throw error;
+    return data || [];
+  } catch (error) {
+    console.error('Ошибка получения коллекций для слайдера:', error);
+    return [];
   }
 };

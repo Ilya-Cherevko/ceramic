@@ -1,5 +1,5 @@
 // src/Pages/CardBuild.jsx
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { Link, useParams, useLocation } from "react-router-dom";
 import Breadcrumbs from "../Components/Breadcrumbs";
 import { CardSkeleton } from "../Components/Skeletons";
@@ -19,7 +19,7 @@ export default function CardBuild() {
   // ===== Используем универсальный хук =====
   const { data: catalog = [], isLoading } = useCatalog(id, Name);
 
-  // ===== Сортировка =====
+    // ===== Сортировка =====
   const processedCatalog = useMemo(() => {
     if (catalog.length === 0) return [];
 
@@ -65,6 +65,49 @@ export default function CardBuild() {
   } else if (id) {
     pageTitle = id;
   }
+
+// src/Pages/CardBuild.jsx
+
+// ===== Скролл к коллекции из URL =====
+useEffect(() => {
+  if (isLoading || catalog.length === 0) return;
+
+  const params = new URLSearchParams(location.search);
+  const scrollTo = params.get("scrollTo");
+
+  if (!scrollTo) return;
+
+  const decoded = decodeURIComponent(scrollTo);
+  const index = processedCatalog.findIndex(
+    (item) => item.collection === decoded
+  );
+
+  if (index === -1) return;
+
+  // Если карточка не в видимой области — подгружаем её
+  if (index >= visibleCount) {
+    const newCount = Math.ceil((index + 1) / loadMoreCount) * loadMoreCount;
+    setVisibleCount(Math.min(newCount, processedCatalog.length));
+  }
+
+  // Скроллим + подсвечиваем
+  setTimeout(() => {
+    const targetId = `card-${processedCatalog[index].id}`;
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "center" });
+      element.style.transition = "background 0.5s ease, padding 0.3s ease";
+      element.style.background = "rgba(212, 181, 3, 0.15)";
+      element.style.borderRadius = "12px";
+      element.style.padding = "4px";
+      
+      setTimeout(() => {
+        element.style.background = "transparent";
+        element.style.padding = "0";
+      }, 5000);
+    }
+  }, 400);
+}, [isLoading, catalog, processedCatalog, location.search, visibleCount, loadMoreCount]);
 
   if (isLoading) {
     return (

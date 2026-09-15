@@ -8,7 +8,6 @@ require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 // Проверяем, что переменные загружены
 if (!process.env.REACT_APP_SUPABASE_URL) {
   console.error('❌ REACT_APP_SUPABASE_URL не найден в .env');
-  console.log('📍 Ищем .env в:', path.join(__dirname, '../../.env'));
   process.exit(1);
 }
 
@@ -44,8 +43,6 @@ async function generateSitemap() {
 
     const filePath = path.join(__dirname, '../../public/sitemap.xml');
     fs.writeFileSync(filePath, sitemap.toString());
-    console.log('✅ sitemap.xml успешно создан!');
-    console.log(`📊 Добавлено страниц: ${data.length}`);
   } catch (error) {
     console.error('❌ Ошибка создания sitemap:', error);
   }
