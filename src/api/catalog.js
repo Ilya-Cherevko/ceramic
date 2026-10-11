@@ -78,12 +78,21 @@ export const addCollection = async (item) => {
         collection: item.collection,
         category: item.category,
         size: item.size || '',
+        price: item.price ?? null,
+        is_featured: item.is_featured ?? false,
         interiors: item.interiors || [],
         tovars: item.tovars || [],
       }])
       .select();
-    
-    if (error) throw error;
+
+    if (error) {
+      console.log("❌ code:", error.code);
+      console.log("❌ message:", error.message);
+      console.log("❌ details:", error.details);
+      console.log("❌ hint:", error.hint);
+      throw error;
+    }
+
     return data?.[0] || null;
   } catch (error) {
     console.error('Ошибка добавления:', error);
@@ -102,18 +111,26 @@ export const updateCollection = async (id, item) => {
         collection: item.collection,
         category: item.category,
         size: item.size || '',
-        price: item.price ?? null,              // ← должно быть
-        is_featured: item.is_featured ?? false, // ← должно быть
+        price: item.price ?? null,
+        is_featured: item.is_featured ?? false,
         interiors: item.interiors || [],
         tovars: item.tovars || [],
       })
       .eq('id', id)
       .select();
-    
-    if (error) throw error;
+
+    if (error) {
+      console.log("❌ SUPABASE code:", error.code);
+      console.log("❌ SUPABASE message:", error.message);
+      console.log("❌ SUPABASE details:", error.details);
+      console.log("❌ SUPABASE hint:", error.hint);
+      throw error;
+    }
+
+    console.log("✅ updateCollection OK:", data);
     return data?.[0] || null;
   } catch (error) {
-    console.error('Ошибка обновления:', error);
+    console.error('💥 Ошибка обновления:', error);
     return null;
   }
 };

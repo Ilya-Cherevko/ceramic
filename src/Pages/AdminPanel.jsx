@@ -7,10 +7,11 @@ import {
   updateCollection, 
   deleteCollection 
 } from "../api/catalog";
-import { supabase } from "../utils/supabase";
+// import { supabase } from "../utils/supabase";
 import "./Admin/Admin.css";
 import { useQueryClient } from "@tanstack/react-query";
 import { catalogKeys } from "../hooks/useCatalog";
+import { uploadToVK, deleteFromVK } from "../utils/vkStorage";
 
 export default function AdminPanel() {
   const navigate = useNavigate();
@@ -151,35 +152,8 @@ const selectAll = () => {
 
   // ===== Удаление изображения из Storage =====
   const deleteImageFromStorage = async (imageUrl) => {
-    if (!imageUrl) return false;
-    
-    try {
-      if (!imageUrl.includes('supabase.co/storage/v1/object/public/catalog-images')) {
-        return true;
-      }
-      
-      const urlParts = imageUrl.split('/');
-      const publicIndex = urlParts.indexOf('public');
-      
-      if (publicIndex === -1) return false;
-      
-      const filePath = urlParts.slice(publicIndex + 2).join('/');
-      
-      const { error } = await supabase.storage
-        .from('catalog-images')
-        .remove([filePath]);
-      
-      if (error) {
-        console.error('❌ Ошибка удаления файла:', error);
-        return false;
-      }
-      
-      return true;
-    } catch (error) {
-      console.error('❌ Ошибка при удалении файла:', error);
-      return false;
-    }
-  };
+  return await deleteFromVK(imageUrl);
+};
 
   // ===== Удаление всех изображений коллекции =====
   const deleteAllImagesFromCollection = async (item) => {
@@ -191,34 +165,9 @@ const selectAll = () => {
   };
 
   // ===== Загрузка изображений в Storage =====
-  const uploadImage = async (file, folder) => {
-    try {
-      const fileExt = file.name.split('.').pop();
-      const fileName = `${Date.now()}-${Math.random().toString(36).substring(2, 15)}.${fileExt}`;
-      const filePath = `${folder}/${fileName}`;
-      
-      const { error } = await supabase.storage
-        .from('catalog-images')
-        .upload(filePath, file, {
-          cacheControl: '3600',
-          upsert: false,
-        });
-      
-      if (error) {
-        console.error('❌ Ошибка загрузки в Storage:', error);
-        return null;
-      }
-      
-      const { data } = supabase.storage
-        .from('catalog-images')
-        .getPublicUrl(filePath);
-      
-      return data.publicUrl;
-    } catch (error) {
-      console.error('❌ Ошибка загрузки изображения:', error);
-      return null;
-    }
-  };
+  const uploadImage = async (file) => {
+  return await uploadToVK(file, "catalog");
+};
 
   // ===== Обработка загрузки файлов =====
   const handleImageUpload = async (files, fieldName) => {
@@ -239,6 +188,7 @@ const selectAll = () => {
       }
       
       const url = await uploadImage(file, 'catalog');
+      console.log("📦 Получен URL:", url); // ← проверь, что приходит
       if (url) {
         uploadedUrls.push(url);
       }
@@ -319,8 +269,11 @@ const selectAll = () => {
       interiors: formData.interiors,
       tovars: formData.tovars,
     };
+
+    console.log("📦 Отправляем в БД:", newItem); // ← добавь этот лог
     
     const result = await addCollection(newItem);
+    console.log("📥 Результат:", result); // ← и этот
     if (result) {
       queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
       const updated = await getAllCollections();
@@ -352,12 +305,14 @@ const selectAll = () => {
 };
 
   const handleUpdate = async () => {
+    console.log("🚀 handleUpdate START");
     if (!formData.name || !formData.collection || !formData.category) {
       alert("❌ Заполните обязательные поля: Name, Collection, Category");
       return;
     }
 
     const oldItem = catalog.find(c => c.id === editingId);
+    console.log("📦 oldItem:", oldItem);
     
     if (oldItem) {
       const oldInteriors = oldItem.interiors || [];
@@ -369,6 +324,8 @@ const selectAll = () => {
       const removedTovars = oldTovars.filter(url => !newTovars.includes(url));
       const allRemoved = [...removedInteriors, ...removedTovars];
       
+      console.log("📦 oldItem:", oldItem);
+
       for (const url of allRemoved) {
         await deleteImageFromStorage(url);
       }
@@ -386,7 +343,12 @@ const selectAll = () => {
       tovars: formData.tovars,
     };
     
+    console.log("📦 updatedItem:", updatedItem);
+    console.log("   interiors:", updatedItem.interiors);
+    console.log("   is_array:", Array.isArray(updatedItem.interiors));
+
     const result = await updateCollection(editingId, updatedItem);
+     console.log("📥 updateCollection вернул:", result);
     if (result) {
       queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
       queryClient.invalidateQueries({ 
