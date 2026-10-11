@@ -12,6 +12,7 @@ import "./Admin/Admin.css";
 import { useQueryClient } from "@tanstack/react-query";
 import { catalogKeys } from "../hooks/useCatalog";
 import { uploadToVK, deleteFromVK } from "../utils/vkStorage";
+import { supabase } from "../utils/supabase";
 
 export default function AdminPanel() {
   const navigate = useNavigate();
@@ -40,12 +41,15 @@ export default function AdminPanel() {
   });
 
   // ===== Проверка авторизации =====
-  useEffect(() => {
-    const isAuth = localStorage.getItem("adminAuth");
-    if (isAuth !== "true") {
+ useEffect(() => {
+  const checkAuth = async () => {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (!session) {
       navigate("/admin/login");
     }
-  }, [navigate]);
+  };
+  checkAuth();
+}, [navigate]);
 
   // ===== Загрузка данных =====
   useEffect(() => {
@@ -457,10 +461,11 @@ const selectAll = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleLogout = () => {
-    localStorage.removeItem("adminAuth");
-    navigate("/admin/login");
-  };
+  const handleLogout = async () => {
+  await supabase.auth.signOut();
+  localStorage.removeItem("adminAuth");
+  navigate("/admin/login");
+};
 
   const handleSort = (field) => {
     if (sortField === field) {
