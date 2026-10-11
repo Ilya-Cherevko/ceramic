@@ -44,7 +44,6 @@ export const uploadToVK = async (file, folder = "catalog") => {
 
     await s3Client.send(command);
 
-    console.log("✅ Загружено в VK:", getPublicUrl(key));
     return getPublicUrl(key);
   } catch (error) {
     console.error("❌ Ошибка загрузки в VK:", error);
@@ -56,7 +55,6 @@ export const uploadToVK = async (file, folder = "catalog") => {
 export const deleteFromVK = async (fileUrl) => {
   try {
     if (!fileUrl || !fileUrl.includes(VK_ENDPOINT)) {
-      console.log("⏭️ Пропускаем (не в VK):", fileUrl);
       return true;
     }
 
@@ -70,7 +68,6 @@ export const deleteFromVK = async (fileUrl) => {
     });
 
     await s3Client.send(command);
-    console.log("✅ Удалено из VK:", key);
     return true;
   } catch (error) {
     console.error("❌ Ошибка удаления из VK:", error);

@@ -192,7 +192,6 @@ const selectAll = () => {
       }
       
       const url = await uploadImage(file, 'catalog');
-      console.log("📦 Получен URL:", url); // ← проверь, что приходит
       if (url) {
         uploadedUrls.push(url);
       }
@@ -274,10 +273,8 @@ const selectAll = () => {
       tovars: formData.tovars,
     };
 
-    console.log("📦 Отправляем в БД:", newItem); // ← добавь этот лог
     
     const result = await addCollection(newItem);
-    console.log("📥 Результат:", result); // ← и этот
     if (result) {
       queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
       const updated = await getAllCollections();
@@ -309,14 +306,12 @@ const selectAll = () => {
 };
 
   const handleUpdate = async () => {
-    console.log("🚀 handleUpdate START");
     if (!formData.name || !formData.collection || !formData.category) {
       alert("❌ Заполните обязательные поля: Name, Collection, Category");
       return;
     }
 
     const oldItem = catalog.find(c => c.id === editingId);
-    console.log("📦 oldItem:", oldItem);
     
     if (oldItem) {
       const oldInteriors = oldItem.interiors || [];
@@ -328,7 +323,6 @@ const selectAll = () => {
       const removedTovars = oldTovars.filter(url => !newTovars.includes(url));
       const allRemoved = [...removedInteriors, ...removedTovars];
       
-      console.log("📦 oldItem:", oldItem);
 
       for (const url of allRemoved) {
         await deleteImageFromStorage(url);
@@ -347,12 +341,8 @@ const selectAll = () => {
       tovars: formData.tovars,
     };
     
-    console.log("📦 updatedItem:", updatedItem);
-    console.log("   interiors:", updatedItem.interiors);
-    console.log("   is_array:", Array.isArray(updatedItem.interiors));
-
+    
     const result = await updateCollection(editingId, updatedItem);
-     console.log("📥 updateCollection вернул:", result);
     if (result) {
       queryClient.invalidateQueries({ queryKey: catalogKeys.lists() });
       queryClient.invalidateQueries({ 

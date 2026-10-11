@@ -86,10 +86,7 @@ export const addCollection = async (item) => {
       .select();
 
     if (error) {
-      console.log("❌ code:", error.code);
-      console.log("❌ message:", error.message);
-      console.log("❌ details:", error.details);
-      console.log("❌ hint:", error.hint);
+     
       throw error;
     }
 
@@ -120,14 +117,10 @@ export const updateCollection = async (id, item) => {
       .select();
 
     if (error) {
-      console.log("❌ SUPABASE code:", error.code);
-      console.log("❌ SUPABASE message:", error.message);
-      console.log("❌ SUPABASE details:", error.details);
-      console.log("❌ SUPABASE hint:", error.hint);
+      
       throw error;
     }
 
-    console.log("✅ updateCollection OK:", data);
     return data?.[0] || null;
   } catch (error) {
     console.error('💥 Ошибка обновления:', error);

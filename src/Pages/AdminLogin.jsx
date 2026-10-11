@@ -30,7 +30,6 @@ export default function AdminLogin() {
       }
 
       if (data?.session) {
-        console.log("✅ Вход выполнен:", data.user.email);
         localStorage.setItem("adminAuth", "true");
         navigate("/admin");
       }
