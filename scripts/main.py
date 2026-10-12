@@ -8,7 +8,7 @@ import json
 import re
 import zipfile
 from datetime import datetime
-from scripts.vk_storage import upload_images_list
+
 import requests
 from supabase import create_client, Client
 
@@ -20,6 +20,7 @@ from scripts.config import (
     MANUAL_DEPOT_ID,
     DRY_RUN,
 )
+from scripts.vk_storage import upload_images_list
 
 # ========== 1. Инициализация Supabase ==========
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
@@ -52,7 +53,6 @@ def download_and_extract():
 
 # ========== 4. Параметры Самары ==========
 def get_territory_params(territory_data):
-    # Отладочный вывод — все территории, где в area есть «самар»
     print("Территории, содержащие «Самар»:")
     for t in territory_data:
         for area in t.get("territory", []):
@@ -85,40 +85,27 @@ def extract_size(tovar_item):
     return None
 
 
-# ========== 6. Нормализация строк для сравнения ==========
+# ========== 6. Нормализация строк ==========
 def normalize(s: str) -> str:
-    """Нормализация названия бренда."""
     return "".join((s or "").lower().split())
 
 
 def normalize_collection(s: str) -> str:
-    """Извлекает чистое название коллекции из 'монстра' AltaCera.
-    
-    Примеры:
-        'алмонд/almond200*900'              → 'almond'
-        'авакалакатта/avacalacatta(керамогранит)' → 'avacalacatta'
-        'аделия/adelia249*500'              → 'adelia'
-        'almond'                            → 'almond'
+    """
+    Извлекает чистое название коллекции из 'монстра' AltaCera.
+    'алмонд/almond200*900' → 'almond'
     """
     if not s:
         return ""
 
     s = s.lower().strip()
 
-    # 1. Если есть слеш — берём часть после последнего слеша (латиница)
     if "/" in s:
         s = s.split("/")[-1]
 
-    # 2. Убираем всё в скобках: (керамогранит), (плитка) и т.п.
     s = re.sub(r"\([^)]*\)", "", s)
-
-    # 3. Убираем размеры типа 200*900, 249*500, 300x600
     s = re.sub(r"\d+\s*[\*x×]\s*\d+", "", s)
-
-    # 4. Убираем оставшиеся цифры
     s = re.sub(r"\d+", "", s)
-
-    # 5. Убираем все пробелы и лишние символы
     s = "".join(s.split())
 
     return s.strip("-_ ")
@@ -143,7 +130,7 @@ def build_collections(data, price_id, depot_id):
             "has_keramogranit": False,
         }
 
-    # 7.2 Товары (фильтрация + привязка)
+    # 7.2 Товары
     for item in data["tovar"]:
         if item.get("deleted") or item.get("archive"):
             continue
@@ -173,7 +160,7 @@ def build_collections(data, price_id, depot_id):
         }
         collections[cat_id]["tovars"].append(item["tovar_id"])
 
-    # 7.3 Цены (только прайс Самары)
+    # 7.3 Цены
     prices = {}
     for pl in data["price"]:
         if pl["type_price_id"] != price_id:
@@ -183,7 +170,7 @@ def build_collections(data, price_id, depot_id):
             if val > 0:
                 prices[p["tovar_id"]] = val
 
-    # 7.4 Остатки (только склад Самары)
+    # 7.4 Остатки
     balances = {}
     for b in data["balance"]:
         if b["depot_id"] != depot_id:
@@ -220,14 +207,10 @@ def build_catalog_rows(collections, tovars, prices, balances, pictures):
         if not valid_tovars:
             continue
 
-        # Цена коллекции
         valid_prices = [v["price"] for v in valid_tovars if v["price"]]
         col_price = round(sum(valid_prices) / len(valid_prices)) if valid_prices else None
 
-        # Размеры
         size_str = ", ".join(sorted(col["sizes"]))
-
-        # Категория
         category = "Keramogranit" if col["has_keramogranit"] else "Plitka"
 
         # ===== Загружаем картинки коллекции в VK =====
@@ -297,11 +280,6 @@ def delete_matched_old_rows(new_rows, dry_run=True):
     }
     print(f"Пар (name, collection) в новой выгрузке: {len(new_keys)}")
 
-    # отладка: примеры пар из новой выгрузки
-    print("\n=== Примеры пар из НОВОЙ выгрузки (AltaCera) ===")
-    for key in sorted(list(new_keys))[:15]:
-        print(f"  name='{key[0]}' | collection='{key[1]}'")
-
     resp = (
         supabase.table("catalog")
         .select("id, name, collection")
@@ -309,22 +287,14 @@ def delete_matched_old_rows(new_rows, dry_run=True):
         .execute()
     )
     old_rows = resp.data
-    print(f"\nСтарых записей без supplier_category_id: {len(old_rows)}")
-
-    # отладка: примеры пар из старой базы
-    print("\n=== Примеры пар из СТАРОЙ базы ===")
-    old_keys = set()
-    for row in old_rows:
-        old_keys.add((normalize(row["name"]), normalize_collection(row["collection"])))
-    for key in sorted(list(old_keys))[:15]:
-        print(f"  name='{key[0]}' | collection='{key[1]}'")
+    print(f"Старых записей без supplier_category_id: {len(old_rows)}")
 
     matched = [
         row for row in old_rows
         if (normalize(row["name"]), normalize_collection(row["collection"])) in new_keys
     ]
 
-    print(f"\nК удалению (совпали с AltaCera): {len(matched)}")
+    print(f"К удалению (совпали с AltaCera): {len(matched)}")
     if matched:
         print("Примеры:")
         for row in matched[:20]:
